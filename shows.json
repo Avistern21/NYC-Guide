@@ -1,0 +1,247 @@
+[
+ {
+  "venue": "the-joyce-theater",
+  "title": "GALLIM: two world premieres",
+  "start": "2026-11-11",
+  "end": "2026-11-15",
+  "label": "Nov 11–15"
+ },
+ {
+  "venue": "the-joyce-theater",
+  "title": "Complexions Contemporary Ballet",
+  "start": "2026-11-17",
+  "end": "2026-11-29",
+  "label": "Nov 17–29"
+ },
+ {
+  "venue": "the-joyce-theater",
+  "title": "Les Ballets Trockadero de Monte Carlo",
+  "start": "2026-12-15",
+  "end": "2026-12-31",
+  "label": "from Dec 15"
+ },
+ {
+  "venue": "alvin-ailey-american-dance-theater",
+  "title": "Ailey at City Center, with the world premiere of Jamar Roberts’ Power of Love",
+  "start": "2026-12-02",
+  "end": "2027-01-03",
+  "label": "Dec 2–Jan 3"
+ },
+ {
+  "venue": "new-york-city-ballet",
+  "title": "George Balanchine’s The Nutcracker",
+  "start": "2026-11-27",
+  "end": "2027-01-03",
+  "label": "Nov 27–Jan 3"
+ },
+ {
+  "venue": "carnegie-hall",
+  "title": "Orchestra of New York: Fauré, Beethoven, Brahms & Barnes",
+  "start": "2026-11-10",
+  "end": "2026-11-10",
+  "label": "Nov 10"
+ },
+ {
+  "venue": "carnegie-hall",
+  "title": "Puccini’s Tosca in concert with the New York Philharmonic",
+  "start": "2026-11-13",
+  "end": "2026-11-15",
+  "label": "Nov 13 & 15"
+ },
+ {
+  "venue": "carnegie-hall",
+  "title": "Orchestra of New York: Messiah",
+  "start": "2026-12-21",
+  "end": "2026-12-21",
+  "label": "Dec 21"
+ },
+ {
+  "venue": "new-york-philharmonic",
+  "title": "Puccini’s Tosca in concert at Carnegie Hall, Dudamel conducting",
+  "start": "2026-11-13",
+  "end": "2026-11-15",
+  "label": "Nov 13 & 15"
+ },
+ {
+  "venue": "the-metropolitan-museum-of-art",
+  "title": "Krasner and Pollock: Past Continuous",
+  "start": "2026-10-04",
+  "end": "2027-01-31",
+  "label": "Oct 4–Jan 31"
+ },
+ {
+  "venue": "the-metropolitan-museum-of-art",
+  "title": "Genesis Facade Commission: Liu Wei",
+  "start": "2026-09-17",
+  "end": "2027-06-08",
+  "label": "Sep 17–Jun 8"
+ },
+ {
+  "venue": "whitney-museum-of-american-art",
+  "title": "Roy Lichtenstein: Like New",
+  "start": "2026-10-11",
+  "end": "2027-05-10",
+  "label": "Oct 11–May 10"
+ },
+ {
+  "venue": "moma",
+  "title": "Brancusi: The Artist and His Studio",
+  "start": "2026-10-25",
+  "end": "2027-02-27",
+  "label": "Oct 25–Feb 27"
+ },
+ {
+  "venue": "moma",
+  "title": "The Surrealist Book",
+  "start": "2026-10-04",
+  "end": "2027-01-23",
+  "label": "Oct 4–Jan 23"
+ },
+ {
+  "venue": "guggenheim",
+  "title": "Guggenheim Pop: 1960 to Now",
+  "start": "2026-06-05",
+  "end": "2027-01-10",
+  "label": "through Jan 10"
+ },
+ {
+  "venue": "david-zwirner",
+  "title": "Yoshitomo Nara",
+  "start": "2026-11-05",
+  "end": "2026-12-12",
+  "label": "Nov 5–Dec 12"
+ },
+ {
+  "venue": "david-zwirner",
+  "title": "Jem Perucchini: Sospiro",
+  "start": "2026-11-06",
+  "end": "2026-12-19",
+  "label": "Nov 6–Dec 19"
+ },
+ {
+  "venue": "gagosian",
+  "title": "Brice Marden: I Am Plane Image",
+  "start": "2026-09-15",
+  "end": "2026-12-12",
+  "label": "through Dec 12"
+ },
+ {
+  "venue": "bam",
+  "title": "An Evening From the Queer Songbook: Taylor Mac and Matt Ray",
+  "start": "2026-11-10",
+  "end": "2026-11-10",
+  "label": "Nov 10"
+ },
+ {
+  "venue": "bam",
+  "title": "The Space Behind the Face: Life Stories",
+  "start": "2026-11-14",
+  "end": "2026-11-14",
+  "label": "Nov 14"
+ },
+ {
+  "venue": "dance-theatre-of-harlem",
+  "title": "New York Season at City Center, with a world premiere",
+  "start": "2027-04-01",
+  "end": "2027-04-04",
+  "label": "Apr 1–4"
+ },
+ {
+  "venue": "the-frick-collection",
+  "title": "Siena: The Art of Bronze, 1450–1500",
+  "start": "2026-10-15",
+  "end": "2027-01-18",
+  "label": "Oct 15–Jan 18"
+ },
+ {
+  "venue": "brooklyn-museum",
+  "title": "Cézanne to Modigliani: Gifts of Modern Art from the Pearlman Collection",
+  "start": "2026-10-02",
+  "end": "2027-04-18",
+  "label": "Oct 2–Apr 18"
+ },
+ {
+  "venue": "brooklyn-museum",
+  "title": "Manga Before Manga: Japanese Art from the Collection",
+  "start": "2026-10-03",
+  "end": "2027-01-31",
+  "label": "Oct 3–Jan 31"
+ },
+ {
+  "venue": "brooklyn-museum",
+  "title": "Iris van Herpen: Sculpting the Senses",
+  "start": "2026-05-16",
+  "end": "2026-12-06",
+  "label": "through Dec 6"
+ },
+ {
+  "venue": "neue-galerie",
+  "title": "25th Anniversary Exhibition: Masterworks from the Neue Galerie",
+  "start": "2026-11-12",
+  "end": "2027-01-11",
+  "label": "Nov 12–Jan 11"
+ },
+ {
+  "venue": "noguchi-museum",
+  "title": "No Ordinary Light: Akari at 75",
+  "start": "2026-11-04",
+  "end": "2027-09-05",
+  "label": "Nov 4–Sep 5"
+ },
+ {
+  "venue": "new-museum",
+  "title": "The Bowery: Devil’s Mile",
+  "start": "2026-09-24",
+  "end": "2027-01-31",
+  "label": "Sep 24–Jan 31"
+ },
+ {
+  "venue": "the-studio-museum-in-harlem",
+  "title": "Dreams of This Future: The Collection of Peggy Cooper Cafritz",
+  "start": "2026-08-19",
+  "end": "2027-02-28",
+  "label": "Aug 19–Feb 28"
+ },
+ {
+  "venue": "international-center-of-photography",
+  "title": "I’m So Happy You Are Here: Japanese Women Photographers from the 1950s to Now",
+  "start": "2026-10-15",
+  "end": "2027-01-11",
+  "label": "Oct 15–Jan 11"
+ },
+ {
+  "venue": "international-center-of-photography",
+  "title": "Laia Abril: On Rape and Institutional Failure",
+  "start": "2026-10-15",
+  "end": "2027-01-04",
+  "label": "Oct 15–Jan 4"
+ },
+ {
+  "venue": "hauser-wirth",
+  "title": "Rashid Johnson: Birthday Boys",
+  "start": "2026-11-03",
+  "end": "2027-01-16",
+  "label": "Nov 3–Jan 16"
+ },
+ {
+  "venue": "hauser-wirth",
+  "title": "Cristina Iglesias: Possible Matter",
+  "start": "2026-11-05",
+  "end": "2027-01-16",
+  "label": "Nov 5–Jan 16"
+ },
+ {
+  "venue": "levy-gorvy-dayan",
+  "title": "Bacon / de Kooning",
+  "start": "2026-11-05",
+  "end": "2026-12-19",
+  "label": "Nov 5–Dec 19"
+ },
+ {
+  "venue": "levy-gorvy-dayan",
+  "title": "Leoncillo and the Soul of Clay",
+  "start": "2026-11-04",
+  "end": "2026-12-19",
+  "label": "Nov 4–Dec 19"
+ }
+]

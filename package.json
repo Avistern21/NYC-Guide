@@ -1,0 +1,8 @@
+{
+  "name": "our-culture-guide",
+  "private": true,
+  "type": "module",
+  "scripts": { "update": "node scripts/update.mjs", "serve": "python3 -m http.server 8000" },
+  "optionalDependencies": { "sharp": "^0.33.5" },
+  "engines": { "node": ">=20" }
+}

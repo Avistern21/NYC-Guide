@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Our Culture Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--ink:#000;--mut:#5f5f5f;--line:#d6d6d6;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#111;--ink:#f4f1ea;--mut:#a9a9a9;--line:#3a3a3a;color-scheme:dark}}
+*,*:before,*:after{box-sizing:border-box}
+html{scroll-padding-top:60px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.55 Inter,system-ui,sans-serif;padding-bottom:env(safe-area-inset-bottom,0)}
+.in,main{max-width:1040px;margin:0 auto;padding:0 20px}
+a{color:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+header{padding:calc(48px + env(safe-area-inset-top,0)) 0 0}
+.eyebrow{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin:0 0 14px}
+h1,h2,h3,.mo,.dnum{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;margin:0}
+h1{font-size:clamp(2.8rem,9vw,5.2rem);line-height:.98;letter-spacing:-.01em;margin-bottom:12px}
+.sub{font-size:1.05rem;max-width:58ch;margin:0}
+nav{position:sticky;top:0;background:var(--bg);z-index:5;border-top:1px solid var(--ink);border-bottom:1px solid var(--line);margin-top:30px}
+nav .in{display:flex;overflow-x:auto;scrollbar-width:none}
+nav a{padding:16px 14px;text-transform:uppercase;font-size:.72rem;letter-spacing:.14em;font-weight:600;color:var(--mut);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}
+nav a[aria-current=true]{color:var(--ink);border-color:var(--ink)}
+h2{font-size:2.2rem;margin:34px 0 4px}
+.lead{color:var(--mut);margin:0 0 14px}
+.mo{font-size:1.7rem;border-top:1px solid var(--ink);padding-top:14px;margin:42px 0 14px}
+.tag{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--mut)}
+.grid{display:grid;gap:26px 18px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.ph{aspect-ratio:4/3;position:relative;overflow:hidden;display:grid;place-items:center;color:#fff;font:500 3rem "Cormorant Garamond",serif;margin-bottom:10px}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--ink);padding-top:12px}
+.card h3{font-size:1.4rem;line-height:1.12}
+.card p{margin:0;color:var(--mut);font-size:.9rem}
+.shows{list-style:none;margin:6px 0 0;padding:8px 0 0;border-top:1px solid var(--line);display:grid;gap:7px;font-size:.88rem}
+.shows small{display:block;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--mut)}
+.go{font-size:.9rem;margin-top:auto;padding-top:6px;text-underline-offset:3px}
+.rail{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2px 20px 12px;margin:0 -20px;scrollbar-width:thin}
+.dc{flex:0 0 min(78%,280px);scroll-snap-align:start;display:flex;flex-direction:column;gap:6px}
+.dc .ph{aspect-ratio:4/5;margin:0 0 4px;font-size:4rem}
+.dh{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.dh h3{font-size:1.35rem;line-height:1.15}
+.lb{font-size:.68rem;letter-spacing:.14em;font-weight:600;margin:0;text-transform:uppercase}.lb span{font-weight:400;letter-spacing:.04em;color:var(--mut)}
+.vn{font-size:.9rem;text-underline-offset:3px}
+button{font:inherit;cursor:pointer;color:var(--ink);background:transparent;border:1px solid var(--ink);border-radius:0;padding:8px 14px}
+button.pill{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:7px 10px;white-space:nowrap}
+button.pill:hover:not([disabled]),button.pri:hover{background:var(--ink);color:var(--bg)}
+button[disabled]{border-color:var(--line);color:var(--mut);cursor:default}
+button.pri{text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;font-weight:600}
+button.x{border:0;padding:0;color:var(--mut);font-size:.85rem;text-align:left}
+.sb{width:100%;border:0;border-bottom:1px solid var(--ink);background:transparent;color:var(--ink);font:inherit;font-size:1rem;padding:14px 0;margin-top:24px;border-radius:0}
+.ev{display:grid;grid-template-columns:70px 1fr auto;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.dnum{font-size:1.9rem;line-height:1;text-align:center}.dnum small{display:block;font:600 .65rem Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
+.ev .lead{margin:0}
+details.add{border:1px solid var(--line);padding:12px 16px;margin:24px 0}
+details.add summary{cursor:pointer;font-weight:600}
+form{display:grid;gap:10px;margin-top:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+form .wide{grid-column:1/-1}
+label{display:grid;gap:3px;font-size:.85rem;color:var(--mut)}
+input,select{font:inherit;padding:9px 10px;border:1px solid var(--line);border-radius:0;background:var(--bg);color:var(--ink);width:100%}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}.chips span{border:1px solid var(--line);padding:3px 12px;font-size:.85rem;color:var(--mut)}.chips .on{border-color:var(--ink);color:var(--ink);font-weight:600}
+.rsv{display:flex;gap:14px;flex-wrap:wrap;margin:8px 0 4px}.rsv label{min-width:160px}
+.empty{border:1px dashed var(--line);padding:22px;color:var(--mut)}
+footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px solid var(--ink);color:var(--mut);font-size:.85rem}
+</style></head><body>
+<header><div class="in"><p class="eyebrow" id="eyebrow">New York</p><h1>Our Culture Guide</h1><p class="sub">The dance, music, art, and tables we love, and what’s coming up next. Kept by the two of us.</p></div>
+<nav aria-label="Sections"><div class="in" id="nav"></div></nav></header>
+<main id="view"><p class="lead" style="margin-top:30px">Loading…</p></main>
+<footer id="foot"></footer>
+<script>
+"use strict";
+const CATS=[["dash","Dashboard","What’s on across the guide"],["now","What’s On","Current and upcoming shows at our venues"],["calendar","Calendar","Our own plans"],["dance","Dance","Companies and stages we follow."],["music","Music","Halls and orchestras."],["museums","Museums","Where we spend our weekends."],["galleries","Galleries","Shows worth a Chelsea afternoon."],["broadway","Broadway","Shows we love and shows we want to see."],["restaurants","Restaurants","Favorites and the ones on our list."],["reads","Reads","Publications, articles, and reviews we trust."],["discover","Discover","Recommendations beyond our own picks."]];
+const LAB={dance:"Dance",music:"Concert",museums:"Exhibition",galleries:"Gallery"};
+const EMPTY={broadway:"Add the first show you love, or one you’re hoping to see.",restaurants:"Add your restaurants here, with a booking link for each.",reads:"Add a publication, article, or review you trust.",discover:"Add a show or event worth recommending."};
+const slug=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60);
+const esc=t=>String(t==null?"":t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const safe=u=>/^https?:\/\//i.test(u||"")?u:"";
+const host=u=>{try{return new URL(u).hostname.replace("www.","")}catch{return""}};
+const TODAY=(d=>new Date(d-d.getTimezoneOffset()*6e4).toISOString().slice(0,10))(new Date());
+const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const md=s=>MON[+s.slice(5,7)-1]+" "+(+s.slice(8,10));
+const range=(a,b)=>a===b?md(a):(a.slice(0,7)===b.slice(0,7)?md(a)+"–"+(+b.slice(8,10)):md(a)+"–"+md(b));
+let venues=[],shows=[],auto={},imgs={venues:{},shows:{}},picks=[],log=null,L=[];
+let mine=[],events=[];
+try{const s=JSON.parse(localStorage.getItem("culture-guide-v2")||"{}");mine=s.mine||[];events=s.events||[]}catch{}
+const save=()=>{try{localStorage.setItem("culture-guide-v2",JSON.stringify({mine,events}))}catch{}};
+const j=async(p,d)=>{try{const r=await fetch(p+"?v="+TODAY);if(!r.ok)throw 0;return await r.json()}catch{return d}};
+
+function build(){
+  const vm=new Map(venues.map(v=>[v.id,v])),seen=new Set();L=[];
+  const add=(vid,s)=>{const v=vm.get(vid);if(!v||!s.title||!s.start)return;const end=s.end||s.start;if(end<TODAY)return;
+    const key=vid+"|"+slug(s.title);if(seen.has(key))return;seen.add(key);
+    const id=slug(vid+"-"+s.title);
+    L.push({id,v,title:s.title,start:s.start,end,label:s.label||range(s.start,end),url:safe(s.url)||v.url,cd:s.start<TODAY?TODAY:s.start,
+      img:(imgs.shows[id]||{}).file||(imgs.venues[vid]||{}).file||""})};
+  shows.forEach(s=>add(s.venue,s));
+  Object.entries(auto).forEach(([vid,a])=>a.forEach(s=>add(vid,s)));
+  L.sort((a,b)=>a.start<b.start?-1:a.start>b.start?1:0);
+}
+const tile=(name,img)=>{const ini=name.replace(/^(The|New York) /,"").split(" ").slice(0,2).map(w=>w[0]).join(""),hue=(name.length*47)%360;
+  return '<div class="ph" style="background:linear-gradient(150deg,hsl('+hue+' 38% 34%),hsl('+((hue+50)%360)+' 42% 14%))"><span>'+esc(ini)+'</span>'+(img?'<img src="'+esc(img)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'</div>'};
+const oncal=o=>events.some(e=>e.date===o.cd&&e.title.indexOf(o.title)===0);
+const addBtn=(o,cls)=>oncal(o)?'<button class="pill" disabled>Added</button>':'<button class="pill" data-add="'+esc(o.id)+'">Add</button>';
+
+const rsv={date:"",seats:"2"};
+const bookLabel=u=>{const h=host(u);return h.includes("resy.com")?"Book on Resy":h.includes("opentable.")?"Book on OpenTable":h.includes("exploretock.com")||h.includes("tock.com")?"Book on Tock":"Book a table"};
+const bookUrl=u=>{try{if(!host(u).includes("resy.com"))return u;const x=new URL(u);x.searchParams.set("seats",rsv.seats);if(rsv.date)x.searchParams.set("date",rsv.date);return x.href}catch{return u}};
+const rsvBar=()=>'<div class="rsv"><label>Date<input type="date" id="rd" value="'+esc(rsv.date)+'" min="'+TODAY+'"></label><label>Party of<select id="rs">'+[1,2,3,4,5,6,7,8].map(n=>'<option'+(String(n)===rsv.seats?" selected":"")+'>'+n+'</option>').join("")+'</select></label></div><p class="lead">Pick a date and party size, and every Resy link below opens on that night. Resy shows live availability once you land on its page.</p>';
+function venueCard(v,own){
+  const s=L.filter(o=>o.v.id===v.id).slice(0,4),u=safe(v.url);
+  return '<article class="card">'+tile(v.name,(imgs.venues[v.id]||{}).file)+(v.area?'<span class="tag">'+esc(v.area)+'</span>':'')+'<h3>'+esc(v.name)+'</h3>'+(v.note?'<p>'+esc(v.note)+'</p>':'')+
+   (s.length?'<ul class="shows">'+s.map(o=>'<li><small>'+esc(o.label)+'</small><a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></li>').join("")+'</ul>':'')+
+   (u?'<a class="go" href="'+esc(v.cat==="restaurants"?bookUrl(u):u)+'" target="_blank" rel="noopener">'+(v.cat==="restaurants"?bookLabel(u):"Visit "+esc(host(u)))+'</a>':'')+(own?'<button class="x" data-del="'+esc(v.id)+'">Remove</button>':'')+'</article>'}
+
+const addForm=()=>'<details class="add"><summary>Add to this list</summary><form id="addf"><label>Name<input name="name" required></label><label>Neighborhood or city<input name="area"></label><label class="wide">Link<input name="url" type="url" placeholder="https://"></label><label class="wide">Why we love it<input name="note"></label><div class="wide"><button class="pri" type="submit">Save pick</button></div></form><p class="lead" style="margin:10px 0 0">Saved in this browser. To share a pick with your wife, add it to <code>data/picks.json</code> (see README).</p></details>';
+
+function dc(o){const u=safe(o.url);
+  return '<article class="dc" data-q="'+esc((o.title+" "+o.v.name+" "+o.v.cat).toLowerCase())+'">'+tile(o.v.name,o.img)+'<div class="dh"><h3>'+esc(o.title)+'</h3>'+addBtn(o)+'</div><p class="lb">'+LAB[o.v.cat]+' <span>• '+esc(o.label)+'</span></p>'+
+   (u?'<a class="vn" href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(o.v.name)+' ↗</a>':'<span class="vn">'+esc(o.v.name)+'</span>')+'</article>'}
+const rail=(t,a)=>a.length?'<div class="mo">'+t+'</div><div class="rail">'+a.slice(0,14).map(dc).join("")+'</div>':"";
+const cat=c=>L.filter(o=>c.includes(o.v.cat));
+
+function dash(){return '<input class="sb" id="q" placeholder="Search shows and venues…" aria-label="Search"><h2>Dashboard</h2><p class="lead">What’s on now and coming up across our stages, museums, and galleries.</p>'+
+  (L.length?rail("Opening soon",L.filter(o=>o.start>TODAY))+rail("On view now",L.filter(o=>o.start<=TODAY))+rail("Dance and music",cat(["dance","music"]))+rail("Museums",cat(["museums"]))+rail("Galleries",cat(["galleries"])):'<div class="empty">No shows listed right now.</div>')}
+
+function whatson(){
+  const wk=new Date(Date.parse(TODAY)+7*864e5).toISOString().slice(0,10);
+  const row=o=>{const d=new Date(o.start+"T12:00:00");return '<div class="ev"><div class="dnum">'+(o.start<=TODAY?'Now':d.getDate()+'<small>'+MON[d.getMonth()]+'</small>')+'</div><div><strong><a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></strong><br><span class="lead">'+esc(o.v.name)+' · '+esc(o.label)+'</span></div>'+addBtn(o)+'</div>'};
+  const sec=(t,a)=>a.length?'<div class="mo">'+t+'</div>'+a.map(row).join(""):"";
+  return '<h2>What’s On</h2><p class="lead">Shows at our venues, soonest first.</p>'+sec("On now",L.filter(o=>o.start<=TODAY))+sec("Next 7 days",L.filter(o=>o.start>TODAY&&o.start<=wk))+sec("Coming up",L.filter(o=>o.start>wk))}
+
+function calendar(){
+  const ev=events.slice().sort((a,b)=>a.date<b.date?-1:1);let h='<h2>Calendar</h2><p class="lead">Our own plans. Use Add on any show to put it here.</p>';
+  h+='<details class="add"><summary>Add an event</summary><form id="evf"><label>Date<input name="date" type="date" required></label><label>Type<select name="type"><option>Dance</option><option>Music</option><option>Broadway</option><option>Dinner</option><option>Museum</option></select></label><label class="wide">What<input name="title" required></label><label>Where<input name="where"></label><label>Tickets or booking link<input name="url" type="url" placeholder="https://"></label><div class="wide"><button class="pri" type="submit">Add to calendar</button></div></form></details>';
+  if(!ev.length)h+='<div class="empty">Nothing on the calendar yet.</div>';
+  let last="";for(const e of ev){const d=new Date(e.date+"T12:00:00"),m=d.toLocaleString("en-US",{month:"long",year:"numeric"});if(m!==last){h+='<div class="mo">'+m+'</div>';last=m}
+    const u=safe(e.url);h+='<div class="ev"><div class="dnum">'+d.getDate()+'<small>'+d.toLocaleString("en-US",{weekday:"short"})+'</small></div><div><strong>'+esc(e.title)+'</strong><br><span class="lead">'+esc(e.type)+(e.where?" at "+esc(e.where):"")+(u?' · <a href="'+esc(u)+'" target="_blank" rel="noopener">Tickets</a>':"")+'</span></div><button class="x" data-evdel="'+esc(e.id)+'">Remove</button></div>'}
+  return h}
+
+function pickList(c){return picks.filter(p=>p.cat===c).map(p=>({...p,id:"p-"+slug(p.name)})).concat(mine.filter(p=>p.cat===c))}
+function listView(k,t,sub){
+  const base=venues.filter(v=>v.cat===k),extra=pickList(k),ids=new Set(mine.map(m=>m.id));
+  const all=base.concat(extra);let h='<h2>'+t+'</h2><p class="lead">'+sub+'</p>';
+  if(k==="discover")h+='<div class="chips"><span class="on">New York</span><span>London (soon)</span><span>Paris (soon)</span><span>Tokyo (soon)</span></div>';
+  if(k==="restaurants")h+=rsvBar();
+  h+=all.length?'<div class="grid">'+all.map(v=>venueCard(v,ids.has(v.id))).join("")+'</div>':'<div class="empty">'+(EMPTY[k]||"")+'</div>';
+  return h+addForm()}
+
+function render(){
+  let k=(location.hash||"#dash").slice(1);if(!CATS.some(c=>c[0]===k))k="dash";
+  document.getElementById("nav").innerHTML=CATS.map(c=>'<a href="#'+c[0]+'"'+(c[0]===k?' aria-current="true"':"")+'>'+c[1]+'</a>').join("");
+  const v=document.getElementById("view"),c=CATS.find(x=>x[0]===k);v.dataset.k=k;
+  v.innerHTML=k==="dash"?dash():k==="now"?whatson():k==="calendar"?calendar():listView(k,c[1],c[2]);
+}
+document.addEventListener("input",e=>{if(e.target.id!=="q")return;const q=e.target.value.toLowerCase();document.querySelectorAll(".dc").forEach(c=>{c.style.display=c.dataset.q.includes(q)?"":"none"})});
+document.addEventListener("change",e=>{if(e.target.id==="rd"){rsv.date=e.target.value;render()}else if(e.target.id==="rs"){rsv.seats=e.target.value;render()}});
+document.addEventListener("submit",e=>{e.preventDefault();const f=e.target,d=new FormData(f),k=document.getElementById("view").dataset.k;
+  if(f.id==="addf")mine.push({id:"m"+Date.now(),cat:k,name:d.get("name"),area:d.get("area"),url:d.get("url"),note:d.get("note")});
+  else if(f.id==="evf")events.push({id:"e"+Date.now(),date:d.get("date"),type:d.get("type"),title:d.get("title"),where:d.get("where"),url:d.get("url")});
+  save();render()});
+document.addEventListener("click",e=>{const t=e.target;
+  if(t.dataset.add){const o=L.find(x=>x.id===t.dataset.add);if(o){events.push({id:"e"+Date.now(),date:o.cd,type:LAB[o.v.cat]==="Concert"?"Music":o.v.cat==="dance"?"Dance":"Museum",title:o.title+" ("+o.label+")",where:o.v.name,url:o.url});save();render()}}
+  if(t.dataset.del){mine=mine.filter(i=>i.id!==t.dataset.del);save();render()}
+  if(t.dataset.evdel){events=events.filter(i=>i.id!==t.dataset.evdel);save();render()}});
+window.addEventListener("hashchange",render);
+
+(async()=>{
+  [venues,shows,auto,imgs,picks,log]=await Promise.all([j("data/venues.json",[]),j("data/shows.json",[]),j("data/shows.auto.json",{}),j("data/images.json",{venues:{},shows:{}}),j("data/picks.json",[]),j("data/update-log.json",null)]);
+  imgs.venues=imgs.venues||{};imgs.shows=imgs.shows||{};
+  build();
+  document.getElementById("eyebrow").textContent=new Date().toLocaleString("en-US",{month:"long",year:"numeric"})+" • New York";
+  document.getElementById("foot").textContent=log&&log.ran?"Updated automatically each night. Last update "+new Date(log.ran).toLocaleDateString("en-US",{month:"long",day:"numeric"})+". Check each venue before you buy tickets.":"Check each venue before you buy tickets.";
+  render();
+})();
+</script></body></html>

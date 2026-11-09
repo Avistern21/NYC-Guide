@@ -1,0 +1,186 @@
+[
+ {
+  "id": "the-joyce-theater",
+  "cat": "dance",
+  "name": "The Joyce Theater",
+  "area": "Chelsea",
+  "url": "https://www.joyce.org",
+  "note": "Dance all year, in an intimate house."
+ },
+ {
+  "id": "alvin-ailey-american-dance-theater",
+  "cat": "dance",
+  "name": "Alvin Ailey American Dance Theater",
+  "area": "City Center",
+  "url": "https://ailey.org/series/ailey-new-york-city-center",
+  "note": "The New York City Center series."
+ },
+ {
+  "id": "new-york-city-ballet",
+  "cat": "dance",
+  "name": "New York City Ballet",
+  "area": "Lincoln Center",
+  "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+  "note": "Balanchine’s Nutcracker is the holiday tradition."
+ },
+ {
+  "id": "dance-theatre-of-harlem",
+  "cat": "dance",
+  "name": "Dance Theatre of Harlem",
+  "area": "Harlem",
+  "url": "https://dancetheatreofharlem.org",
+  "note": ""
+ },
+ {
+  "id": "bam",
+  "cat": "music",
+  "name": "BAM",
+  "area": "Brooklyn",
+  "url": "https://www.bam.org",
+  "note": "Theater, dance, music, and film in Fort Greene."
+ },
+ {
+  "id": "carnegie-hall",
+  "cat": "music",
+  "name": "Carnegie Hall",
+  "area": "Midtown",
+  "url": "https://www.carnegiehall.org",
+  "note": ""
+ },
+ {
+  "id": "new-york-philharmonic",
+  "cat": "music",
+  "name": "New York Philharmonic",
+  "area": "Lincoln Center",
+  "url": "https://www.nyphil.org",
+  "note": ""
+ },
+ {
+  "id": "the-metropolitan-museum-of-art",
+  "cat": "museums",
+  "name": "The Metropolitan Museum of Art",
+  "area": "Upper East Side",
+  "url": "https://www.metmuseum.org",
+  "note": ""
+ },
+ {
+  "id": "whitney-museum-of-american-art",
+  "cat": "museums",
+  "name": "Whitney Museum of American Art",
+  "area": "Meatpacking",
+  "url": "https://whitney.org",
+  "note": "Plan your visit: whitney.org/visit"
+ },
+ {
+  "id": "moma",
+  "cat": "museums",
+  "name": "MoMA",
+  "area": "Midtown",
+  "url": "https://www.moma.org",
+  "note": ""
+ },
+ {
+  "id": "guggenheim",
+  "cat": "museums",
+  "name": "Guggenheim",
+  "area": "Upper East Side",
+  "url": "https://www.guggenheim.org",
+  "note": ""
+ },
+ {
+  "id": "the-frick-collection",
+  "cat": "museums",
+  "name": "The Frick Collection",
+  "area": "Upper East Side",
+  "url": "https://www.frick.org",
+  "note": ""
+ },
+ {
+  "id": "brooklyn-museum",
+  "cat": "museums",
+  "name": "Brooklyn Museum",
+  "area": "Brooklyn",
+  "url": "https://www.brooklynmuseum.org",
+  "note": ""
+ },
+ {
+  "id": "neue-galerie",
+  "cat": "museums",
+  "name": "Neue Galerie",
+  "area": "Upper East Side",
+  "url": "https://www.neuegalerie.org",
+  "note": ""
+ },
+ {
+  "id": "noguchi-museum",
+  "cat": "museums",
+  "name": "Noguchi Museum",
+  "area": "Queens",
+  "url": "https://www.noguchi.org",
+  "note": ""
+ },
+ {
+  "id": "new-museum",
+  "cat": "museums",
+  "name": "New Museum",
+  "area": "Lower East Side",
+  "url": "https://www.newmuseum.org",
+  "note": ""
+ },
+ {
+  "id": "the-studio-museum-in-harlem",
+  "cat": "museums",
+  "name": "The Studio Museum in Harlem",
+  "area": "Harlem",
+  "url": "https://www.studiomuseum.org",
+  "note": ""
+ },
+ {
+  "id": "international-center-of-photography",
+  "cat": "museums",
+  "name": "International Center of Photography",
+  "area": "Lower East Side",
+  "url": "https://www.icp.org",
+  "note": ""
+ },
+ {
+  "id": "david-zwirner",
+  "cat": "galleries",
+  "name": "David Zwirner",
+  "area": "",
+  "url": "https://www.davidzwirner.com",
+  "note": ""
+ },
+ {
+  "id": "gagosian",
+  "cat": "galleries",
+  "name": "Gagosian",
+  "area": "",
+  "url": "https://gagosian.com",
+  "note": ""
+ },
+ {
+  "id": "hauser-wirth",
+  "cat": "galleries",
+  "name": "Hauser & Wirth",
+  "area": "",
+  "url": "https://www.hauserwirth.com",
+  "note": ""
+ },
+ {
+  "id": "gladstone-gallery",
+  "cat": "galleries",
+  "name": "Gladstone Gallery",
+  "area": "",
+  "url": "https://gladstonegallery.com",
+  "note": ""
+ },
+ {
+  "id": "levy-gorvy-dayan",
+  "cat": "galleries",
+  "name": "Levy Gorvy Dayan",
+  "area": "",
+  "url": "https://www.levygorvydayan.com",
+  "note": ""
+ }
+]
