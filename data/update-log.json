@@ -1,0 +1,88 @@
+{
+ "ran": "2026-11-09T22:30:16.789Z",
+ "venueImages": {
+  "ok": [
+   "alvin-ailey-american-dance-theater",
+   "new-york-city-ballet",
+   "bam",
+   "new-york-philharmonic",
+   "whitney-museum-of-american-art",
+   "guggenheim",
+   "neue-galerie",
+   "noguchi-museum",
+   "the-studio-museum-in-harlem",
+   "david-zwirner",
+   "gagosian",
+   "levy-gorvy-dayan"
+  ],
+  "failed": [
+   {
+    "id": "the-joyce-theater",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "dance-theatre-of-harlem",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "carnegie-hall",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "the-metropolitan-museum-of-art",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "moma",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "the-frick-collection",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "brooklyn-museum",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "new-museum",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "international-center-of-photography",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "hauser-wirth",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "gladstone-gallery",
+    "reason": "no preview image found on page"
+   }
+  ],
+  "manual": []
+ },
+ "events": {
+  "alvin-ailey-american-dance-theater": 0,
+  "new-york-city-ballet": 0,
+  "dance-theatre-of-harlem": 0,
+  "bam": 0,
+  "new-york-philharmonic": 0,
+  "whitney-museum-of-american-art": 0,
+  "guggenheim": 0,
+  "neue-galerie": 0,
+  "noguchi-museum": 0,
+  "new-museum": 0,
+  "the-studio-museum-in-harlem": 0,
+  "international-center-of-photography": 0,
+  "david-zwirner": 0,
+  "gagosian": 0,
+  "gladstone-gallery": 0,
+  "levy-gorvy-dayan": 0
+ },
+ "showImages": {
+  "ok": 0,
+  "failed": 0
+ }
+}

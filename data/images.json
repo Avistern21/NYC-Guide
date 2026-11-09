@@ -1,1 +1,65 @@
-{"venues":{},"shows":{}}
+{
+ "venues": {
+  "alvin-ailey-american-dance-theater": {
+   "file": "img/venues/alvin-ailey-american-dance-theater.jpg",
+   "source": "https://files.ailey.org/sites/default/files/styles/default/public/2026-06/AAADT_2026-7_Digital_HEro_1600x900.jpg?itok=oKBNohqM",
+   "fetched": "2026-11-09"
+  },
+  "new-york-city-ballet": {
+   "file": "img/venues/new-york-city-ballet.jpg",
+   "source": "https://res.cloudinary.com/new-york-city-ballet/image/upload/f_auto/q_auto/v1658331348/Ballets/Nutcracker/Nut%2022/Nutcracker_-_C21009-14?_a=BAAAV6GY",
+   "fetched": "2026-11-09"
+  },
+  "bam": {
+   "file": "img/venues/bam.jpg",
+   "source": "https://www.bam.org/contentassets/130be6f800fe4b9c8033f040386dd509/bam_logo.gif",
+   "fetched": "2026-11-09"
+  },
+  "new-york-philharmonic": {
+   "file": "img/venues/new-york-philharmonic.jpg",
+   "source": "https://res.cloudinary.com/nyphil/image/upload/f_auto/q_auto/f_auto/v1786722463/NY_Phil_Concert_29_May_1335_by_Jason_Bell_xnwx7t?_a=BAAAV6GY",
+   "fetched": "2026-11-09"
+  },
+  "whitney-museum-of-american-art": {
+   "file": "img/venues/whitney-museum-of-american-art.jpg",
+   "source": "https://whitneymedia.org/assets/image/774437/gancsos_wmaa_01.jpg",
+   "fetched": "2026-11-09"
+  },
+  "guggenheim": {
+   "file": "img/venues/guggenheim.jpg",
+   "source": "https://www.guggenheim.org/wp-content/uploads/2024/11/architecture-srgm-exterior-drone-autumn.jpg",
+   "fetched": "2026-11-09"
+  },
+  "neue-galerie": {
+   "file": "img/venues/neue-galerie.jpg",
+   "source": "https://neue-gallery-images.b-cdn.net/c2275b9012e8eb38ea81c4df3825cd1c5341e72a-3442x2300.png?rect=0,247,3442,1807&w=1200&h=630&auto=format",
+   "fetched": "2026-11-09"
+  },
+  "noguchi-museum": {
+   "file": "img/venues/noguchi-museum.jpg",
+   "source": "https://www.noguchi.org/wp-content/uploads/2019/09/Isamu-Noguchi-with-Interlocking-Sculpture-1947-Arnold-Newman.jpg",
+   "fetched": "2026-11-09"
+  },
+  "the-studio-museum-in-harlem": {
+   "file": "img/venues/the-studio-museum-in-harlem.jpg",
+   "source": "https://studiomuseum.imgix.net/images/Studio-Museum-in-Harlem-1200-600.jpg",
+   "fetched": "2026-11-09"
+  },
+  "david-zwirner": {
+   "file": "img/venues/david-zwirner.jpg",
+   "source": "https://cdn.sanity.io/images/juzvn5an/release-adp/ade92c0715d9974a73cb33cb00081324be0e363c-2400x1260.png?bg=ffffff&w=1200&h=630&fit=fill&crop=entropy&auto=format",
+   "fetched": "2026-11-09"
+  },
+  "gagosian": {
+   "file": "img/venues/gagosian.jpg",
+   "source": "https://gagosian.com/meta/og_gagosian.png",
+   "fetched": "2026-11-09"
+  },
+  "levy-gorvy-dayan": {
+   "file": "img/venues/levy-gorvy-dayan.jpg",
+   "source": "https://cdn.sanity.io/images/8uzch5mp/database/85bf56679ec67cdf03ccd22be011e3c56f20c648-1571x1571.png?rect=0,374,1571,825&w=1200&h=630&fit=max&auto=format",
+   "fetched": "2026-11-09"
+  }
+ },
+ "shows": {}
+}
