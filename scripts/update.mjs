@@ -212,6 +212,11 @@ writeJson(path.join(DATA, 'articles.json'), artNew);
 
 writeJson(path.join(DATA, 'images.json'), images);
 writeJson(path.join(DATA, 'shows.auto.json'), autoNew);
+// Keep a free Supabase project awake: one tiny request a night (harmless if not configured).
+try {
+  const cfg = readJson(path.join(DATA, 'supabase.json'), {});
+  if (cfg.url && cfg.key) { const r = await fetch(cfg.url.replace(/\/$/, '') + '/rest/v1/shared?select=key&limit=1', { headers: { apikey: cfg.key }, signal: AbortSignal.timeout(15000) }); log.supabasePing = r.status; }
+} catch (e) { log.supabasePing = 'failed: ' + e.message; }
 writeJson(path.join(DATA, 'update-log.json'), log);
 console.log(`\nVenue images: ${log.venueImages.ok.length} ok, ${log.venueImages.manual.length} manual, ${log.venueImages.failed.length} failed`);
 if (log.venueImages.failed.length) console.log('Failed:', log.venueImages.failed.map(f => f.id).join(', '));

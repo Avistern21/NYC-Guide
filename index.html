@@ -115,6 +115,12 @@ input,select{font:inherit;padding:10px 12px;border:1px solid var(--line);border-
 .stabs small{font-size:.7rem;font-weight:500;opacity:.7;margin-left:6px}
 .bkrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px}
 .bkrow input{width:auto;flex:1 1 140px;min-width:0;padding:8px 10px}
+#login{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:20px;background:var(--bg)}
+#login form{display:grid;gap:12px;width:min(380px,100%);background:var(--card);border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:0 20px 60px -20px #000}
+#login h2{margin:0}#login p{margin:0;color:var(--mut)}
+#login .err{color:#ff6b6b;min-height:1.2em;font-size:.9rem}
+#syncbar{max-width:1040px;margin:-30px auto 40px;padding:0 20px;color:var(--mut);font-size:.8rem}
+#syncbar button{border:0;padding:0;margin-left:8px;color:var(--a2);font-size:.8rem;text-decoration:underline;border-radius:0}
 footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px solid var(--line);color:var(--mut);font-size:.85rem}
 </style></head><body>
 <header><div class="themes" id="themes" role="group" aria-label="Color theme"></div><div class="in"><p class="eyebrow" id="eyebrow">New York</p><h1>Chasing Cool</h1><p class="sub">Our guide to dance, music, art, theater and tables worth chasing in New York.</p></div>
@@ -122,6 +128,7 @@ footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px
 <nav aria-label="Sections"><div class="in" id="nav"></div></nav></header>
 <main id="view"><p class="lead" style="margin-top:30px">Loading…</p></main>
 <footer id="foot"></footer>
+<div id="syncbar"></div>
 <script>
 "use strict";
 const CATS=[["now","What’s On","Current and upcoming shows at our venues"],["reads","About Town","Listings, articles, and reviews from the publications we trust."],["calendar","Calendar","Our own plans"],["broadway","Broadway","Shows we love and shows we want to see."],["dance","Dance","Companies and stages we follow."],["music","Music","Halls and orchestras."],["museums","Museums","Where we spend our weekends."],["galleries","Galleries","Shows worth a Chelsea afternoon."],["restaurants","Restaurants","Favorites and the ones on our list."],["discover","Discover","Recommendations beyond our own picks."]];
@@ -139,7 +146,8 @@ let venues=[],shows=[],auto={},imgs={venues:{},shows:{}},picks=[],log=null,L=[];
 let mine=[],events=[],saved=[],arts={},af="all",bf="all",wt="now",bd=null,mix=null,bmix=null;
 let wf="all",cv="list",cm=TODAY.slice(0,7);
 try{const s=JSON.parse(localStorage.getItem("culture-guide-v2")||"{}");mine=s.mine||[];events=s.events||[];saved=s.saved||[]}catch{}
-const save=()=>{try{localStorage.setItem("culture-guide-v2",JSON.stringify({mine,events,saved}))}catch{}};
+const persist=()=>{try{localStorage.setItem("culture-guide-v2",JSON.stringify({mine,events,saved}))}catch{}};
+const save=()=>{persist();queuePush()};
 const j=async(p,d)=>{try{const r=await fetch(p+"?v="+TODAY);if(!r.ok)throw 0;return await r.json()}catch{return d}};
 
 function build(){
@@ -266,7 +274,7 @@ function render(){
 }
 document.addEventListener("input",e=>{if(e.target.id!=="q")return;const q=e.target.value.toLowerCase();document.querySelectorAll(".dc").forEach(c=>{c.style.display=c.dataset.q.includes(q)?"":"none"})});
 document.addEventListener("change",e=>{if(e.target.id==="rd"){rsv.date=e.target.value;render()}else if(e.target.id==="rs"){rsv.seats=e.target.value;render()}});
-document.addEventListener("submit",e=>{e.preventDefault();const f=e.target,d=new FormData(f),k=document.getElementById("view").dataset.k;
+document.addEventListener("submit",e=>{e.preventDefault();if(e.target.id==="loginf")return;const f=e.target,d=new FormData(f),k=document.getElementById("view").dataset.k;
   if(f.id==="addf")mine.push({id:"m"+Date.now(),cat:k,name:d.get("name"),area:d.get("area"),url:d.get("url"),note:d.get("note")});
   else if(f.id==="evf")events.push({id:"e"+Date.now(),date:d.get("date"),type:d.get("type"),title:d.get("title"),where:d.get("where"),url:d.get("url")});
   save();render()});
@@ -299,6 +307,54 @@ document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest
 drawThemes();
 window.addEventListener("hashchange",render);
 
+// ---- shared login and sync (Supabase). Does nothing unless data/supabase.json holds a url and key. ----
+let sb=null,lastRemote=0,pushTimer=null,pollTimer=null,syncing=false;
+const SB_CDN="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js";
+const loadScript=u=>new Promise((res,rej)=>{const e=document.createElement("script");e.src=u;e.onload=res;e.onerror=rej;document.head.appendChild(e)});
+const hasData=()=>mine.length||events.length||saved.length;
+function mergeIn(r){r=r||{};const have=a=>new Set(a.map(x=>x.id));
+  let h=have(mine);(r.mine||[]).forEach(x=>{if(!h.has(x.id))mine.push(x)});
+  h=have(events);(r.events||[]).forEach(x=>{if(!h.has(x.id))events.push(x)});
+  (r.saved||[]).forEach(x=>{if(!saved.includes(x))saved.push(x)})}
+function setSync(msg){const el=document.getElementById("syncbar");if(!el)return;
+  el.innerHTML=sb?esc(msg)+'<button type="button" data-signout="1">Sign out</button>':""}
+function queuePush(){if(!sb)return;clearTimeout(pushTimer);pushTimer=setTimeout(pushNow,500)}
+async function pushNow(){if(!sb)return;const ts=new Date().toISOString();
+  const {error}=await sb.from("shared").upsert({key:"state",value:{mine,events,saved},updated_at:ts});
+  if(error){setSync("Couldn’t reach the shared list. Your changes are saved on this device.");return}
+  lastRemote=Date.parse(ts);setSync("Shared list is on.")}
+async function pull(first){if(!sb||syncing)return;syncing=true;
+  try{const {data,error}=await sb.from("shared").select("value,updated_at").eq("key","state").maybeSingle();
+    if(error){setSync("Couldn’t reach the shared list. Your changes are saved on this device.");return}
+    if(!data){if(hasData())await pushNow();else setSync("Shared list is on.");return}
+    const t=Date.parse(data.updated_at);if(t===lastRemote&&!first)return;
+    const r=data.value||{};let firstTime=false;try{firstTime=!localStorage.getItem("cg-synced")}catch{}
+    if(first&&firstTime&&hasData()){mergeIn(r);persist();await pushNow()}
+    else{mine=r.mine||[];events=r.events||[];saved=r.saved||[];persist();lastRemote=t}
+    try{localStorage.setItem("cg-synced","1")}catch{}
+    render();setSync("Shared list is on.")}
+  finally{syncing=false}}
+function showLogin(msg){let el=document.getElementById("login");
+  if(!el){el=document.createElement("div");el.id="login";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");document.body.appendChild(el)}
+  el.innerHTML='<form id="loginf"><h2>Chasing Cool</h2><p>Sign in to see our shared picks.</p><label>Email<input type="email" name="email" required autocomplete="username"></label><label>Password<input type="password" name="pw" required autocomplete="current-password"></label><button class="pri" type="submit">Sign in</button><p class="err" id="lerr">'+esc(msg||"")+'</p></form>';
+  el.querySelector("input").focus()}
+document.addEventListener("submit",async e=>{if(e.target.id!=="loginf")return;e.preventDefault();
+  const d=new FormData(e.target),b=e.target.querySelector("button");b.disabled=true;
+  const {error}=await sb.auth.signInWithPassword({email:d.get("email"),password:d.get("pw")});
+  if(error){showLogin("That email or password didn’t work.");return}
+  document.getElementById("login").remove();await pull(true);startPolling()});
+document.addEventListener("click",async e=>{if(!(e.target.closest&&e.target.closest("[data-signout]")))return;
+  await sb.auth.signOut();clearInterval(pollTimer);try{localStorage.removeItem("cg-synced")}catch{}showLogin()});
+function startPolling(){clearInterval(pollTimer);pollTimer=setInterval(()=>{if(document.visibilityState==="visible")pull(false)},20000)}
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")pull(false)});
+async function initSync(){
+  let cfg=null;try{const r=await fetch("data/supabase.json?v="+TODAY);if(r.ok)cfg=await r.json()}catch{}
+  if(!cfg||!cfg.url||!cfg.key)return;
+  try{await loadScript(SB_CDN);sb=window.supabase.createClient(cfg.url,cfg.key)}catch{sb=null;return}
+  const {data}=await sb.auth.getSession();
+  if(!data||!data.session){showLogin();return}
+  await pull(true);startPolling()}
+
 (async()=>{
   [venues,shows,auto,imgs,picks,log,arts]=await Promise.all([j("data/venues.json",[]),j("data/shows.json",[]),j("data/shows.auto.json",{}),j("data/images.json",{venues:{},shows:{}}),j("data/picks.json",[]),j("data/update-log.json",null),j("data/articles.json",{})]);
   imgs.venues=imgs.venues||{};imgs.shows=imgs.shows||{};
@@ -306,5 +362,6 @@ window.addEventListener("hashchange",render);
   document.getElementById("eyebrow").textContent=new Date().toLocaleString("en-US",{month:"long",year:"numeric"})+" • New York";
   document.getElementById("foot").textContent=log&&log.ran?"Updated automatically each night. Last update "+new Date(log.ran).toLocaleDateString("en-US",{month:"long",day:"numeric"})+". Check each venue before you buy tickets. Some venue photos are from Wikipedia and Wikimedia Commons.":"Check each venue before you buy tickets.";
   render();
+  initSync();
 })();
 </script></body></html>
