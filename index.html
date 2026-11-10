@@ -188,7 +188,7 @@ function whatson(){
   const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["week","Next 7 days",LL.filter(o=>o.start>TODAY&&o.start<=wk)],["soon","Coming soon",LL.filter(o=>o.start>wk)]];
   const tabs='<div class="stabs" role="tablist" aria-label="When">'+G.map(g=>'<button type="button" role="tab" data-wt="'+g[0]+'" aria-pressed="'+(wt===g[0])+'">'+g[1]+'<small>'+g[2].length+'</small></button>').join("")+'</div>';
   const cur=G.find(g=>g[0]===wt)||G[0];
-  return '<h2>What’s On</h2><p class="lead">Shows at our venues, soonest first.</p>'+tabs+bar+(cur[2].length?'<div class="grid" style="margin-top:6px">'+cur[2].map(box).join("")+'</div>':'<div class="empty" style="margin-top:6px">Nothing here right now. Try another tab or category.</div>')}
+  return '<h2>What’s On</h2><p class="lead">Shows at our venues, soonest first.</p>'+bar+tabs+(cur[2].length?'<div class="grid" style="margin-top:6px">'+cur[2].map(box).join("")+'</div>':'<div class="empty" style="margin-top:6px">Nothing here right now. Try another tab or category.</div>')}
 
 function monthView(ev){
   const [y,m]=cm.split("-").map(Number),first=new Date(y,m-1,1),start=first.getDay(),dim=new Date(y,m,0).getDate();
