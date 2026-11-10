@@ -90,9 +90,28 @@ input,select{font:inherit;padding:10px 12px;border:1px solid var(--line);border-
 .mgrid .cell.today b{color:var(--a2)}
 .mgrid .cell a,.mgrid .cell span.e{font-size:.66rem;line-height:1.2;padding:2px 5px;border-radius:5px;background:color-mix(in srgb,var(--a1) 28%,transparent);color:var(--ink);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block}
 @media(max-width:600px){.mgrid .cell{min-height:64px;padding:3px}.mgrid .cell a,.mgrid .cell span.e{font-size:.58rem;padding:1px 3px}}
+
+#banner{max-width:1040px;margin:0 auto;padding:30px 20px 0}
+#banner .bh{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+#banner .bh strong{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--a2)}
+#banner .bh button{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;padding:6px 14px;color:var(--mut)}
+.bnr{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;scrollbar-width:none}
+.bnr::-webkit-scrollbar{display:none}
+.bs{position:relative;flex:0 0 min(86%,420px);aspect-ratio:16/10;border-radius:20px;overflow:hidden;scroll-snap-align:start;color:#fff;text-decoration:none;display:flex;align-items:flex-end;background:#222;box-shadow:0 14px 34px -16px #000;transition:transform .3s}
+.bs:hover{transform:translateY(-3px);color:#fff}
+.bs img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.bs:hover img{transform:scale(1.05)}
+.bs:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 25%,rgba(0,0,0,.78));z-index:1}
+.bs .bt{position:relative;z-index:2;padding:16px 18px;display:grid;gap:3px}
+.bs .bk{justify-self:start;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;padding:3px 10px;border-radius:99px;background:linear-gradient(135deg,var(--a1),var(--a2));color:var(--on)}
+.bs h3{font-size:1.45rem;line-height:1.08;color:#fff;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.bs span.bv{font-size:.82rem;opacity:.88;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bs .bt{min-width:0;max-width:100%}
+@media(max-width:600px){.bs{flex-basis:80%;aspect-ratio:4/3}.bs h3{font-size:1.25rem}}
 footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px solid var(--line);color:var(--mut);font-size:.85rem}
 </style></head><body>
 <header><div class="themes" id="themes" role="group" aria-label="Color theme"></div><div class="in"><p class="eyebrow" id="eyebrow">New York</p><h1>Our Culture Guide</h1><p class="sub">The dance, music, art, and tables we love, and what’s coming up next. Kept by the two of us.</p></div>
+<section id="banner" aria-label="Discover"></section>
 <nav aria-label="Sections"><div class="in" id="nav"></div></nav></header>
 <main id="view"><p class="lead" style="margin-top:30px">Loading…</p></main>
 <footer id="foot"></footer>
@@ -110,7 +129,7 @@ const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","De
 const md=s=>MON[+s.slice(5,7)-1]+" "+(+s.slice(8,10));
 const range=(a,b)=>a===b?md(a):(a.slice(0,7)===b.slice(0,7)?md(a)+"–"+(+b.slice(8,10)):md(a)+"–"+md(b));
 let venues=[],shows=[],auto={},imgs={venues:{},shows:{}},picks=[],log=null,L=[];
-let mine=[],events=[],arts={},af="all",bf="all",mix=null;
+let mine=[],events=[],arts={},af="all",bf="all",mix=null,bmix=null;
 let wf="all",cv="list",cm=TODAY.slice(0,7);
 try{const s=JSON.parse(localStorage.getItem("culture-guide-v2")||"{}");mine=s.mine||[];events=s.events||[]}catch{}
 const save=()=>{try{localStorage.setItem("culture-guide-v2",JSON.stringify({mine,events}))}catch{}};
@@ -122,7 +141,7 @@ function build(){
     const key=vid+"|"+slug(s.title);if(seen.has(key))return;seen.add(key);
     const id=slug(vid+"-"+s.title);
     L.push({id,v,title:s.title,start:s.start,end,label:s.label||range(s.start,end),url:safe(s.url)||v.url,cd:s.start<TODAY?TODAY:s.start,
-      img:(imgs.shows[id]||{}).file||(imgs.venues[vid]||{}).file||""})};
+      img:(imgs.shows[id]||{}).file||(imgs.venues[vid]||{}).file||"",own:!!(imgs.shows[id]||{}).file})};
   shows.forEach(s=>add(s.venue,s));
   Object.entries(auto).forEach(([vid,a])=>a.forEach(s=>add(vid,s)));
   L.sort((a,b)=>a.start<b.start?-1:a.start>b.start?1:0);
@@ -220,6 +239,7 @@ function listView(k,t,sub){
   return h+addForm()}
 
 function render(){
+  drawBanner();
   let k=(location.hash||"#reads").slice(1);if(!CATS.some(c=>c[0]===k))k="reads";
   document.getElementById("nav").innerHTML=CATS.map(c=>'<a href="#'+c[0]+'"'+(c[0]===k?' aria-current="true"':"")+'>'+c[1]+'</a>').join("");
   const v=document.getElementById("view"),c=CATS.find(x=>x[0]===k);v.dataset.k=k;
@@ -235,6 +255,15 @@ document.addEventListener("click",e=>{const t=e.target;
   if(t.dataset.add){const o=L.find(x=>x.id===t.dataset.add);if(o){events.push({id:"e"+Date.now(),date:o.cd,type:LAB[o.v.cat]==="Concert"?"Music":o.v.cat==="dance"?"Dance":"Museum",title:o.title+" ("+o.label+")",where:o.v.name,url:o.url});save();render()}}
   if(t.dataset.del){mine=mine.filter(i=>i.id!==t.dataset.del);save();render()}
   if(t.dataset.evdel){events=events.filter(i=>i.id!==t.dataset.evdel);save();render()}});
+
+function drawBanner(){
+  const el=document.getElementById("banner");if(!el)return;
+  if(!bmix)bmix=buildMix().filter(m=>m.pick?(pickImg(m.pick)||(imgs.venues[m.pick.id]||{}).file):m.show.img&&(m.show.own||!m.show.v.logo)).slice(0,8);
+  if(!bmix.length){el.innerHTML="";return}
+  el.innerHTML='<div class="bh"><strong>Discover</strong><button type="button" data-bshuffle="1">Shuffle</button></div><div class="bnr">'+bmix.map(m=>{
+    const p=m.pick,o=m.show,name=p?p.name:o.title,sub=p?p.area:o.v.name+" · "+o.label,img=p?(pickImg(p)||(imgs.venues[p.id]||{}).file):o.img,u=safe(p?p.url:o.url),lab=p?"Broadway":CATNAME[m.c];
+    return '<a class="bs" href="'+esc(u)+'" target="_blank" rel="noopener"><img src="'+esc(img)+'" alt="" loading="lazy" onerror="this.remove()"><div class="bt"><span class="bk">'+esc(lab)+'</span><h3>'+esc(name)+'</h3><span class="bv">'+esc(sub)+'</span></div></a>'}).join("")+'</div>'}
+document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("[data-bshuffle]")){bmix=null;drawBanner()}});
 const THEMES=[["midnight","Midnight","#ff3d81","#ff9a3d"],["gold","Gold","#e8b84a","#ffe08a"],["sunset","Sunset","#ff5e5b","#ffb347"],["violet","Violet","#7c5cff","#22d3ee"],["gallery","Gallery","#000","#777"]];
 function drawThemes(){const cur=document.documentElement.dataset.theme;document.getElementById("themes").innerHTML=THEMES.map(t=>'<button type="button" data-theme="'+t[0]+'" title="'+t[1]+'" aria-label="'+t[1]+' theme" aria-pressed="'+(t[0]===cur)+'" style="background:linear-gradient(135deg,'+t[2]+','+t[3]+')"></button>').join("")}
 document.addEventListener("click",e=>{const t=e.target.closest&&e.target.closest("[data-wf],[data-cv],[data-cm],[data-af],[data-bf],[data-shuffle]");if(!t)return;

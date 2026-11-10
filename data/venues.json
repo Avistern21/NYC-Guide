@@ -37,7 +37,8 @@
   "name": "BAM",
   "area": "Brooklyn",
   "url": "https://www.bam.org",
-  "note": "Theater, dance, music, and film in Fort Greene."
+  "note": "Theater, dance, music, and film in Fort Greene.",
+  "logo": true
  },
  {
   "id": "carnegie-hall",
@@ -133,7 +134,8 @@
   "name": "The Studio Museum in Harlem",
   "area": "Harlem",
   "url": "https://www.studiomuseum.org",
-  "note": ""
+  "note": "",
+  "logo": true
  },
  {
   "id": "international-center-of-photography",
@@ -157,7 +159,8 @@
   "name": "Gagosian",
   "area": "",
   "url": "https://gagosian.com",
-  "note": ""
+  "note": "",
+  "logo": true
  },
  {
   "id": "hauser-wirth",
@@ -181,6 +184,7 @@
   "name": "Levy Gorvy Dayan",
   "area": "",
   "url": "https://www.levygorvydayan.com",
-  "note": ""
+  "note": "",
+  "logo": true
  }
 ]
