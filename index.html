@@ -368,16 +368,19 @@ function dash(){return '<input class="sb" id="q" placeholder="Search shows and v
   (L.length?rail("Opening soon",L.filter(o=>o.start>TODAY))+rail("On view now",L.filter(o=>o.start<=TODAY))+rail("Dance and music",cat(["dance","music"]))+rail("Museums",cat(["museums"]))+rail("Galleries",cat(["galleries"])):'<div class="empty">No shows listed right now.</div>')}
 
 function whatson(){
-  const FT=[["all","All"],["dance","Dance"],["music","Music"],["museums","Museums"],["galleries","Galleries"]];
+  const FT=[["all","All"],["broadway","Broadway"],["dance","Dance"],["music","Music"],["museums","Museums"],["galleries","Galleries"]];
   const bar='<div class="fbar" role="group" aria-label="Filter">'+FT.map(t=>'<button type="button" data-wf="'+t[0]+'" aria-pressed="'+(wf===t[0])+'">'+t[1]+'</button>').join("")+'</div>';
-  const LL=wf==="all"?L:L.filter(o=>o.v.cat===wf);
+  const bwItems=()=>picks.filter(p=>p.cat==="broadway").map(p=>{const id="p-"+slug(p.name),mm=(p.note||"").match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w* (\d{1,2})/),up=p.status==="upcoming";
+    let st=TODAY;if(up){if(mm){const mi=MON.indexOf(mm[1]),yr=+TODAY.slice(0,4)+(mi<+TODAY.slice(5,7)-1?1:0);st=yr+"-"+String(mi+1).padStart(2,"0")+"-"+String(mm[2]).padStart(2,"0")}else st=addDays(TODAY,30)}
+    return {id,v:{id,cat:"broadway",name:p.area||"Broadway"},title:p.name,start:st,end:st,label:p.note||"Open run",url:p.site||p.url,img:pickImg(p)||(imgs.venues[id]||{}).file,bw:true,status:p.status}}).sort((a,b)=>a.start<b.start?-1:a.start>b.start?1:0);
+  const LL=wf==="all"?L:wf==="broadway"?bwItems():L.filter(o=>o.v.cat===wf);
   const wk=new Date(Date.parse(TODAY)+7*864e5).toISOString().slice(0,10);
   const MODE=new URLSearchParams(location.search).get("cards")||"both";
   let bi=0;
   const cbox=o=>{const u=safe(o.url),i=bi++%3,d=new Date(o.start+"T12:00:00");
-    const when=o.start<=TODAY?"On now":"Opens "+MON[d.getMonth()]+" "+d.getDate();
+    const when=o.bw?(o.status==="upcoming"?"Coming soon":o.status==="closing"?"Closing soon":"Now playing"):o.start<=TODAY?"On now":"Opens "+MON[d.getMonth()]+" "+d.getDate();
     const im=MODE==="both"&&o.img&&!o.logo?'<div class="cimg"><img src="'+esc(o.img)+'" alt=""></div>':"";
-    return '<article class="ct c'+i+(MODE==="both"?" both":"")+'">'+im+'<div class="cb"><span class="ctag">'+(CATNAME[o.v.cat]||"")+' · '+when+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p><div class="cact">'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info →</a>':'')+addBtn(o)+'</div></div></article>'};
+    return '<article class="ct c'+i+(MODE==="both"?" both":"")+'">'+im+'<div class="cb"><span class="ctag">'+(CATNAME[o.v.cat]||"")+' · '+when+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p><div class="cact">'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info →</a>':'')+(o.bw?bkBtn(o.v):addBtn(o))+'</div></div></article>'};
   const box1=o=>{const u=safe(o.url);return '<article class="card">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<span class="tag">'+(CATNAME[o.v.cat]||"")+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p>'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info</a>':'')+'<div style="margin-top:6px">'+addBtn(o)+'</div></article>'};
   const box=o=>MODE?cbox(o):box1(o);
   const row=o=>{const d=new Date(o.start+"T12:00:00");return '<div class="ev"><div class="dnum">'+(o.start<=TODAY?'Now':d.getDate()+'<small>'+MON[d.getMonth()]+'</small>')+'</div><div><strong><a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></strong><br><span class="lead">'+esc(o.v.name)+' · '+esc(o.label)+'</span></div>'+addBtn(o)+'</div>'};
