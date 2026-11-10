@@ -1,18 +1,27 @@
 {
- "ran": "2026-11-10T02:09:43.681Z",
+ "ran": "2026-11-10T02:20:48.006Z",
  "venueImages": {
   "ok": [
+   "the-joyce-theater",
    "alvin-ailey-american-dance-theater",
    "new-york-city-ballet",
+   "dance-theatre-of-harlem",
    "bam",
+   "carnegie-hall",
    "new-york-philharmonic",
+   "the-metropolitan-museum-of-art",
    "whitney-museum-of-american-art",
+   "moma",
    "guggenheim",
+   "the-frick-collection",
    "neue-galerie",
    "noguchi-museum",
+   "new-museum",
    "the-studio-museum-in-harlem",
+   "international-center-of-photography",
    "david-zwirner",
    "gagosian",
+   "hauser-wirth",
    "levy-gorvy-dayan",
    "p-wicked",
    "p-hamilton",
@@ -24,176 +33,140 @@
   ],
   "failed": [
    {
-    "id": "the-joyce-theater",
-    "reason": "page unavailable"
-   },
-   {
-    "id": "dance-theatre-of-harlem",
-    "reason": "no preview image found on page"
-   },
-   {
-    "id": "carnegie-hall",
-    "reason": "page unavailable"
-   },
-   {
-    "id": "the-metropolitan-museum-of-art",
-    "reason": "page unavailable"
-   },
-   {
-    "id": "moma",
-    "reason": "page unavailable"
-   },
-   {
-    "id": "the-frick-collection",
-    "reason": "page unavailable"
-   },
-   {
     "id": "brooklyn-museum",
-    "reason": "page unavailable"
-   },
-   {
-    "id": "new-museum",
-    "reason": "no preview image found on page"
-   },
-   {
-    "id": "international-center-of-photography",
-    "reason": "no preview image found on page"
-   },
-   {
-    "id": "hauser-wirth",
-    "reason": "page unavailable"
+    "reason": "image HTTP 429"
    },
    {
     "id": "gladstone-gallery",
-    "reason": "no preview image found on page"
+    "reason": "wikipedia page has no image"
    },
    {
     "id": "p-the-lion-king",
-    "reason": "page unavailable"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-aladdin",
-    "reason": "page unavailable"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-the-book-of-mormon",
-    "reason": "page unavailable"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-maybe-happy-ending",
-    "reason": "page unavailable"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-oh-mary",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-operation-mincemeat",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-the-outsiders",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-buena-vista-social-club",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-the-great-gatsby",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-the-lost-boys",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-schmigadoon",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-just-in-time",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-the-fantasticks",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-the-rocky-horror-show",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-paranormal-activity-a-new-story-live-on-broadway",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-a-few-good-men",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-other-desert-cities",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-billy-crystal-860",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-juliet",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-stranger-things-the-first-shadow",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-school-girls-or-the-african-mean-girls-play",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-the-imaginary-invalid",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-two-strangers-carry-a-cake-across-new-york",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-wanted",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-here-there-are-blueberries",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-it-s-a-wonderful-life-a-live-radio-play",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-much-ado-about-nothing",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-downstate",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-galileo",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-inter-alia",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-now-you-see-me-live",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    },
    {
     "id": "p-blue-man-group-a-new-holiday-surprise",
-    "reason": "no preview image found on page"
+    "reason": "no wiki title set"
    }
   ],
   "manual": []

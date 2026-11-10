@@ -12,7 +12,7 @@
   },
   "bam": {
    "file": "img/venues/bam.jpg",
-   "source": "https://www.bam.org/contentassets/130be6f800fe4b9c8033f040386dd509/bam_logo.gif",
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Brooklyn_Academy_of_Music_%28BAM%29_%2848228024996%29.jpg/3840px-Brooklyn_Academy_of_Music_%28BAM%29_%2848228024996%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
    "fetched": "2026-11-10"
   },
   "new-york-philharmonic": {
@@ -42,7 +42,7 @@
   },
   "the-studio-museum-in-harlem": {
    "file": "img/venues/the-studio-museum-in-harlem.jpg",
-   "source": "https://studiomuseum.imgix.net/images/Studio-Museum-in-Harlem-1200-600.jpg",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/2/21/StudioMuseumHarlem.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "fetched": "2026-11-10"
   },
   "david-zwirner": {
@@ -52,7 +52,7 @@
   },
   "gagosian": {
    "file": "img/venues/gagosian.jpg",
-   "source": "https://gagosian.com/meta/og_gagosian.png",
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Gagosian_Gallery_%2855380816701%29.jpg/3840px-Gagosian_Gallery_%2855380816701%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
    "fetched": "2026-11-10"
   },
   "levy-gorvy-dayan": {
@@ -93,6 +93,51 @@
   "p-six": {
    "file": "img/venues/p-six.jpg",
    "source": "https://sixonbroadway.com/wp-content/uploads/2026/08/sixogimage2026.jpg",
+   "fetched": "2026-11-10"
+  },
+  "the-joyce-theater": {
+   "file": "img/venues/the-joyce-theater.jpg",
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Joyce_Theater_%2854877811551%29.jpg/3840px-Joyce_Theater_%2854877811551%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "fetched": "2026-11-10"
+  },
+  "dance-theatre-of-harlem": {
+   "file": "img/venues/dance-theatre-of-harlem.jpg",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Dancetheatre.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "fetched": "2026-11-10"
+  },
+  "carnegie-hall": {
+   "file": "img/venues/carnegie-hall.jpg",
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Carnegie_Hall_-_Full_%2848155558466%29.jpg/3840px-Carnegie_Hall_-_Full_%2848155558466%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "fetched": "2026-11-10"
+  },
+  "the-metropolitan-museum-of-art": {
+   "file": "img/venues/the-metropolitan-museum-of-art.jpg",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/30/Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "fetched": "2026-11-10"
+  },
+  "moma": {
+   "file": "img/venues/moma.jpg",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/8/8b/MoMa_NY_USA_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "fetched": "2026-11-10"
+  },
+  "the-frick-collection": {
+   "file": "img/venues/the-frick-collection.jpg",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/8/84/Frick_Collection_New_York_cour.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "fetched": "2026-11-10"
+  },
+  "new-museum": {
+   "file": "img/venues/new-museum.jpg",
+   "source": "https://upload.wikimedia.org/wikipedia/en/6/6a/New_Museum_Logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "fetched": "2026-11-10"
+  },
+  "international-center-of-photography": {
+   "file": "img/venues/international-center-of-photography.jpg",
+   "source": "https://upload.wikimedia.org/wikipedia/en/e/e1/International_Center_of_Photography_Logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "fetched": "2026-11-10"
+  },
+  "hauser-wirth": {
+   "file": "img/venues/hauser-wirth.jpg",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/2/21/HWSO_grounds.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "fetched": "2026-11-10"
   }
  },
