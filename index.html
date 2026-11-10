@@ -108,6 +108,11 @@ input,select{font:inherit;padding:10px 12px;border:1px solid var(--line);border-
 .bs span.bv{font-size:.82rem;opacity:.88;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .bs .bt{min-width:0;max-width:100%}
 @media(max-width:600px){.bs{flex-basis:80%;aspect-ratio:4/3}.bs h3{font-size:1.25rem}}
+.stabs{display:flex;gap:0;border-bottom:1px solid var(--line);margin:10px 0 14px;overflow-x:auto;scrollbar-width:none}
+.stabs button{border:0;border-radius:0;background:transparent;padding:12px 22px;margin-bottom:-1px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--mut);border-bottom:3px solid transparent;white-space:nowrap}
+.stabs button:hover{color:var(--ink)}
+.stabs button[aria-pressed=true]{color:var(--ink);border-bottom-color:var(--a1)}
+.stabs small{font-size:.7rem;font-weight:500;opacity:.7;margin-left:6px}
 footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px solid var(--line);color:var(--mut);font-size:.85rem}
 </style></head><body>
 <header><div class="themes" id="themes" role="group" aria-label="Color theme"></div><div class="in"><p class="eyebrow" id="eyebrow">New York</p><h1>Our Culture Guide</h1><p class="sub">The dance, music, art, and tables we love, and what’s coming up next. Kept by the two of us.</p></div>
@@ -129,7 +134,7 @@ const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","De
 const md=s=>MON[+s.slice(5,7)-1]+" "+(+s.slice(8,10));
 const range=(a,b)=>a===b?md(a):(a.slice(0,7)===b.slice(0,7)?md(a)+"–"+(+b.slice(8,10)):md(a)+"–"+md(b));
 let venues=[],shows=[],auto={},imgs={venues:{},shows:{}},picks=[],log=null,L=[];
-let mine=[],events=[],arts={},af="all",bf="all",mix=null,bmix=null;
+let mine=[],events=[],arts={},af="all",bf="all",wt="now",mix=null,bmix=null;
 let wf="all",cv="list",cm=TODAY.slice(0,7);
 try{const s=JSON.parse(localStorage.getItem("culture-guide-v2")||"{}");mine=s.mine||[];events=s.events||[]}catch{}
 const save=()=>{try{localStorage.setItem("culture-guide-v2",JSON.stringify({mine,events}))}catch{}};
@@ -180,8 +185,10 @@ function whatson(){
   const wk=new Date(Date.parse(TODAY)+7*864e5).toISOString().slice(0,10);
   const box=o=>{const u=safe(o.url);return '<article class="card">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<span class="tag">'+(CATNAME[o.v.cat]||"")+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p>'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info</a>':'')+'<div style="margin-top:6px">'+addBtn(o)+'</div></article>'};
   const row=o=>{const d=new Date(o.start+"T12:00:00");return '<div class="ev"><div class="dnum">'+(o.start<=TODAY?'Now':d.getDate()+'<small>'+MON[d.getMonth()]+'</small>')+'</div><div><strong><a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></strong><br><span class="lead">'+esc(o.v.name)+' · '+esc(o.label)+'</span></div>'+addBtn(o)+'</div>'};
-  const sec=(t,a)=>a.length?'<div class="mo">'+t+'</div><div class="grid">'+a.map(box).join("")+'</div>':"";
-  return '<h2>What’s On</h2><p class="lead">Shows at our venues, soonest first.</p>'+bar+(LL.length?sec("On now",LL.filter(o=>o.start<=TODAY))+sec("Next 7 days",LL.filter(o=>o.start>TODAY&&o.start<=wk))+sec("Coming up",LL.filter(o=>o.start>wk)):'<div class="empty">Nothing listed in this category right now.</div>')}
+  const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["week","Next 7 days",LL.filter(o=>o.start>TODAY&&o.start<=wk)],["soon","Coming soon",LL.filter(o=>o.start>wk)]];
+  const tabs='<div class="stabs" role="tablist" aria-label="When">'+G.map(g=>'<button type="button" role="tab" data-wt="'+g[0]+'" aria-pressed="'+(wt===g[0])+'">'+g[1]+'<small>'+g[2].length+'</small></button>').join("")+'</div>';
+  const cur=G.find(g=>g[0]===wt)||G[0];
+  return '<h2>What’s On</h2><p class="lead">Shows at our venues, soonest first.</p>'+tabs+bar+(cur[2].length?'<div class="grid" style="margin-top:6px">'+cur[2].map(box).join("")+'</div>':'<div class="empty" style="margin-top:6px">Nothing here right now. Try another tab or category.</div>')}
 
 function monthView(ev){
   const [y,m]=cm.split("-").map(Number),first=new Date(y,m-1,1),start=first.getDay(),dim=new Date(y,m,0).getDate();
@@ -267,8 +274,8 @@ function drawBanner(){
 document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("[data-bshuffle]")){bmix=null;drawBanner()}});
 const THEMES=[["midnight","Midnight","#ff3d81","#ff9a3d"],["gold","Gold","#e8b84a","#ffe08a"],["sunset","Sunset","#ff5e5b","#ffb347"],["violet","Violet","#7c5cff","#22d3ee"],["gallery","Gallery","#000","#777"]];
 function drawThemes(){const cur=document.documentElement.dataset.theme;document.getElementById("themes").innerHTML=THEMES.map(t=>'<button type="button" data-theme="'+t[0]+'" title="'+t[1]+'" aria-label="'+t[1]+' theme" aria-pressed="'+(t[0]===cur)+'" style="background:linear-gradient(135deg,'+t[2]+','+t[3]+')"></button>').join("")}
-document.addEventListener("click",e=>{const t=e.target.closest&&e.target.closest("[data-wf],[data-cv],[data-cm],[data-af],[data-bf],[data-shuffle]");if(!t)return;
-  if(t.dataset.bf)bf=t.dataset.bf;else if(t.dataset.shuffle)mix=null;else if(t.dataset.af)af=t.dataset.af;else if(t.dataset.wf)wf=t.dataset.wf;else if(t.dataset.cv)cv=t.dataset.cv;else{const [y,m]=cm.split("-").map(Number),d=new Date(y,m-1+Number(t.dataset.cm),1);cm=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")}
+document.addEventListener("click",e=>{const t=e.target.closest&&e.target.closest("[data-wf],[data-wt],[data-cv],[data-cm],[data-af],[data-bf],[data-shuffle]");if(!t)return;
+  if(t.dataset.wt)wt=t.dataset.wt;else if(t.dataset.bf)bf=t.dataset.bf;else if(t.dataset.shuffle)mix=null;else if(t.dataset.af)af=t.dataset.af;else if(t.dataset.wf)wf=t.dataset.wf;else if(t.dataset.cv)cv=t.dataset.cv;else{const [y,m]=cm.split("-").map(Number),d=new Date(y,m-1+Number(t.dataset.cm),1);cm=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")}
   render()});
 document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-theme]");if(!b||!b.closest("#themes"))return;document.documentElement.dataset.theme=b.dataset.theme;try{localStorage.setItem("culture-guide-theme",b.dataset.theme)}catch{}drawThemes()});
 drawThemes();
