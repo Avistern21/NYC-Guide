@@ -1,0 +1,24 @@
+[
+ {
+  "name": "The New Yorker",
+  "url": "https://www.newyorker.com/feed/culture"
+ },
+ {
+  "name": "Goings On About Town",
+  "url": "https://www.newyorker.com/feed/everything",
+  "match": "/goings-on-about-town"
+ },
+ {
+  "name": "Goings On About Town",
+  "url": "https://www.newyorker.com/feed/magazine/rss",
+  "match": "/goings-on-about-town"
+ },
+ {
+  "name": "The New York Times, Arts",
+  "url": "https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml"
+ },
+ {
+  "name": "The Guardian, Stage",
+  "url": "https://www.theguardian.com/stage/rss"
+ }
+]
