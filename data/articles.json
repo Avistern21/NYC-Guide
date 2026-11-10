@@ -26,19 +26,19 @@
   },
   {
    "source": "The New Yorker",
-   "title": "Good Enough for a Tuesday Night",
-   "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
-   "date": "2026-11-07",
-   "blurb": "An affair with an economist exposed the calculus of modern dating.",
-   "image": "https://media.newyorker.com/photos/6aede75911476724e624a140/master/pass/Economist.jpg"
-  },
-  {
-   "source": "The New Yorker",
    "title": "“Wicker” and What Straight Women Want",
    "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
    "date": "2026-11-07",
    "blurb": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its…",
    "image": "https://media.newyorker.com/photos/6aeb6ded0595de95bb163b2a/master/pass/Critic"
+  },
+  {
+   "source": "The New Yorker",
+   "title": "Good Enough for a Tuesday Night",
+   "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
+   "date": "2026-11-07",
+   "blurb": "An affair with an economist exposed the calculus of modern dating.",
+   "image": "https://media.newyorker.com/photos/6aede75911476724e624a140/master/pass/Economist.jpg"
   },
   {
    "source": "The New Yorker",
@@ -95,104 +95,6 @@
    "date": "2026-11-06",
    "blurb": "In James Gray’s new crime drama, starring Miles Teller, Scarlett Johansson, and Adam Driver, a Queens couple’s life is turned upside down by a scheme for easy money.",
    "image": "https://media.newyorker.com/photos/6aeb62a47e2a6c54d6120c5d/master/pass/r50545_rd.jpg"
-  }
- ],
- "Goings On About Town": [
-  {
-   "source": "Goings On About Town",
-   "title": "Theresa Hak Kyung Cha’s Linguistic Art",
-   "url": "https://www.newyorker.com/culture/goings-on/a-historic-exhibition-of-theresa-hak-kyung-cha-s-linguistic-art",
-   "date": "2026-11-06",
-   "blurb": "Also: Bill Irwin and Rachel Bloom in Molière, a new movie from Kogonada, the torrid post-punk of Sweeping Promises, and more.",
-   "image": "https://media.newyorker.com/photos/6ae906e863d182fa5bf99fa5/master/pass/Cha_Slide%20from%20Other%20Things%20Seen,%20Other%20Things%20Heard%20(1978)_06%20copy.jpg"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "The Best Mystery Novels of the Twenty-first Century",
-   "url": "https://www.newyorker.com/books/what-were-reading/the-best-mystery-novels-of-the-twenty-first-century",
-   "date": "2026-10-28",
-   "blurb": "Most of the best mysteries deal with the imperfect fit between the law and justice.",
-   "image": "https://media.newyorker.com/photos/6ada76ea818a9d3ded2ca585/master/pass/wwr_sorkin_final%202.jpg"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "Breaking the Decade-Long Trump Fever",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/breaking-the-decade-long-trump-fever",
-   "date": "2026-11-07",
-   "blurb": "The President’s unique brand of lurid authoritarianism has finally lost appeal, and he has lost the plot.",
-   "image": "https://media.newyorker.com/photos/6aee79600572b1f7b0d79c1a/master/pass/newyorker_comment_The%20Fever%20Breaks_final.jpg"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "John Cusack Goes Graphic",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/john-cusack-goes-graphic",
-   "date": "2026-11-09",
-   "blurb": "At the comic-book store Forbidden Planet, the “Say Anything” actor talks about his new graphic novel, in which the philosopher-artist Antonin Artaud is freed from an asylum by Jackie Gleason.",
-   "image": "https://media.newyorker.com/photos/6aee2e0816dd7229eaf11c08/master/pass/r50685.png"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "I’ll Take Blue Florida for Five Hundred",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/ill-take-blue-florida-for-five-hundred",
-   "date": "2026-11-07",
-   "blurb": "Not all bets are made with big money. On the night of the midterms, one small Kalshi wagerer puts his chump change—and his sanity—on the line.",
-   "image": "https://media.newyorker.com/photos/6aee2e08244df16af176f534/master/pass/r50691.png"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "Hilary Knight Is Rawther Beloved",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/hilary-knight-is-rawther-beloved",
-   "date": "2026-11-09",
-   "blurb": "At the hundredth-birthday party of the illustrator of the “Eloise” books, testimonials poured in from such pals as Bernadette Peters, Anderson Cooper, and the reputed inspiration for Eloise herself, Liza Minnelli.",
-   "image": "https://media.newyorker.com/photos/6aee2e08e50b27a9ee8a3566/master/pass/r50689.png"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "Josh Homme Likes to Satan",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/josh-homme-likes-to-satan",
-   "date": "2026-11-09",
-   "blurb": "On the heels of a new album from the rock band Queens of the Stone Age, the group’s front man spends some quality time with Linda Blair’s “Exorcist” character.",
-   "image": "https://media.newyorker.com/photos/6aee2e080572b1f7b0d799d7/master/pass/r50687.png"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "The Unfinished Business of American Socialism",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/can-american-socialism-survive-its-success",
-   "date": "2026-11-09",
-   "blurb": "The movement has often seen its ideas flourish as its organizations withered. Will today’s resurgence follow the same course?",
-   "image": "https://media.newyorker.com/photos/6aee3a00e50b27a9ee8a356c/master/pass/r50623.jpg"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "The Ubiquitous Melancholy of Max Richter",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/the-ubiquitous-melancholy-of-max-richter",
-   "date": "2026-11-09",
-   "blurb": "The composer’s song “On the Nature of Daylight” has popped up in countless sob fests including “Arrival” and “Hamnet.” With billions of streams, he’s become one of the most popular and successful composers of our time.",
-   "image": "https://media.newyorker.com/photos/6aeb62a48c1f4c98efe1544d/master/pass/r50547.jpg"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "An N.B.A. Player Got Hooked on Sports Betting. Soon, He Became the Bet",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/the-nba-player-who-got-hooked-on-sports-betting",
-   "date": "2026-11-08",
-   "blurb": "Jontay Porter got deep into FanDuel, and in debt to the wrong people. The only way out, it seemed, was to gamble on himself.",
-   "image": "https://media.newyorker.com/photos/6aed0474845dc6f6e6b76a8d/master/pass/r50699.gif"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "What It Takes to Save a Town from Wildfire",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/what-it-takes-to-save-a-town-from-wildfire",
-   "date": "2026-11-09",
-   "blurb": "Catastrophic blazes are exposing the limits of individual precautions. Can communities build a system of collective defense?",
-   "image": "https://media.newyorker.com/photos/6af200603d1a5c10060563d3/master/pass/Fire_Header_Small.gif"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "If Trump Did Standup",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/if-trump-did-standup",
-   "date": "2026-11-09",
-   "blurb": "“I had lunch at Mar-a-Lago the other day. It’s like the Cheesecake Factory but more expensive.”",
-   "image": "https://media.newyorker.com/photos/6aeb534e87ef5aa6305dab7f/master/pass/r50636.jpg"
   }
  ],
  "The New York Times, Arts": [
