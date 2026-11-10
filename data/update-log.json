@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-10T02:52:00.761Z",
+ "ran": "2026-11-10T03:04:46.917Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -13,6 +13,7 @@
    "whitney-museum-of-american-art",
    "moma",
    "guggenheim",
+   "the-frick-collection",
    "neue-galerie",
    "noguchi-museum",
    "new-museum",
@@ -30,10 +31,6 @@
    "p-six"
   ],
   "failed": [
-   {
-    "id": "the-frick-collection",
-    "reason": "image HTTP 429"
-   },
    {
     "id": "brooklyn-museum",
     "reason": "image HTTP 429"
