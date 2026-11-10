@@ -113,6 +113,8 @@ input,select{font:inherit;padding:10px 12px;border:1px solid var(--line);border-
 .stabs button:hover{color:var(--ink)}
 .stabs button[aria-pressed=true]{color:var(--ink);border-bottom-color:var(--a1)}
 .stabs small{font-size:.7rem;font-weight:500;opacity:.7;margin-left:6px}
+.bkrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.bkrow input{width:auto;flex:1 1 140px;min-width:0;padding:8px 10px}
 footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px solid var(--line);color:var(--mut);font-size:.85rem}
 </style></head><body>
 <header><div class="themes" id="themes" role="group" aria-label="Color theme"></div><div class="in"><p class="eyebrow" id="eyebrow">New York</p><h1>Chasing Cool</h1><p class="sub">Our guide to dance, music, art, theater and tables worth chasing in New York.</p></div>
@@ -134,7 +136,7 @@ const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","De
 const md=s=>MON[+s.slice(5,7)-1]+" "+(+s.slice(8,10));
 const range=(a,b)=>a===b?md(a):(a.slice(0,7)===b.slice(0,7)?md(a)+"–"+(+b.slice(8,10)):md(a)+"–"+md(b));
 let venues=[],shows=[],auto={},imgs={venues:{},shows:{}},picks=[],log=null,L=[];
-let mine=[],events=[],saved=[],arts={},af="all",bf="all",wt="now",mix=null,bmix=null;
+let mine=[],events=[],saved=[],arts={},af="all",bf="all",wt="now",bd=null,mix=null,bmix=null;
 let wf="all",cv="list",cm=TODAY.slice(0,7);
 try{const s=JSON.parse(localStorage.getItem("culture-guide-v2")||"{}");mine=s.mine||[];events=s.events||[];saved=s.saved||[]}catch{}
 const save=()=>{try{localStorage.setItem("culture-guide-v2",JSON.stringify({mine,events,saved}))}catch{}};
@@ -163,7 +165,13 @@ const rsvBar=()=>'<div class="rsv"><label>Date<input type="date" id="rd" value="
 const pickImg=v=>/^(https:\/\/|img\/)/.test(v.image||"")?v.image:"";
 const bkBtn=v=>{if(v.cat!=="broadway"||String(v.id||"").slice(0,1)==="m")return"";
   const on=saved.includes(v.id);
-  return'<div style="margin-top:6px"><button class="pill" data-bk="'+esc(v.id)+'" aria-pressed="'+on+'">'+(on?"Added":"Add")+'</button></div>'};
+  let h='<div style="margin-top:6px"><button class="pill" data-bk="'+esc(v.id)+'" aria-pressed="'+on+'">'+(on?"Added":"Add")+'</button></div>';
+  if(on&&bf==="saved"&&document.getElementById("view").dataset.k==="broadway"){
+    const e=events.find(x=>x.bk===v.id);
+    if(bd===v.id)h+='<div class="bkrow"><input type="date" min="'+TODAY+'" value="'+esc(e?e.date:"")+'" aria-label="Date for '+esc(v.name)+'"><button class="pill" data-bdgo="'+esc(v.id)+'">Save date</button><button class="x" data-bdx="1">Cancel</button></div>';
+    else if(e)h+='<div class="bkrow"><strong>Date: '+esc(md(e.date))+'</strong><button class="x" data-bd="'+esc(v.id)+'">Change</button><button class="x" data-bdclr="'+esc(v.id)+'">Clear</button></div>';
+    else h+='<div class="bkrow"><button class="pill" data-bd="'+esc(v.id)+'">Set date</button></div>'}
+  return h};
 function venueCard(v,own){
   const s=L.filter(o=>o.v.id===v.id).slice(0,4),u=safe(v.url);
   return '<article class="card">'+tile(v.name,pickImg(v)||(imgs.venues[v.id]||{}).file)+(v.area?'<span class="tag">'+esc(v.area)+'</span>':'')+'<h3>'+esc(v.name)+'</h3>'+(v.note?'<p>'+esc(v.note)+'</p>':'')+
@@ -277,8 +285,14 @@ function drawBanner(){
 document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("[data-bshuffle]")){bmix=null;drawBanner()}});
 const THEMES=[["midnight","Midnight","#ff3d81","#ff9a3d"],["gold","Gold","#e8b84a","#ffe08a"],["sunset","Sunset","#ff5e5b","#ffb347"],["violet","Violet","#7c5cff","#22d3ee"],["gallery","Gallery","#000","#777"]];
 function drawThemes(){const cur=document.documentElement.dataset.theme;document.getElementById("themes").innerHTML=THEMES.map(t=>'<button type="button" data-theme="'+t[0]+'" title="'+t[1]+'" aria-label="'+t[1]+' theme" aria-pressed="'+(t[0]===cur)+'" style="background:linear-gradient(135deg,'+t[2]+','+t[3]+')"></button>').join("")}
-document.addEventListener("click",e=>{const t=e.target.closest&&e.target.closest("[data-wf],[data-wt],[data-cv],[data-cm],[data-af],[data-bf],[data-shuffle],[data-bk]");if(!t)return;
-  if(t.dataset.bk){const id=t.dataset.bk,k=saved.indexOf(id);if(k>=0)saved.splice(k,1);else saved.push(id);save()}
+document.addEventListener("click",e=>{const t=e.target.closest&&e.target.closest("[data-wf],[data-wt],[data-cv],[data-cm],[data-af],[data-bf],[data-shuffle],[data-bk],[data-bd],[data-bdgo],[data-bdx],[data-bdclr]");if(!t)return;
+  if(t.dataset.bd){bd=t.dataset.bd}else if(t.dataset.bdx){bd=null}
+  else if(t.dataset.bdclr){const k=events.findIndex(x=>x.bk===t.dataset.bdclr);if(k>=0)events.splice(k,1);bd=null;save()}
+  else if(t.dataset.bdgo){const d=t.closest(".card").querySelector('input[type=date]').value;if(!d)return;
+    const id=t.dataset.bdgo,p=picks.find(x=>"p-"+slug(x.name)===id)||{},e=events.find(x=>x.bk===id);
+    if(e)e.date=d;else events.push({id:"e"+Date.now(),date:d,type:"Broadway",title:p.name||"Broadway show",where:p.area||"",url:p.url||"",bk:id});
+    bd=null;save()}
+  else if(t.dataset.bk){const id=t.dataset.bk,k=saved.indexOf(id);if(k>=0)saved.splice(k,1);else saved.push(id);save()}
   else if(t.dataset.wt)wt=t.dataset.wt;else if(t.dataset.bf)bf=t.dataset.bf;else if(t.dataset.shuffle)mix=null;else if(t.dataset.af)af=t.dataset.af;else if(t.dataset.wf)wf=t.dataset.wf;else if(t.dataset.cv)cv=t.dataset.cv;else{const [y,m]=cm.split("-").map(Number),d=new Date(y,m-1+Number(t.dataset.cm),1);cm=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")}
   render()});
 document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-theme]");if(!b||!b.closest("#themes"))return;document.documentElement.dataset.theme=b.dataset.theme;try{localStorage.setItem("culture-guide-theme",b.dataset.theme)}catch{}drawThemes()});
