@@ -30,6 +30,12 @@ fs.mkdirSync(path.join(IMG, 'shows'), { recursive: true });
 fs.mkdirSync(path.join(IMG, 'manual'), { recursive: true });
 
 const venues = readJson(VENUES_FILE, []);
+// Picks (restaurants etc.) also get images: from `image` (direct link), else the og:image of `site` (their own website) or `url`.
+// A file at img/manual/p-<slug-of-name>.jpg always wins.
+for (const p of readJson(path.join(DATA, 'picks.json'), [])) {
+  if (!p.name) continue;
+  venues.push({ id: 'p-' + slug(p.name), name: p.name, url: p.site || p.url, imageUrl: /^https:/.test(p.image || '') ? p.image : undefined, picksOnly: true });
+}
 const curated = readJson(path.join(DATA, 'shows.json'), []);
 const images = readJson(path.join(DATA, 'images.json'), { venues: {}, shows: {} });
 images.venues ||= {}; images.shows ||= {};
@@ -125,11 +131,11 @@ for (const v of venues) {
     } catch (e) { log.venueImages.failed.push({ id: v.id, reason: e.message }); console.log('  image failed:', e.message); }
   }
 
-  if (page) {
+  if (page && !v.picksOnly) {
     const ev = extractEvents(page.html, page.finalUrl);
     log.events[v.id] = ev.length;
     if (ev.length) autoNew[v.id] = ev; else if (autoOld[v.id]) autoNew[v.id] = autoOld[v.id].filter(e => (e.end || e.start) >= today);
-  } else if (autoOld[v.id]) autoNew[v.id] = autoOld[v.id].filter(e => (e.end || e.start) >= today);
+  } else if (!v.picksOnly && autoOld[v.id]) autoNew[v.id] = autoOld[v.id].filter(e => (e.end || e.start) >= today);
   await sleep(600);
 }
 
@@ -152,6 +158,38 @@ for (const w of wanted) {
 }
 // remove images for shows that no longer exist
 for (const id of Object.keys(images.shows)) if (!keep.has(id)) { try { fs.unlinkSync(path.join(ROOT, images.shows[id].file)); } catch {} delete images.shows[id]; }
+
+// ---- articles from RSS/Atom feeds (data/feeds.json): headline, blurb, link, image. Full text stays on the publisher's site. ----
+const decode = t => String(t || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/<[^>]+>/g, ' ')
+  .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&#8217;/g, '\u2019').replace(/&#8220;|&#8221;/g, '"').replace(/\s+/g, ' ').trim();
+const tagText = (blk, tag) => { const m = blk.match(new RegExp('<' + tag + '\\b[^>]*>([\\s\\S]*?)</' + tag + '>', 'i')); return m ? m[1] : ''; };
+const attr = (blk, tag, a) => { const m = blk.match(new RegExp('<' + tag + '\\b[^>]*\\b' + a + '\\s*=\\s*["\']([^"\']+)["\']', 'i')); return m ? m[1].replace(/&amp;/g, '&') : ''; };
+function parseFeed(xml, name) {
+  const blocks = xml.match(/<(item|entry)\b[\s\S]*?<\/\1>/gi) || [];
+  return blocks.map(b => {
+    const title = decode(tagText(b, 'title'));
+    let link = decode(tagText(b, 'link')) || attr(b, 'link', 'href');
+    if (!/^https?:/i.test(link)) link = attr(b, 'link', 'href');
+    const dr = decode(tagText(b, 'pubDate') || tagText(b, 'published') || tagText(b, 'updated') || tagText(b, 'dc:date')); const dd = new Date(dr); const date = isNaN(dd) ? null : dd.toISOString().slice(0, 10);
+    let blurb = decode(tagText(b, 'description') || tagText(b, 'summary')); if (blurb.length > 220) blurb = blurb.slice(0, 217).replace(/\s+\S*$/, '') + '\u2026';
+    const image = attr(b, 'media:thumbnail', 'url') || attr(b, 'media:content', 'url') || (/image/.test(attr(b, 'enclosure', 'type')) ? attr(b, 'enclosure', 'url') : '') || (tagText(b, 'description').match(/<img[^>]+src=["']([^"']+)/i) || [])[1] || '';
+    return { source: name, title, url: link, date, blurb, image: /^https:/.test(image) ? image : '' };
+  }).filter(a => a.title && /^https?:/i.test(a.url));
+}
+const feeds = readJson(path.join(DATA, 'feeds.json'), []);
+const artOld = readJson(path.join(DATA, 'articles.json'), {});
+const artNew = {};
+for (const f of feeds) {
+  try {
+    const r = await fetch(f.url, { headers: { 'user-agent': UA, accept: 'application/rss+xml,application/xml,text/xml,*/*' }, redirect: 'follow', signal: AbortSignal.timeout(25000) });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const items = parseFeed(await r.text(), f.name).slice(0, 12);
+    if (!items.length) throw new Error('no articles found in feed');
+    artNew[f.name] = items; console.log('feed ok:', f.name, items.length);
+  } catch (e) { console.log('feed failed:', f.name, e.message); if (artOld[f.name]) artNew[f.name] = artOld[f.name]; log.feedsFailed = (log.feedsFailed || []).concat({ name: f.name, reason: e.message }); }
+  await sleep(500);
+}
+writeJson(path.join(DATA, 'articles.json'), artNew);
 
 writeJson(path.join(DATA, 'images.json'), images);
 writeJson(path.join(DATA, 'shows.auto.json'), autoNew);
