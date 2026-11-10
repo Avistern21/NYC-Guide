@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Chasing Cool</title>
-<script>try{document.documentElement.dataset.theme=localStorage.getItem("culture-guide-theme")||"gallery"}catch(e){document.documentElement.dataset.theme="gallery"}</script>
+<title>The ADvantage</title>
+<script>document.documentElement.dataset.theme="advantage"</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -115,16 +115,194 @@ input,select{font:inherit;padding:10px 12px;border:1px solid var(--line);border-
 .stabs small{font-size:.7rem;font-weight:500;opacity:.7;margin-left:6px}
 .bkrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px}
 .bkrow input{width:auto;flex:1 1 140px;min-width:0;padding:8px 10px}
+
+@font-face{font-family:"Montserrat";font-weight:700;src:url(img/fonts/montserrat-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Montserrat";font-weight:800;src:url(img/fonts/montserrat-latin-800-normal.woff2) format("woff2")}
+@font-face{font-family:"Montserrat";font-weight:900;src:url(img/fonts/montserrat-latin-900-normal.woff2) format("woff2")}
+:root[data-theme="advantage"]{--bg:#0d0d10;--card:#17171c;--ink:#fff;--mut:#bcbcc8;--line:#2d2d38;--a1:#ffcc2e;--a2:#ffcc2e;--on:#0d0d10;--blue:#0b3bd9;--coral:#ff5a47;--yel:#ffcc2e;color-scheme:dark}
+[data-theme=advantage] body{background:var(--bg);font-family:Montserrat,Inter,system-ui,sans-serif}
+[data-theme=advantage] *{border-radius:0!important}
+[data-theme=advantage] h1,[data-theme=advantage] h2,[data-theme=advantage] h3,[data-theme=advantage] .mo,[data-theme=advantage] .dnum,[data-theme=advantage] .ph{font-family:Montserrat,Inter,sans-serif;font-weight:800;letter-spacing:-.02em}
+[data-theme=advantage] h2{font-size:clamp(2rem,5vw,3rem);font-weight:900}
+[data-theme=advantage] .card h3{font-size:1.25rem;line-height:1.15}
+[data-theme=advantage] .tag{background:var(--yel);color:#0d0d10;font-weight:800}
+[data-theme=advantage] .go,[data-theme=advantage] .lb,[data-theme=advantage] .shows small{color:var(--yel)}
+[data-theme=advantage] button.pill,[data-theme=advantage] button.pri{background:var(--yel);color:#0d0d10;font-weight:800}
+[data-theme=advantage] .fbar button[aria-pressed=true],[data-theme=advantage] .chips .on{background:var(--yel);color:#0d0d10}
+[data-theme=advantage] .stabs button[aria-pressed=true]{border-bottom-color:var(--yel)}
+[data-theme=advantage] .mo:before{background:var(--yel)}
+.adv{position:sticky;top:0;z-index:30;background:#0d0d10;padding:0}
+.adv .top{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px 32px;flex-wrap:wrap}
+.logo{font:900 clamp(1.7rem,4vw,2.9rem)/1 Montserrat,sans-serif;color:var(--yel);text-decoration:none;letter-spacing:-.04em}
+.logo:hover{color:var(--yel)}
+.adv nav{position:static;margin:0;background:none;border:0;backdrop-filter:none;-webkit-backdrop-filter:none;display:flex;align-items:center;gap:30px;flex-wrap:wrap}
+.adv nav a{padding:6px 0;border-radius:0;font:800 1.2rem/1 Montserrat,sans-serif;letter-spacing:-.01em;text-transform:none;color:#fff;border-bottom:4px solid transparent;background:none}
+.adv nav a:hover{color:var(--yel)}
+.adv nav a[aria-current=true]{background:none;color:var(--yel);border-bottom-color:var(--yel)}
+.adv nav a.explore{border:3px solid var(--yel);color:var(--yel);padding:9px 16px}
+.adv nav a.explore[aria-current=true]{background:var(--yel);color:#0d0d10}
+#catbar,#catbar2{background:#0d0d10;display:flex;justify-content:space-around;gap:8px;padding:22px 20px;overflow-x:auto;scrollbar-width:none;border-top:1px solid var(--line)}
+#catbar a,#catbar2 a{font:800 clamp(1.1rem,2.2vw,1.7rem)/1 Montserrat,sans-serif;color:#fff;text-decoration:none;padding:6px 14px;white-space:nowrap;letter-spacing:-.02em}
+#catbar a:hover,#catbar a[aria-current=true],#catbar2 a:hover{color:var(--yel)}
+main[data-k=home]{max-width:none;padding:0}
+main[data-k=calendar],main[data-k=reads],main[data-k=discover],main[data-k=now],main[data-k=broadway],main[data-k=dance],main[data-k=music],main[data-k=museums],main[data-k=galleries],main[data-k=restaurants]{max-width:none;padding:0}
+.in2{max-width:1240px;margin:0 auto;padding:0 32px}
+.phead{background:var(--blue);padding:56px 0 34px}
+.phead h2{color:var(--yel);font-size:clamp(3rem,9vw,6.2rem)!important;line-height:.95;margin:0 0 14px;letter-spacing:-.04em}
+.phead .lead{color:#fff;font-weight:700;font-size:1.15rem;margin:0 0 26px}
+.phead .fbar{gap:10px;margin:0}
+.phead .fbar button{background:transparent;border:3px solid #fff;color:#fff;font:800 .9rem/1 Montserrat,sans-serif;letter-spacing:.04em;padding:12px 20px}
+.phead .fbar button:hover{background:#fff;color:var(--blue)}
+.phead .fbar button[aria-pressed=true]{background:var(--yel);border-color:var(--yel);color:#0d0d10}
+.pbody{background:#0d0d10;padding:10px 0 70px}
+.pbody .stabs{border-bottom:3px solid #2d2d38;margin:0 0 30px}
+.pbody .stabs button{font:800 1.05rem/1 Montserrat,sans-serif;letter-spacing:-.01em;text-transform:none;color:#bcbcc8;padding:22px 26px;border-bottom:6px solid transparent;margin-bottom:-3px}
+.pbody .stabs button[aria-pressed=true]{color:var(--yel);border-bottom-color:var(--yel)}
+.pbody .stabs small{background:var(--coral);color:#0d0d10;font-weight:800;padding:2px 7px;margin-left:8px;opacity:1}
+.pbody .grid{grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:26px}
+.pbody .card{background:#17171c;border:0;border-top:8px solid var(--blue);padding-bottom:20px}
+.pbody .card:nth-child(3n+2){border-top-color:var(--coral)}
+.pbody .card:nth-child(3n){border-top-color:var(--yel)}
+.pbody .card:hover{transform:translateY(-6px);box-shadow:none}
+.pbody .card h3{font-size:1.45rem;font-weight:900;color:#fff}
+.pbody .card p{color:#bcbcc8;font-weight:600}
+.pbody .card .tag{background:var(--coral);color:#0d0d10;font-weight:800;letter-spacing:.08em}
+.pbody .card:nth-child(3n+1) .tag{background:var(--blue);color:#fff}
+.pbody .card:nth-child(3n) .tag{background:var(--yel)}
+.pbody .card .go{font-weight:800;color:#fff;text-decoration:underline;text-decoration-color:var(--yel);text-underline-offset:4px;text-decoration-thickness:3px}
+.pbody .card button{background:var(--yel);color:#0d0d10;font:800 .8rem/1 Montserrat,sans-serif;letter-spacing:.06em;text-transform:uppercase;border:0;padding:12px 18px}
+.pbody .card button:hover{background:#fff}
+.ct{display:flex;flex-direction:column;min-height:250px}
+.ct .cb{padding:24px 24px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.ct h3{font:900 1.55rem/1.08 Montserrat,sans-serif;letter-spacing:-.02em;margin:0}
+.ct p{margin:0;font-weight:600;font-size:.92rem}
+.ct .ctag{font:800 .72rem/1 Montserrat,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.ct .cact{margin-top:auto;padding-top:14px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.ct .go{font-weight:800;text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:4px}
+.ct button{font:800 .8rem/1 Montserrat,sans-serif;letter-spacing:.06em;text-transform:uppercase;border:0;padding:12px 18px;background:#0d0d10;color:#fff}
+.ct button[disabled]{opacity:.55}
+.ct.c0{background:var(--blue);color:#fff}.ct.c0 .go{color:#fff;text-decoration-color:var(--yel)}.ct.c0 h3{color:#fff}.ct.c0 p,.ct.c0 .ctag{color:#dfe6ff}.ct.c0 button{background:var(--yel);color:#0d0d10}
+.ct.c1{background:var(--coral);color:#0d0d10}.ct.c1 .go{color:#0d0d10}.ct.c1 h3,.ct.c1 p{color:#0d0d10}
+.ct.c2{background:var(--yel);color:#0d0d10}.ct.c2 .go{color:#0d0d10}.ct.c2 h3,.ct.c2 p{color:#0d0d10}
+.ct.c2 button,.ct.c1 button{background:#0d0d10;color:#fff}
+.ct .cimg{height:170px;overflow:hidden;background:#000}.ct .cimg img{width:100%;height:100%;object-fit:cover;display:block}
+.pbody .grid:has(.ct){gap:22px}
+
+.pbody{background:var(--yel)!important;padding-top:0!important}
+.pbody .stabs{border-bottom:4px solid #0d0d10!important;margin-bottom:34px!important}
+.pbody .stabs button{color:rgba(13,13,16,.62)!important}
+.pbody .stabs button[aria-pressed=true]{color:#0d0d10!important;border-bottom-color:#0d0d10!important}
+.pbody .stabs small{background:#0d0d10!important;color:var(--yel)!important}
+.pbody .empty{color:#0d0d10}
+.ct.c2{background:#0d0d10!important;color:#fff}.ct.c2 h3{color:var(--yel)!important}.ct.c2 p{color:#fff!important}.ct.c2 .ctag{color:#bcbcc8}.ct.c2 .go{color:#fff!important;text-decoration-color:var(--yel)}.ct.c2 button{background:var(--yel)!important;color:#0d0d10!important}
+.ct.c1 button,.ct.c1 .cact button{background:#0d0d10!important;color:#fff!important}
+
+.phead{background:var(--yel)!important;padding-bottom:26px!important}
+.phead h2{color:#0d0d10!important}
+.phead .lead{color:#0d0d10!important}
+.phead .fbar button{border-color:#0d0d10!important;color:#0d0d10!important}
+.phead .fbar button:hover{background:#0d0d10!important;color:var(--yel)!important}
+.phead .fbar button[aria-pressed=true]{background:#0d0d10!important;border-color:#0d0d10!important;color:var(--yel)!important}
+.pbody{padding-top:8px!important}
+
+.ct .cshows{list-style:none;margin:2px 0 0;padding:10px 0 0;border-top:3px solid currentColor;display:grid;gap:8px;font-size:.88rem;font-weight:600}
+.ct .cshows b{display:block;font:800 .66rem/1 Montserrat,sans-serif;letter-spacing:.1em;text-transform:uppercase;opacity:.8;margin-bottom:2px}
+.ct .cshows a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.ct.c0 .cshows a,.ct.c1 .cshows a{color:inherit}.ct.c2 .cshows a{color:#fff}
+.ct .cb>button.pill,.ct .cb>div>button.pill{background:#0d0d10;color:#fff}
+.ct.c0 .cb button.pill{background:var(--yel);color:#0d0d10}.ct.c2 .cb button.pill{background:var(--yel);color:#0d0d10}
+.ct .bkrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.ct .bkrow input{padding:9px;border:2px solid currentColor;background:#fff;color:#0d0d10;font:700 .85rem Montserrat,sans-serif}
+.ct .x{background:transparent!important;color:inherit!important;text-decoration:underline;padding:6px!important}
+.pbody .add{margin-top:40px;color:#0d0d10;background:transparent!important;border:3px solid #0d0d10!important;padding:18px 22px}.pbody .add summary{color:#0d0d10!important}.pbody .add button.pri{background:#0d0d10!important;color:var(--yel)!important}.pbody .add summary{font:800 1rem Montserrat,sans-serif;cursor:pointer}
+.pbody .add input{background:#fff;color:#0d0d10;border:2px solid #0d0d10}.pbody .add label{color:#0d0d10;font-weight:700}
+.pbody .add .lead,.pbody .add p{color:#0d0d10}
+.pbody .rsv,.pbody .rbar{color:#0d0d10}
+
+#disc{background:var(--blue);border-top:1px solid #0d0d10}#disc:empty{display:none}
+.dsc{max-width:none;margin:0;padding:22px 0 26px}.dh2{padding:0 32px}.d3{padding:0 32px;scroll-padding-left:32px}
+.dh2{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.dh2 strong{font:900 1.5rem/1 Montserrat,sans-serif;color:var(--yel);letter-spacing:-.02em}
+.dh2 .dgo{background:var(--yel);color:#0d0d10;font:800 .85rem/1 Montserrat,sans-serif;padding:13px 18px;text-decoration:none;letter-spacing:.02em}.dh2 .dgo:hover{background:#fff}
+.dh2 button{background:transparent;color:#fff;border:3px solid #fff;font:800 .8rem/1 Montserrat,sans-serif;padding:10px 16px;letter-spacing:.04em}
+.dh2 button:hover{background:#fff;color:#0d0d10}
+.d3{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:2px}.d3::-webkit-scrollbar{display:none}.dctl{display:flex;align-items:center;gap:10px}.dar{background:transparent;color:#fff;border:3px solid #fff;font:900 1.1rem/1 Montserrat,sans-serif;width:46px;height:46px;padding:0}.dar:hover{background:#fff;color:var(--blue)}
+.dt{flex:0 0 calc((100vw - 64px - 44px)/3.35);scroll-snap-align:start;position:relative;display:flex;align-items:flex-end;aspect-ratio:4/3;overflow:hidden;background:#222;color:#fff;text-decoration:none}
+.dt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.dt:hover img{transform:scale(1.05)}
+.dt:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.82));z-index:1}
+.dtt{position:relative;z-index:2;padding:18px 20px;display:grid;gap:4px;min-width:0}
+.dk{justify-self:start;color:#0d0d10;font:800 .72rem/1 Montserrat,sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:4px 8px}
+.dt h3{font:900 1.45rem/1.08 Montserrat,sans-serif;color:#fff;letter-spacing:-.01em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:0}
+.dt em{font-style:normal;font-weight:600;font-size:.9rem;color:#e3e3ea;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.pbody>.in2>.fbar{margin:0 0 22px;gap:10px}
+.pbody .fbar button{background:transparent;border:3px solid #0d0d10;color:#0d0d10;font:800 .85rem/1 Montserrat,sans-serif;letter-spacing:.04em;padding:11px 18px;text-transform:uppercase}
+.pbody .fbar button:hover{background:#0d0d10;color:var(--yel)}
+.pbody .fbar button[aria-pressed=true]{background:#0d0d10;color:var(--yel)}
+.pbody .fbar button.pill{background:var(--blue);border-color:var(--blue);color:#fff}
+.pbody .mo{font:900 1.6rem/1 Montserrat,sans-serif;color:#0d0d10;margin:28px 0 14px;letter-spacing:-.02em}.pbody .mo:before{background:#0d0d10!important}
+.pbody .chips span{border:3px solid #0d0d10;color:#0d0d10;font-weight:800;border-radius:0}.pbody .chips .on{background:#0d0d10!important;color:var(--yel)!important}
+.pbody .lead{color:#0d0d10;font-weight:700}
+.pbody .ev{background:#0d0d10;color:#fff;border:0;padding:16px 20px;margin-bottom:12px;display:flex;align-items:center;gap:18px}
+.pbody .ev .dnum{background:var(--coral);color:#0d0d10;font:900 1.7rem/1 Montserrat,sans-serif;padding:10px 14px;min-width:64px;text-align:center}
+.pbody .ev .dnum small{display:block;font-size:.65rem;letter-spacing:.1em;text-transform:uppercase}
+.pbody .ev strong{color:var(--yel);font:900 1.15rem Montserrat,sans-serif}
+.pbody .ev .lead{color:#bcbcc8;font-weight:600}.pbody .ev a{color:#fff}
+.pbody .ev .x{margin-left:auto;background:transparent;color:#fff;text-decoration:underline;border:0}
+.pbody .empty{background:#0d0d10;color:#fff;padding:26px;font-weight:700}
+.pbody .mhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.pbody .mhead h3{font:900 1.8rem Montserrat,sans-serif;color:#0d0d10}
+.pbody .mhead button{background:#0d0d10;color:var(--yel);border:0;padding:10px 16px;font-weight:900}
+.pbody .mgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.pbody .dow{font:800 .75rem Montserrat,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:#0d0d10;padding:6px}
+.pbody .cell{background:#0d0d10;color:#fff;min-height:96px;padding:8px;border:0}
+.pbody .cell.out{background:rgba(13,13,16,.55);opacity:.75}
+.pbody .cell.today{background:var(--blue)}
+.pbody .cell b{color:var(--yel)}.pbody .cell a,.pbody .cell .e{opacity:1!important;display:block;background:var(--coral)!important;color:#0d0d10!important;font-weight:800;font-size:.72rem;padding:3px 5px;margin-top:4px;text-decoration:none;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.pbody details.add summary{font:800 1rem Montserrat,sans-serif}
+.pbody details.add label{color:#0d0d10;font-weight:700}
+.pbody details.add input,.pbody details.add select{background:#fff;color:#0d0d10;border:2px solid #0d0d10;padding:9px}
+.pbody>.in2>details.add{margin:0 0 22px}
+.pbody .rsv{margin:0 0 6px}.pbody .rsv label{color:#0d0d10;font:800 .8rem Montserrat,sans-serif;letter-spacing:.08em;text-transform:uppercase;display:flex;flex-direction:column;gap:6px}
+.pbody .rsv input,.pbody .rsv select{background:#fff;color:#0d0d10;border:3px solid #0d0d10;padding:10px 12px;font:700 .95rem Montserrat,sans-serif}
+.pbody .empty{margin-bottom:26px}
+@media(max-width:820px){.dsc{padding:18px}.dsc{padding:18px 0}.dh2,.d3{padding:0 18px;scroll-padding-left:18px}.d3{gap:16px}.dt{flex:0 0 72%}.in2{padding:0 18px}.phead{padding:36px 0 24px}.pbody .stabs button{padding:16px 16px;font-size:.95rem}}
+
+.hero{display:grid;grid-template-columns:1fr 1.12fr;min-height:540px}
+.hero .l{background:var(--blue);padding:56px 44px;display:flex;flex-direction:column;justify-content:center;gap:14px}
+.hero .eb{color:var(--yel);font:800 1.45rem/1 Montserrat,sans-serif;text-transform:uppercase;letter-spacing:-.01em}
+.hero h1{font:900 clamp(3.2rem,7.4vw,6.4rem)/.92 Montserrat,sans-serif;letter-spacing:-.05em;color:var(--yel);margin:0;background:none;-webkit-background-clip:border-box;background-clip:border-box}
+.hero .sb{color:#fff;font:700 clamp(1.1rem,2vw,1.5rem)/1.25 Montserrat,sans-serif;margin:4px 0 10px}
+.hero .cta{align-self:flex-start;background:var(--yel);color:#0d0d10;font:800 1.35rem/1 Montserrat,sans-serif;padding:16px 24px;text-decoration:none}
+.hero .cta:hover{color:#0d0d10;filter:brightness(1.08)}
+.hero .r{position:relative;background:#222;min-height:360px;overflow:hidden}
+.hero .r img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero .ft{position:absolute;right:0;bottom:44px;max-width:82%;background:var(--coral);color:#0d0d10;padding:16px 24px;text-decoration:none;display:grid;gap:4px}
+.hero .ft:hover{color:#0d0d10;filter:brightness(1.06)}
+.hero .ft small{font:800 .95rem/1 Montserrat,sans-serif;text-transform:uppercase;letter-spacing:.01em}
+.hero .ft b{font:800 clamp(1.2rem,2.2vw,1.9rem)/1.1 Montserrat,sans-serif;letter-spacing:-.02em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.week{background:var(--yel);padding:44px 32px 60px}
+.week .wh{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.week h2{margin:0;color:#0d0d10;font:900 clamp(2.4rem,6vw,4rem)/1 Montserrat,sans-serif;letter-spacing:-.04em}
+.week .wh a{color:#0d0d10;font:800 1.3rem/1 Montserrat,sans-serif;text-decoration:none}
+.week .wg{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.wt{padding:28px 26px;min-height:200px;display:flex;flex-direction:column;justify-content:space-between;gap:20px;text-decoration:none}
+.wt:hover{filter:brightness(1.07)}
+.wt h3{font:800 clamp(1.7rem,3vw,2.4rem)/1.02 Montserrat,sans-serif;letter-spacing:-.035em;margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.wt span{font:700 1.02rem/1.25 Montserrat,sans-serif}
+.wt.c0{background:var(--blue);color:#fff}.wt.c0 h3{color:#fff}
+.wt.c1{background:var(--coral);color:#0d0d10}.wt.c1 h3{color:#0d0d10}
+.wt.c2{background:#0d0d10;color:#fff}.wt.c2 h3{color:var(--yel)}
+@media(max-width:820px){.hero{grid-template-columns:1fr}.hero .l{padding:36px 22px}.hero .r{min-height:300px}.week{padding:32px 18px 44px}.week .wg{grid-template-columns:1fr}.adv .top{padding:14px 18px}.adv nav{gap:18px}.adv nav a{font-size:1rem}#catbar,#catbar2{justify-content:flex-start}}
 footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px solid var(--line);color:var(--mut);font-size:.85rem}
 </style></head><body>
-<header><div class="themes" id="themes" role="group" aria-label="Color theme"></div><div class="in"><p class="eyebrow" id="eyebrow">New York</p><h1>Chasing Cool</h1><p class="sub">Our guide to dance, music, art, theater and tables worth chasing in New York.</p></div>
-<section id="banner" aria-label="Discover"></section>
-<nav aria-label="Sections"><div class="in" id="nav"></div></nav></header>
+<header class="adv"><div class="top"><a class="logo" href="#home">The ADvantage</a><nav id="nav" aria-label="Sections"></nav></div><div id="themes" hidden></div><span id="eyebrow" hidden></span></header>
+<div id="catbar" aria-label="Categories"></div><div id="disc"></div>
 <main id="view"><p class="lead" style="margin-top:30px">Loading…</p></main>
 <footer id="foot"></footer>
 <script>
 "use strict";
-const CATS=[["now","What’s On","Current and upcoming shows at our venues"],["reads","About Town","Listings, articles, and reviews from the publications we trust."],["calendar","Calendar","Our own plans"],["broadway","Broadway","Shows we love and shows we want to see."],["dance","Dance","Companies and stages we follow."],["music","Music","Halls and orchestras."],["museums","Museums","Where we spend our weekends."],["galleries","Galleries","Shows worth a Chelsea afternoon."],["restaurants","Restaurants","Favorites and the ones on our list."],["discover","Discover","Recommendations beyond our own picks."]];
+const CATS=[["now","What’s On","Current and upcoming shows at our venues"],["reads","About Town","Listings, articles, and reviews from the publications we trust."],["calendar","Calendar","Our own plans"],["broadway","Broadway","Shows we love and shows we want to see."],["dance","Dance","Companies and stages we follow."],["music","Music","Halls and orchestras."],["museums","Museums","Where we spend our weekends."],["galleries","Galleries","Shows worth a Chelsea afternoon."],["restaurants","Restaurants","Favorites and the ones on our list."],["discover","Explore","Recommendations beyond our own picks."]];
 const LAB={dance:"Dance",music:"Concert",museums:"Exhibition",galleries:"Gallery"};
 const EMPTY={broadway:"Add the first show you love, or one you’re hoping to see.",restaurants:"Add your restaurants here, with a booking link for each.",reads:"Add a publication, article, or review you trust.",discover:"Add a show or event worth recommending."};
 const slug=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60);
@@ -194,12 +372,19 @@ function whatson(){
   const bar='<div class="fbar" role="group" aria-label="Filter">'+FT.map(t=>'<button type="button" data-wf="'+t[0]+'" aria-pressed="'+(wf===t[0])+'">'+t[1]+'</button>').join("")+'</div>';
   const LL=wf==="all"?L:L.filter(o=>o.v.cat===wf);
   const wk=new Date(Date.parse(TODAY)+7*864e5).toISOString().slice(0,10);
-  const box=o=>{const u=safe(o.url);return '<article class="card">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<span class="tag">'+(CATNAME[o.v.cat]||"")+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p>'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info</a>':'')+'<div style="margin-top:6px">'+addBtn(o)+'</div></article>'};
+  const MODE=new URLSearchParams(location.search).get("cards")||"both";
+  let bi=0;
+  const cbox=o=>{const u=safe(o.url),i=bi++%3,d=new Date(o.start+"T12:00:00");
+    const when=o.start<=TODAY?"On now":"Opens "+MON[d.getMonth()]+" "+d.getDate();
+    const im=MODE==="both"&&o.img&&!o.logo?'<div class="cimg"><img src="'+esc(o.img)+'" alt=""></div>':"";
+    return '<article class="ct c'+i+(MODE==="both"?" both":"")+'">'+im+'<div class="cb"><span class="ctag">'+(CATNAME[o.v.cat]||"")+' · '+when+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p><div class="cact">'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info ↗</a>':'')+addBtn(o)+'</div></div></article>'};
+  const box1=o=>{const u=safe(o.url);return '<article class="card">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<span class="tag">'+(CATNAME[o.v.cat]||"")+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p>'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info</a>':'')+'<div style="margin-top:6px">'+addBtn(o)+'</div></article>'};
+  const box=o=>MODE?cbox(o):box1(o);
   const row=o=>{const d=new Date(o.start+"T12:00:00");return '<div class="ev"><div class="dnum">'+(o.start<=TODAY?'Now':d.getDate()+'<small>'+MON[d.getMonth()]+'</small>')+'</div><div><strong><a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></strong><br><span class="lead">'+esc(o.v.name)+' · '+esc(o.label)+'</span></div>'+addBtn(o)+'</div>'};
   const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["week","Next 7 days",LL.filter(o=>o.start>TODAY&&o.start<=wk)],["soon","Coming soon",LL.filter(o=>o.start>wk)]];
   const tabs='<div class="stabs" role="tablist" aria-label="When">'+G.map(g=>'<button type="button" role="tab" data-wt="'+g[0]+'" aria-pressed="'+(wt===g[0])+'">'+g[1]+'<small>'+g[2].length+'</small></button>').join("")+'</div>';
   const cur=G.find(g=>g[0]===wt)||G[0];
-  return '<h2>What’s On</h2><p class="lead">Shows at our venues, soonest first.</p>'+bar+tabs+(cur[2].length?'<div class="grid" style="margin-top:6px">'+cur[2].map(box).join("")+'</div>':'<div class="empty" style="margin-top:6px">Nothing here right now. Try another tab or category.</div>')}
+  return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Shows at our venues, soonest first.</p>'+bar+'</div></section><section class="pbody"><div class="in2">'+tabs+(cur[2].length?'<div class="grid">'+cur[2].map(box).join("")+'</div>':'<div class="empty">Nothing here right now. Try another tab or category.</div>')+'</div></section>'}
 
 function monthView(ev){
   const [y,m]=cm.split("-").map(Number),first=new Date(y,m-1,1),start=first.getDay(),dim=new Date(y,m,0).getDate();
@@ -247,7 +432,16 @@ function discoverMix(){
 function listView(k,t,sub){
   const base=venues.filter(v=>v.cat===k),extra=pickList(k),ids=new Set(mine.map(m=>m.id));
   const shown=k==="broadway"&&bf!=="all"?extra.filter(p=>bf==="saved"?saved.includes(p.id):p.status===bf):extra;
-  const all=base.concat(shown);let h='<h2>'+t+'</h2><p class="lead">'+sub+'</p>';
+  const all=base.concat(shown);
+  if(["broadway","dance","music","museums","galleries","restaurants"].includes(k)){
+    let ci=0;const fb=k==="broadway"?'<div class="fbar" role="group" aria-label="Filter">'+[["all","All"],["new","New"],["upcoming","Upcoming"],["saved","Saved"]].map(t=>'<button type="button" data-bf="'+t[0]+'" aria-pressed="'+(bf===t[0])+'">'+t[1]+'</button>').join("")+'</div>':"";
+    const cv=(v,own)=>{const i=ci++%3,s=L.filter(o=>o.v.id===v.id).slice(0,3),u=safe(v.url),img=pickImg(v)||(imgs.venues[v.id]||{}).file;
+      return '<article class="ct c'+i+'">'+(img?'<div class="cimg"><img src="'+esc(img)+'" alt="" loading="lazy"></div>':"")+'<div class="cb">'+(v.area?'<span class="ctag">'+esc(v.area)+'</span>':'')+'<h3>'+esc(v.name)+'</h3>'+(v.note?'<p>'+esc(v.note)+'</p>':'')+
+       (s.length?'<ul class="cshows">'+s.map(o=>'<li><b>'+esc(o.label)+'</b> <a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></li>').join("")+'</ul>':'')+
+       '<div class="cact">'+(u?'<a class="go" href="'+esc(v.cat==="restaurants"?bookUrl(u):u)+'" target="_blank" rel="noopener">'+(v.cat==="restaurants"?bookLabel(u):(/google\./.test(host(u))?"Find info":"Visit "+esc(host(u))))+' ↗</a>':'')+(own?'<button class="x" data-del="'+esc(v.id)+'">Remove</button>':'')+'</div>'+bkBtn(v)+'</div></article>'};
+    const empty=k==="broadway"&&extra.length?(bf==="saved"?"Nothing saved yet. Tap Add on a show to keep it here.":"Nothing in this group right now."):(EMPTY[k]||"");
+    return '<section class="phead"><div class="in2"><h2>'+t+'</h2><p class="lead">'+sub+'</p>'+fb+'</div></section><section class="pbody"><div class="in2">'+(k==="restaurants"?rsvBar():"")+(all.length?'<div class="grid">'+all.map(v=>cv(v,ids.has(v.id))).join("")+'</div>':'<div class="empty">'+empty+'</div>')+addForm()+'</div></section>'}
+  let h='<h2>'+t+'</h2><p class="lead">'+sub+'</p>';
   if(k==="discover")h+='<div class="chips"><span class="on">New York</span><span>London (soon)</span><span>Paris (soon)</span><span>Tokyo (soon)</span></div>';
   if(k==="restaurants")h+=rsvBar();
   if(k==="broadway")h+='<div class="fbar" role="group" aria-label="Filter">'+[["all","All"],["new","New"],["upcoming","Upcoming"],["saved","Saved"]].map(t=>'<button type="button" data-bf="'+t[0]+'" aria-pressed="'+(bf===t[0])+'">'+t[1]+'</button>').join("")+'</div>';
@@ -257,12 +451,46 @@ function listView(k,t,sub){
   h+=all.length?'<div class="grid">'+all.map(v=>venueCard(v,ids.has(v.id))).join("")+'</div>':(k==="reads"&&h.includes("Latest articles")||dm?"":'<div class="empty">'+(k==="broadway"&&extra.length?(bf==="saved"?"Nothing saved yet. Tap Add on a show to keep it here.":"Nothing in this group right now."):(EMPTY[k]||""))+'</div>');
   return h+addForm()}
 
+
+function homeView(){
+  const near=L.filter(o=>o.start<=addDays(TODAY,14)&&o.img&&(o.own||!o.v.logo));
+  const hp=new URLSearchParams(location.search).get("hero");
+  let hero=hp?L.find(o=>o.title.toLowerCase().includes(hp.toLowerCase())):shuf(near)[0];
+  hero=hero||near[0]||L[0];
+  const dates=o=>o.start<=TODAY?"On now":(o.label||"");
+  const heroHtml=hero?'<a class="ft" href="'+esc(hero.url||"#now")+'" target="_blank" rel="noopener"><small>'+esc((CATNAME[hero.v.cat]||"")+" · "+dates(hero))+'</small><b>'+esc(hero.title)+' →</b></a>':"";
+  const wk=addDays(TODAY,7),pool=L.filter(o=>o.start<=wk&&o.end>=TODAY),usedC=new Set(),tiles=[];
+  shuf(pool).forEach(o=>{if(tiles.length<3&&!usedC.has(o.v.cat)){usedC.add(o.v.cat);tiles.push({t:o.title,m:o.v.name+" • "+(o.start<=TODAY?"Through "+md(o.end):o.label),u:o.url})}});
+  if(tiles.length<3)shuf(picks.filter(p=>p.cat==="broadway"&&p.status==="playing")).slice(0,3-tiles.length).forEach(p=>tiles.push({t:p.name,m:p.area+" • Ongoing",u:p.url}));
+  return '<section class="hero"><div class="l"><div class="eb">NYC Culture Guide</div><h1>Go out.<br>Get into it.</h1><p class="sb">Art, stages, and tables worth chasing.</p><a class="cta" href="#now">See what’s on ↗</a></div><div class="r">'+(hero&&hero.img?'<img src="'+esc(hero.img)+'" alt="">':"")+heroHtml+'</div></section>'+
+   '<section class="week"><div class="wh"><h2>The Week Ahead</h2><a href="#now">View more ↗</a></div><div class="wg">'+tiles.map((t,i)=>'<a class="wt c'+i+'" href="'+esc(safe(t.u)||"#now")+'" target="_blank" rel="noopener"><h3>'+esc(t.t)+'</h3><span>'+esc(t.m)+'</span></a>').join("")+'</div></section>'}
+const addDays=(d,n)=>{const x=new Date(d+"T12:00:00");x.setDate(x.getDate()+n);return x.toISOString().slice(0,10)};
+
+let dpk=null,dlast="";
+function drawDisc(force){
+  const el=document.getElementById("disc");if(!el)return;
+  const h=location.hash||"#home";
+  if(force||!dpk||h!==dlast){const pool=buildMix().filter(m=>m.pick?(pickImg(m.pick)||(imgs.venues[m.pick.id]||{}).file):(m.show.img&&(m.show.own||!m.show.v.logo)));
+    const seenC={},out=[];pool.forEach(m=>{const c=m.pick?"broadway":m.show.v.cat;if(out.length<8&&!seenC[c]){seenC[c]=1;out.push(m)}});pool.forEach(m=>{if(out.length<8&&!out.includes(m))out.push(m)});dpk=out;dlast=h}
+  if(!dpk.length||h==="#home"||h===""||h==="#"){el.innerHTML="";return}
+  const col=["var(--yel)","var(--coral)","#fff"];
+  el.innerHTML='<div class="dsc"><div class="dh2"><strong>Explore</strong><div class="dctl"><a class="dgo" href="#discover">Explore ↗</a></div></div><div class="d3">'+dpk.map((m,i)=>{
+    let img,t,sub,u,cat;
+    if(m.pick){img=pickImg(m.pick)||(imgs.venues[m.pick.id]||{}).file;t=m.pick.name;sub=m.pick.area||"Broadway";u=safe(m.pick.site||m.pick.url);cat="Broadway"}
+    else{const o=m.show;img=o.img;t=o.title;sub=o.v.name+" · "+(o.start<=TODAY?"On now":o.label);u=safe(o.url);cat=CATNAME[o.v.cat]||""}
+    return '<a class="dt" href="'+esc(u||"#now")+'" target="_blank" rel="noopener"><img src="'+esc(img)+'" alt=""><div class="dtt"><span class="dk" style="background:'+col[i%3]+'">'+esc(cat)+'</span><h3>'+esc(t)+'</h3><em>'+esc(sub)+'</em></div></a>'}).join("")+'</div></div>'}
+document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-dsc]");if(b){const r=document.querySelector(".d3");if(r)r.scrollBy({left:+b.dataset.dsc*r.clientWidth*.7,behavior:"smooth"})}});
 function render(){
-  drawBanner();
-  let k=(location.hash||"#now").slice(1);if(!CATS.some(c=>c[0]===k))k="now";
-  document.getElementById("nav").innerHTML=CATS.map(c=>'<a href="#'+c[0]+'"'+(c[0]===k?' aria-current="true"':"")+'>'+c[1]+'</a>').join("");
-  const v=document.getElementById("view"),c=CATS.find(x=>x[0]===k);v.dataset.k=k;
-  v.innerHTML=k==="now"?whatson():k==="calendar"?calendar():listView(k,c[1],c[2]);
+  let k=(location.hash||"#home").slice(1);if(k!=="home"&&!CATS.some(c=>c[0]===k))k="home";
+  const link=(id,label,cls)=>{const c=CATS.find(x=>x[0]===id);return '<a href="#'+id+'"'+(cls?' class="'+cls+'"':"")+(k===id?' aria-current="true"':"")+'>'+(label||c[1])+'</a>'};
+  document.getElementById("nav").innerHTML=link("now")+link("calendar")+link("reads");
+  const cb=["broadway","dance","music","museums","galleries","restaurants"].map(id=>link(id)).join("");
+  const cbEl=document.getElementById("catbar");cbEl.innerHTML=cb;cbEl.style.display=k==="home"?"none":"";
+  drawDisc();
+  const v=document.getElementById("view"),c=CATS.find(x=>x[0]===k)||[];v.dataset.k=k;
+  let hv=k==="home"?homeView().replace('<section class="week"','<div id="catbar2" aria-label="Categories">'+cb+'</div><section class="week"'):k==="now"?whatson():k==="calendar"?calendar():listView(k,c[1],c[2]);
+  if(["calendar","reads","discover"].includes(k)){const m=hv.match(/^<h2>(.*?)<\/h2><p class="lead">(.*?)<\/p>([\s\S]*)$/);if(m)hv='<section class="phead"><div class="in2"><h2>'+m[1]+'</h2><p class="lead">'+m[2]+'</p></div></section><section class="pbody"><div class="in2">'+m[3]+'</div></section>'}
+  v.innerHTML=hv;
 }
 document.addEventListener("input",e=>{if(e.target.id!=="q")return;const q=e.target.value.toLowerCase();document.querySelectorAll(".dc").forEach(c=>{c.style.display=c.dataset.q.includes(q)?"":"none"})});
 document.addEventListener("change",e=>{if(e.target.id==="rd"){rsv.date=e.target.value;render()}else if(e.target.id==="rs"){rsv.seats=e.target.value;render()}});
