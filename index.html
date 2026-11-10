@@ -297,7 +297,7 @@ main[data-k=calendar],main[data-k=reads],main[data-k=discover],main[data-k=now],
 footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px solid var(--line);color:var(--mut);font-size:.85rem}
 </style></head><body>
 <header class="adv"><div class="top"><a class="logo" href="#home">The ADvantage</a><nav id="nav" aria-label="Sections"></nav></div><div id="themes" hidden></div><span id="eyebrow" hidden></span></header>
-<div id="catbar" aria-label="Categories"></div><div id="disc"></div>
+<div id="disc"></div><div id="catbar" aria-label="Categories"></div>
 <main id="view"><p class="lead" style="margin-top:30px">Loading…</p></main>
 <footer id="foot"></footer>
 <script>
@@ -360,7 +360,7 @@ const addForm=()=>'<details class="add"><summary>Add to this list</summary><form
 
 function dc(o){const u=safe(o.url);
   return '<article class="dc" data-q="'+esc((o.title+" "+o.v.name+" "+o.v.cat).toLowerCase())+'">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<div class="dh"><h3>'+esc(o.title)+'</h3>'+addBtn(o)+'</div><p class="lb">'+LAB[o.v.cat]+' <span>• '+esc(o.label)+'</span></p>'+
-   (u?'<a class="vn" href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(o.v.name)+' ↗</a>':'<span class="vn">'+esc(o.v.name)+'</span>')+'</article>'}
+   (u?'<a class="vn" href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(o.v.name)+' →</a>':'<span class="vn">'+esc(o.v.name)+'</span>')+'</article>'}
 const rail=(t,a)=>a.length?'<div class="mo">'+t+'</div><div class="rail">'+a.slice(0,14).map(dc).join("")+'</div>':"";
 const cat=c=>L.filter(o=>c.includes(o.v.cat));
 
@@ -377,7 +377,7 @@ function whatson(){
   const cbox=o=>{const u=safe(o.url),i=bi++%3,d=new Date(o.start+"T12:00:00");
     const when=o.start<=TODAY?"On now":"Opens "+MON[d.getMonth()]+" "+d.getDate();
     const im=MODE==="both"&&o.img&&!o.logo?'<div class="cimg"><img src="'+esc(o.img)+'" alt=""></div>':"";
-    return '<article class="ct c'+i+(MODE==="both"?" both":"")+'">'+im+'<div class="cb"><span class="ctag">'+(CATNAME[o.v.cat]||"")+' · '+when+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p><div class="cact">'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info ↗</a>':'')+addBtn(o)+'</div></div></article>'};
+    return '<article class="ct c'+i+(MODE==="both"?" both":"")+'">'+im+'<div class="cb"><span class="ctag">'+(CATNAME[o.v.cat]||"")+' · '+when+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p><div class="cact">'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info →</a>':'')+addBtn(o)+'</div></div></article>'};
   const box1=o=>{const u=safe(o.url);return '<article class="card">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<span class="tag">'+(CATNAME[o.v.cat]||"")+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p>'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info</a>':'')+'<div style="margin-top:6px">'+addBtn(o)+'</div></article>'};
   const box=o=>MODE?cbox(o):box1(o);
   const row=o=>{const d=new Date(o.start+"T12:00:00");return '<div class="ev"><div class="dnum">'+(o.start<=TODAY?'Now':d.getDate()+'<small>'+MON[d.getMonth()]+'</small>')+'</div><div><strong><a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></strong><br><span class="lead">'+esc(o.v.name)+' · '+esc(o.label)+'</span></div>'+addBtn(o)+'</div>'};
@@ -438,7 +438,7 @@ function listView(k,t,sub){
     const cv=(v,own)=>{const i=ci++%3,s=L.filter(o=>o.v.id===v.id).slice(0,3),u=safe(v.url),img=pickImg(v)||(imgs.venues[v.id]||{}).file;
       return '<article class="ct c'+i+'">'+(img?'<div class="cimg"><img src="'+esc(img)+'" alt="" loading="lazy"></div>':"")+'<div class="cb">'+(v.area?'<span class="ctag">'+esc(v.area)+'</span>':'')+'<h3>'+esc(v.name)+'</h3>'+(v.note?'<p>'+esc(v.note)+'</p>':'')+
        (s.length?'<ul class="cshows">'+s.map(o=>'<li><b>'+esc(o.label)+'</b> <a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></li>').join("")+'</ul>':'')+
-       '<div class="cact">'+(u?'<a class="go" href="'+esc(v.cat==="restaurants"?bookUrl(u):u)+'" target="_blank" rel="noopener">'+(v.cat==="restaurants"?bookLabel(u):(/google\./.test(host(u))?"Find info":"Visit "+esc(host(u))))+' ↗</a>':'')+(own?'<button class="x" data-del="'+esc(v.id)+'">Remove</button>':'')+'</div>'+bkBtn(v)+'</div></article>'};
+       '<div class="cact">'+(u?'<a class="go" href="'+esc(v.cat==="restaurants"?bookUrl(u):u)+'" target="_blank" rel="noopener">'+(v.cat==="restaurants"?bookLabel(u):(/google\./.test(host(u))?"Find info":"Visit "+esc(host(u))))+' →</a>':'')+(own?'<button class="x" data-del="'+esc(v.id)+'">Remove</button>':'')+'</div>'+bkBtn(v)+'</div></article>'};
     const empty=k==="broadway"&&extra.length?(bf==="saved"?"Nothing saved yet. Tap Add on a show to keep it here.":"Nothing in this group right now."):(EMPTY[k]||"");
     return '<section class="phead"><div class="in2"><h2>'+t+'</h2><p class="lead">'+sub+'</p>'+fb+'</div></section><section class="pbody"><div class="in2">'+(k==="restaurants"?rsvBar():"")+(all.length?'<div class="grid">'+all.map(v=>cv(v,ids.has(v.id))).join("")+'</div>':'<div class="empty">'+empty+'</div>')+addForm()+'</div></section>'}
   let h='<h2>'+t+'</h2><p class="lead">'+sub+'</p>';
@@ -462,8 +462,8 @@ function homeView(){
   const wk=addDays(TODAY,7),pool=L.filter(o=>o.start<=wk&&o.end>=TODAY),usedC=new Set(),tiles=[];
   shuf(pool).forEach(o=>{if(tiles.length<3&&!usedC.has(o.v.cat)){usedC.add(o.v.cat);tiles.push({t:o.title,m:o.v.name+" • "+(o.start<=TODAY?"Through "+md(o.end):o.label),u:o.url})}});
   if(tiles.length<3)shuf(picks.filter(p=>p.cat==="broadway"&&p.status==="playing")).slice(0,3-tiles.length).forEach(p=>tiles.push({t:p.name,m:p.area+" • Ongoing",u:p.url}));
-  return '<section class="hero"><div class="l"><div class="eb">NYC Culture Guide</div><h1>Go out.<br>Get into it.</h1><p class="sb">Art, stages, and tables worth chasing.</p><a class="cta" href="#now">See what’s on ↗</a></div><div class="r">'+(hero&&hero.img?'<img src="'+esc(hero.img)+'" alt="">':"")+heroHtml+'</div></section>'+
-   '<section class="week"><div class="wh"><h2>The Week Ahead</h2><a href="#now">View more ↗</a></div><div class="wg">'+tiles.map((t,i)=>'<a class="wt c'+i+'" href="'+esc(safe(t.u)||"#now")+'" target="_blank" rel="noopener"><h3>'+esc(t.t)+'</h3><span>'+esc(t.m)+'</span></a>').join("")+'</div></section>'}
+  return '<section class="hero"><div class="l"><div class="eb">NYC Culture Guide</div><h1>Go out.<br>Get into it.</h1><p class="sb">Art, stages, and tables worth chasing.</p><a class="cta" href="#now">See what’s on →</a></div><div class="r">'+(hero&&hero.img?'<img src="'+esc(hero.img)+'" alt="">':"")+heroHtml+'</div></section>'+
+   '<section class="week"><div class="wh"><h2>The Week Ahead</h2><a href="#now">View more →</a></div><div class="wg">'+tiles.map((t,i)=>'<a class="wt c'+i+'" href="'+esc(safe(t.u)||"#now")+'" target="_blank" rel="noopener"><h3>'+esc(t.t)+'</h3><span>'+esc(t.m)+'</span></a>').join("")+'</div></section>'}
 const addDays=(d,n)=>{const x=new Date(d+"T12:00:00");x.setDate(x.getDate()+n);return x.toISOString().slice(0,10)};
 
 let dpk=null,dlast="";
@@ -474,7 +474,7 @@ function drawDisc(force){
     const seenC={},out=[];pool.forEach(m=>{const c=m.pick?"broadway":m.show.v.cat;if(out.length<8&&!seenC[c]){seenC[c]=1;out.push(m)}});pool.forEach(m=>{if(out.length<8&&!out.includes(m))out.push(m)});dpk=out;dlast=h}
   if(!dpk.length||h==="#home"||h===""||h==="#"){el.innerHTML="";return}
   const col=["var(--yel)","var(--coral)","#fff"];
-  el.innerHTML='<div class="dsc"><div class="dh2"><strong>Explore</strong><div class="dctl"><a class="dgo" href="#discover">Explore ↗</a></div></div><div class="d3">'+dpk.map((m,i)=>{
+  el.innerHTML='<div class="dsc"><div class="dh2"><strong>Explore</strong><div class="dctl"><a class="dgo" href="#discover">Explore →</a></div></div><div class="d3">'+dpk.map((m,i)=>{
     let img,t,sub,u,cat;
     if(m.pick){img=pickImg(m.pick)||(imgs.venues[m.pick.id]||{}).file;t=m.pick.name;sub=m.pick.area||"Broadway";u=safe(m.pick.site||m.pick.url);cat="Broadway"}
     else{const o=m.show;img=o.img;t=o.title;sub=o.v.name+" · "+(o.start<=TODAY?"On now":o.label);u=safe(o.url);cat=CATNAME[o.v.cat]||""}
