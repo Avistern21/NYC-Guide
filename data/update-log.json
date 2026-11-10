@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-10T00:23:58.156Z",
+ "ran": "2026-11-10T00:31:56.503Z",
  "venueImages": {
   "ok": [
    "alvin-ailey-american-dance-theater",
@@ -84,5 +84,11 @@
  "showImages": {
   "ok": 0,
   "failed": 0
- }
+ },
+ "feedsFailed": [
+  {
+   "name": "The New Yorker, Goings On",
+   "reason": "HTTP 404"
+  }
+ ]
 }
