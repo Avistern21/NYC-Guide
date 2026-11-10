@@ -5,7 +5,8 @@
   "area": "Gershwin Theatre",
   "url": "https://www.wickedthemusical.com",
   "note": "Open run.",
-  "site": "https://www.wickedthemusical.com"
+  "site": "https://www.wickedthemusical.com",
+  "status": "playing"
  },
  {
   "cat": "broadway",
@@ -13,7 +14,8 @@
   "area": "Richard Rodgers Theatre",
   "url": "https://hamiltonmusical.com",
   "note": "Open run.",
-  "site": "https://hamiltonmusical.com"
+  "site": "https://hamiltonmusical.com",
+  "status": "playing"
  },
  {
   "cat": "broadway",
@@ -21,7 +23,8 @@
   "area": "Minskoff Theatre",
   "url": "https://www.thelionking.com",
   "note": "Open run.",
-  "site": "https://www.thelionking.com"
+  "site": "https://www.thelionking.com",
+  "status": "playing"
  },
  {
   "cat": "broadway",
@@ -29,7 +32,8 @@
   "area": "New Amsterdam Theatre",
   "url": "https://www.aladdinthemusical.com",
   "note": "Open run.",
-  "site": "https://www.aladdinthemusical.com"
+  "site": "https://www.aladdinthemusical.com",
+  "status": "playing"
  },
  {
   "cat": "broadway",
@@ -37,7 +41,8 @@
   "area": "Walter Kerr Theatre",
   "url": "https://hadestown.com",
   "note": "Open run.",
-  "site": "https://hadestown.com"
+  "site": "https://hadestown.com",
+  "status": "playing"
  },
  {
   "cat": "broadway",
@@ -45,7 +50,8 @@
   "area": "Eugene O'Neill Theatre",
   "url": "https://bookofmormonmusical.com",
   "note": "Open run.",
-  "site": "https://bookofmormonmusical.com"
+  "site": "https://bookofmormonmusical.com",
+  "status": "playing"
  },
  {
   "cat": "broadway",
@@ -53,7 +59,8 @@
   "area": "Ambassador Theatre",
   "url": "https://www.chicagothemusical.com",
   "note": "Open run.",
-  "site": "https://www.chicagothemusical.com"
+  "site": "https://www.chicagothemusical.com",
+  "status": "playing"
  },
  {
   "cat": "broadway",
@@ -61,7 +68,8 @@
   "area": "Lyric Theatre",
   "url": "https://www.harrypottertheplay.com",
   "note": "Open run.",
-  "site": "https://www.harrypottertheplay.com"
+  "site": "https://www.harrypottertheplay.com",
+  "status": "playing"
  },
  {
   "cat": "broadway",
@@ -69,7 +77,8 @@
   "area": "Neil Simon Theatre",
   "url": "https://www.mjthemusical.com",
   "note": "Open run.",
-  "site": "https://www.mjthemusical.com"
+  "site": "https://www.mjthemusical.com",
+  "status": "playing"
  },
  {
   "cat": "broadway",
@@ -77,105 +86,120 @@
   "area": "Belasco Theatre",
   "url": "https://www.maybehappyendingbroadway.com",
   "note": "Tickets on sale through April 2027.",
-  "site": "https://www.maybehappyendingbroadway.com"
+  "site": "https://www.maybehappyendingbroadway.com",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "Oh, Mary!",
   "area": "Lyceum Theatre",
   "url": "https://www.google.com/search?q=Oh%2C%20Mary%21%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "Operation Mincemeat",
   "area": "John Golden Theatre",
   "url": "https://www.google.com/search?q=Operation%20Mincemeat%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "The Outsiders",
   "area": "Bernard B. Jacobs Theatre",
   "url": "https://www.google.com/search?q=The%20Outsiders%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "Buena Vista Social Club",
   "area": "Gerald Schoenfeld Theatre",
   "url": "https://www.google.com/search?q=Buena%20Vista%20Social%20Club%20Broadway%20tickets",
-  "note": "Now playing. A closing has been reported, no date found."
+  "note": "Now playing. A closing has been reported, no date found.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "The Great Gatsby",
   "area": "Broadway Theatre",
   "url": "https://www.google.com/search?q=The%20Great%20Gatsby%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "The Lost Boys",
   "area": "Palace Theatre",
   "url": "https://www.google.com/search?q=The%20Lost%20Boys%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "Schmigadoon!",
   "area": "Nederlander Theatre",
   "url": "https://www.google.com/search?q=Schmigadoon%21%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "Just in Time",
   "area": "Circle in the Square Theatre",
   "url": "https://www.google.com/search?q=Just%20in%20Time%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "The Fantasticks",
   "area": "Hayes Theater",
   "url": "https://www.google.com/search?q=The%20Fantasticks%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "The Rocky Horror Show",
   "area": "Studio 54",
   "url": "https://www.google.com/search?q=The%20Rocky%20Horror%20Show%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "Paranormal Activity: A New Story Live on Broadway",
   "area": "August Wilson Theatre",
   "url": "https://www.google.com/search?q=Paranormal%20Activity%3A%20A%20New%20Story%20Live%20on%20Broadway%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "A Few Good Men",
   "area": "Vivian Beaumont Theater",
   "url": "https://www.google.com/search?q=A%20Few%20Good%20Men%20Broadway%20tickets",
-  "note": "Now playing. Lincoln Center Theater."
+  "note": "Now playing. Lincoln Center Theater.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "Other Desert Cities",
   "area": "Hudson Theatre",
   "url": "https://www.google.com/search?q=Other%20Desert%20Cities%20Broadway%20tickets",
-  "note": "Now playing."
+  "note": "Now playing.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
   "name": "Billy Crystal: 860",
   "area": "Imperial Theatre",
   "url": "https://www.google.com/search?q=Billy%20Crystal%3A%20860%20Broadway%20tickets",
-  "note": "Strictly limited. Extended through Feb 14, 2027."
+  "note": "Strictly limited. Extended through Feb 14, 2027.",
+  "status": "playing"
  },
  {
   "cat": "broadway",
@@ -183,104 +207,119 @@
   "area": "Lena Horne Theatre",
   "url": "https://www.sixonbroadway.com",
   "note": "Closing: final performance scheduled Jan 3, 2027.",
-  "site": "https://www.sixonbroadway.com"
+  "site": "https://www.sixonbroadway.com",
+  "status": "closing"
  },
  {
   "cat": "broadway",
   "name": "& Juliet",
   "area": "Stephen Sondheim Theatre",
   "url": "https://www.google.com/search?q=%26%20Juliet%20Broadway%20tickets",
-  "note": "Closing: final performance scheduled Jan 3, 2027."
+  "note": "Closing: final performance scheduled Jan 3, 2027.",
+  "status": "closing"
  },
  {
   "cat": "broadway",
   "name": "Stranger Things: The First Shadow",
   "area": "Marquis Theatre",
   "url": "https://www.google.com/search?q=Stranger%20Things%3A%20The%20First%20Shadow%20Broadway%20tickets",
-  "note": "Closing: final performance scheduled Jan 3, 2027."
+  "note": "Closing: final performance scheduled Jan 3, 2027.",
+  "status": "closing"
  },
  {
   "cat": "broadway",
   "name": "School Girls; Or, The African Mean Girls Play",
   "area": "Samuel J. Friedman Theatre",
   "url": "https://www.google.com/search?q=School%20Girls%3B%20Or%2C%20The%20African%20Mean%20Girls%20Play%20Broadway%20tickets",
-  "note": "Closing: final performance Nov 15, 2026."
+  "note": "Closing: final performance Nov 15, 2026.",
+  "status": "closing"
  },
  {
   "cat": "broadway",
   "name": "The Imaginary Invalid",
   "area": "Todd Haimes Theatre",
   "url": "https://www.google.com/search?q=The%20Imaginary%20Invalid%20Broadway%20tickets",
-  "note": "Closing: final performance Nov 22, 2026."
+  "note": "Closing: final performance Nov 22, 2026.",
+  "status": "closing"
  },
  {
   "cat": "broadway",
   "name": "Two Strangers (Carry a Cake Across New York)",
   "area": "Longacre Theatre",
   "url": "https://www.google.com/search?q=Two%20Strangers%20%28Carry%20a%20Cake%20Across%20New%20York%29%20Broadway%20tickets",
-  "note": "Closing: final performance Nov 29, 2026."
+  "note": "Closing: final performance Nov 29, 2026.",
+  "status": "closing"
  },
  {
   "cat": "broadway",
   "name": "Wanted",
   "area": "James Earl Jones Theatre",
   "url": "https://www.google.com/search?q=Wanted%20Broadway%20tickets",
-  "note": "New. Opening night reported as Nov 8."
+  "note": "New. Opening night reported as Nov 8.",
+  "status": "new"
  },
  {
   "cat": "broadway",
   "name": "Here There Are Blueberries",
   "area": "Ethel Barrymore Theatre",
   "url": "https://www.google.com/search?q=Here%20There%20Are%20Blueberries%20Broadway%20tickets",
-  "note": "New. Limited run, opening reported as Nov 9."
+  "note": "New. Limited run, opening reported as Nov 9.",
+  "status": "new"
  },
  {
   "cat": "broadway",
   "name": "It's a Wonderful Life: A Live Radio Play",
   "area": "Broadhurst Theatre",
   "url": "https://www.google.com/search?q=It%27s%20a%20Wonderful%20Life%3A%20A%20Live%20Radio%20Play%20Broadway%20tickets",
-  "note": "Holiday engagement. Opening reported as Nov 18."
+  "note": "Holiday engagement. Opening reported as Nov 18.",
+  "status": "new"
  },
  {
   "cat": "broadway",
   "name": "Much Ado About Nothing",
   "area": "Winter Garden Theatre",
   "url": "https://www.google.com/search?q=Much%20Ado%20About%20Nothing%20Broadway%20tickets",
-  "note": "New. Opening reported as Nov 19."
+  "note": "New. Opening reported as Nov 19.",
+  "status": "new"
  },
  {
   "cat": "broadway",
   "name": "Downstate",
   "area": "Booth Theatre",
   "url": "https://www.google.com/search?q=Downstate%20Broadway%20tickets",
-  "note": "Limited 12-week run. Opening reported as Nov 15."
+  "note": "Limited 12-week run. Opening reported as Nov 15.",
+  "status": "new"
  },
  {
   "cat": "broadway",
   "name": "Galileo",
   "area": "Shubert Theatre",
   "url": "https://www.google.com/search?q=Galileo%20Broadway%20tickets",
-  "note": "Coming: previews begin Nov 10."
+  "note": "Coming: previews begin Nov 10.",
+  "status": "upcoming"
  },
  {
   "cat": "broadway",
   "name": "Inter Alia",
   "area": "Music Box Theatre",
   "url": "https://www.google.com/search?q=Inter%20Alia%20Broadway%20tickets",
-  "note": "Coming: previews begin Nov 10."
+  "note": "Coming: previews begin Nov 10.",
+  "status": "upcoming"
  },
  {
   "cat": "broadway",
   "name": "Now You See Me Live",
   "area": "Al Hirschfeld Theatre",
   "url": "https://www.google.com/search?q=Now%20You%20See%20Me%20Live%20Broadway%20tickets",
-  "note": "Coming: previews begin Nov 11."
+  "note": "Coming: previews begin Nov 11.",
+  "status": "upcoming"
  },
  {
   "cat": "broadway",
   "name": "Blue Man Group: A New Holiday Surprise",
   "area": "Lunt-Fontanne Theatre",
   "url": "https://www.google.com/search?q=Blue%20Man%20Group%3A%20A%20New%20Holiday%20Surprise%20Broadway%20tickets",
-  "note": "Coming: previews begin Nov 12."
+  "note": "Coming: previews begin Nov 12.",
+  "status": "upcoming"
  }
 ]

@@ -1,9 +1,5 @@
 [
  {
-  "name": "The New Yorker",
-  "url": "https://www.newyorker.com/feed/culture"
- },
- {
   "name": "Goings On About Town",
   "url": "https://www.newyorker.com/feed/everything",
   "match": "/goings-on-about-town"

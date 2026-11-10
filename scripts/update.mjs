@@ -183,10 +183,10 @@ for (const f of feeds) {
   try {
     const r = await fetch(f.url, { headers: { 'user-agent': UA, accept: 'application/rss+xml,application/xml,text/xml,*/*' }, redirect: 'follow', signal: AbortSignal.timeout(25000) });
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    const items = parseFeed(await r.text(), f.name).slice(0, 12);
+    const items = parseFeed(await r.text(), f.name).filter(x => !f.match || x.url.includes(f.match)).slice(0, 12);
     if (!items.length) throw new Error('no articles found in feed');
-    artNew[f.name] = items; console.log('feed ok:', f.name, items.length);
-  } catch (e) { console.log('feed failed:', f.name, e.message); if (artOld[f.name]) artNew[f.name] = artOld[f.name]; log.feedsFailed = (log.feedsFailed || []).concat({ name: f.name, reason: e.message }); }
+    const have = artNew[f.name] || []; const seenU = new Set(have.map(x => x.url)); artNew[f.name] = have.concat(items.filter(x => !seenU.has(x.url))).sort((x, y) => ((y.date || '') < (x.date || '') ? -1 : 1)).slice(0, 12); console.log('feed ok:', f.name, items.length);
+  } catch (e) { console.log('feed failed:', f.name, e.message); if (artOld[f.name] && !artNew[f.name]) artNew[f.name] = artOld[f.name]; log.feedsFailed = (log.feedsFailed || []).concat({ name: f.name, reason: e.message }); }
   await sleep(500);
 }
 writeJson(path.join(DATA, 'articles.json'), artNew);
