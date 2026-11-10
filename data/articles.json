@@ -1,102 +1,4 @@
 {
- "The New Yorker": [
-  {
-   "source": "The New Yorker",
-   "title": "The Death Knell of Digital Search",
-   "url": "https://www.newyorker.com/culture/infinite-scroll/the-death-knell-of-digital-search",
-   "date": "2026-11-09",
-   "blurb": "Companies such as Google used to be our portals to the rest of the web. Can the internet as we know it survive when A.I. answers all of our questions?",
-   "image": "https://media.newyorker.com/photos/6aee3f799387b4aa46717acd/master/pass/NewYorker_SearchDead_final%20(1).jpg"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "How Takashi Yamazaki Brought Godzilla Back to Life",
-   "url": "https://www.newyorker.com/culture/persons-of-interest/how-takashi-yamazaki-brought-godzilla-back-to-life",
-   "date": "2026-11-08",
-   "blurb": "In 2024, the Japanese director’s revival of the famed saga won a surprise Oscar. He describes how he tried to make the latest installment, “Godzilla Minus Zero,” live up to its predecessor.",
-   "image": "https://media.newyorker.com/photos/6ae9f87668b006f84a7200d9/master/pass/02_1.jpg"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "How France Took Over Basketball",
-   "url": "https://www.newyorker.com/culture/the-lede/how-france-took-over-basketball",
-   "date": "2026-11-07",
-   "blurb": "The country spent decades building a development system to cultivate the tallest and most talented kids. Now the best player in the world is French, and its national team poses a serious threat to U.S. Olympic dominance.",
-   "image": "https://media.newyorker.com/photos/6aedfc7d008aa3a630f2a06d/master/pass/Samaha-France-Basketball.jpg"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "“Wicker” and What Straight Women Want",
-   "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
-   "date": "2026-11-07",
-   "blurb": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its…",
-   "image": "https://media.newyorker.com/photos/6aeb6ded0595de95bb163b2a/master/pass/Critic"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "Good Enough for a Tuesday Night",
-   "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
-   "date": "2026-11-07",
-   "blurb": "An affair with an economist exposed the calculus of modern dating.",
-   "image": "https://media.newyorker.com/photos/6aede75911476724e624a140/master/pass/Economist.jpg"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "The Best Books of 2026 So Far",
-   "url": "https://www.newyorker.com/best-books-2026",
-   "date": "2026-11-04",
-   "blurb": "Our editors and critics review notable new fiction, nonfiction, and poetry.",
-   "image": "https://media.newyorker.com/photos/6966acfff26bd769148e5b23/master/pass/bestbooks2026_headerdesktop_animation_03.gif"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "Briefly Noted Book Reviews",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
-   "date": "2026-11-09",
-   "blurb": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
-   "image": "https://media.newyorker.com/photos/6aeb534f9a85a56a1cf99276/master/pass/r50653.jpg"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "The Lasting Influence of John Berger",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
-   "date": "2026-11-09",
-   "blurb": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
-   "image": "https://media.newyorker.com/photos/6aeb62a3dc12190d5c6a684a/master/pass/r50078.jpg"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "Why Are We So Good at Feeling Bad?",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/the-opposite-of-happiness-george-loewenstein-book-review",
-   "date": "2026-11-09",
-   "blurb": "A behavioral economist sets out to explain why we’re so prone to overreacting and spiralling.",
-   "image": "https://media.newyorker.com/photos/6aeb534fbe17f16dd27a4387/master/pass/r50658.jpg"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "Chris Ware’s Fractal Pandemic Chronicle",
-   "url": "https://www.newyorker.com/books/page-turner/a-cartoonists-depiction-of-the-moment-things-got-weird",
-   "date": "2026-11-07",
-   "blurb": "The latest issue of Chris Ware’s Acme Novelty Library delivers a thoroughly modern reading experience in a keepsake box.",
-   "image": "https://media.newyorker.com/photos/6aee1cef229cd366835e030f/master/pass/ware_acme_site.jpg"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "“Club Kid” Is a Disarming Cocktail of Grit and Fantasy",
-   "url": "https://www.newyorker.com/culture/the-current-cinema/club-kid-is-a-disarming-cocktail-of-grit-and-fantasy",
-   "date": "2026-11-06",
-   "blurb": "In Jordan Firstman’s assured filmmaking début, he plays a gay New York party promoter who gets an improbable shot at fatherhood.",
-   "image": "https://media.newyorker.com/photos/6aeba52b0a5453b6081627e6/master/pass/Chang-Club-Kid.jpg"
-  },
-  {
-   "source": "The New Yorker",
-   "title": "“Paper Tiger” Views Family as Deadweight",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/paper-tiger-movie-review",
-   "date": "2026-11-06",
-   "blurb": "In James Gray’s new crime drama, starring Miles Teller, Scarlett Johansson, and Adam Driver, a Queens couple’s life is turned upside down by a scheme for easy money.",
-   "image": "https://media.newyorker.com/photos/6aeb62a47e2a6c54d6120c5d/master/pass/r50545_rd.jpg"
-  }
- ],
  "Goings On About Town": [
   {
    "source": "Goings On About Town",
@@ -198,6 +100,14 @@
  "The New York Times, Arts": [
   {
    "source": "The New York Times, Arts",
+   "title": "M. John Harrison’s ‘The End of Everything’ Wins Booker Prize",
+   "url": "https://www.nytimes.com/2026/11/09/books/booker-prize-winner-2026-science-fiction.html",
+   "date": "2026-11-10",
+   "blurb": "M. John Harrison’s dystopian tale “The End of Everything” beat out higher profile books by Marlon James, Elizabeth Strout and Douglas Stuart.",
+   "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09tbr-booker-prize-flcv/09tbr-booker-prize-flcv-mediumSquareAt3X.jpg"
+  },
+  {
+   "source": "The New York Times, Arts",
    "title": "Martin Luther King’s Lost Draft of ‘I Have a Dream’ Speech Surfaces",
    "url": "https://www.nytimes.com/2026/11/09/arts/martin-luther-king-i-have-a-dream-speech-draft.html",
    "date": "2026-11-09",
@@ -219,14 +129,6 @@
    "date": "2026-11-09",
    "blurb": "The former star, whom a British judge sentenced to 10 and a half years in prison on Monday, became an anti-establishment flag-bearer through conspiracy-minded commentary.",
    "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09cul-brand-supporters-hbgm/09cul-brand-supporters-hbgm-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "M. John Harrison’s ‘The End of Everything’ Wins Booker Prize",
-   "url": "https://www.nytimes.com/2026/11/09/books/booker-prize-winner-2026-science-fiction.html",
-   "date": "2026-11-10",
-   "blurb": "M. John Harrison’s dystopian tale “The End of Everything” beat out higher profile books by Marlon James, Elizabeth Strout and Douglas Stuart.",
-   "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09tbr-booker-prize-flcv/09tbr-booker-prize-flcv-mediumSquareAt3X.jpg"
   },
   {
    "source": "The New York Times, Arts",
@@ -336,19 +238,19 @@
   },
   {
    "source": "The Guardian, Stage",
-   "title": "‘A hero’s origins’: the true story of the first Black drag queen presidential candidate",
-   "url": "https://www.theguardian.com/stage/2026/nov/05/ms-blakk-for-president-play",
-   "date": "2026-11-05",
-   "blurb": "<p>In off-Broadway show Ms Blakk for President, Oscar-winning Moonlight writer Tarell Alvin McCraney explores a slice of underappreciated queer history</p><p>At the height of the Aids crisis, the Chicago activist…",
-   "image": "https://i.guim.co.uk/img/media/bdea8fa3434de58a2e77dd4929bb096caf39825e/457_1204_3494_2796/master/3494.jpg?width=140&quality=85&auto=format&fit=max&s=0939c452b1c0d3c7a57c30775d8635fe"
-  },
-  {
-   "source": "The Guardian, Stage",
    "title": "‘Completely original’ musical Midnight tries (and fails) to imagine a slavery-era romance",
    "url": "https://www.theguardian.com/stage/2026/nov/06/midnight-off-broadway-musical-todrick-hall",
    "date": "2026-11-06",
    "blurb": "<p>Todrick Hall’s off-Broadway show is about a doomed interracial love affair during US slavery in the 1860s</p><p>During the intermission of Midnight, an off-Broadway musical about a doomed interracial love affair…",
    "image": "https://i.guim.co.uk/img/media/eb1d127ecbe8fdb28fe52750db9c959ea3cd539f/663_0_6628_5302/master/6628.jpg?width=140&quality=85&auto=format&fit=max&s=3303c5a7005db38b18034c99d450f04e"
+  },
+  {
+   "source": "The Guardian, Stage",
+   "title": "‘A hero’s origins’: the true story of the first Black drag queen presidential candidate",
+   "url": "https://www.theguardian.com/stage/2026/nov/05/ms-blakk-for-president-play",
+   "date": "2026-11-05",
+   "blurb": "<p>In off-Broadway show Ms Blakk for President, Oscar-winning Moonlight writer Tarell Alvin McCraney explores a slice of underappreciated queer history</p><p>At the height of the Aids crisis, the Chicago activist…",
+   "image": "https://i.guim.co.uk/img/media/bdea8fa3434de58a2e77dd4929bb096caf39825e/457_1204_3494_2796/master/3494.jpg?width=140&quality=85&auto=format&fit=max&s=0939c452b1c0d3c7a57c30775d8635fe"
   },
   {
    "source": "The Guardian, Stage",

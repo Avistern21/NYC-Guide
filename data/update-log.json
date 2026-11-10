@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-10T01:59:41.813Z",
+ "ran": "2026-11-10T02:04:23.410Z",
  "venueImages": {
   "ok": [
    "alvin-ailey-american-dance-theater",
@@ -219,5 +219,15 @@
  "showImages": {
   "ok": 0,
   "failed": 0
- }
+ },
+ "feedsFailed": [
+  {
+   "name": "Goings On About Town",
+   "reason": "no articles found in feed"
+  },
+  {
+   "name": "Goings On About Town",
+   "reason": "no articles found in feed"
+  }
+ ]
 }
