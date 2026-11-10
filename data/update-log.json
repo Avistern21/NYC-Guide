@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-10T01:05:48.328Z",
+ "ran": "2026-11-10T01:31:53.686Z",
  "venueImages": {
   "ok": [
    "alvin-ailey-american-dance-theater",
@@ -13,7 +13,14 @@
    "the-studio-museum-in-harlem",
    "david-zwirner",
    "gagosian",
-   "levy-gorvy-dayan"
+   "levy-gorvy-dayan",
+   "p-wicked",
+   "p-hamilton",
+   "p-hadestown",
+   "p-chicago",
+   "p-harry-potter-and-the-cursed-child",
+   "p-mj-the-musical",
+   "p-six"
   ],
   "failed": [
    {
@@ -58,6 +65,134 @@
    },
    {
     "id": "gladstone-gallery",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-the-lion-king",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "p-aladdin",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "p-the-book-of-mormon",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "p-maybe-happy-ending",
+    "reason": "page unavailable"
+   },
+   {
+    "id": "p-oh-mary",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-operation-mincemeat",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-the-outsiders",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-buena-vista-social-club",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-the-great-gatsby",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-the-lost-boys",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-schmigadoon",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-just-in-time",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-the-fantasticks",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-the-rocky-horror-show",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-paranormal-activity-a-new-story-live-on-broadway",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-a-few-good-men",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-other-desert-cities",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-billy-crystal-860",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-juliet",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-stranger-things-the-first-shadow",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-school-girls-or-the-african-mean-girls-play",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-the-imaginary-invalid",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-two-strangers-carry-a-cake-across-new-york",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-wanted",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-here-there-are-blueberries",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-it-s-a-wonderful-life-a-live-radio-play",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-much-ado-about-nothing",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-downstate",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-galileo",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-inter-alia",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-now-you-see-me-live",
+    "reason": "no preview image found on page"
+   },
+   {
+    "id": "p-blue-man-group-a-new-holiday-surprise",
     "reason": "no preview image found on page"
    }
   ],

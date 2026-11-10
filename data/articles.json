@@ -26,19 +26,19 @@
   },
   {
    "source": "The New Yorker",
-   "title": "“Wicker” and What Straight Women Want",
-   "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
-   "date": "2026-11-07",
-   "blurb": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its…",
-   "image": "https://media.newyorker.com/photos/6aeb6ded0595de95bb163b2a/master/pass/Critic"
-  },
-  {
-   "source": "The New Yorker",
    "title": "Good Enough for a Tuesday Night",
    "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
    "date": "2026-11-07",
    "blurb": "An affair with an economist exposed the calculus of modern dating.",
    "image": "https://media.newyorker.com/photos/6aede75911476724e624a140/master/pass/Economist.jpg"
+  },
+  {
+   "source": "The New Yorker",
+   "title": "“Wicker” and What Straight Women Want",
+   "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+   "date": "2026-11-07",
+   "blurb": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its…",
+   "image": "https://media.newyorker.com/photos/6aeb6ded0595de95bb163b2a/master/pass/Critic"
   },
   {
    "source": "The New Yorker",
@@ -50,19 +50,19 @@
   },
   {
    "source": "The New Yorker",
-   "title": "The Lasting Influence of John Berger",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
-   "date": "2026-11-09",
-   "blurb": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
-   "image": "https://media.newyorker.com/photos/6aeb62a3dc12190d5c6a684a/master/pass/r50078.jpg"
-  },
-  {
-   "source": "The New Yorker",
    "title": "Briefly Noted Book Reviews",
    "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
    "date": "2026-11-09",
    "blurb": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
    "image": "https://media.newyorker.com/photos/6aeb534f9a85a56a1cf99276/master/pass/r50653.jpg"
+  },
+  {
+   "source": "The New Yorker",
+   "title": "The Lasting Influence of John Berger",
+   "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
+   "date": "2026-11-09",
+   "blurb": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
+   "image": "https://media.newyorker.com/photos/6aeb62a3dc12190d5c6a684a/master/pass/r50078.jpg"
   },
   {
    "source": "The New Yorker",
@@ -222,6 +222,14 @@
   },
   {
    "source": "The New York Times, Arts",
+   "title": "M. John Harrison’s ‘The End of Everything’ Wins Booker Prize",
+   "url": "https://www.nytimes.com/2026/11/09/books/booker-prize-winner-2026-science-fiction.html",
+   "date": "2026-11-10",
+   "blurb": "M. John Harrison’s dystopian tale “The End of Everything” beat out higher profile books by Marlon James, Elizabeth Strout and Douglas Stuart.",
+   "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09tbr-booker-prize-flcv/09tbr-booker-prize-flcv-mediumSquareAt3X.jpg"
+  },
+  {
+   "source": "The New York Times, Arts",
    "title": "The Geezer of Graffiti Art, Barry McGee, Goes ‘Another Round’ in Los Angeles",
    "url": "https://www.nytimes.com/2026/11/09/arts/design/the-geezer-of-graffiti-art-barry-mcgee-goes-another-round-in-los-angeles.html",
    "date": "2026-11-09",
@@ -283,14 +291,6 @@
    "date": "2026-11-08",
    "blurb": "When the Rock & Roll Hall of Fame inducts Collins as a solo artist this month, it will recognize a hitmaker whose popularity often overshadowed his intensity.",
    "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08cul-phil-collins-promo-cfmt/08cul-phil-collins-promo-cfmt-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "‘Wanted’ Review: A Messy Vigilante Story Squanders Its Musical Riches",
-   "url": "https://www.nytimes.com/2026/11/08/theater/wanted-review-passing-pfeiffer-ledisi-luke-james.html",
-   "date": "2026-11-09",
-   "blurb": "The musical, rooted in the writer Angelica Chéri’s family lore, follows Black twin sisters who pass for white and become vigilantes in 1890s Texas.",
-   "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08cul-wanted-cgbp/08cul-wanted-cgbp-mediumSquareAt3X.jpg"
   }
  ],
  "The Guardian, Stage": [

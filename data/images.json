@@ -59,6 +59,41 @@
    "file": "img/venues/levy-gorvy-dayan.jpg",
    "source": "https://cdn.sanity.io/images/8uzch5mp/database/85bf56679ec67cdf03ccd22be011e3c56f20c648-1571x1571.png?rect=0,374,1571,825&w=1200&h=630&fit=max&auto=format",
    "fetched": "2026-11-10"
+  },
+  "p-wicked": {
+   "file": "img/venues/p-wicked.jpg",
+   "source": "https://d1rx0dtgjk9kr3.cloudfront.net/wp-content/uploads/2026/05/Wicked_OG_Image.jpg",
+   "fetched": "2026-11-10"
+  },
+  "p-hamilton": {
+   "file": "img/venues/p-hamilton.jpg",
+   "source": "https://hamiltonmusical.com/new-york/wp-content/uploads/sites/2/2023/07/FB_shareCard_1200x628_v01.jpg",
+   "fetched": "2026-11-10"
+  },
+  "p-hadestown": {
+   "file": "img/venues/p-hadestown.jpg",
+   "source": "https://hadestown.com/_img/HT-facebook.jpg",
+   "fetched": "2026-11-10"
+  },
+  "p-chicago": {
+   "file": "img/venues/p-chicago.jpg",
+   "source": "https://chicagothemusical.com/wp-content/uploads/2026/06/CH_172_PA_LOGO_REQUESTS_2026_Jazz_1200x628_v02.jpg",
+   "fetched": "2026-11-10"
+  },
+  "p-harry-potter-and-the-cursed-child": {
+   "file": "img/venues/p-harry-potter-and-the-cursed-child.jpg",
+   "source": "https://www.harrypottertheplay.com/library/images/og.png",
+   "fetched": "2026-11-10"
+  },
+  "p-mj-the-musical": {
+   "file": "img/venues/p-mj-the-musical.jpg",
+   "source": "https://mjthemusical.com/wp-content/uploads/2020/01/MJ_Musical_OG.png",
+   "fetched": "2026-11-10"
+  },
+  "p-six": {
+   "file": "img/venues/p-six.jpg",
+   "source": "https://sixonbroadway.com/wp-content/uploads/2026/08/sixogimage2026.jpg",
+   "fetched": "2026-11-10"
   }
  },
  "shows": {}
