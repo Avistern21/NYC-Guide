@@ -120,15 +120,34 @@ for (const v of venues) {
   try { page = await getText(v.eventsUrl || v.url); } catch (e) { console.log('  page failed:', e.message); }
 
   if (!manual) {
-    try {
+    const fromSite = async () => {
       if (!page) throw new Error('page unavailable');
       const og = v.imageUrl || metaContent(page.html, ['og:image', 'og:image:url', 'twitter:image', 'twitter:image:src']);
       if (!og) throw new Error('no preview image found on page');
-      const imgUrl = new URL(og, page.finalUrl).href;
-      const dest = await saveImage(imgUrl, path.join(IMG, 'venues', v.id));
-      images.venues[v.id] = { file: relImg(dest), source: imgUrl, fetched: today };
-      log.venueImages.ok.push(v.id); console.log('  image ok');
-    } catch (e) { log.venueImages.failed.push({ id: v.id, reason: e.message }); console.log('  image failed:', e.message); }
+      return new URL(og, page.finalUrl).href;
+    };
+    // Backup source: the lead photo of the venue's Wikipedia article (set "wiki" in venues.json; "preferWiki": true tries it first).
+    const fromWiki = async () => {
+      if (!v.wiki) throw new Error('no wiki title set');
+      const r = await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(v.wiki), { headers: { 'user-agent': UA, accept: 'application/json' }, signal: AbortSignal.timeout(20000) });
+      if (!r.ok) throw new Error('wikipedia HTTP ' + r.status);
+      const j = await r.json();
+      const u = (j.originalimage && j.originalimage.source) || (j.thumbnail && j.thumbnail.source);
+      if (!u) throw new Error('wikipedia page has no image');
+      return u;
+    };
+    const order = v.preferWiki ? [fromWiki, fromSite] : [fromSite, fromWiki];
+    let lastErr = null, done = false;
+    for (const getUrl of order) {
+      try {
+        const imgUrl = await getUrl();
+        const dest = await saveImage(imgUrl, path.join(IMG, 'venues', v.id));
+        images.venues[v.id] = { file: relImg(dest), source: imgUrl, fetched: today };
+        log.venueImages.ok.push(v.id); console.log('  image ok'); done = true; break;
+      } catch (e) { lastErr = e; }
+      await sleep(300);
+    }
+    if (!done) { log.venueImages.failed.push({ id: v.id, reason: lastErr ? lastErr.message : 'unknown' }); console.log('  image failed:', lastErr && lastErr.message); }
   }
 
   if (page && !v.picksOnly) {

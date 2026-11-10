@@ -5,7 +5,8 @@
   "name": "The Joyce Theater",
   "area": "Chelsea",
   "url": "https://www.joyce.org",
-  "note": "Dance all year, in an intimate house."
+  "note": "Dance all year, in an intimate house.",
+  "wiki": "Joyce_Theater"
  },
  {
   "id": "alvin-ailey-american-dance-theater",
@@ -29,7 +30,8 @@
   "name": "Dance Theatre of Harlem",
   "area": "Harlem",
   "url": "https://dancetheatreofharlem.org",
-  "note": ""
+  "note": "",
+  "wiki": "Dance_Theatre_of_Harlem"
  },
  {
   "id": "bam",
@@ -38,7 +40,9 @@
   "area": "Brooklyn",
   "url": "https://www.bam.org",
   "note": "Theater, dance, music, and film in Fort Greene.",
-  "logo": true
+  "logo": true,
+  "wiki": "Brooklyn_Academy_of_Music",
+  "preferWiki": true
  },
  {
   "id": "carnegie-hall",
@@ -46,7 +50,8 @@
   "name": "Carnegie Hall",
   "area": "Midtown",
   "url": "https://www.carnegiehall.org",
-  "note": ""
+  "note": "",
+  "wiki": "Carnegie_Hall"
  },
  {
   "id": "new-york-philharmonic",
@@ -62,7 +67,8 @@
   "name": "The Metropolitan Museum of Art",
   "area": "Upper East Side",
   "url": "https://www.metmuseum.org",
-  "note": ""
+  "note": "",
+  "wiki": "Metropolitan_Museum_of_Art"
  },
  {
   "id": "whitney-museum-of-american-art",
@@ -78,7 +84,8 @@
   "name": "MoMA",
   "area": "Midtown",
   "url": "https://www.moma.org",
-  "note": ""
+  "note": "",
+  "wiki": "Museum_of_Modern_Art"
  },
  {
   "id": "guggenheim",
@@ -94,7 +101,8 @@
   "name": "The Frick Collection",
   "area": "Upper East Side",
   "url": "https://www.frick.org",
-  "note": ""
+  "note": "",
+  "wiki": "Frick_Collection"
  },
  {
   "id": "brooklyn-museum",
@@ -102,7 +110,8 @@
   "name": "Brooklyn Museum",
   "area": "Brooklyn",
   "url": "https://www.brooklynmuseum.org",
-  "note": ""
+  "note": "",
+  "wiki": "Brooklyn_Museum"
  },
  {
   "id": "neue-galerie",
@@ -126,7 +135,8 @@
   "name": "New Museum",
   "area": "Lower East Side",
   "url": "https://www.newmuseum.org",
-  "note": ""
+  "note": "",
+  "wiki": "New_Museum"
  },
  {
   "id": "the-studio-museum-in-harlem",
@@ -135,7 +145,9 @@
   "area": "Harlem",
   "url": "https://www.studiomuseum.org",
   "note": "",
-  "logo": true
+  "logo": true,
+  "wiki": "Studio_Museum_in_Harlem",
+  "preferWiki": true
  },
  {
   "id": "international-center-of-photography",
@@ -143,7 +155,8 @@
   "name": "International Center of Photography",
   "area": "Lower East Side",
   "url": "https://www.icp.org",
-  "note": ""
+  "note": "",
+  "wiki": "International_Center_of_Photography"
  },
  {
   "id": "david-zwirner",
@@ -160,7 +173,9 @@
   "area": "",
   "url": "https://gagosian.com",
   "note": "",
-  "logo": true
+  "logo": true,
+  "wiki": "Gagosian_Gallery",
+  "preferWiki": true
  },
  {
   "id": "hauser-wirth",
@@ -168,7 +183,8 @@
   "name": "Hauser & Wirth",
   "area": "",
   "url": "https://www.hauserwirth.com",
-  "note": ""
+  "note": "",
+  "wiki": "Hauser_&_Wirth"
  },
  {
   "id": "gladstone-gallery",
@@ -176,7 +192,8 @@
   "name": "Gladstone Gallery",
   "area": "",
   "url": "https://gladstonegallery.com",
-  "note": ""
+  "note": "",
+  "wiki": "Gladstone_Gallery"
  },
  {
   "id": "levy-gorvy-dayan",

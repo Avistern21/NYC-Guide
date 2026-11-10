@@ -279,7 +279,7 @@ window.addEventListener("hashchange",render);
   imgs.venues=imgs.venues||{};imgs.shows=imgs.shows||{};
   build();
   document.getElementById("eyebrow").textContent=new Date().toLocaleString("en-US",{month:"long",year:"numeric"})+" • New York";
-  document.getElementById("foot").textContent=log&&log.ran?"Updated automatically each night. Last update "+new Date(log.ran).toLocaleDateString("en-US",{month:"long",day:"numeric"})+". Check each venue before you buy tickets.":"Check each venue before you buy tickets.";
+  document.getElementById("foot").textContent=log&&log.ran?"Updated automatically each night. Last update "+new Date(log.ran).toLocaleDateString("en-US",{month:"long",day:"numeric"})+". Check each venue before you buy tickets. Some venue photos are from Wikipedia and Wikimedia Commons.":"Check each venue before you buy tickets.";
   render();
 })();
 </script></body></html>
