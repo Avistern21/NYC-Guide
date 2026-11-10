@@ -117,7 +117,7 @@ footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px
 <footer id="foot"></footer>
 <script>
 "use strict";
-const CATS=[["reads","About Town","Listings, articles, and reviews from the publications we trust."],["now","What’s On","Current and upcoming shows at our venues"],["calendar","Calendar","Our own plans"],["broadway","Broadway","Shows we love and shows we want to see."],["dance","Dance","Companies and stages we follow."],["music","Music","Halls and orchestras."],["museums","Museums","Where we spend our weekends."],["galleries","Galleries","Shows worth a Chelsea afternoon."],["restaurants","Restaurants","Favorites and the ones on our list."],["discover","Discover","Recommendations beyond our own picks."]];
+const CATS=[["now","What’s On","Current and upcoming shows at our venues"],["reads","About Town","Listings, articles, and reviews from the publications we trust."],["calendar","Calendar","Our own plans"],["broadway","Broadway","Shows we love and shows we want to see."],["dance","Dance","Companies and stages we follow."],["music","Music","Halls and orchestras."],["museums","Museums","Where we spend our weekends."],["galleries","Galleries","Shows worth a Chelsea afternoon."],["restaurants","Restaurants","Favorites and the ones on our list."],["discover","Discover","Recommendations beyond our own picks."]];
 const LAB={dance:"Dance",music:"Concert",museums:"Exhibition",galleries:"Gallery"};
 const EMPTY={broadway:"Add the first show you love, or one you’re hoping to see.",restaurants:"Add your restaurants here, with a booking link for each.",reads:"Add a publication, article, or review you trust.",discover:"Add a show or event worth recommending."};
 const slug=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60);
@@ -178,8 +178,9 @@ function whatson(){
   const bar='<div class="fbar" role="group" aria-label="Filter">'+FT.map(t=>'<button type="button" data-wf="'+t[0]+'" aria-pressed="'+(wf===t[0])+'">'+t[1]+'</button>').join("")+'</div>';
   const LL=wf==="all"?L:L.filter(o=>o.v.cat===wf);
   const wk=new Date(Date.parse(TODAY)+7*864e5).toISOString().slice(0,10);
+  const box=o=>{const u=safe(o.url);return '<article class="card">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<span class="tag">'+(CATNAME[o.v.cat]||"")+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p>'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info</a>':'')+'<div style="margin-top:6px">'+addBtn(o)+'</div></article>'};
   const row=o=>{const d=new Date(o.start+"T12:00:00");return '<div class="ev"><div class="dnum">'+(o.start<=TODAY?'Now':d.getDate()+'<small>'+MON[d.getMonth()]+'</small>')+'</div><div><strong><a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></strong><br><span class="lead">'+esc(o.v.name)+' · '+esc(o.label)+'</span></div>'+addBtn(o)+'</div>'};
-  const sec=(t,a)=>a.length?'<div class="mo">'+t+'</div>'+a.map(row).join(""):"";
+  const sec=(t,a)=>a.length?'<div class="mo">'+t+'</div><div class="grid">'+a.map(box).join("")+'</div>':"";
   return '<h2>What’s On</h2><p class="lead">Shows at our venues, soonest first.</p>'+bar+(LL.length?sec("On now",LL.filter(o=>o.start<=TODAY))+sec("Next 7 days",LL.filter(o=>o.start>TODAY&&o.start<=wk))+sec("Coming up",LL.filter(o=>o.start>wk)):'<div class="empty">Nothing listed in this category right now.</div>')}
 
 function monthView(ev){
@@ -240,7 +241,7 @@ function listView(k,t,sub){
 
 function render(){
   drawBanner();
-  let k=(location.hash||"#reads").slice(1);if(!CATS.some(c=>c[0]===k))k="reads";
+  let k=(location.hash||"#now").slice(1);if(!CATS.some(c=>c[0]===k))k="now";
   document.getElementById("nav").innerHTML=CATS.map(c=>'<a href="#'+c[0]+'"'+(c[0]===k?' aria-current="true"':"")+'>'+c[1]+'</a>').join("");
   const v=document.getElementById("view"),c=CATS.find(x=>x[0]===k);v.dataset.k=k;
   v.innerHTML=k==="now"?whatson():k==="calendar"?calendar():listView(k,c[1],c[2]);
