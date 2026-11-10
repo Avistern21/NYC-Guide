@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-10T05:20:40.311Z",
+ "ran": "2026-11-10T05:39:01.947Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -13,12 +13,10 @@
    "whitney-museum-of-american-art",
    "moma",
    "guggenheim",
-   "the-frick-collection",
    "neue-galerie",
    "noguchi-museum",
    "new-museum",
    "the-studio-museum-in-harlem",
-   "international-center-of-photography",
    "david-zwirner",
    "gagosian",
    "hauser-wirth",
@@ -33,7 +31,15 @@
   ],
   "failed": [
    {
+    "id": "the-frick-collection",
+    "reason": "image HTTP 429"
+   },
+   {
     "id": "brooklyn-museum",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "international-center-of-photography",
     "reason": "image HTTP 429"
    },
    {
