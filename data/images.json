@@ -42,7 +42,7 @@
   },
   "the-studio-museum-in-harlem": {
    "file": "img/venues/the-studio-museum-in-harlem.jpg",
-   "source": "https://upload.wikimedia.org/wikipedia/commons/2/21/StudioMuseumHarlem.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "source": "https://studiomuseum.imgix.net/images/Studio-Museum-in-Harlem-1200-600.jpg",
    "fetched": "2026-11-10"
   },
   "david-zwirner": {
@@ -138,6 +138,11 @@
   "hauser-wirth": {
    "file": "img/venues/hauser-wirth.jpg",
    "source": "https://upload.wikimedia.org/wikipedia/commons/2/21/HWSO_grounds.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "fetched": "2026-11-10"
+  },
+  "brooklyn-museum": {
+   "file": "img/venues/brooklyn-museum.jpg",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Brooklyn_Museum_-_Entrance_%2852302265063%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "fetched": "2026-11-10"
   }
  },
