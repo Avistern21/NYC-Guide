@@ -266,6 +266,21 @@ main[data-k=calendar],main[data-k=reads],main[data-k=discover],main[data-k=now],
 .pbody .rsv{margin:0 0 6px}.pbody .rsv label{color:#0d0d10;font:800 .8rem Montserrat,sans-serif;letter-spacing:.08em;text-transform:uppercase;display:flex;flex-direction:column;gap:6px}
 .pbody .rsv input,.pbody .rsv select{background:#fff;color:#0d0d10;border:3px solid #0d0d10;padding:10px 12px;font:700 .95rem Montserrat,sans-serif}
 .pbody .empty{margin-bottom:26px}
+
+#disc{background:#0d0d10;border:0}
+.hbn{position:relative}
+.hs{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;background:#0d0d10}
+.hs::-webkit-scrollbar{display:none}
+.hsl{position:relative;flex:0 0 78vw;height:min(46vw,520px);scroll-snap-align:start;overflow:hidden;color:#fff;text-decoration:none;background:#222}
+.hsl img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.hsl:hover img{transform:scale(1.03)}
+.hsl:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.78));z-index:1}
+.hc{position:absolute;left:0;bottom:0;z-index:2;padding:26px 32px;display:grid;gap:6px;max-width:80%}
+.hc h3{font:900 clamp(1.4rem,2.6vw,2.4rem)/1.05 Montserrat,sans-serif;letter-spacing:-.02em;margin:0;color:#fff}
+.hc em{font-style:normal;font-weight:700;font-size:1rem;color:#e8e8ef}
+.hgo{position:absolute;top:18px;right:22px;z-index:5;background:var(--yel);color:#0d0d10;font:800 .9rem/1 Montserrat,sans-serif;padding:14px 20px;text-decoration:none}
+.hgo:hover{background:#fff}
+@media(max-width:820px){.hsl{flex-basis:88vw;height:62vw}.hc{padding:16px 18px}.hgo{top:12px;right:12px;padding:11px 14px}}
 @media(max-width:820px){.dsc{padding:18px}.dsc{padding:18px 0}.dh2,.d3{padding:0 18px;scroll-padding-left:18px}.d3{gap:16px}.dt{flex:0 0 72%}.in2{padding:0 18px}.phead{padding:36px 0 24px}.pbody .stabs button{padding:16px 16px;font-size:.95rem}}
 
 .hero{display:grid;grid-template-columns:1fr 1.12fr;min-height:540px}
@@ -475,23 +490,23 @@ function drawDisc(force){
   const h=location.hash||"#home";
   if(force||!dpk||h!==dlast){const pool=buildMix().filter(m=>m.pick?(pickImg(m.pick)||(imgs.venues[m.pick.id]||{}).file):(m.show.img&&(m.show.own||!m.show.v.logo)));
     const seenC={},out=[];pool.forEach(m=>{const c=m.pick?"broadway":m.show.v.cat;if(out.length<8&&!seenC[c]){seenC[c]=1;out.push(m)}});pool.forEach(m=>{if(out.length<8&&!out.includes(m))out.push(m)});dpk=out;dlast=h}
-  if(!dpk.length||h==="#home"||h===""||h==="#"){el.innerHTML="";return}
+  if(!dpk.length){el.innerHTML="";return}
   const col=["var(--yel)","var(--coral)","#fff"];
-  el.innerHTML='<div class="dsc"><div class="dh2"><strong>Explore</strong><div class="dctl"><a class="dgo" href="#discover">Explore →</a></div></div><div class="d3">'+dpk.map((m,i)=>{
+  el.innerHTML='<div class="hbn"><a class="hgo" href="#discover">Explore →</a><div class="hs">'+dpk.map((m,i)=>{
     let img,t,sub,u,cat;
     if(m.pick){img=pickImg(m.pick)||(imgs.venues[m.pick.id]||{}).file;t=m.pick.name;sub=m.pick.area||"Broadway";u=safe(m.pick.site||m.pick.url);cat="Broadway"}
     else{const o=m.show;img=o.img;t=o.title;sub=o.v.name+" · "+(o.start<=TODAY?"On now":o.label);u=safe(o.url);cat=CATNAME[o.v.cat]||""}
-    return '<a class="dt" href="'+esc(u||"#now")+'" target="_blank" rel="noopener"><img src="'+esc(img)+'" alt=""><div class="dtt"><span class="dk" style="background:'+col[i%3]+'">'+esc(cat)+'</span><h3>'+esc(t)+'</h3><em>'+esc(sub)+'</em></div></a>'}).join("")+'</div></div>'}
+    return '<a class="hsl" href="'+esc(u||"#now")+'" target="_blank" rel="noopener"><img src="'+esc(img)+'" alt=""><div class="hc"><span class="dk" style="background:'+col[i%3]+'">'+esc(cat)+'</span><h3>'+esc(t)+'</h3><em>'+esc(sub)+'</em></div></a>'}).join("")+'</div></div>'}
 document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-dsc]");if(b){const r=document.querySelector(".d3");if(r)r.scrollBy({left:+b.dataset.dsc*r.clientWidth*.7,behavior:"smooth"})}});
 function render(){
   let k=(location.hash||"#home").slice(1);if(k!=="home"&&!CATS.some(c=>c[0]===k))k="home";
   const link=(id,label,cls)=>{const c=CATS.find(x=>x[0]===id);return '<a href="#'+id+'"'+(cls?' class="'+cls+'"':"")+(k===id?' aria-current="true"':"")+'>'+(label||c[1])+'</a>'};
   document.getElementById("nav").innerHTML=link("now")+link("calendar")+link("reads");
   const cb=["broadway","dance","music","museums","galleries","restaurants"].map(id=>link(id)).join("");
-  const cbEl=document.getElementById("catbar");cbEl.innerHTML=cb;cbEl.style.display=k==="home"?"none":"";
+  const cbEl=document.getElementById("catbar");cbEl.innerHTML=cb;
   drawDisc();
   const v=document.getElementById("view"),c=CATS.find(x=>x[0]===k)||[];v.dataset.k=k;
-  let hv=k==="home"?homeView().replace('<section class="week"','<div id="catbar2" aria-label="Categories">'+cb+'</div><section class="week"'):k==="now"?whatson():k==="calendar"?calendar():listView(k,c[1],c[2]);
+  let hv=k==="home"?homeView().replace(/<section class="hero">[\s\S]*?<\/section>/,""):k==="now"?whatson():k==="calendar"?calendar():listView(k,c[1],c[2]);
   if(["calendar","reads","discover"].includes(k)){const m=hv.match(/^<h2>(.*?)<\/h2><p class="lead">(.*?)<\/p>([\s\S]*)$/);if(m)hv='<section class="phead"><div class="in2"><h2>'+m[1]+'</h2><p class="lead">'+m[2]+'</p></div></section><section class="pbody"><div class="in2">'+m[3]+'</div></section>'}
   v.innerHTML=hv;
 }
