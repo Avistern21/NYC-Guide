@@ -500,10 +500,10 @@ function drawDisc(force){
     const seenC={},out=[];pool.forEach(m=>{const c=m.pick?"broadway":m.show.v.cat;if(out.length<8&&!seenC[c]){seenC[c]=1;out.push(m)}});pool.forEach(m=>{if(out.length<8&&!out.includes(m))out.push(m)});dpk=out;dlast=h}
   if(!dpk.length){el.innerHTML="";return}
   const col=["var(--yel)","var(--coral)","#fff"];
-  el.innerHTML='<div class="hbn"><a class="hgo" href="#now">Explore →</a><div class="hs">'+dpk.map((m,i)=>{
+  el.innerHTML='<div class="hbn"><div class="hs">'+dpk.map((m,i)=>{
     let img,t,sub,u,cat;
     if(m.pick){img=pickImg(m.pick)||(imgs.venues[m.pick.id]||{}).file;t=m.pick.name;sub=m.pick.area||"Broadway";u=safe(m.pick.site||m.pick.url);cat="Broadway"}
-    else{const o=m.show;img=o.img;t=o.title;sub=o.v.name+" · "+(o.start<=TODAY?"On now":o.label);u=safe(o.url);cat=CATNAME[o.v.cat]||""}
+    else{const o=m.show;img=o.img;t=o.title;sub=o.start<=TODAY?o.v.name:o.v.name+" · "+o.label;u=safe(o.url);cat=CATNAME[o.v.cat]||""}
     const when=m.pick?(m.pick.status==="upcoming"?"Coming soon":"Now playing"):(m.show.start<=TODAY?"On now":m.show.label);
     return '<div class="hsl"><img src="'+esc(img)+'" alt=""><a class="hbtn" href="'+esc(u||"#now")+'" target="_blank" rel="noopener"><small>'+esc(cat)+' · '+esc(when)+'</small><b>'+esc(t)+' →</b>'+(sub?'<i>'+esc(sub)+'</i>':'')+'</a></div>'
 }).join("")+'</div></div>'}
