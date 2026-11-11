@@ -408,7 +408,7 @@ function whatson(){
   const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["week","Next 7 days",LL.filter(o=>o.start>TODAY&&o.start<=wk)],["soon","Coming soon",LL.filter(o=>o.start>wk)]];
   const tabs='<div class="stabs" role="tablist" aria-label="When">'+G.map(g=>'<button type="button" role="tab" data-wt="'+g[0]+'" aria-pressed="'+(wt===g[0])+'">'+g[1]+'<small>'+g[2].length+'</small></button>').join("")+'</div>';
   const cur=G.find(g=>g[0]===wt)||G[0];
-  return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Shows at our venues, soonest first.</p>'+bar+'</div></section><section class="pbody"><div class="in2">'+tabs+(cur[2].length?'<div class="grid">'+cur[2].map(box).join("")+'</div>':'<div class="empty">Nothing here right now. Try another tab or category.</div>')+'</div></section>'}
+  return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Recommendations beyond our own picks: a fresh mix from our dance, music, museum, gallery and Broadway lists.</p>'+bar+'</div></section><section class="pbody"><div class="in2">'+tabs+(cur[2].length?'<div class="grid">'+cur[2].map(box).join("")+'</div>':'<div class="empty">Nothing here right now. Try another tab or category.</div>')+'</div></section>'}
 
 function monthView(ev){
   const [y,m]=cm.split("-").map(Number),first=new Date(y,m-1,1),start=first.getDay(),dim=new Date(y,m,0).getDate();
@@ -498,7 +498,7 @@ function drawDisc(force){
     const seenC={},out=[];pool.forEach(m=>{const c=m.pick?"broadway":m.show.v.cat;if(out.length<8&&!seenC[c]){seenC[c]=1;out.push(m)}});pool.forEach(m=>{if(out.length<8&&!out.includes(m))out.push(m)});dpk=out;dlast=h}
   if(!dpk.length){el.innerHTML="";return}
   const col=["var(--yel)","var(--coral)","#fff"];
-  el.innerHTML='<div class="hbn"><a class="hgo" href="#discover">Explore →</a><div class="hs">'+dpk.map((m,i)=>{
+  el.innerHTML='<div class="hbn"><a class="hgo" href="#now">Explore →</a><div class="hs">'+dpk.map((m,i)=>{
     let img,t,sub,u,cat;
     if(m.pick){img=pickImg(m.pick)||(imgs.venues[m.pick.id]||{}).file;t=m.pick.name;sub=m.pick.area||"Broadway";u=safe(m.pick.site||m.pick.url);cat="Broadway"}
     else{const o=m.show;img=o.img;t=o.title;sub=o.v.name+" · "+(o.start<=TODAY?"On now":o.label);u=safe(o.url);cat=CATNAME[o.v.cat]||""}
@@ -507,7 +507,7 @@ function drawDisc(force){
 }).join("")+'</div></div>'}
 document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-dsc]");if(b){const r=document.querySelector(".d3");if(r)r.scrollBy({left:+b.dataset.dsc*r.clientWidth*.7,behavior:"smooth"})}});
 function render(){
-  let k=(location.hash||"#home").slice(1);if(k!=="home"&&!CATS.some(c=>c[0]===k))k="home";
+  let k=(location.hash||"#home").slice(1);if(k==="discover")k="now";if(k!=="home"&&!CATS.some(c=>c[0]===k))k="home";
   const link=(id,label,cls)=>{const c=CATS.find(x=>x[0]===id);return '<a href="#'+id+'"'+(cls?' class="'+cls+'"':"")+(k===id?' aria-current="true"':"")+'>'+(label||c[1])+'</a>'};
   document.getElementById("nav").innerHTML=link("now")+link("calendar")+link("reads");
   const cb=["broadway","dance","music","museums","galleries","restaurants"].map(id=>link(id)).join("");
