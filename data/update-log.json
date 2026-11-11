@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-11T15:25:15.559Z",
+ "ran": "2026-11-11T15:36:06.983Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -22,6 +22,7 @@
    "international-center-of-photography",
    "david-zwirner",
    "gagosian",
+   "hauser-wirth",
    "gladstone-gallery",
    "levy-gorvy-dayan",
    "p-wicked",
@@ -33,10 +34,6 @@
    "p-six"
   ],
   "failed": [
-   {
-    "id": "hauser-wirth",
-    "reason": "image HTTP 429"
-   },
    {
     "id": "p-the-lion-king",
     "reason": "no wiki title set"
