@@ -100,109 +100,117 @@
  "The New York Times, Arts": [
   {
    "source": "The New York Times, Arts",
-   "title": "M. John Harrison’s ‘The End of Everything’ Wins Booker Prize",
-   "url": "https://www.nytimes.com/2026/11/09/books/booker-prize-winner-2026-science-fiction.html",
+   "title": "A Ballet Star on Doing Theater: Same Work, Different Instrument",
+   "url": "https://www.nytimes.com/2026/11/10/arts/dance/natalia-osipova-the-standard-of-living-lydia-lopokova.html",
+   "date": "2026-11-11",
+   "blurb": "Natalia Osipova is playing another ballerina, Lydia Lopokova, in “The Standard of Living” about John Maynard Keynes in London.",
+   "image": ""
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "Dudamel on Tour: 17 Days, 4 Countries and a Cast of 147",
+   "url": "https://www.nytimes.com/2026/11/10/arts/music/dudamel-on-tour-17-days-4-countries-and-a-cast-of-147.html",
    "date": "2026-11-10",
-   "blurb": "M. John Harrison’s dystopian tale “The End of Everything” beat out higher profile books by Marlon James, Elizabeth Strout and Douglas Stuart.",
-   "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09tbr-booker-prize-flcv/09tbr-booker-prize-flcv-mediumSquareAt3X.jpg"
+   "blurb": "Performances in six European cities were the capstone of an extravagant welcome to Gustavo Dudamel from the New York Philharmonic.",
+   "image": "https://static01.nyt.com/images/2026/11/15/multimedia/15cul-dudamel-nyphil-tour-fader-hp-03-bpvj/15cul-dudamel-nyphil-tour-fader-hp-03-bpvj-mediumSquareAt3X-v2.jpg"
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "You May All Go to Hell, and Tommy Lee Jones Will Go to Texas",
+   "url": "https://www.nytimes.com/2026/11/10/arts/television/tommy-lee-jones-the-lowdown-texas.html",
+   "date": "2026-11-10",
+   "blurb": "The private actor enjoys life with his horses in the Texas Hill Country, removed from the show-business fray. But he’s back on TV for the first time in decades, in “The Lowdown.”",
+   "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22cul-tommylee-jones-promo/22cul-tommylee-jones-promo-mediumSquareAt3X.jpg"
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "Many of Trump’s Plans to Remake D.C. Would Push Locals Aside",
+   "url": "https://www.nytimes.com/2026/11/10/arts/design/trump-washington-arch-oval-office.html",
+   "date": "2026-11-10",
+   "blurb": "If these projects come to fruition, Washingtonians will lose access to sports fields, fishing spots and other tent poles of everyday city life.",
+   "image": "https://static01.nyt.com/images/2026/11/10/multimedia/10kimmelman-washington-promo/10kimmelman-washington-promo-mediumSquareAt3X.jpg"
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "The Rise of the Gen Z Cinephile",
+   "url": "https://www.nytimes.com/2026/11/10/movies/movie-theaters-gen-z.html",
+   "date": "2026-11-10",
+   "blurb": "Teens and 20-somethings are flocking to blockbusters, indies and classics alike, buoying U.S. theaters. Covid isolation and social media have a lot to do with it.",
+   "image": ""
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "The Bad Plus Ends Like It Began: ‘Throwing Down’ Every Night",
+   "url": "https://www.nytimes.com/2026/11/10/arts/music/a-jazz-experiment-ends-like-it-began-throwing-down-every-night.html",
+   "date": "2026-11-10",
+   "blurb": "For more than two decades, the Bad Plus has explored how a jazz group with no leader could sound and what rooms it could play.",
+   "image": "https://static01.nyt.com/images/2026/11/11/multimedia/10cul-badplus-end1-vtkp/10cul-badplus-end1-vtkp-mediumSquareAt3X.jpg"
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "4 Auteurs, 4 Experiments Outside the Countries They’re Best Known for",
+   "url": "https://www.nytimes.com/2026/11/10/movies/all-of-a-sudden-fjord-minotaur-the-dreamed-adventure.html",
+   "date": "2026-11-10",
+   "blurb": "This season, filmmakers from Japan, Russia, Romania and Germany have chosen to venture abroad for a variety of creative and political reasons.",
+   "image": ""
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "Our Critic Calls ‘Fish Story’ the Greatest Seafaring Epic in Contemporary Art",
+   "url": "https://www.nytimes.com/2026/11/10/arts/design/our-critic-calls-fish-story-the-greatest-seafaring-epic-in-contemporary-art.html",
+   "date": "2026-11-10",
+   "blurb": "The photographer Allan Sekula explored the hidden world of global shipping from the perspective of dockworkers and sailors in this celebrated series debuting in New York.",
+   "image": ""
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "A Makeover for the ‘Cat in the Hat’? How About That.",
+   "url": "https://www.nytimes.com/2026/11/10/movies/cat-in-the-hat-reboot.html",
+   "date": "2026-11-10",
+   "blurb": "To bring Dr. Seuss’s accessorized feline back to the big screen, animators gave the beloved character a vibrant look.",
+   "image": ""
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "Review: ‘Ms. Blakk for President’ Is a Heightened Fever Dream",
+   "url": "https://www.nytimes.com/2026/11/10/theater/ms-blakk-for-president-review-mccraney-glick-blankson-wood.html",
+   "date": "2026-11-10",
+   "blurb": "This frustratingly erratic play, by Tarell Alvin McCraney and Tina Landau at Vineyard Theater, revisits a Chicago drag queen’s 1992 presidential bid.",
+   "image": ""
   },
   {
    "source": "The New York Times, Arts",
    "title": "Martin Luther King’s Lost Draft of ‘I Have a Dream’ Speech Surfaces",
    "url": "https://www.nytimes.com/2026/11/09/arts/martin-luther-king-i-have-a-dream-speech-draft.html",
-   "date": "2026-11-09",
+   "date": "2026-11-10",
    "blurb": "The document, hand written by Martin Luther King Jr., will be auctioned in January at Christie’s, which expects it to fetch more than $10 million.",
    "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09cul-mlk-dreamspeech-01-lhmq/09cul-mlk-dreamspeech-01-lhmq-mediumSquareAt3X.jpg"
   },
   {
    "source": "The New York Times, Arts",
-   "title": "Russell Brand Sentenced to 10 and a Half Years in Prison for Rape",
-   "url": "https://www.nytimes.com/2026/11/09/arts/russell-brand-prison-sentence-rape.html",
-   "date": "2026-11-09",
-   "blurb": "A London judge said the former comedy star, who was convicted of rape and sexual assault last week, had shown a “casual, arrogant disregard” for women’s wishes.",
-   "image": "https://static01.nyt.com/images/2026/11/10/multimedia/09cul-russell-brand-sentencing-ktbl/09cul-russell-brand-sentencing-ktbl-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Megyn Kelly, Elon Musk and Others Defend Russell Brand After Rape Conviction",
-   "url": "https://www.nytimes.com/2026/11/09/arts/russell-brand-megyn-kelly-elon-musk.html",
-   "date": "2026-11-09",
-   "blurb": "The former star, whom a British judge sentenced to 10 and a half years in prison on Monday, became an anti-establishment flag-bearer through conspiracy-minded commentary.",
-   "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09cul-brand-supporters-hbgm/09cul-brand-supporters-hbgm-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "The Geezer of Graffiti Art, Barry McGee, Goes ‘Another Round’ in Los Angeles",
-   "url": "https://www.nytimes.com/2026/11/09/arts/design/the-geezer-of-graffiti-art-barry-mcgee-goes-another-round-in-los-angeles.html",
-   "date": "2026-11-09",
-   "blurb": "From train yards to Jeffrey Deitch, a luminary of street art cuts “another hole in the fence” bringing his friends to his new exhibition.",
-   "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09cul-barry-mcgee-profile-05-pjck/09cul-barry-mcgee-profile-05-pjck-mediumSquareAt3X-v2.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "‘Talafreako’ Is, Accidentally, the Campaign Song of the Moment",
-   "url": "https://www.nytimes.com/2026/11/09/arts/music/talafreako-lil-texxan-viral-song.html",
-   "date": "2026-11-09",
-   "blurb": "An impromptu song by a Texas rapper has helped immortalize the frisky nickname of Senator-elect James Talarico.",
-   "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09cul-talarico-viral-rap2-tvjq/09cul-talarico-viral-rap2-tvjq-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "‘You Can See Everything’: Amanda Seyfried Faces ‘The Dropout’",
-   "url": "https://www.nytimes.com/2026/11/09/arts/you-can-see-everything-amanda-seyfried.html",
-   "date": "2026-11-09",
-   "blurb": "As they dissect Elizabeth Holmes’s persona, Nathan Fielder and Amanda Seyfried confront the nature of truth.",
+   "title": "Late Night Weighs In on Trump’s Hopes for the Afterlife",
+   "url": "https://www.nytimes.com/2026/11/10/arts/television/late-night-trump-midterms.html",
+   "date": "2026-11-10",
+   "blurb": "The president told “60 Minutes” that he doesn’t want to go to hell. “America was like, ‘Then where have we been living the past three years?’” Jimmy Fallon said.",
    "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "How Chance the Rapper Reimagined a Hit Mixtape for the Concert Stage",
-   "url": "https://www.nytimes.com/2026/11/09/arts/music/chance-the-rapper-interview-setlist.html",
-   "date": "2026-11-09",
-   "blurb": "On the 10-year anniversary of his Grammy-winning “Coloring Book,” the Chicago rapper played the hits, and then some.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Ghidorah Brings Gravity to ‘Godzilla Minus Zero’",
-   "url": "https://www.nytimes.com/2026/11/09/movies/godzilla-minus-zero-ghidorah.html",
-   "date": "2026-11-09",
-   "blurb": "The filmmakers behind this sequel reveal how they reimagined King Ghidorah for a brutal, high-stakes battle royale.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "‘The Greatest’ Gives a Broad Canvas to an Epic Life",
-   "url": "https://www.nytimes.com/2026/11/09/arts/television/the-greatest-muhammad-ali-michael-b-jordan.html",
-   "date": "2026-11-09",
-   "blurb": "A new biographical series about Muhammad Ali aims to humanize one of the most consequential figures in American history.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Review: Pam Tanowitz Fits in at Paul Taylor Dance by Being Herself",
-   "url": "https://www.nytimes.com/2026/11/09/arts/dance/pam-tanowitz-paul-taylor-company-review.html",
-   "date": "2026-11-09",
-   "blurb": "Pam Tanowitz’s new work for Paul Taylor Dance Company acknowledges the context of Taylor’s work while extending Tanowitz’s own history.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Phil Collins Knew He Was ‘Lucky,’ if Not Cool",
-   "url": "https://www.nytimes.com/2026/11/08/arts/music/phil-collins-knew-he-was-lucky-if-not-cool.html",
-   "date": "2026-11-08",
-   "blurb": "When the Rock & Roll Hall of Fame inducts Collins as a solo artist this month, it will recognize a hitmaker whose popularity often overshadowed his intensity.",
-   "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08cul-phil-collins-promo-cfmt/08cul-phil-collins-promo-cfmt-mediumSquareAt3X.jpg"
   }
  ],
  "The Guardian, Stage": [
   {
    "source": "The Guardian, Stage",
-   "title": "A one-part wonder! The West End’s streamlined Harry Potter and the Cursed Child works like magic",
-   "url": "https://www.theguardian.com/stage/2026/nov/09/harry-potter-and-the-cursed-child-one-part-production-review-palace-theatre-london-jack-thorne",
-   "date": "2026-11-09",
-   "blurb": "<p><strong>Palace theatre, London<br></strong>Five hours have been trimmed to three for this new version but it is packed with magic moments and superb performances</p><p>Ten years on from <a…",
-   "image": "https://i.guim.co.uk/img/media/546bc95dfc79655ed5baa5acb0d1e1f0cc989806/1094_667_2960_2368/master/2960.jpg?width=140&quality=85&auto=format&fit=max&s=2b536e7036e19148b6b764b16d16fdb2"
+   "title": "Old Vic 2027 season to feature Damian Lewis in a ‘provocative’ Henry V and Milly Alcock as Miss Julie",
+   "url": "https://www.theguardian.com/stage/2026/nov/10/old-vic-2027-season-damian-lewis-henry-v",
+   "date": "2026-11-10",
+   "blurb": "<p>Rupert Goold begins his tenure as artistic director with a version of Shakespeare’s history play, followed by shows starring Supergirl’s Alcock and Arinzé Kene</p><p>Damian Lewis is to play Henry V at the Old Vic…",
+   "image": "https://i.guim.co.uk/img/media/0d0d3efc4d7323fc7827fbec11cdcab8fbb0ee5c/55_0_3825_3061/master/3825.jpg?width=140&quality=85&auto=format&fit=max&s=ec6620ff66f4b28ba5284ced71cd29db"
+  },
+  {
+   "source": "The Guardian, Stage",
+   "title": "There’s scurvy, mutiny and mystery in Dogstar – but like its icebound ship this drama goes nowhere",
+   "url": "https://www.theguardian.com/stage/2026/nov/10/dogstar-review-hampstead-theatre-london",
+   "date": "2026-11-10",
+   "blurb": "<p><strong>Hampstead theatre, London<br></strong>A bickering trio of trapped survivors who have lost their comrades are kept in an ominous stasis in Daisy Bell’s play</p><p>The setup is strong in Daisy Hall’s…",
+   "image": "https://i.guim.co.uk/img/media/305555b38d1962f1cf4334027b397a9292f85e77/295_503_2129_1703/master/2129.jpg?width=140&quality=85&auto=format&fit=max&s=379bdad19a2e15506be45625e94f628c"
   },
   {
    "source": "The Guardian, Stage",
@@ -214,11 +222,11 @@
   },
   {
    "source": "The Guardian, Stage",
-   "title": "Wanted review – generic crime musical lacks outlaw grit",
-   "url": "https://www.theguardian.com/stage/2026/nov/09/wanted-broadway-musical-review",
+   "title": "A one-part wonder! The West End’s streamlined Harry Potter and the Cursed Child works like magic",
+   "url": "https://www.theguardian.com/stage/2026/nov/09/harry-potter-and-the-cursed-child-one-part-production-review-palace-theatre-london-jack-thorne",
    "date": "2026-11-09",
-   "blurb": "<p><strong>James Earl Jones theatre, New York City<br></strong>A ‘mostly true’ tale of 19th-century sisters running from the law is underserved in a production stuffed with superfluous showboating</p><p>The new…",
-   "image": "https://i.guim.co.uk/img/media/f6fd0141ab6d50ab54887fc3f22a64f481cc9838/1198_698_6327_5062/master/6327.jpg?width=140&quality=85&auto=format&fit=max&s=0516f4c9fbd3ad4352142dc9069923f0"
+   "blurb": "<p><strong>Palace theatre, London<br></strong>Five hours have been trimmed to three for this new version but it is packed with magic moments and superb performances</p><p>Ten years on from <a…",
+   "image": "https://i.guim.co.uk/img/media/546bc95dfc79655ed5baa5acb0d1e1f0cc989806/1094_667_2960_2368/master/2960.jpg?width=140&quality=85&auto=format&fit=max&s=2b536e7036e19148b6b764b16d16fdb2"
   },
   {
    "source": "The Guardian, Stage",
@@ -235,14 +243,6 @@
    "date": "2026-11-06",
    "blurb": "<p><strong>Sadler’s Wells East, London<br></strong>Ben Duke’s clever, witty and wholly unpredictable new show, The Last Hamlet, takes big liberties with the story that pay off</p><p>Hamlet is trying to get a hire…",
    "image": "https://i.guim.co.uk/img/media/227b2e8d0042d1a4dd72b94730528b7abbe779bc/1507_376_4652_3722/master/4652.jpg?width=140&quality=85&auto=format&fit=max&s=e63a4bac52d867ff6d274e671c3f41ad"
-  },
-  {
-   "source": "The Guardian, Stage",
-   "title": "‘Completely original’ musical Midnight tries (and fails) to imagine a slavery-era romance",
-   "url": "https://www.theguardian.com/stage/2026/nov/06/midnight-off-broadway-musical-todrick-hall",
-   "date": "2026-11-06",
-   "blurb": "<p>Todrick Hall’s off-Broadway show is about a doomed interracial love affair during US slavery in the 1860s</p><p>During the intermission of Midnight, an off-Broadway musical about a doomed interracial love affair…",
-   "image": "https://i.guim.co.uk/img/media/eb1d127ecbe8fdb28fe52750db9c959ea3cd539f/663_0_6628_5302/master/6628.jpg?width=140&quality=85&auto=format&fit=max&s=3303c5a7005db38b18034c99d450f04e"
   },
   {
    "source": "The Guardian, Stage",

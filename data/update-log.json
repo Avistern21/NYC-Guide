@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-10T09:59:20.689Z",
+ "ran": "2026-11-11T10:04:19.402Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -14,12 +14,15 @@
    "moma",
    "guggenheim",
    "the-frick-collection",
+   "brooklyn-museum",
    "neue-galerie",
    "noguchi-museum",
    "the-studio-museum-in-harlem",
    "international-center-of-photography",
    "david-zwirner",
    "gagosian",
+   "hauser-wirth",
+   "gladstone-gallery",
    "levy-gorvy-dayan",
    "p-wicked",
    "p-hamilton",
@@ -31,20 +34,8 @@
   ],
   "failed": [
    {
-    "id": "brooklyn-museum",
-    "reason": "image HTTP 429"
-   },
-   {
     "id": "new-museum",
     "reason": "image HTTP 429"
-   },
-   {
-    "id": "hauser-wirth",
-    "reason": "wikipedia HTTP 429"
-   },
-   {
-    "id": "gladstone-gallery",
-    "reason": "wikipedia HTTP 429"
    },
    {
     "id": "p-the-lion-king",
