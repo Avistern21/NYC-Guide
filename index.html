@@ -317,6 +317,14 @@ main[data-k=calendar],main[data-k=reads],main[data-k=discover],main[data-k=now],
 .wt.c2{background:#0d0d10;color:#fff}.wt.c2 h3{color:var(--yel)}
 @media(max-width:820px){.hero{grid-template-columns:1fr}.hero .l{padding:36px 22px}.hero .r{min-height:300px}.week{padding:32px 18px 44px}.week .wg{grid-template-columns:1fr}.adv .top{padding:14px 18px}.adv nav{gap:18px}.adv nav a{font-size:1rem}#catbar,#catbar2{justify-content:flex-start}}
 footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px solid var(--line);color:var(--mut);font-size:.85rem}
+
+/* refined filters: thin-line icons + underline, no boxes */
+.phead .fbar button,.pbody .fbar button,.pbody>.in2>.fbar button{display:inline-flex;align-items:center;gap:8px;background:transparent!important;border:0!important;border-bottom:2px solid transparent!important;border-radius:0;padding:8px 2px!important;margin-right:14px;color:rgba(13,13,16,.62)!important;font:700 .8rem/1 Montserrat,sans-serif!important;letter-spacing:.1em;text-transform:uppercase}
+.phead .fbar button:hover,.pbody .fbar button:hover{color:#0d0d10!important;background:transparent!important}
+.phead .fbar button[aria-pressed=true],.pbody .fbar button[aria-pressed=true]{color:#0d0d10!important;border-bottom-color:#0d0d10!important;background:transparent!important}
+.phead .fbar,.pbody>.in2>.fbar{gap:6px 10px}
+.pbody .fbar button.pill,.phead .fbar .shufbtn{background:#0d0d10!important;color:var(--yel)!important;border:0!important;padding:11px 18px!important;margin-right:0}
+.pbody .fbar button.pill:hover{color:#fff!important}
 </style></head><body>
 <header class="adv"><div class="top"><a class="logo" href="#home">The ADvantage</a><nav id="nav" aria-label="Sections"></nav></div><div id="themes" hidden></div><span id="eyebrow" hidden></span></header>
 <div id="disc"></div><div id="catbar" aria-label="Categories"></div>
@@ -514,6 +522,7 @@ function drawDisc(force){
     return '<div class="hsl"><img src="'+esc(img)+'" alt=""><a class="hbtn" href="'+esc(u||"#now")+'" target="_blank" rel="noopener"><small>'+esc(cat)+' · '+esc(when)+'</small><b>'+esc(t)+' →</b>'+(sub?'<i>'+esc(sub)+'</i>':'')+'</a></div>'
 }).join("")+'</div></div>'}
 document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-dsc]");if(b){const r=document.querySelector(".d3");if(r)r.scrollBy({left:+b.dataset.dsc*r.clientWidth*.7,behavior:"smooth"})}});
+
 function render(){
   let k=(location.hash||"#home").slice(1);if(k==="discover")k="now";if(k!=="home"&&!CATS.some(c=>c[0]===k))k="home";
   const link=(id,label,cls)=>{const c=CATS.find(x=>x[0]===id);return '<a href="#'+id+'"'+(cls?' class="'+cls+'"':"")+(k===id?' aria-current="true"':"")+'>'+(label||c[1])+'</a>'};
