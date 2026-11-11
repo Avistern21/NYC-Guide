@@ -100,10 +100,58 @@
  "The New York Times, Arts": [
   {
    "source": "The New York Times, Arts",
-   "title": "A Ballet Star on Doing Theater: Same Work, Different Instrument",
-   "url": "https://www.nytimes.com/2026/11/10/arts/dance/natalia-osipova-the-standard-of-living-lydia-lopokova.html",
+   "title": "‘Hard Art’ Asks Hard Questions About Daring to Be Abstract",
+   "url": "https://www.nytimes.com/2026/11/11/arts/design/hard-art-moma-ps1-black-arts-movement.html",
    "date": "2026-11-11",
-   "blurb": "Natalia Osipova is playing another ballerina, Lydia Lopokova, in “The Standard of Living” about John Maynard Keynes in London.",
+   "blurb": "MoMA PS1 brings together more than 40 Black artists in a search for their historical and artistic ties.",
+   "image": "https://static01.nyt.com/images/2026/11/15/multimedia/15cul-hard-art-black-artists-vmtz/15cul-hard-art-black-artists-vmtz-mediumSquareAt3X.jpg"
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "Isaiah Rashad’s Most Powerful Secret Was Himself",
+   "url": "https://www.nytimes.com/2026/11/11/arts/music/isaiah-rashad-interview-profile.html",
+   "date": "2026-11-11",
+   "blurb": "After the leak of private video footage upended his life, the rapper took a more open approach to making music. It resulted in the best album of his career.",
+   "image": "https://static01.nyt.com/images/2026/11/11/multimedia/11cul-isaiah-rashad-promo-kpwv/11cul-isaiah-rashad-promo-kpwv-mediumSquareAt3X.jpg"
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "‘The Flying Ace,’ Silent Film With All-Black Cast, Gets a Soaring Score",
+   "url": "https://www.nytimes.com/2026/11/11/arts/music/the-flying-ace-silent-movie-jacksonville-symphony.html",
+   "date": "2026-11-11",
+   "blurb": "In 1926, a white director and all-Black cast filmed “The Flying Ace” in Florida. Six Black composers are giving it a full musical treatment with the Jacksonville Symphony.",
+   "image": ""
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "A Chart Truce Brings YouTube Back to Billboard",
+   "url": "https://www.nytimes.com/2026/11/11/arts/music/youtube-returns-billboard-chart-data.html",
+   "date": "2026-11-11",
+   "blurb": "A feud over what a stream is worth caused the online video giant to withdraw its data from Billboard’s charts, a move that disadvantaged some artists and genres.",
+   "image": "https://static01.nyt.com/images/2026/11/11/multimedia/11cul-youtube-charts1-pqgl/11cul-youtube-charts1-pqgl-mediumSquareAt3X.jpg"
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "In ‘The Ripple, the Wave That Carried Me Home,’ Currents of Racism",
+   "url": "https://www.nytimes.com/2026/11/11/theater/the-ripple-the-wave-that-carried-me-home-review.html",
+   "date": "2026-11-11",
+   "blurb": "One couple fights for swimming pool integration, and their daughter walks away from the battle, in Christina Anderson’s pensive play.",
+   "image": ""
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "N.Y.C. Holiday Theater: Not-To-Miss Shows This Festive Season",
+   "url": "https://www.nytimes.com/2026/11/11/theater/nyc-holiday-theater-guide-winter-season.html",
+   "date": "2026-11-11",
+   "blurb": "In New York City, experience a live radio play, a Nicole Kidman-inspired “Christmas Carol,” an interactive production for children and more.",
+   "image": "https://static01.nyt.com/images/2026/11/11/multimedia/11cul-holiday-roundup-1-qbtw/11cul-holiday-roundup-1-qbtw-mediumSquareAt3X.jpg"
+  },
+  {
+   "source": "The New York Times, Arts",
+   "title": "Jimmy Kimmel Picks Apart Trump’s Impromptu Call-in",
+   "url": "https://www.nytimes.com/2026/11/11/arts/television/jimmy-kimmel-trump-cspan.html",
+   "date": "2026-11-11",
+   "blurb": "The late night host said the president has “nothing better to do” after he phoned in live to a C-SPAN show.",
    "image": ""
   },
   {
@@ -145,54 +193,6 @@
    "date": "2026-11-10",
    "blurb": "For more than two decades, the Bad Plus has explored how a jazz group with no leader could sound and what rooms it could play.",
    "image": "https://static01.nyt.com/images/2026/11/11/multimedia/10cul-badplus-end1-vtkp/10cul-badplus-end1-vtkp-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "4 Auteurs, 4 Experiments Outside the Countries They’re Best Known for",
-   "url": "https://www.nytimes.com/2026/11/10/movies/all-of-a-sudden-fjord-minotaur-the-dreamed-adventure.html",
-   "date": "2026-11-10",
-   "blurb": "This season, filmmakers from Japan, Russia, Romania and Germany have chosen to venture abroad for a variety of creative and political reasons.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Our Critic Calls ‘Fish Story’ the Greatest Seafaring Epic in Contemporary Art",
-   "url": "https://www.nytimes.com/2026/11/10/arts/design/our-critic-calls-fish-story-the-greatest-seafaring-epic-in-contemporary-art.html",
-   "date": "2026-11-10",
-   "blurb": "The photographer Allan Sekula explored the hidden world of global shipping from the perspective of dockworkers and sailors in this celebrated series debuting in New York.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "A Makeover for the ‘Cat in the Hat’? How About That.",
-   "url": "https://www.nytimes.com/2026/11/10/movies/cat-in-the-hat-reboot.html",
-   "date": "2026-11-10",
-   "blurb": "To bring Dr. Seuss’s accessorized feline back to the big screen, animators gave the beloved character a vibrant look.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Review: ‘Ms. Blakk for President’ Is a Heightened Fever Dream",
-   "url": "https://www.nytimes.com/2026/11/10/theater/ms-blakk-for-president-review-mccraney-glick-blankson-wood.html",
-   "date": "2026-11-10",
-   "blurb": "This frustratingly erratic play, by Tarell Alvin McCraney and Tina Landau at Vineyard Theater, revisits a Chicago drag queen’s 1992 presidential bid.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Martin Luther King’s Lost Draft of ‘I Have a Dream’ Speech Surfaces",
-   "url": "https://www.nytimes.com/2026/11/09/arts/martin-luther-king-i-have-a-dream-speech-draft.html",
-   "date": "2026-11-10",
-   "blurb": "The document, hand written by Martin Luther King Jr., will be auctioned in January at Christie’s, which expects it to fetch more than $10 million.",
-   "image": "https://static01.nyt.com/images/2026/11/09/multimedia/09cul-mlk-dreamspeech-01-lhmq/09cul-mlk-dreamspeech-01-lhmq-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Late Night Weighs In on Trump’s Hopes for the Afterlife",
-   "url": "https://www.nytimes.com/2026/11/10/arts/television/late-night-trump-midterms.html",
-   "date": "2026-11-10",
-   "blurb": "The president told “60 Minutes” that he doesn’t want to go to hell. “America was like, ‘Then where have we been living the past three years?’” Jimmy Fallon said.",
-   "image": ""
   }
  ],
  "The Guardian, Stage": [
