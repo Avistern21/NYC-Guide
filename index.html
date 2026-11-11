@@ -188,7 +188,7 @@ main[data-k=calendar],main[data-k=reads],main[data-k=discover],main[data-k=now],
 .ct .cimg{height:170px;overflow:hidden;background:#000}.ct .cimg img{width:100%;height:100%;object-fit:cover;display:block}
 .pbody .grid:has(.ct){gap:22px}
 
-.phead .fbar{align-items:center}.phead .fbar .shufbtn{margin-left:auto;background:#0d0d10!important;color:var(--yel)!important;border-color:#0d0d10!important}
+.phead .fbar{align-items:center}
 .pbody{background:var(--yel)!important;padding-top:0!important}
 .pbody .stabs{border-bottom:4px solid #0d0d10!important;margin-bottom:34px!important}
 .pbody .stabs button{color:rgba(13,13,16,.62)!important}
@@ -317,6 +317,15 @@ main[data-k=calendar],main[data-k=reads],main[data-k=discover],main[data-k=now],
 .wt.c2{background:#0d0d10;color:#fff}.wt.c2 h3{color:var(--yel)}
 @media(max-width:820px){.hero{grid-template-columns:1fr}.hero .l{padding:36px 22px}.hero .r{min-height:300px}.week{padding:32px 18px 44px}.week .wg{grid-template-columns:1fr}.adv .top{padding:14px 18px}.adv nav{gap:18px}.adv nav a{font-size:1rem}#catbar,#catbar2{justify-content:flex-start}}
 footer{max-width:1040px;margin:50px auto 0;padding:20px 20px 50px;border-top:1px solid var(--line);color:var(--mut);font-size:.85rem}
+
+/* refined filters: thin-line icons + underline, no boxes */
+.phead .fbar button,.pbody .fbar button,.pbody>.in2>.fbar button{display:inline-flex;align-items:center;gap:8px;background:transparent!important;border:0!important;border-bottom:2px solid transparent!important;border-radius:0;padding:8px 2px!important;margin-right:14px;color:rgba(13,13,16,.62)!important;font:700 .8rem/1 Montserrat,sans-serif!important;letter-spacing:.1em;text-transform:uppercase}
+.phead .fbar button:hover,.pbody .fbar button:hover{color:#0d0d10!important;background:transparent!important}
+.phead .fbar button[aria-pressed=true],.pbody .fbar button[aria-pressed=true]{color:#0d0d10!important;border-bottom-color:#0d0d10!important;background:transparent!important}
+.phead .fbar,.pbody>.in2>.fbar{gap:6px 10px}
+.pbody .fbar button.pill,.phead .fbar .shufbtn{background:transparent!important;color:#0d0d10!important;border:0!important;border-bottom:2px solid #0d0d10!important;padding:8px 2px!important;margin-left:10px;margin-right:0;font-weight:900!important;gap:8px}
+.phead .fbar .shufbtn{margin-left:10px!important;position:relative}
+.pbody .fbar button.pill:hover,.phead .fbar .shufbtn:hover{background:transparent!important;color:var(--blue)!important;border-bottom-color:var(--blue)!important}
 </style></head><body>
 <header class="adv"><div class="top"><a class="logo" href="#home">The ADvantage</a><nav id="nav" aria-label="Sections"></nav></div><div id="themes" hidden></div><span id="eyebrow" hidden></span></header>
 <div id="disc"></div><div id="catbar" aria-label="Categories"></div>
@@ -409,7 +418,7 @@ function whatson(){
   const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["week","Next 7 days",LL.filter(o=>o.start>TODAY&&o.start<=wk)],["soon","Coming soon",LL.filter(o=>o.start>wk)]];
   const tabs='<div class="stabs" role="tablist" aria-label="When">'+G.map(g=>'<button type="button" role="tab" data-wt="'+g[0]+'" aria-pressed="'+(wt===g[0])+'">'+g[1]+'<small>'+g[2].length+'</small></button>').join("")+'</div>';
   const cur=G.find(g=>g[0]===wt)||G[0];
-  return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Recommendations beyond our own picks. Shuffle for more.</p>'+bar.replace('</div>','<button type="button" class="shufbtn" data-wshuf="1">Shuffle ↻</button></div>')+'</div></section><section class="pbody"><div class="in2">'+tabs+(cur[2].length?'<div class="grid">'+(wsd!==null?sshuf(cur[2],wsd):cur[2]).map(box).join("")+'</div>':'<div class="empty">Nothing here right now. Try another tab or category.</div>')+'</div></section>'}
+  return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Recommendations beyond our own picks. Shuffle for more.</p>'+bar.replace('</div>','<button type="button" class="shufbtn" data-wshuf="1">Shuffle <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h4l10 10h4M3 17h4l3-3M14 10l3-3h4M18 4l3 3-3 3M18 14l3 3-3 3"/></svg></button></div>')+'</div></section><section class="pbody"><div class="in2">'+tabs+(cur[2].length?'<div class="grid">'+(wsd!==null?sshuf(cur[2],wsd):cur[2]).map(box).join("")+'</div>':'<div class="empty">Nothing here right now. Try another tab or category.</div>')+'</div></section>'}
 
 function monthView(ev){
   const [y,m]=cm.split("-").map(Number),first=new Date(y,m-1,1),start=first.getDay(),dim=new Date(y,m,0).getDate();
@@ -456,7 +465,7 @@ function buildMix(){
 function discoverMix(){
   if(!mix)mix=buildMix();
   if(!mix.length)return"";
-  return '<div class="fbar"><button type="button" class="pill" data-shuffle="1">Shuffle picks</button></div><div class="grid">'+mix.map(m=>{
+  return '<div class="fbar"><button type="button" class="pill" data-shuffle="1">Shuffle picks <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h4l10 10h4M3 17h4l3-3M14 10l3-3h4M18 4l3 3-3 3M18 14l3 3-3 3"/></svg></button></div><div class="grid">'+mix.map(m=>{
     if(m.pick)return venueCard(m.pick,false).replace('<span class="tag">','<span class="tag">Broadway · ');
     const o=m.show,u=safe(o.url);
     return '<article class="card">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<span class="tag">'+CATNAME[m.c]+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p>'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info</a>':'')+'<div style="margin-top:6px">'+addBtn(o)+'</div></article>'}).join("")+'</div>'}
@@ -514,6 +523,7 @@ function drawDisc(force){
     return '<div class="hsl"><img src="'+esc(img)+'" alt=""><a class="hbtn" href="'+esc(u||"#now")+'" target="_blank" rel="noopener"><small>'+esc(cat)+' · '+esc(when)+'</small><b>'+esc(t)+' →</b>'+(sub?'<i>'+esc(sub)+'</i>':'')+'</a></div>'
 }).join("")+'</div></div>'}
 document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-dsc]");if(b){const r=document.querySelector(".d3");if(r)r.scrollBy({left:+b.dataset.dsc*r.clientWidth*.7,behavior:"smooth"})}});
+
 function render(){
   let k=(location.hash||"#home").slice(1);if(k==="discover")k="now";if(k!=="home"&&!CATS.some(c=>c[0]===k))k="home";
   const link=(id,label,cls)=>{const c=CATS.find(x=>x[0]===id);return '<a href="#'+id+'"'+(cls?' class="'+cls+'"':"")+(k===id?' aria-current="true"':"")+'>'+(label||c[1])+'</a>'};
