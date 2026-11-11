@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-11T14:50:14.731Z",
+ "ran": "2026-11-11T15:07:34.300Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -17,6 +17,7 @@
    "noguchi-museum",
    "new-museum",
    "the-studio-museum-in-harlem",
+   "international-center-of-photography",
    "david-zwirner",
    "gagosian",
    "hauser-wirth",
@@ -37,10 +38,6 @@
    },
    {
     "id": "brooklyn-museum",
-    "reason": "image HTTP 429"
-   },
-   {
-    "id": "international-center-of-photography",
     "reason": "image HTTP 429"
    },
    {
