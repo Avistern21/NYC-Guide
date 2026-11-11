@@ -180,7 +180,7 @@ for (const id of Object.keys(images.shows)) if (!keep.has(id)) { try { fs.unlink
 
 // ---- articles from RSS/Atom feeds (data/feeds.json): headline, blurb, link, image. Full text stays on the publisher's site. ----
 const decode = t => String(t || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/<[^>]+>/g, ' ')
-  .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&#8217;/g, '\u2019').replace(/&#8220;|&#8221;/g, '"').replace(/\s+/g, ' ').trim();
+  .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&#8217;/g, '\u2019').replace(/&#8220;|&#8221;/g, '"').replace(/&#x([0-9a-f]+);/gi, (m, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (m, d) => String.fromCodePoint(+d)).replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
 const tagText = (blk, tag) => { const m = blk.match(new RegExp('<' + tag + '\\b[^>]*>([\\s\\S]*?)</' + tag + '>', 'i')); return m ? m[1] : ''; };
 const attr = (blk, tag, a) => { const m = blk.match(new RegExp('<' + tag + '\\b[^>]*\\b' + a + '\\s*=\\s*["\']([^"\']+)["\']', 'i')); return m ? m[1].replace(/&amp;/g, '&') : ''; };
 function parseFeed(xml, name) {
