@@ -503,7 +503,7 @@ function drawDisc(force){
   el.innerHTML='<div class="hbn"><div class="hs">'+dpk.map((m,i)=>{
     let img,t,sub,u,cat;
     if(m.pick){img=pickImg(m.pick)||(imgs.venues[m.pick.id]||{}).file;t=m.pick.name;sub=m.pick.area||"Broadway";u=safe(m.pick.site||m.pick.url);cat="Broadway"}
-    else{const o=m.show;img=o.img;t=o.title;sub=o.start<=TODAY?o.v.name:o.v.name+" · "+o.label;u=safe(o.url);cat=CATNAME[o.v.cat]||""}
+    else{const o=m.show;img=o.img;t=o.title;sub=o.v.name;u=safe(o.url);cat=CATNAME[o.v.cat]||""}
     const when=m.pick?(m.pick.status==="upcoming"?"Coming soon":"Now playing"):(m.show.start<=TODAY?"On now":m.show.label);
     return '<div class="hsl"><img src="'+esc(img)+'" alt=""><a class="hbtn" href="'+esc(u||"#now")+'" target="_blank" rel="noopener"><small>'+esc(cat)+' · '+esc(when)+'</small><b>'+esc(t)+' →</b>'+(sub?'<i>'+esc(sub)+'</i>':'')+'</a></div>'
 }).join("")+'</div></div>'}
