@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-11T15:07:34.300Z",
+ "ran": "2026-11-11T15:19:24.421Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -13,6 +13,7 @@
    "whitney-museum-of-american-art",
    "moma",
    "guggenheim",
+   "brooklyn-museum",
    "neue-galerie",
    "noguchi-museum",
    "new-museum",
@@ -20,7 +21,6 @@
    "international-center-of-photography",
    "david-zwirner",
    "gagosian",
-   "hauser-wirth",
    "gladstone-gallery",
    "levy-gorvy-dayan",
    "p-wicked",
@@ -37,7 +37,7 @@
     "reason": "image HTTP 429"
    },
    {
-    "id": "brooklyn-museum",
+    "id": "hauser-wirth",
     "reason": "image HTTP 429"
    },
    {
@@ -195,11 +195,7 @@
  },
  "feedsFailed": [
   {
-   "name": "Goings On About Town",
-   "reason": "no articles found in feed"
-  },
-  {
-   "name": "Goings On About Town",
+   "name": "WSJ Review",
    "reason": "no articles found in feed"
   }
  ]

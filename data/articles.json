@@ -1,296 +1,393 @@
 {
- "Goings On About Town": [
+ "WSJ Review": [
   {
-   "source": "Goings On About Town",
-   "title": "Theresa Hak Kyung Cha’s Linguistic Art",
-   "url": "https://www.newyorker.com/culture/goings-on/a-historic-exhibition-of-theresa-hak-kyung-cha-s-linguistic-art",
-   "date": "2026-11-06",
-   "blurb": "Also: Bill Irwin and Rachel Bloom in Molière, a new movie from Kogonada, the torrid post-punk of Sweeping Promises, and more.",
-   "image": "https://media.newyorker.com/photos/6ae906e863d182fa5bf99fa5/master/pass/Cha_Slide%20from%20Other%20Things%20Seen,%20Other%20Things%20Heard%20(1978)_06%20copy.jpg"
+   "source": "WSJ Review",
+   "title": "The Fan Who Rescues Lost Songs From Extinction, One Very Polite Email at a Time",
+   "url": "https://www.wsj.com/arts-culture/music/the-british-executive-who-saves-forgotten-songs-from-extinction-20c92d4b?mod=rss_artsculture",
+   "date": "2026-11-11",
+   "blurb": "What do Sting, Nicole Scherzinger, &#x2019;N Sync and the Spice Girls have in common? Rob Johnson, the pop music fan who&#x2019;s helped bring some of their more obscure tracks online.",
+   "image": "https://images.wsj.net/im-38633350",
+   "section": "Music Review"
   },
   {
-   "source": "Goings On About Town",
-   "title": "The Best Mystery Novels of the Twenty-first Century",
-   "url": "https://www.newyorker.com/books/what-were-reading/the-best-mystery-novels-of-the-twenty-first-century",
-   "date": "2026-10-28",
-   "blurb": "Most of the best mysteries deal with the imperfect fit between the law and justice.",
-   "image": "https://media.newyorker.com/photos/6ada76ea818a9d3ded2ca585/master/pass/wwr_sorkin_final%202.jpg"
+   "source": "WSJ Review",
+   "title": "&#x2018;Avedon&#x2019; Review: Netflix&#x2019;s Documentary on a Defining Portraitist",
+   "url": "https://www.wsj.com/arts-culture/television/avedon-review-netflixs-documentary-on-a-defining-portraitist-55215590?mod=rss_artsculture",
+   "date": "2026-11-10",
+   "blurb": "Ron Howard directs a film about the photographer who used his stark, singular style to capture the essence of many of the biggest models and celebrities of the 20th century.",
+   "image": "https://opinion-images.wsj.net/im-95576000",
+   "section": "Film & TV"
   },
   {
-   "source": "Goings On About Town",
-   "title": "Breaking the Decade-Long Trump Fever",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/breaking-the-decade-long-trump-fever",
-   "date": "2026-11-07",
-   "blurb": "The President’s unique brand of lurid authoritarianism has finally lost appeal, and he has lost the plot.",
-   "image": "https://media.newyorker.com/photos/6aee79600572b1f7b0d79c1a/master/pass/newyorker_comment_The%20Fever%20Breaks_final.jpg"
+   "source": "WSJ Review",
+   "title": "&#x2018;Carnaval de Luz&#x2019; Review: U2 Returns With a Stylistic Sampler",
+   "url": "https://www.wsj.com/arts-culture/music/carnaval-de-luz-review-u2-returns-with-a-stylistic-sampler-4d9c6223?mod=rss_artsculture",
+   "date": "2026-11-10",
+   "blurb": "The band follows two promising EPs from earlier this year with its first album of new material since 2017, but the collection struggles to cohere.",
+   "image": "https://opinion-images.wsj.net/im-06498047",
+   "section": "Music Review"
   },
   {
-   "source": "Goings On About Town",
-   "title": "John Cusack Goes Graphic",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/john-cusack-goes-graphic",
+   "source": "WSJ Review",
+   "title": "Inside Ronald Lauder&#x2019;s Decision to Merge His Neue Galerie With the Met",
+   "url": "https://www.wsj.com/arts-culture/fine-art/ronald-lauder-met-neue-d728606f?mod=rss_artsculture",
+   "date": "2026-11-10",
+   "blurb": "As baby boomers grapple with securing the future of their art collections, the cosmetics tycoon gave the Met a seismic gift: his $1.5 billion collection of German and Austrian art.",
+   "image": "https://images.wsj.net/im-11507821",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Morton Feldman at the Met: A Composer Between Categories",
+   "url": "https://www.wsj.com/arts-culture/music/morton-feldman-at-the-met-a-composer-between-categories-727bf179?mod=rss_artsculture",
    "date": "2026-11-09",
-   "blurb": "At the comic-book store Forbidden Planet, the “Say Anything” actor talks about his new graphic novel, in which the philosopher-artist Antonin Artaud is freed from an asylum by Jackie Gleason.",
-   "image": "https://media.newyorker.com/photos/6aee2e0816dd7229eaf11c08/master/pass/r50685.png"
+   "blurb": "Born 100 years ago, the American musician combined a softness of sound with an often staggering scale in his singular body of work, which the Metropolitan Museum of Art is celebrating in two concerts this week.",
+   "image": "https://opinion-images.wsj.net/im-98174747",
+   "section": "Music Review"
   },
   {
-   "source": "Goings On About Town",
-   "title": "I’ll Take Blue Florida for Five Hundred",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/ill-take-blue-florida-for-five-hundred",
-   "date": "2026-11-07",
-   "blurb": "Not all bets are made with big money. On the night of the midterms, one small Kalshi wagerer puts his chump change—and his sanity—on the line.",
-   "image": "https://media.newyorker.com/photos/6aee2e08244df16af176f534/master/pass/r50691.png"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "Hilary Knight Is Rawther Beloved",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/hilary-knight-is-rawther-beloved",
+   "source": "WSJ Review",
+   "title": "Why Foie Gras Was on the Ballot This November",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/foie-gras-ban-washington-dc-denver-1d76dc40?mod=rss_artsculture",
    "date": "2026-11-09",
-   "blurb": "At the hundredth-birthday party of the illustrator of the “Eloise” books, testimonials poured in from such pals as Bernadette Peters, Anderson Cooper, and the reputed inspiration for Eloise herself, Liza Minnelli.",
-   "image": "https://media.newyorker.com/photos/6aee2e08e50b27a9ee8a3566/master/pass/r50689.png"
+   "blurb": "As economic angst motivated many Americans at the polls, voters in two cities approved measures to ban the polarizing delicacy.",
+   "image": "https://images.wsj.net/im-74717851",
+   "section": "Food & Cooking"
   },
   {
-   "source": "Goings On About Town",
-   "title": "Josh Homme Likes to Satan",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/josh-homme-likes-to-satan",
+   "source": "WSJ Review",
+   "title": "James Gray&#x2019;s Cinema of Grit and Grandeur",
+   "url": "https://www.wsj.com/arts-culture/film/james-gray-paper-tiger-cinema-of-grit-and-grandeur-6efd776a?mod=rss_artsculture",
    "date": "2026-11-09",
-   "blurb": "On the heels of a new album from the rock band Queens of the Stone Age, the group’s front man spends some quality time with Linda Blair’s “Exorcist” character.",
-   "image": "https://media.newyorker.com/photos/6aee2e080572b1f7b0d799d7/master/pass/r50687.png"
+   "blurb": "The director of the new &#x2018;Paper Tiger,&#x2019; a crime drama starring Miles Teller, Scarlett Johansson and Adam Driver, discusses his art and career as a true original in today&#x2019;s American film industry.",
+   "image": "https://opinion-images.wsj.net/im-73156362",
+   "section": "Film & TV"
   },
   {
-   "source": "Goings On About Town",
-   "title": "The Unfinished Business of American Socialism",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/can-american-socialism-survive-its-success",
+   "source": "WSJ Review",
+   "title": "A 55-Year-Old Film That Offended Everyone Is Back&#x2014;and This Time It&#x2019;s a Hit",
+   "url": "https://www.wsj.com/arts-culture/film/the-devils-movie-31fa4c79?mod=rss_artsculture",
    "date": "2026-11-09",
-   "blurb": "The movement has often seen its ideas flourish as its organizations withered. Will today’s resurgence follow the same course?",
-   "image": "https://media.newyorker.com/photos/6aee3a00e50b27a9ee8a356c/master/pass/r50623.jpg"
+   "blurb": "Decades after &#x201c;The Devils&#x201d; was censored and condemned, a restored cut is selling out theaters and captivating Gen Z moviegoers.",
+   "image": "https://images.wsj.net/im-88245767",
+   "section": "Film & TV"
   },
   {
-   "source": "Goings On About Town",
-   "title": "The Ubiquitous Melancholy of Max Richter",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/the-ubiquitous-melancholy-of-max-richter",
-   "date": "2026-11-09",
-   "blurb": "The composer’s song “On the Nature of Daylight” has popped up in countless sob fests including “Arrival” and “Hamnet.” With billions of streams, he’s become one of the most popular and successful composers of our time.",
-   "image": "https://media.newyorker.com/photos/6aeb62a48c1f4c98efe1544d/master/pass/r50547.jpg"
-  },
-  {
-   "source": "Goings On About Town",
-   "title": "An N.B.A. Player Got Hooked on Sports Betting. Soon, He Became the Bet",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/the-nba-player-who-got-hooked-on-sports-betting",
+   "source": "WSJ Review",
+   "title": "Arts Calendar: Happenings for the Week of November 8",
+   "url": "https://www.wsj.com/arts-culture/fine-art/arts-calendar-happenings-for-the-week-of-november-8-airdigital-b18f3136?mod=rss_artsculture",
    "date": "2026-11-08",
-   "blurb": "Jontay Porter got deep into FanDuel, and in debt to the wrong people. The only way out, it seemed, was to gamble on himself.",
-   "image": "https://media.newyorker.com/photos/6aed0474845dc6f6e6b76a8d/master/pass/r50699.gif"
+   "blurb": "Johnny Depp plays &#x201c;Ebenezer&#x201d; in a new version of Dickens&#x2019;s &#x201c;A Christmas Carol&#x201d;; the controversial, critically acclaimed &#x201c;Downstate&#x201d; opens on Broadway; U2 drops its…",
+   "image": "https://opinion-images.wsj.net/im-33412216",
+   "section": "Art Review"
   },
   {
-   "source": "Goings On About Town",
-   "title": "What It Takes to Save a Town from Wildfire",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/what-it-takes-to-save-a-town-from-wildfire",
-   "date": "2026-11-09",
-   "blurb": "Catastrophic blazes are exposing the limits of individual precautions. Can communities build a system of collective defense?",
-   "image": "https://media.newyorker.com/photos/6af200603d1a5c10060563d3/master/pass/Fire_Header_Small.gif"
+   "source": "WSJ Review",
+   "title": "The Problem with Loving Machines",
+   "url": "https://www.wsj.com/arts-culture/film/klara-and-the-sun-movie-machines-b0feaf74?mod=rss_artsculture",
+   "date": "2026-11-08",
+   "blurb": "A new film reflects a dangerous slide in society&#x2019;s perception of robots.",
+   "image": "https://images.wsj.net/im-06736317",
+   "section": "Film & TV"
   },
   {
-   "source": "Goings On About Town",
-   "title": "If Trump Did Standup",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/if-trump-did-standup",
-   "date": "2026-11-09",
-   "blurb": "“I had lunch at Mar-a-Lago the other day. It’s like the Cheesecake Factory but more expensive.”",
-   "image": "https://media.newyorker.com/photos/6aeb534e87ef5aa6305dab7f/master/pass/r50636.jpg"
-  }
- ],
- "The New York Times, Arts": [
-  {
-   "source": "The New York Times, Arts",
-   "title": "‘Hard Art’ Asks Hard Questions About Daring to Be Abstract",
-   "url": "https://www.nytimes.com/2026/11/11/arts/design/hard-art-moma-ps1-black-arts-movement.html",
-   "date": "2026-11-11",
-   "blurb": "MoMA PS1 brings together more than 40 Black artists in a search for their historical and artistic ties.",
-   "image": "https://static01.nyt.com/images/2026/11/15/multimedia/15cul-hard-art-black-artists-vmtz/15cul-hard-art-black-artists-vmtz-mediumSquareAt3X.jpg"
+   "source": "WSJ Review",
+   "title": "&#x2018;Noguchi to Asawa: Designing Postwar America&#x2019; Review: A Style Born of Sorrow",
+   "url": "https://www.wsj.com/arts-culture/fine-art/noguchi-to-asawa-designing-postwar-america-review-a-style-born-of-sorrow-a9319d58?mod=rss_artsculture",
+   "date": "2026-11-07",
+   "blurb": "The Barnes Foundation highlights six Japanese-American designers&#x2014;five of whom spent time in internment camps during World War II&#x2014;who defined the midcentury look of the U.S.",
+   "image": "https://opinion-images.wsj.net/im-49889984",
+   "section": "Art Review"
   },
   {
-   "source": "The New York Times, Arts",
-   "title": "Isaiah Rashad’s Most Powerful Secret Was Himself",
-   "url": "https://www.nytimes.com/2026/11/11/arts/music/isaiah-rashad-interview-profile.html",
-   "date": "2026-11-11",
-   "blurb": "After the leak of private video footage upended his life, the rapper took a more open approach to making music. It resulted in the best album of his career.",
-   "image": "https://static01.nyt.com/images/2026/11/11/multimedia/11cul-isaiah-rashad-promo-kpwv/11cul-isaiah-rashad-promo-kpwv-mediumSquareAt3X.jpg"
+   "source": "WSJ Review",
+   "title": "How One Winery Is Fighting an Industry Slump",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/california-wine-industry-slump-9d938652?mod=rss_artsculture",
+   "date": "2026-11-07",
+   "blurb": "Changing consumer tastes and high tariffs are hitting vineyards hard. Here&#x2019;s how one California winery is responding.",
+   "image": "https://images.wsj.net/im-44818258",
+   "section": "Food & Cooking"
   },
   {
-   "source": "The New York Times, Arts",
-   "title": "‘The Flying Ace,’ Silent Film With All-Black Cast, Gets a Soaring Score",
-   "url": "https://www.nytimes.com/2026/11/11/arts/music/the-flying-ace-silent-movie-jacksonville-symphony.html",
-   "date": "2026-11-11",
-   "blurb": "In 1926, a white director and all-Black cast filmed “The Flying Ace” in Florida. Six Black composers are giving it a full musical treatment with the Jacksonville Symphony.",
-   "image": ""
+   "source": "WSJ Review",
+   "title": "The Enduring Appeal of the Single-Dad Movie",
+   "url": "https://www.wsj.com/arts-culture/film/jordan-firstman-club-kid-single-dad-movies-6ad551cb?mod=rss_artsculture",
+   "date": "2026-11-07",
+   "blurb": "From &#x201c;Kramer vs. Kramer&#x201d; to the new &#x201c;Club Kid,&#x201d; the best movies about men becoming better through fatherhood.",
+   "image": "https://images.wsj.net/im-21939727",
+   "section": "Film & TV"
   },
   {
-   "source": "The New York Times, Arts",
-   "title": "A Chart Truce Brings YouTube Back to Billboard",
-   "url": "https://www.nytimes.com/2026/11/11/arts/music/youtube-returns-billboard-chart-data.html",
-   "date": "2026-11-11",
-   "blurb": "A feud over what a stream is worth caused the online video giant to withdraw its data from Billboard’s charts, a move that disadvantaged some artists and genres.",
-   "image": "https://static01.nyt.com/images/2026/11/11/multimedia/11cul-youtube-charts1-pqgl/11cul-youtube-charts1-pqgl-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "In ‘The Ripple, the Wave That Carried Me Home,’ Currents of Racism",
-   "url": "https://www.nytimes.com/2026/11/11/theater/the-ripple-the-wave-that-carried-me-home-review.html",
-   "date": "2026-11-11",
-   "blurb": "One couple fights for swimming pool integration, and their daughter walks away from the battle, in Christina Anderson’s pensive play.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "N.Y.C. Holiday Theater: Not-To-Miss Shows This Festive Season",
-   "url": "https://www.nytimes.com/2026/11/11/theater/nyc-holiday-theater-guide-winter-season.html",
-   "date": "2026-11-11",
-   "blurb": "In New York City, experience a live radio play, a Nicole Kidman-inspired “Christmas Carol,” an interactive production for children and more.",
-   "image": "https://static01.nyt.com/images/2026/11/11/multimedia/11cul-holiday-roundup-1-qbtw/11cul-holiday-roundup-1-qbtw-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Jimmy Kimmel Picks Apart Trump’s Impromptu Call-in",
-   "url": "https://www.nytimes.com/2026/11/11/arts/television/jimmy-kimmel-trump-cspan.html",
-   "date": "2026-11-11",
-   "blurb": "The late night host said the president has “nothing better to do” after he phoned in live to a C-SPAN show.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Dudamel on Tour: 17 Days, 4 Countries and a Cast of 147",
-   "url": "https://www.nytimes.com/2026/11/10/arts/music/dudamel-on-tour-17-days-4-countries-and-a-cast-of-147.html",
-   "date": "2026-11-10",
-   "blurb": "Performances in six European cities were the capstone of an extravagant welcome to Gustavo Dudamel from the New York Philharmonic.",
-   "image": "https://static01.nyt.com/images/2026/11/15/multimedia/15cul-dudamel-nyphil-tour-fader-hp-03-bpvj/15cul-dudamel-nyphil-tour-fader-hp-03-bpvj-mediumSquareAt3X-v2.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "You May All Go to Hell, and Tommy Lee Jones Will Go to Texas",
-   "url": "https://www.nytimes.com/2026/11/10/arts/television/tommy-lee-jones-the-lowdown-texas.html",
-   "date": "2026-11-10",
-   "blurb": "The private actor enjoys life with his horses in the Texas Hill Country, removed from the show-business fray. But he’s back on TV for the first time in decades, in “The Lowdown.”",
-   "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22cul-tommylee-jones-promo/22cul-tommylee-jones-promo-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "Many of Trump’s Plans to Remake D.C. Would Push Locals Aside",
-   "url": "https://www.nytimes.com/2026/11/10/arts/design/trump-washington-arch-oval-office.html",
-   "date": "2026-11-10",
-   "blurb": "If these projects come to fruition, Washingtonians will lose access to sports fields, fishing spots and other tent poles of everyday city life.",
-   "image": "https://static01.nyt.com/images/2026/11/10/multimedia/10kimmelman-washington-promo/10kimmelman-washington-promo-mediumSquareAt3X.jpg"
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "The Rise of the Gen Z Cinephile",
-   "url": "https://www.nytimes.com/2026/11/10/movies/movie-theaters-gen-z.html",
-   "date": "2026-11-10",
-   "blurb": "Teens and 20-somethings are flocking to blockbusters, indies and classics alike, buoying U.S. theaters. Covid isolation and social media have a lot to do with it.",
-   "image": ""
-  },
-  {
-   "source": "The New York Times, Arts",
-   "title": "The Bad Plus Ends Like It Began: ‘Throwing Down’ Every Night",
-   "url": "https://www.nytimes.com/2026/11/10/arts/music/a-jazz-experiment-ends-like-it-began-throwing-down-every-night.html",
-   "date": "2026-11-10",
-   "blurb": "For more than two decades, the Bad Plus has explored how a jazz group with no leader could sound and what rooms it could play.",
-   "image": "https://static01.nyt.com/images/2026/11/11/multimedia/10cul-badplus-end1-vtkp/10cul-badplus-end1-vtkp-mediumSquareAt3X.jpg"
-  }
- ],
- "The Guardian, Stage": [
-  {
-   "source": "The Guardian, Stage",
-   "title": "Caryl Churchill’s magnificent Cloud 9 reaches for the skies – the National Theatre has done it proud",
-   "url": "https://www.theguardian.com/stage/2026/nov/11/cloud-9-review-national-theatre-london-caryl-churchill",
-   "date": "2026-11-11",
-   "blurb": "<p><strong>National Theatre, London</strong> <br>The experimental 1979 drama gleefully muddles roles in a century-spanning caper that bounces from colonial Africa to hippy London<br></p><p>Caryl Churchill’s…",
-   "image": "https://i.guim.co.uk/img/media/070d2c7a7cb3a49556f187ae2c72b97e9da3afd5/649_0_6881_5505/master/6881.jpg?width=140&quality=85&auto=format&fit=max&s=aa928ffe31d7311f63296587dec25f01"
-  },
-  {
-   "source": "The Guardian, Stage",
-   "title": "Old Vic 2027 season to feature Damian Lewis in a ‘provocative’ Henry V and Milly Alcock as Miss Julie",
-   "url": "https://www.theguardian.com/stage/2026/nov/10/old-vic-2027-season-damian-lewis-henry-v",
-   "date": "2026-11-10",
-   "blurb": "<p>Rupert Goold begins his tenure as artistic director with a version of Shakespeare’s history play, followed by shows starring Supergirl’s Alcock and Arinzé Kene</p><p>Damian Lewis is to play Henry V at the Old Vic…",
-   "image": "https://i.guim.co.uk/img/media/0d0d3efc4d7323fc7827fbec11cdcab8fbb0ee5c/55_0_3825_3061/master/3825.jpg?width=140&quality=85&auto=format&fit=max&s=ec6620ff66f4b28ba5284ced71cd29db"
-  },
-  {
-   "source": "The Guardian, Stage",
-   "title": "There’s scurvy, mutiny and mystery in Dogstar – but like its icebound ship this drama goes nowhere",
-   "url": "https://www.theguardian.com/stage/2026/nov/10/dogstar-review-hampstead-theatre-london",
-   "date": "2026-11-10",
-   "blurb": "<p><strong>Hampstead theatre, London<br></strong>A bickering trio of trapped survivors who have lost their comrades are kept in an ominous stasis in Daisy Bell’s play</p><p>The setup is strong in Daisy Hall’s…",
-   "image": "https://i.guim.co.uk/img/media/305555b38d1962f1cf4334027b397a9292f85e77/295_503_2129_1703/master/2129.jpg?width=140&quality=85&auto=format&fit=max&s=379bdad19a2e15506be45625e94f628c"
-  },
-  {
-   "source": "The Guardian, Stage",
-   "title": "‘Thicky thicky dumb dumb’ satirist Cody Dahler on his viral videos: ‘my material is presented to me on a silver platter!’",
-   "url": "https://www.theguardian.com/stage/2026/nov/09/cody-dahler-the-state-of-this-thicky-thicky-dumb-dumb-comedy",
-   "date": "2026-11-09",
-   "blurb": "<p>The writer and podcaster on why politics is made to seem more complicated than it is and his mission to unpack world events for everyone</p><p><strong>Why did you get into comedy? <br></strong>My mum was a…",
-   "image": "https://i.guim.co.uk/img/media/59055f0d397c465621f8da5eb34b10408c20a92c/32_171_1454_1163/master/1454.jpg?width=140&quality=85&auto=format&fit=max&s=1e4b70f85ecc4c6125027c91ef16991c"
-  },
-  {
-   "source": "The Guardian, Stage",
-   "title": "A one-part wonder! The West End’s streamlined Harry Potter and the Cursed Child works like magic",
-   "url": "https://www.theguardian.com/stage/2026/nov/09/harry-potter-and-the-cursed-child-one-part-production-review-palace-theatre-london-jack-thorne",
-   "date": "2026-11-09",
-   "blurb": "<p><strong>Palace theatre, London<br></strong>Five hours have been trimmed to three for this new version but it is packed with magic moments and superb performances</p><p>Ten years on from <a…",
-   "image": "https://i.guim.co.uk/img/media/546bc95dfc79655ed5baa5acb0d1e1f0cc989806/1094_667_2960_2368/master/2960.jpg?width=140&quality=85&auto=format&fit=max&s=2b536e7036e19148b6b764b16d16fdb2"
-  },
-  {
-   "source": "The Guardian, Stage",
-   "title": "Marilyn Monroe is a magnetic misfit in Speculations, a spicy conspiracy drama full of bombshells",
-   "url": "https://www.theguardian.com/stage/2026/nov/06/marilyn-monroe-speculations-conspiracy-drama-marylebone-theatre-london-trevor-nunn",
+   "source": "WSJ Review",
+   "title": "11 Books We Read This Week",
+   "url": "https://www.wsj.com/arts-culture/books/11-books-we-read-this-week-a032f427?mod=rss_artsculture",
    "date": "2026-11-06",
-   "blurb": "<p><strong>Marylebone theatre, London</strong> <br>Trevor Nunn directs Torben Betts’s intriguing but flawed play following US journalist Dorothy Kilgallen’s theories about the Kennedys</p><p>A smartly dressed woman…",
-   "image": "https://i.guim.co.uk/img/media/0b5abc07224fca7105d008efc0c6999928832232/0_604_2304_1842/master/2304.jpg?width=140&quality=85&auto=format&fit=max&s=dfa373afab3dc2773203d54efbdbd7f9"
+   "blurb": "The films of Frank Capra, buying Louisiana, letters from Claude Monet and more.",
+   "image": "https://opinion-images.wsj.net/im-14369783",
+   "section": "Arts Calendar"
   },
   {
-   "source": "The Guardian, Stage",
-   "title": "This extraordinary new Hamlet turns Shakespeare inside out with infinite jest – and cuddly toys",
-   "url": "https://www.theguardian.com/stage/2026/nov/06/the-last-hamlet-review-sadlers-wells-east",
+   "source": "WSJ Review",
+   "title": "The &#x2018;Ring&#x2019; Cycle at 150: Richard Wagner&#x2019;s Manifold Musical Epic",
+   "url": "https://www.wsj.com/arts-culture/music/the-ring-cycle-at-150-richard-wagners-manifold-musical-epic-cb2bea12?mod=rss_artsculture",
    "date": "2026-11-06",
-   "blurb": "<p><strong>Sadler’s Wells East, London<br></strong>Ben Duke’s clever, witty and wholly unpredictable new show, The Last Hamlet, takes big liberties with the story that pay off</p><p>Hamlet is trying to get a hire…",
-   "image": "https://i.guim.co.uk/img/media/227b2e8d0042d1a4dd72b94730528b7abbe779bc/1507_376_4652_3722/master/4652.jpg?width=140&quality=85&auto=format&fit=max&s=e63a4bac52d867ff6d274e671c3f41ad"
+   "blurb": "The composer&#x2019;s magnum opus, a fantasy saga that comprises four linked operas, is a work of both staggering, singular vision and extraordinary diversity.",
+   "image": "https://opinion-images.wsj.net/im-05985348",
+   "section": "Music Review"
   },
   {
-   "source": "The Guardian, Stage",
-   "title": "The Lives of Others review – Keira Knightley brings star power to Robert Icke’s Stasi drama",
-   "url": "https://www.theguardian.com/stage/2026/nov/02/the-lives-of-others-review-keira-knightley-brings-star-power-to-robert-ickes-stasi-drama",
-   "date": "2026-11-02",
-   "blurb": "<p><strong>Adelphi theatre, London<br></strong>Theatre wunderkind’s adaptation of the Oscar-winning film has plenty of suspenseful stagecraft but struggles to match its subtlety</p><p>Another new show, another old…",
-   "image": "https://i.guim.co.uk/img/media/54b1522dac068bec34689f3143182f6d21581723/0_1386_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=a7e51bdf198f780ebd41116bf86f7d39"
+   "source": "WSJ Review",
+   "title": "Louvre Director Christophe Leribault on the Museum&#x2019;s Many Crises",
+   "url": "https://www.wsj.com/arts-culture/fine-art/louvre-director-christophe-leribault-on-the-museums-many-crises-5aaa2a5a?mod=rss_artsculture",
+   "date": "2026-11-06",
+   "blurb": "The museum chief discusses the challenges of leading the Louvre as France is roiled by protests and the institution faces a sorely needed renovation&#x2014;including a rethinking of how it presents the Mona Lisa.",
+   "image": "https://opinion-images.wsj.net/im-42731980",
+   "section": "Art Review"
   },
   {
-   "source": "The Guardian, Stage",
-   "title": "Ceilidh: A New Musical review – a joyous, riotous celebration of Scottish culture gets the audience on its feet",
-   "url": "https://www.theguardian.com/stage/2026/oct/30/ceilidh-a-new-musical-review",
+   "source": "WSJ Review",
+   "title": "&#x2018;Bacon / De Kooning&#x2019; Review: A Surprising First Meeting",
+   "url": "https://www.wsj.com/arts-culture/fine-art/bacon-de-kooning-review-a-surprising-first-meeting-airdigital-d8bca86e?mod=rss_artsculture",
+   "date": "2026-11-06",
+   "blurb": "Francis Bacon and Willem De Kooning had very different approaches to art but exhibited a similar infatuation with and adventurousness in their medium, a bond made clear in their inaugural joint presentation at…",
+   "image": "https://opinion-images.wsj.net/im-35671945",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Can Ag Waste and Lab Cells Satiate Our Chocolate Cravings?",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/can-ag-waste-and-lab-cells-satiate-our-chocolate-cravings-14421d25?mod=rss_artsculture",
+   "date": "2026-11-06",
+   "blurb": "Plus, how gene editing is letting crops talk to farmers, Anthropic&#x2019;s ambition to cure diseases, and saving America&#x2019;s rarest predator from extinction.",
+   "image": "https://images.wsj.net/im-54515447",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "The Comedian Who Was Fleeced to the Tune of $12 Million by His Half-Brother",
+   "url": "https://www.wsj.com/arts-culture/film/the-comedian-who-was-fleeced-to-the-tune-of-12-million-by-his-half-brother-79bea459?mod=rss_artsculture",
+   "date": "2026-11-06",
+   "blurb": "As Dane Cook sold out arenas at the peak of his fame, he had no clue that a family member was emptying his bank account.",
+   "image": "https://images.wsj.net/im-08599638",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Bohuslav Martinu&#x2019;s Shimmering Symphonies",
+   "url": "https://www.wsj.com/arts-culture/music/bohuslav-martinus-shimmering-symphonies-2428530f?mod=rss_artsculture",
+   "date": "2026-11-05",
+   "blurb": "Jakub Hr&#x16f;&#x161;a&#x2019;s superb set of recordings with the Bamberg Symphony of the 20th-century Czech composer&#x2019;s work offers an ideal opportunity to revisit his ever-shifting musical world.",
+   "image": "https://opinion-images.wsj.net/im-08690168",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "&#x2018;Coal&#x2019;s Human Cost&#x2019; Review: Black Lung&#x2019;s Persistence on PBS",
+   "url": "https://www.wsj.com/arts-culture/television/coals-human-cost-review-black-lungs-persistence-on-pbs-77b82af6?mod=rss_artsculture",
+   "date": "2026-11-05",
+   "blurb": "This &#x2018;Frontline&#x2019; special investigates the continued toll of the debilitating disease, long a devastating hazard of mining.",
+   "image": "https://opinion-images.wsj.net/im-30979565",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "&#x2018;De Gaulle: R&#xe9;sistance&#x2019; Review: A Grand Portrait of the General",
+   "url": "https://www.wsj.com/arts-culture/television/de-gaulle-resistance-review-a-grand-portrait-of-the-general-274b6b48?mod=rss_artsculture",
+   "date": "2026-11-05",
+   "blurb": "The first installment of Antonin Baudry&#x2019;s two-part, five-plus-hour saga follows Charles de Gaulle as France falls to Germany and he contends with leaders around the world.",
+   "image": "https://opinion-images.wsj.net/im-25707948",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "&#x2018;Black Doves&#x2019; Season 2 Review: Netflix&#x2019;s Fanciful Spy Series Returns",
+   "url": "https://www.wsj.com/arts-culture/television/black-doves-season-2-review-netflixs-fanciful-spy-series-returns-3d1a4bff?mod=rss_artsculture",
+   "date": "2026-11-05",
+   "blurb": "Keira Knightley and Ben Whishaw reprise their roles as covert mercenaries in Joe Barton&#x2019;s highly entertaining&#x2014;if not strictly believable&#x2014;show.",
+   "image": "https://opinion-images.wsj.net/im-52899255",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "&#x2018;Auguste Bartholdi: Liberty Enlightening the World&#x2019; Review: An American Icon in Paris",
+   "url": "https://www.wsj.com/arts-culture/fine-art/auguste-bartholdi-liberty-enlightening-the-world-review-an-american-icon-in-paris-625f92d2?mod=rss_artsculture",
+   "date": "2026-11-04",
+   "blurb": "The Mus&#xe9;e d&#x2019;Orsay tells the long saga of the Statue of Liberty&#x2019;s conception and completion, from a French workshop to New York Harbor.",
+   "image": "https://opinion-images.wsj.net/im-61921306",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "&#x2018;Perfecth&#x2019; by Queens of the Stone Age Review: Emphasis on Atmosphere",
+   "url": "https://www.wsj.com/arts-culture/music/perfecth-by-queens-of-the-stone-age-review-emphasis-on-atmosphere-f4a25369?mod=rss_artsculture",
+   "date": "2026-11-03",
+   "blurb": "The rock band&#x2019;s ninth studio album has an enveloping, moody sound, but it can&#x2019;t quite compensate for Josh Homme&#x2019;s less-than-memorable songwriting.",
+   "image": "https://opinion-images.wsj.net/im-68351653",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "The Metallica Diehards Who Love to Rock Out With Mom and Dad",
+   "url": "https://www.wsj.com/arts-culture/music/the-metallica-diehards-who-love-to-rock-out-with-mom-and-dad-6765c7d4?mod=rss_artsculture",
+   "date": "2026-11-03",
+   "blurb": "Metallica, Weezer and Taking Back Sunday are all seeing an influx of young fans, an unexpected turn for some of the older generation.",
+   "image": "https://images.wsj.net/im-78349164",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "&#x2018;It Gets Worse&#x2019; Review: A Gen-Z Comedy of Roommates Adrift",
+   "url": "https://www.wsj.com/arts-culture/television/it-gets-worse-review-a-gen-z-comedy-of-roommates-adrift-966e75a5?mod=rss_artsculture",
+   "date": "2026-11-03",
+   "blurb": "Leo Reich stars in and created this six-part series on Paramount+ about three best friends in London, caught in a very modern mix of personal and romantic problems.",
+   "image": "https://opinion-images.wsj.net/im-72381508",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Arts Calendar: Happenings for the Week of November 1",
+   "url": "https://www.wsj.com/arts-culture/fine-art/arts-calendar-happenings-for-the-week-of-november-1-airdigital-753900c3?mod=rss_artsculture",
+   "date": "2026-11-01",
+   "blurb": "In the cinema, the CIA heads to Chile and a monster attacks Japan; a Prime Video series looks at Muhammad Ali&#x2019;s life in and out of the ring; Alanis Morissette releases her first holiday album; and more.",
+   "image": "https://opinion-images.wsj.net/im-15795857",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "At This Fashion Photographer&#x2019;s Dinner Parties, Madonna Gets on the Kitchen Table",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/mert-alas-fashion-photographer-seventy-one-gin-d6852ddb?mod=rss_artsculture",
+   "date": "2026-11-01",
+   "blurb": "When hosting A-listers and models at his London townhouse, Mert Alas has a recipe for memorable dinner parties: Caviar pasta, Edwardian crystal and gin &#x201c;golden martinis.&#x201d;",
+   "image": "https://images.wsj.net/im-53330042",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "At This Fashion Photographer&#x2019;s Dinner Parties, Madonna Gets on the Kitchen Table",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/mert-alas-fashion-photographer-seventy-one-gin-d6852ddb?mod=rss_style",
+   "date": "2026-11-01",
+   "blurb": "When hosting A-listers and models at his London townhouse, Mert Alas has a recipe for memorable dinner parties: Caviar pasta, Edwardian crystal and gin &#x201c;golden martinis.&#x201d;",
+   "image": "https://images.wsj.net/im-53330042",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "What to Watch: The 15 Best Movies and TV Shows of October",
+   "url": "https://www.wsj.com/arts-culture/television/what-to-watch-the-15-best-movies-and-tv-shows-of-october-34c86b11?mod=rss_artsculture",
+   "date": "2026-10-31",
+   "blurb": "Nathan Fielder fashions a fascinating portrait of Elizabeth Holmes; Mike Flanagan adapts &#x2018;Carrie&#x2019; for the modern age; John Turturro plays an unlucky New York pickpocket; and much, much more.",
+   "image": "https://opinion-images.wsj.net/im-00814281",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "&#x2018;Cursed! The Power of Magic in the Ancient World&#x2019; Review: Conjuring Compelling History",
+   "url": "https://www.wsj.com/arts-culture/fine-art/cursed-the-power-of-magic-in-the-ancient-world-review-conjuring-compelling-history-airdigital-3932d3f6?mod=rss_artsculture",
    "date": "2026-10-30",
-   "blurb": "<p><strong>Shoreditch town hall, London<br></strong>Scott Gilmour and Claire McKenzie’s audience participation musical gets toes tapping and bodies spinning – even if its story lacks a little depth</p><p>There’s only…",
-   "image": "https://i.guim.co.uk/img/media/40cc23dd053d4eb5e9f01a5457666588e8992b62/342_0_1706_1365/master/1706.jpg?width=140&quality=85&auto=format&fit=max&s=7736956ea1d10b3c284768e647e9378a"
+   "blurb": "An exhibition at NYU&#x2019;s Institute for the Study of the Ancient World reveals the way magic was intertwined with life in ways both dramatic and quotidian.",
+   "image": "https://opinion-images.wsj.net/im-06083410",
+   "section": "Art Review"
   },
   {
-   "source": "The Guardian, Stage",
-   "title": "Middlemarch review – World’s Greatest Novel hurtles from deathbed panto to jolting marital tragedy",
-   "url": "https://www.theguardian.com/stage/2026/oct/29/middlemarch-review-swan-theatre-stratford-upon-avon-worlds-greatest-novel-george-eliot",
+   "source": "WSJ Review",
+   "title": "How Do You Save the World&#x2019;s Chocolate Supply? You Reinvent Chocolate",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/chocolate-startups-cocoa-supply-2fde1d4f?mod=rss_artsculture",
+   "date": "2026-10-30",
+   "blurb": "Candy prices are up 44% since 2021, but two groups of innovators are striving to solve the growing cocoa-bean shortage.",
+   "image": "https://images.wsj.net/im-65186481",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Bob Seger&#x2019;s &#x2018;Night Moves&#x2019; Turns 50",
+   "url": "https://www.wsj.com/arts-culture/music/bob-segers-night-moves-turns-50-caa0edc9?mod=rss_artsculture",
    "date": "2026-10-29",
-   "blurb": "<p><strong>Swan theatre, Stratford-Upon-Avon<br></strong>This RSC staging of the sprawling middle England masterpiece has humour, compassion – and even George Eliot herself as a character</p><p>Is there a literary…",
-   "image": "https://i.guim.co.uk/img/media/ac9cfb1f7f0c5a97f9db2c4c4c538a1f933bdb3d/0_1453_3919_3135/master/3919.jpg?width=140&quality=85&auto=format&fit=max&s=46f5bbe2c30231ba70c622e6f67ed8c9"
+   "blurb": "The singer channeled nostalgia for his 1960s youth into an energetic but reflective album that proved a pivot point in his career.",
+   "image": "https://opinion-images.wsj.net/im-41270658",
+   "section": "Music Review"
+  }
+ ],
+ "Goings On": [
+  {
+   "source": "Goings On",
+   "title": "“Wicker” and What Straight Women Want",
+   "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+   "date": "2026-11-07",
+   "blurb": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its…",
+   "image": "https://media.newyorker.com/photos/6aeb6ded0595de95bb163b2a/master/pass/Critic",
+   "section": "Critics"
   },
   {
-   "source": "The Guardian, Stage",
-   "title": "The Sea review – Jennifer Saunders takes fussing over buying curtains to Shakespearean levels",
-   "url": "https://www.theguardian.com/stage/2026/oct/29/the-sea-review-theatre-royal-bath-jennifer-saunders-shakespearean-curtains",
-   "date": "2026-10-29",
-   "blurb": "<p><strong>Theatre Royal Bath<br></strong>Edward Bond’s play about consumerism and the strength of humans in dark times is hugely enlivened by Saunders and her tight-lipped pomposity</p><p>When describing his own…",
-   "image": "https://i.guim.co.uk/img/media/990cac943fa104609c1bbe7036dc5dc3bb9be731/219_0_3897_3117/master/3897.jpg?width=140&quality=85&auto=format&fit=max&s=3613d2bdd2af64b63ed87de2a378bf26"
+   "source": "Goings On",
+   "title": "“Club Kid” Is a Disarming Cocktail of Grit and Fantasy",
+   "url": "https://www.newyorker.com/culture/the-current-cinema/club-kid-is-a-disarming-cocktail-of-grit-and-fantasy",
+   "date": "2026-11-06",
+   "blurb": "In Jordan Firstman’s assured filmmaking début, he plays a gay New York party promoter who gets an improbable shot at fatherhood.",
+   "image": "https://media.newyorker.com/photos/6aeba52b0a5453b6081627e6/master/pass/Chang-Club-Kid.jpg",
+   "section": "Cinema"
   },
   {
-   "source": "The Guardian, Stage",
-   "title": "Girls review – a story of friendship amidst extreme misogynist violence",
-   "url": "https://www.theguardian.com/stage/2026/oct/28/girls-review-a-story-of-friendship-amidst-extreme-misogynist-violence",
-   "date": "2026-10-28",
-   "blurb": "<p><strong>Young Vic, London</strong><br>Recalling Boko Haram’s abduction of schoolgirls in Chibok in 2014, Theresa Ikoko’s fierce and tender play reveals how three teenagers find hope and laughter under the most…",
-   "image": "https://i.guim.co.uk/img/media/7f0f141c5c53d393a80fb0665532175c0d18399d/760_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=c8d6150bcf2abfb175eaf384103d2b94"
+   "source": "Goings On",
+   "title": "“Paper Tiger” Views Family as Deadweight",
+   "url": "https://www.newyorker.com/magazine/2026/11/16/paper-tiger-movie-review",
+   "date": "2026-11-06",
+   "blurb": "In James Gray’s new crime drama, starring Miles Teller, Scarlett Johansson, and Adam Driver, a Queens couple’s life is turned upside down by a scheme for easy money.",
+   "image": "https://media.newyorker.com/photos/6aeb62a47e2a6c54d6120c5d/master/pass/r50545_rd.jpg",
+   "section": "Cinema"
+  },
+  {
+   "source": "Goings On",
+   "title": "In “The Heart” and “I Became We,” the Rise of the Hive-Mind Musical",
+   "url": "https://www.newyorker.com/magazine/2026/11/16/the-heart-theatre-review-broadway-i-became-we",
+   "date": "2026-11-05",
+   "blurb": "In this new kind of show, an ensemble tells an individual’s story in unison, sometimes down to the thoughts inside her head.",
+   "image": "https://media.newyorker.com/photos/6aeb62a47e2a6c54d6120c5f/master/pass/r50671.jpg",
+   "section": "Theatre"
+  },
+  {
+   "source": "Goings On",
+   "title": "The Insistent Monumentality of “La Bola Negra”",
+   "url": "https://www.newyorker.com/culture/the-current-cinema/the-insistent-monumentality-of-la-bola-negra",
+   "date": "2026-11-03",
+   "blurb": "In Javier Ambrossi and Javier Calvo’s historical triptych, dramas of gay repression and liberation dovetail in ways more reductive than illuminating.",
+   "image": "https://media.newyorker.com/photos/6ae8c35568f89860f208a536/master/pass/Chang-La-Bola-Negra.jpg",
+   "section": "Cinema"
+  },
+  {
+   "source": "Goings On",
+   "title": "“Chronovisor” Captures the Terror of Thinking",
+   "url": "https://www.newyorker.com/culture/critics-notebook/chronovisor-captures-the-terror-of-thinking",
+   "date": "2026-10-31",
+   "blurb": "The filmmakers Jack Auen and Kevin Walker have found the ideal genre in which to depict the life of the mind: horror.",
+   "image": "https://media.newyorker.com/photos/6ae20e1044dcd685594500cf/master/pass/Rothfeld-Chronovisor.jpg",
+   "section": "Critics"
+  },
+  {
+   "source": "Goings On",
+   "title": "“Tip Toe” Is a Rare Outcry Against Social Revanchism",
+   "url": "https://www.newyorker.com/culture/on-television/tip-toe-is-a-rare-outcry-against-social-revanchism",
+   "date": "2026-10-30",
+   "blurb": "The gripping British show starring Alan Cumming is fuelled by panic over the erosion of progressive political and cultural gains.",
+   "image": "https://media.newyorker.com/photos/6ae266e3741767b5446fa27e/master/pass/Kang-Tip-Toe.jpg",
+   "section": "What We’re Watching"
+  },
+  {
+   "source": "Goings On",
+   "title": "“Slow Horses,” Apple TV’s Best Show, Retains Its Pungent Relevance",
+   "url": "https://www.newyorker.com/culture/on-television/slow-horses-apple-tvs-best-show-retains-its-pungent-relevance",
+   "date": "2026-10-22",
+   "blurb": "The spy series, which follows a lowly team of pariahs in MI5, mirrors our present moment.",
+   "image": "https://media.newyorker.com/photos/6ad65f5562b96eff8fdee55c/master/pass/Kang-Slow-Horses.jpg",
+   "section": "What We’re Watching"
+  },
+  {
+   "source": "Goings On",
+   "title": "Footballese, the Most American Vernacular",
+   "url": "https://www.newyorker.com/culture/on-television/footballese-the-most-american-vernacular",
+   "date": "2026-10-09",
+   "blurb": "In N.F.L. commentary, expertise is celebrated, even craved, by the masses.",
+   "image": "https://media.newyorker.com/photos/6ac8006ee958b85393793f09/master/pass/Final_GIF_NewYorker_ani.gif",
+   "section": "What We’re Watching"
   }
  ]
 }
