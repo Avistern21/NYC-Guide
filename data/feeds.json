@@ -1,20 +1,31 @@
 [
- {
-  "name": "Goings On About Town",
-  "url": "https://www.newyorker.com/feed/everything",
-  "match": "/goings-on-about-town"
- },
- {
-  "name": "Goings On About Town",
-  "url": "https://www.newyorker.com/feed/magazine/rss",
-  "match": "/goings-on-about-town"
- },
- {
-  "name": "The New York Times, Arts",
-  "url": "https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml"
- },
- {
-  "name": "The Guardian, Stage",
-  "url": "https://www.theguardian.com/stage/rss"
- }
+ {"name":"WSJ Review","url":"https://feeds.content.dowjones.io/public/rss/RSSArtsCulture","sections":[
+  ["Art Review","/fine-art|/art/|/art-|exhibit|museum|gallery|painter|sculpt"],
+  ["Music Review","/music|concert|album|opera|symphony|orchestra"],
+  ["Arts Calendar","calendar|what-to-see|things-to-do|this-week"],
+  ["Film & TV","/film|/movies|/television|/tv/|/tv-|streaming|\\bfilm\\b|\\bseries\\b"],
+  ["Food & Cooking","/food|/cooking|recipe|restaurant"]]},
+ {"name":"WSJ Review","url":"https://feeds.content.dowjones.io/public/rss/RSSLifestyle","sections":[
+  ["Food & Cooking","/food|/cooking|recipe|restaurant"],
+  ["Art Review","/fine-art|/art/|exhibit|museum|gallery"]]},
+ {"name":"WSJ Review","url":"https://feeds.content.dowjones.io/public/rss/RSSStyle","sections":[
+  ["Food & Cooking","/food|/cooking|recipe"]]},
+ {"name":"Goings On","url":"https://www.newyorker.com/feed/culture","sections":[
+  ["Critics","critics|/culture/(the-critics|critics-notebook|critic)"],
+  ["Theatre","/the-theatre|/theater|/theatre|broadway|off-broadway|\\bplay\\b|musical"],
+  ["Cinema","/the-current-cinema|/movies|/film|cinema|\\bmovie"],
+  ["Art World","/the-art-world|/art\\b|/art/|exhibit|museum|gallery|painting"],
+  ["Goings On","goings-on"],
+  ["What We’re Eating","what-were-eating|we-re-eating"],
+  ["What We’re Watching","what-were-watching|we-re-watching|/tv|television|streaming"],
+  ["Music","/music|concert|album|opera|classical"],
+  ["Dance","/dance|ballet|choreograph"]]},
+ {"name":"Goings On","url":"https://www.newyorker.com/feed/everything","sections":[
+  ["Goings On","goings-on"],
+  ["Theatre","/the-theatre|broadway"],
+  ["Cinema","/the-current-cinema"],
+  ["Art World","/the-art-world"],
+  ["What We’re Eating","what-were-eating"],
+  ["What We’re Watching","what-were-watching"],
+  ["Critics","/critics"]]}
 ]

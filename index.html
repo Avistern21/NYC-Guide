@@ -336,7 +336,7 @@ const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","De
 const md=s=>MON[+s.slice(5,7)-1]+" "+(+s.slice(8,10));
 const range=(a,b)=>a===b?md(a):(a.slice(0,7)===b.slice(0,7)?md(a)+"–"+(+b.slice(8,10)):md(a)+"–"+md(b));
 let venues=[],shows=[],auto={},imgs={venues:{},shows:{}},picks=[],log=null,L=[];
-let mine=[],events=[],saved=[],arts={},af="all",bf="all",wt="now",bd=null,mix=null,bmix=null;
+let mine=[],events=[],saved=[],arts={},af="all",sf="all",bf="all",wt="now",bd=null,mix=null,bmix=null;
 let wf="all",cv="list",cm=TODAY.slice(0,7);
 try{const s=JSON.parse(localStorage.getItem("culture-guide-v2")||"{}");mine=s.mine||[];events=s.events||[];saved=s.saved||[]}catch{}
 const save=()=>{try{localStorage.setItem("culture-guide-v2",JSON.stringify({mine,events,saved}))}catch{}};
@@ -433,11 +433,17 @@ function calendar(){
 
 function pickList(c){return picks.filter(p=>p.cat===c).map(p=>({...p,id:"p-"+slug(p.name)})).concat(mine.filter(p=>p.cat===c))}
 function articlesView(){
-  const srcs=Object.keys(arts).filter(k=>k!=="The New Yorker"&&(arts[k]||[]).length);if(!srcs.length)return"";
+  const srcs=["WSJ Review","Goings On"].filter(k=>(arts[k]||[]).length);if(!srcs.length)return"";
   const all=srcs.flatMap(k=>arts[k]).filter(a=>safe(a.url)).sort((a,b)=>(b.date||"")<(a.date||"")?-1:1);
-  const list=af==="all"?all:all.filter(a=>a.source===af);
-  return '<div class="mo">Latest articles</div><div class="fbar" role="group" aria-label="Publication">'+["all"].concat(srcs).map(k=>'<button type="button" data-af="'+esc(k)+'" aria-pressed="'+(af===k)+'">'+(k==="all"?"All":esc(k))+'</button>').join("")+'</div><div class="grid">'+
-   list.slice(0,24).map(a=>'<article class="card"><a href="'+esc(a.url)+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:contents">'+tile(a.source,/^https:/.test(a.image||"")?a.image:"")+'</a><span class="tag">'+esc(a.source)+(a.date?' · '+esc(md(a.date)):"")+'</span><h3>'+esc(a.title)+'</h3>'+(a.blurb?'<p>'+esc(a.blurb)+'</p>':"")+'<a class="go" href="'+esc(a.url)+'" target="_blank" rel="noopener">Read article</a></article>').join("")+'</div>'}
+  if(af!=="all"&&!srcs.includes(af))af="all";
+  const pool=af==="all"?all:all.filter(a=>a.source===af);
+  const secs=[...new Set(pool.map(a=>a.section).filter(Boolean))];
+  if(sf!=="all"&&!secs.includes(sf))sf="all";
+  const list=sf==="all"?pool:pool.filter(a=>a.section===sf);
+  const chip=(a,k,cur,l)=>'<button type="button" data-'+a+'="'+esc(k)+'" aria-pressed="'+(cur===k)+'">'+esc(l)+'</button>';
+  return '<div class="mo">Latest articles</div><div class="fbar" role="group" aria-label="Publication">'+chip("af","all",af,"All")+srcs.map(k=>chip("af",k,af,k)).join("")+'</div>'+
+   (secs.length>1?'<div class="fbar" role="group" aria-label="Section">'+chip("sf","all",sf,"Every section")+secs.map(k=>chip("sf",k,sf,k)).join("")+'</div>':"")+'<div class="grid">'+
+   list.slice(0,30).map(a=>'<article class="card"><a href="'+esc(a.url)+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:contents">'+tile(a.source,/^https:/.test(a.image||"")?a.image:"")+'</a><span class="tag">'+esc(a.section||a.source)+(a.date?' · '+esc(md(a.date)):"")+'</span><h3>'+esc(a.title)+'</h3>'+(a.blurb?'<p>'+esc(a.blurb)+'</p>':"")+'<a class="go" href="'+esc(a.url)+'" target="_blank" rel="noopener">Read article</a></article>').join("")+'</div>'}
 const CATNAME={dance:"Dance",music:"Music",museums:"Museum",galleries:"Gallery",broadway:"Broadway"};
 const shuf=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 function buildMix(){
@@ -541,7 +547,7 @@ function drawBanner(){
 document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("[data-bshuffle]")){bmix=null;drawBanner()}});
 const THEMES=[["midnight","Midnight","#ff3d81","#ff9a3d"],["gold","Gold","#e8b84a","#ffe08a"],["sunset","Sunset","#ff5e5b","#ffb347"],["violet","Violet","#7c5cff","#22d3ee"],["gallery","Gallery","#000","#777"]];
 function drawThemes(){const cur=document.documentElement.dataset.theme;document.getElementById("themes").innerHTML=THEMES.map(t=>'<button type="button" data-theme="'+t[0]+'" title="'+t[1]+'" aria-label="'+t[1]+' theme" aria-pressed="'+(t[0]===cur)+'" style="background:linear-gradient(135deg,'+t[2]+','+t[3]+')"></button>').join("")}
-document.addEventListener("click",e=>{const t=e.target.closest&&e.target.closest("[data-wf],[data-wt],[data-cv],[data-cm],[data-af],[data-bf],[data-shuffle],[data-wshuf],[data-bk],[data-bd],[data-bdgo],[data-bdx],[data-bdclr]");if(!t)return;
+document.addEventListener("click",e=>{const t=e.target.closest&&e.target.closest("[data-wf],[data-wt],[data-cv],[data-cm],[data-af],[data-sf],[data-bf],[data-shuffle],[data-wshuf],[data-bk],[data-bd],[data-bdgo],[data-bdx],[data-bdclr]");if(!t)return;
   if(t.dataset.bd){bd=t.dataset.bd}else if(t.dataset.bdx){bd=null}
   else if(t.dataset.bdclr){const k=events.findIndex(x=>x.bk===t.dataset.bdclr);if(k>=0)events.splice(k,1);bd=null;save()}
   else if(t.dataset.bdgo){const d=t.closest(".card").querySelector('input[type=date]').value;if(!d)return;
@@ -549,7 +555,7 @@ document.addEventListener("click",e=>{const t=e.target.closest&&e.target.closest
     if(e)e.date=d;else events.push({id:"e"+Date.now(),date:d,type:"Broadway",title:p.name||"Broadway show",where:p.area||"",url:p.url||"",bk:id});
     bd=null;save()}
   else if(t.dataset.bk){const id=t.dataset.bk,k=saved.indexOf(id);if(k>=0)saved.splice(k,1);else saved.push(id);save()}
-  else if(t.dataset.wt)wt=t.dataset.wt;else if(t.dataset.bf)bf=t.dataset.bf;else if(t.dataset.shuffle)mix=null;else if(t.dataset.wshuf){wsd=Math.random()*1e9|0;dpk=null}else if(t.dataset.af)af=t.dataset.af;else if(t.dataset.wf)wf=t.dataset.wf;else if(t.dataset.cv)cv=t.dataset.cv;else{const [y,m]=cm.split("-").map(Number),d=new Date(y,m-1+Number(t.dataset.cm),1);cm=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")}
+  else if(t.dataset.wt)wt=t.dataset.wt;else if(t.dataset.bf)bf=t.dataset.bf;else if(t.dataset.shuffle)mix=null;else if(t.dataset.wshuf){wsd=Math.random()*1e9|0;dpk=null}else if(t.dataset.af){af=t.dataset.af;sf="all"}else if(t.dataset.sf)sf=t.dataset.sf;else if(t.dataset.wf)wf=t.dataset.wf;else if(t.dataset.cv)cv=t.dataset.cv;else{const [y,m]=cm.split("-").map(Number),d=new Date(y,m-1+Number(t.dataset.cm),1);cm=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")}
   render()});
 document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-theme]");if(!b||!b.closest("#themes"))return;document.documentElement.dataset.theme=b.dataset.theme;try{localStorage.setItem("culture-guide-theme",b.dataset.theme)}catch{}drawThemes()});
 drawThemes();
