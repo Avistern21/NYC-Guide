@@ -2,12 +2,39 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "Jelly Roll Morton’s ‘New Orleans Joys: The Earliest Recordings, 1923-26’: A Jazz Giant Emerges",
+   "url": "https://www.wsj.com/arts-culture/music/jelly-roll-mortons-new-orleans-joys-the-earliest-recordings-1923-26-a-jazz-giant-emerges-04eea979?mod=rss_artsculture",
+   "date": "2026-11-11",
+   "blurb": "The first years of the pianist and bandleader’s recording career, historically overlooked, sound strikingly fresh on a new set.",
+   "image": "https://opinion-images.wsj.net/im-58531760",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Photography’s First Century’ Review: An Art Form’s Baby Pictures",
+   "url": "https://www.wsj.com/arts-culture/fine-art/photographys-first-century-review-an-art-forms-baby-pictures-6ae9f369?mod=rss_artsculture",
+   "date": "2026-11-11",
+   "blurb": "The Kimbell Art Museum draws on the massive archive of the Bibliothèque Nationale de France to offer a well-distilled look at photography’s early days.",
+   "image": "https://opinion-images.wsj.net/im-41259358",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
    "title": "The Fan Who Rescues Lost Songs From Extinction, One Very Polite Email at a Time",
    "url": "https://www.wsj.com/arts-culture/music/the-british-executive-who-saves-forgotten-songs-from-extinction-20c92d4b?mod=rss_artsculture",
    "date": "2026-11-11",
    "blurb": "What do Sting, Nicole Scherzinger, ’N Sync and the Spice Girls have in common? Rob Johnson, the pop music fan who’s helped bring some of their more obscure tracks online.",
    "image": "https://images.wsj.net/im-38633350",
    "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "The Elite Squad Out to Win Gold for Team USA at the World Cup of Pastry",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/the-elite-squad-out-to-win-gold-for-team-usa-at-the-world-cup-of-pastry-55aac173?mod=rss_artsculture",
+   "date": "2026-11-11",
+   "blurb": "As amateur bakers start planning their Thanksgiving pies, four chefs are training to become world champions. Meet the team—and get their tips for baking like a pro.",
+   "image": "https://images.wsj.net/im-53442724",
+   "section": "Food & Cooking"
   },
   {
    "source": "WSJ Review",
@@ -32,7 +59,7 @@
    "title": "Inside Ronald Lauder’s Decision to Merge His Neue Galerie With the Met",
    "url": "https://www.wsj.com/arts-culture/fine-art/ronald-lauder-met-neue-d728606f?mod=rss_artsculture",
    "date": "2026-11-10",
-   "blurb": "As baby boomers grapple with securing the future of their art collections, the cosmetics tycoon gave the Met a seismic gift: his $1.5 billion collection of German and Austrian art.",
+   "blurb": "As older collectors grapple with securing the future of their art troves, the cosmetics tycoon gave the Met a seismic gift: his $1.5 billion collection of German and Austrian art.",
    "image": "https://images.wsj.net/im-11507821",
    "section": "Art Review"
   },
@@ -209,15 +236,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Auguste Bartholdi: Liberty Enlightening the World’ Review: An American Icon in Paris",
-   "url": "https://www.wsj.com/arts-culture/fine-art/auguste-bartholdi-liberty-enlightening-the-world-review-an-american-icon-in-paris-625f92d2?mod=rss_artsculture",
-   "date": "2026-11-04",
-   "blurb": "The Musée d’Orsay tells the long saga of the Statue of Liberty’s conception and completion, from a French workshop to New York Harbor.",
-   "image": "https://opinion-images.wsj.net/im-61921306",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
    "title": "‘Perfecth’ by Queens of the Stone Age Review: Emphasis on Atmosphere",
    "url": "https://www.wsj.com/arts-culture/music/perfecth-by-queens-of-the-stone-age-review-emphasis-on-atmosphere-f4a25369?mod=rss_artsculture",
    "date": "2026-11-03",
@@ -245,15 +263,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "Arts Calendar: Happenings for the Week of November 1",
-   "url": "https://www.wsj.com/arts-culture/fine-art/arts-calendar-happenings-for-the-week-of-november-1-airdigital-753900c3?mod=rss_artsculture",
-   "date": "2026-11-01",
-   "blurb": "In the cinema, the CIA heads to Chile and a monster attacks Japan; a Prime Video series looks at Muhammad Ali’s life in and out of the ring; Alanis Morissette releases her first holiday album; and more.",
-   "image": "https://opinion-images.wsj.net/im-15795857",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
    "title": "At This Fashion Photographer’s Dinner Parties, Madonna Gets on the Kitchen Table",
    "url": "https://www.wsj.com/arts-culture/food-cooking/mert-alas-fashion-photographer-seventy-one-gin-d6852ddb?mod=rss_artsculture",
    "date": "2026-11-01",
@@ -278,33 +287,6 @@
    "blurb": "Nathan Fielder fashions a fascinating portrait of Elizabeth Holmes; Mike Flanagan adapts ‘Carrie’ for the modern age; John Turturro plays an unlucky New York pickpocket; and much, much more.",
    "image": "https://opinion-images.wsj.net/im-00814281",
    "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Cursed! The Power of Magic in the Ancient World’ Review: Conjuring Compelling History",
-   "url": "https://www.wsj.com/arts-culture/fine-art/cursed-the-power-of-magic-in-the-ancient-world-review-conjuring-compelling-history-airdigital-3932d3f6?mod=rss_artsculture",
-   "date": "2026-10-30",
-   "blurb": "An exhibition at NYU’s Institute for the Study of the Ancient World reveals the way magic was intertwined with life in ways both dramatic and quotidian.",
-   "image": "https://opinion-images.wsj.net/im-06083410",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "How Do You Save the World’s Chocolate Supply? You Reinvent Chocolate",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/chocolate-startups-cocoa-supply-2fde1d4f?mod=rss_artsculture",
-   "date": "2026-10-30",
-   "blurb": "Candy prices are up 44% since 2021, but two groups of innovators are striving to solve the growing cocoa-bean shortage.",
-   "image": "https://images.wsj.net/im-65186481",
-   "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Bob Seger’s ‘Night Moves’ Turns 50",
-   "url": "https://www.wsj.com/arts-culture/music/bob-segers-night-moves-turns-50-caa0edc9?mod=rss_artsculture",
-   "date": "2026-10-29",
-   "blurb": "The singer channeled nostalgia for his 1960s youth into an energetic but reflective album that proved a pivot point in his career.",
-   "image": "https://opinion-images.wsj.net/im-41270658",
-   "section": "Music Review"
   }
  ],
  "Goings On": [
