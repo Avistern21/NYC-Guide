@@ -2,11 +2,83 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "‘Heartland’ Review: Jessica Chastain’s Country-Music Mystery",
+   "url": "https://www.wsj.com/arts-culture/television/heartland-review-jessica-chastains-country-music-mystery-10b5e33f?mod=rss_artsculture",
+   "date": "2026-11-13",
+   "blurb": "The actress leads this Netflix film about a former superstar who comes back to Nashville to try to find her missing niece.",
+   "image": "https://opinion-images.wsj.net/im-59556620",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Cunk on Cinema’ Review: A Shtick Wears Thin on Netflix",
+   "url": "https://www.wsj.com/arts-culture/television/cunk-on-cinema-review-a-shtick-wears-thin-on-netflix-98dcbc3a?mod=rss_artsculture",
+   "date": "2026-11-12",
+   "blurb": "Diane Morgan’s Philomena Cunk turns her daffy attention to the movies in a short-form series that struggles to sustain its comedy.",
+   "image": "https://opinion-images.wsj.net/im-21134328",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘He Said, She Said: Till Death Do Us Part’ Review: A Miserable Divorce on Paramount+",
+   "url": "https://www.wsj.com/arts-culture/television/he-said-she-said-till-death-do-us-part-review-a-miserable-split-on-paramount-e2070418?mod=rss_artsculture",
+   "date": "2026-11-12",
+   "blurb": "Rachel Grady and Heidi Ewing direct this rancorous but absorbing documentary about a divorce between lawyers that turned appallingly ugly.",
+   "image": "https://opinion-images.wsj.net/im-29805098",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Ebenezer’ Review: Johnny Depp Steps Into Scrooge’s Slippers",
+   "url": "https://www.wsj.com/arts-culture/film/ebenezer-review-johnny-depp-steps-into-scrooges-slippers-983b0417?mod=rss_artsculture",
+   "date": "2026-11-12",
+   "blurb": "The actor stars in director Ti West’s horror-tinged retread of ‘A Christmas Carol.’",
+   "image": "https://opinion-images.wsj.net/im-21063845",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Paper Tiger’ Review: James Gray’s Crime Drama of Tragic Depth",
+   "url": "https://www.wsj.com/arts-culture/film/paper-tiger-review-james-grays-crime-drama-of-tragic-depth-390caf72?mod=rss_artsculture",
+   "date": "2026-11-12",
+   "blurb": "Miles Teller, Scarlett Johansson and Adam Driver star in a gripping, beautifully crafted movie about two brothers who become entangled with the Russian mob.",
+   "image": "https://opinion-images.wsj.net/im-02307891",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘How to Rob a Bank’ Review: An Electric Contemporary Caper",
+   "url": "https://www.wsj.com/arts-culture/film/how-to-rob-a-bank-review-an-electric-contemporary-caper-5d0406b3?mod=rss_artsculture",
+   "date": "2026-11-12",
+   "blurb": "Nicholas Hoult plays a social-media-savvy criminal who posts his heists online in David Leitch’s thriller, which mischievously seizes on modern grievances.",
+   "image": "https://opinion-images.wsj.net/im-28162756",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "How a Human Actor Prepared to Play an AI Character",
+   "url": "https://www.wsj.com/arts-culture/television/cupertino-cbs-rob-mcclure-bo-ai-97b9eebd?mod=rss_artsculture",
+   "date": "2026-11-12",
+   "blurb": "On the CBS legal drama “Cupertino,” actor Rob McClure portrays a hyper-realistic AI model who wants to sue his creators for removing his guardrails.",
+   "image": "https://images.wsj.net/im-45077141",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
    "title": "Jelly Roll Morton’s ‘New Orleans Joys: The Earliest Recordings, 1923-26’: A Jazz Giant Emerges",
    "url": "https://www.wsj.com/arts-culture/music/jelly-roll-mortons-new-orleans-joys-the-earliest-recordings-1923-26-a-jazz-giant-emerges-04eea979?mod=rss_artsculture",
    "date": "2026-11-11",
    "blurb": "The first years of the pianist and bandleader’s recording career, historically overlooked, sound strikingly fresh on a new set.",
    "image": "https://opinion-images.wsj.net/im-58531760",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "The Fan Who Rescues Lost Songs From Extinction, One Very Polite Email at a Time",
+   "url": "https://www.wsj.com/arts-culture/music/the-british-executive-who-saves-forgotten-songs-from-extinction-20c92d4b?mod=rss_artsculture",
+   "date": "2026-11-11",
+   "blurb": "What do Sting, Nicole Scherzinger, ’N Sync and the Spice Girls have in common? Rob Johnson, the pop music fan who’s helped bring some of their more obscure tracks online.",
+   "image": "https://images.wsj.net/im-38633350",
    "section": "Music Review"
   },
   {
@@ -20,15 +92,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "The Fan Who Rescues Lost Songs From Extinction, One Very Polite Email at a Time",
-   "url": "https://www.wsj.com/arts-culture/music/the-british-executive-who-saves-forgotten-songs-from-extinction-20c92d4b?mod=rss_artsculture",
-   "date": "2026-11-11",
-   "blurb": "What do Sting, Nicole Scherzinger, ’N Sync and the Spice Girls have in common? Rob Johnson, the pop music fan who’s helped bring some of their more obscure tracks online.",
-   "image": "https://images.wsj.net/im-38633350",
-   "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
    "title": "The Elite Squad Out to Win Gold for Team USA at the World Cup of Pastry",
    "url": "https://www.wsj.com/arts-culture/food-cooking/the-elite-squad-out-to-win-gold-for-team-usa-at-the-world-cup-of-pastry-55aac173?mod=rss_artsculture",
    "date": "2026-11-11",
@@ -38,21 +101,21 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Avedon’ Review: Netflix’s Documentary on a Defining Portraitist",
-   "url": "https://www.wsj.com/arts-culture/television/avedon-review-netflixs-documentary-on-a-defining-portraitist-55215590?mod=rss_artsculture",
-   "date": "2026-11-10",
-   "blurb": "Ron Howard directs a film about the photographer who used his stark, singular style to capture the essence of many of the biggest models and celebrities of the 20th century.",
-   "image": "https://opinion-images.wsj.net/im-95576000",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "‘Carnaval de Luz’ Review: U2 Returns With a Stylistic Sampler",
    "url": "https://www.wsj.com/arts-culture/music/carnaval-de-luz-review-u2-returns-with-a-stylistic-sampler-4d9c6223?mod=rss_artsculture",
    "date": "2026-11-10",
    "blurb": "The band follows two promising EPs from earlier this year with its first album of new material since 2017, but the collection struggles to cohere.",
    "image": "https://opinion-images.wsj.net/im-06498047",
    "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Avedon’ Review: Netflix’s Documentary on a Defining Portraitist",
+   "url": "https://www.wsj.com/arts-culture/television/avedon-review-netflixs-documentary-on-a-defining-portraitist-55215590?mod=rss_artsculture",
+   "date": "2026-11-10",
+   "blurb": "Ron Howard directs a film about the photographer who used his stark, singular style to capture the essence of many of the biggest models and celebrities of the 20th century.",
+   "image": "https://opinion-images.wsj.net/im-95576000",
+   "section": "Film & TV"
   },
   {
    "source": "WSJ Review",
@@ -146,15 +209,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "11 Books We Read This Week",
-   "url": "https://www.wsj.com/arts-culture/books/11-books-we-read-this-week-a032f427?mod=rss_artsculture",
-   "date": "2026-11-06",
-   "blurb": "The films of Frank Capra, buying Louisiana, letters from Claude Monet and more.",
-   "image": "https://opinion-images.wsj.net/im-14369783",
-   "section": "Arts Calendar"
-  },
-  {
-   "source": "WSJ Review",
    "title": "The ‘Ring’ Cycle at 150: Richard Wagner’s Manifold Musical Epic",
    "url": "https://www.wsj.com/arts-culture/music/the-ring-cycle-at-150-richard-wagners-manifold-musical-epic-cb2bea12?mod=rss_artsculture",
    "date": "2026-11-06",
@@ -169,15 +223,6 @@
    "date": "2026-11-06",
    "blurb": "The museum chief discusses the challenges of leading the Louvre as France is roiled by protests and the institution faces a sorely needed renovation—including a rethinking of how it presents the Mona Lisa.",
    "image": "https://opinion-images.wsj.net/im-42731980",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Bacon / De Kooning’ Review: A Surprising First Meeting",
-   "url": "https://www.wsj.com/arts-culture/fine-art/bacon-de-kooning-review-a-surprising-first-meeting-airdigital-d8bca86e?mod=rss_artsculture",
-   "date": "2026-11-06",
-   "blurb": "Francis Bacon and Willem De Kooning had very different approaches to art but exhibited a similar infatuation with and adventurousness in their medium, a bond made clear in their inaugural joint presentation at Lévy…",
-   "image": "https://opinion-images.wsj.net/im-35671945",
    "section": "Art Review"
   },
   {
@@ -236,33 +281,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Perfecth’ by Queens of the Stone Age Review: Emphasis on Atmosphere",
-   "url": "https://www.wsj.com/arts-culture/music/perfecth-by-queens-of-the-stone-age-review-emphasis-on-atmosphere-f4a25369?mod=rss_artsculture",
-   "date": "2026-11-03",
-   "blurb": "The rock band’s ninth studio album has an enveloping, moody sound, but it can’t quite compensate for Josh Homme’s less-than-memorable songwriting.",
-   "image": "https://opinion-images.wsj.net/im-68351653",
-   "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "The Metallica Diehards Who Love to Rock Out With Mom and Dad",
-   "url": "https://www.wsj.com/arts-culture/music/the-metallica-diehards-who-love-to-rock-out-with-mom-and-dad-6765c7d4?mod=rss_artsculture",
-   "date": "2026-11-03",
-   "blurb": "Metallica, Weezer and Taking Back Sunday are all seeing an influx of young fans, an unexpected turn for some of the older generation.",
-   "image": "https://images.wsj.net/im-78349164",
-   "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘It Gets Worse’ Review: A Gen-Z Comedy of Roommates Adrift",
-   "url": "https://www.wsj.com/arts-culture/television/it-gets-worse-review-a-gen-z-comedy-of-roommates-adrift-966e75a5?mod=rss_artsculture",
-   "date": "2026-11-03",
-   "blurb": "Leo Reich stars in and created this six-part series on Paramount+ about three best friends in London, caught in a very modern mix of personal and romantic problems.",
-   "image": "https://opinion-images.wsj.net/im-72381508",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "At This Fashion Photographer’s Dinner Parties, Madonna Gets on the Kitchen Table",
    "url": "https://www.wsj.com/arts-culture/food-cooking/mert-alas-fashion-photographer-seventy-one-gin-d6852ddb?mod=rss_artsculture",
    "date": "2026-11-01",
@@ -278,18 +296,36 @@
    "blurb": "When hosting A-listers and models at his London townhouse, Mert Alas has a recipe for memorable dinner parties: Caviar pasta, Edwardian crystal and gin “golden martinis.”",
    "image": "https://images.wsj.net/im-53330042",
    "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "What to Watch: The 15 Best Movies and TV Shows of October",
-   "url": "https://www.wsj.com/arts-culture/television/what-to-watch-the-15-best-movies-and-tv-shows-of-october-34c86b11?mod=rss_artsculture",
-   "date": "2026-10-31",
-   "blurb": "Nathan Fielder fashions a fascinating portrait of Elizabeth Holmes; Mike Flanagan adapts ‘Carrie’ for the modern age; John Turturro plays an unlucky New York pickpocket; and much, much more.",
-   "image": "https://opinion-images.wsj.net/im-00814281",
-   "section": "Film & TV"
   }
  ],
  "Goings On": [
+  {
+   "source": "Goings On",
+   "title": "“Bitter Christmas” Is Pedro Almodóvar’s Gift to Us",
+   "url": "https://www.newyorker.com/culture/the-current-cinema/bitter-christmas-is-pedro-almodovars-gift-to-us",
+   "date": "2026-11-12",
+   "blurb": "In the dazzling meta-drama, two filmmakers—one the brainchild of the other—ponder what friends owe one another and what artists owe themselves.",
+   "image": "https://media.newyorker.com/photos/6af48618943095fda9b55559/master/pass/Chang-Bitter-Christmas.jpg",
+   "section": "Cinema"
+  },
+  {
+   "source": "Goings On",
+   "title": "How an Unlikely Charles de Gaulle Bio-Pic Conquered France",
+   "url": "https://www.newyorker.com/culture/the-current-cinema/how-an-unlikely-charles-de-gaulle-bio-pic-conquered-france",
+   "date": "2026-11-12",
+   "blurb": "Bringing the French general to the big screen has historically been a fraught enterprise. Antonin Baudry says that his two-part epic succeeded because it “managed to crack the character.”",
+   "image": "https://media.newyorker.com/photos/6af219c42ae5437a4afabf7a/master/pass/Collins-Charles-de-Gaulle.jpg",
+   "section": "Cinema"
+  },
+  {
+   "source": "Goings On",
+   "title": "“Club Kid” and the New Fatherhood",
+   "url": "https://www.newyorker.com/podcast/critics-at-large/club-kid-and-the-new-fatherhood",
+   "date": "2026-11-12",
+   "blurb": "The archetype of the father onscreen has come a long way from the patriarchs of the postwar era. The new film “Club Kid” joins a wave of recent works that interrogate what we want from dads today—in art and in life.",
+   "image": "https://media.newyorker.com/photos/650b59e2f49b447c4924fa7b/master/pass/CAL-WEB.png",
+   "section": "Critics"
+  },
   {
    "source": "Goings On",
    "title": "“Wicker” and What Straight Women Want",
@@ -325,24 +361,6 @@
    "blurb": "In this new kind of show, an ensemble tells an individual’s story in unison, sometimes down to the thoughts inside her head.",
    "image": "https://media.newyorker.com/photos/6aeb62a47e2a6c54d6120c5f/master/pass/r50671.jpg",
    "section": "Theatre"
-  },
-  {
-   "source": "Goings On",
-   "title": "The Insistent Monumentality of “La Bola Negra”",
-   "url": "https://www.newyorker.com/culture/the-current-cinema/the-insistent-monumentality-of-la-bola-negra",
-   "date": "2026-11-03",
-   "blurb": "In Javier Ambrossi and Javier Calvo’s historical triptych, dramas of gay repression and liberation dovetail in ways more reductive than illuminating.",
-   "image": "https://media.newyorker.com/photos/6ae8c35568f89860f208a536/master/pass/Chang-La-Bola-Negra.jpg",
-   "section": "Cinema"
-  },
-  {
-   "source": "Goings On",
-   "title": "“Chronovisor” Captures the Terror of Thinking",
-   "url": "https://www.newyorker.com/culture/critics-notebook/chronovisor-captures-the-terror-of-thinking",
-   "date": "2026-10-31",
-   "blurb": "The filmmakers Jack Auen and Kevin Walker have found the ideal genre in which to depict the life of the mind: horror.",
-   "image": "https://media.newyorker.com/photos/6ae20e1044dcd685594500cf/master/pass/Rothfeld-Chronovisor.jpg",
-   "section": "Critics"
   },
   {
    "source": "Goings On",
