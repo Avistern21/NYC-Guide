@@ -2,11 +2,56 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "‘Network’: Sidney Lumet’s Vicious Comedy of Ratings-Chasing",
+   "url": "https://www.wsj.com/arts-culture/film/network-sidney-lumets-vicious-comedy-of-ratings-chasing-cda357f5?mod=rss_artsculture",
+   "date": "2026-11-13",
+   "blurb": "Released 50 years ago this month, the classic satire remains a perceptive study of both populist bellowing and the media’s exploitative instincts.",
+   "image": "https://opinion-images.wsj.net/im-34559418",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "11 Books We Read This Week",
+   "url": "https://www.wsj.com/arts-culture/books/11-books-we-read-this-week-3e566184?mod=rss_artsculture",
+   "date": "2026-11-13",
+   "blurb": "Robert Frost’s hidden life, the day the oil stopped flowing, a director’s Hollywood diaries and more.",
+   "image": "https://opinion-images.wsj.net/im-87842450",
+   "section": "Arts Calendar"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Victor Miller Wrote ‘Friday the 13th.’ He Thought the Sequels Got It All Wrong.",
+   "url": "https://www.wsj.com/arts-culture/film/victor-miller-dead-friday-13th-94e919ab?mod=rss_artsculture",
+   "date": "2026-11-13",
+   "blurb": "Miller, who died at the age of 86, said he never saw Jason as a killer.",
+   "image": "https://images.wsj.net/im-00691315",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
    "title": "‘Heartland’ Review: Jessica Chastain’s Country-Music Mystery",
    "url": "https://www.wsj.com/arts-culture/television/heartland-review-jessica-chastains-country-music-mystery-10b5e33f?mod=rss_artsculture",
    "date": "2026-11-13",
    "blurb": "The actress leads this Netflix film about a former superstar who comes back to Nashville to try to find her missing niece.",
    "image": "https://opinion-images.wsj.net/im-59556620",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "4 Surprising Hacks for Cooking a Better Turkey",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/best-turkey-tips-thanksgiving-451839b7?mod=rss_artsculture",
+   "date": "2026-11-13",
+   "blurb": "Wary of major risks on the big day? A few small technique tweaks and smart add-ins can deliver a juicier, better-looking bird in less time, without the fuss.",
+   "image": "https://images.wsj.net/im-19910946",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "In ‘Ebenezer,’ Johnny Depp Seeks Redemption in the Guise of Scrooge",
+   "url": "https://www.wsj.com/arts-culture/film/johnny-depp-ebenezer-pirates-comeback-a4e5cb5a?mod=rss_artsculture",
+   "date": "2026-11-13",
+   "blurb": "The holiday movie marks the actor’s first major studio picture since his legal battles with ex-wife and actress Amber Heard.",
+   "image": "https://images.wsj.net/im-59298844",
    "section": "Film & TV"
   },
   {
@@ -25,6 +70,15 @@
    "date": "2026-11-12",
    "blurb": "Rachel Grady and Heidi Ewing direct this rancorous but absorbing documentary about a divorce between lawyers that turned appallingly ugly.",
    "image": "https://opinion-images.wsj.net/im-29805098",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "How a Human Actor Prepared to Play an AI Character",
+   "url": "https://www.wsj.com/arts-culture/television/cupertino-cbs-rob-mcclure-bo-ai-97b9eebd?mod=rss_artsculture",
+   "date": "2026-11-12",
+   "blurb": "On the CBS legal drama “Cupertino,” actor Rob McClure portrays a hyper-realistic AI model who wants to sue his creators for removing his guardrails.",
+   "image": "https://images.wsj.net/im-45077141",
    "section": "Film & TV"
   },
   {
@@ -52,15 +106,6 @@
    "date": "2026-11-12",
    "blurb": "Nicholas Hoult plays a social-media-savvy criminal who posts his heists online in David Leitch’s thriller, which mischievously seizes on modern grievances.",
    "image": "https://opinion-images.wsj.net/im-28162756",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "How a Human Actor Prepared to Play an AI Character",
-   "url": "https://www.wsj.com/arts-culture/television/cupertino-cbs-rob-mcclure-bo-ai-97b9eebd?mod=rss_artsculture",
-   "date": "2026-11-12",
-   "blurb": "On the CBS legal drama “Cupertino,” actor Rob McClure portrays a hyper-realistic AI model who wants to sue his creators for removing his guardrails.",
-   "image": "https://images.wsj.net/im-45077141",
    "section": "Film & TV"
   },
   {
@@ -155,30 +200,12 @@
   },
   {
    "source": "WSJ Review",
-   "title": "A 55-Year-Old Film That Offended Everyone Is Back—and This Time It’s a Hit",
-   "url": "https://www.wsj.com/arts-culture/film/the-devils-movie-31fa4c79?mod=rss_artsculture",
-   "date": "2026-11-09",
-   "blurb": "Decades after “The Devils” was censored and condemned, a restored cut is selling out theaters and captivating Gen Z moviegoers.",
-   "image": "https://images.wsj.net/im-88245767",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "Arts Calendar: Happenings for the Week of November 8",
    "url": "https://www.wsj.com/arts-culture/fine-art/arts-calendar-happenings-for-the-week-of-november-8-airdigital-b18f3136?mod=rss_artsculture",
    "date": "2026-11-08",
    "blurb": "Johnny Depp plays “Ebenezer” in a new version of Dickens’s “A Christmas Carol”; the controversial, critically acclaimed “Downstate” opens on Broadway; U2 drops its first album of new music in nearly a decade; and more.",
    "image": "https://opinion-images.wsj.net/im-33412216",
    "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "The Problem with Loving Machines",
-   "url": "https://www.wsj.com/arts-culture/film/klara-and-the-sun-movie-machines-b0feaf74?mod=rss_artsculture",
-   "date": "2026-11-08",
-   "blurb": "A new film reflects a dangerous slide in society’s perception of robots.",
-   "image": "https://images.wsj.net/im-06736317",
-   "section": "Film & TV"
   },
   {
    "source": "WSJ Review",
@@ -200,20 +227,11 @@
   },
   {
    "source": "WSJ Review",
-   "title": "The Enduring Appeal of the Single-Dad Movie",
-   "url": "https://www.wsj.com/arts-culture/film/jordan-firstman-club-kid-single-dad-movies-6ad551cb?mod=rss_artsculture",
-   "date": "2026-11-07",
-   "blurb": "From “Kramer vs. Kramer” to the new “Club Kid,” the best movies about men becoming better through fatherhood.",
-   "image": "https://images.wsj.net/im-21939727",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "The ‘Ring’ Cycle at 150: Richard Wagner’s Manifold Musical Epic",
    "url": "https://www.wsj.com/arts-culture/music/the-ring-cycle-at-150-richard-wagners-manifold-musical-epic-cb2bea12?mod=rss_artsculture",
    "date": "2026-11-06",
    "blurb": "The composer’s magnum opus, a fantasy saga that comprises four linked operas, is a work of both staggering, singular vision and extraordinary diversity.",
-   "image": "https://opinion-images.wsj.net/im-05985348",
+   "image": "https://opinion-images.wsj.net/im-92672877",
    "section": "Music Review"
   },
   {
@@ -236,60 +254,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "The Comedian Who Was Fleeced to the Tune of $12 Million by His Half-Brother",
-   "url": "https://www.wsj.com/arts-culture/film/the-comedian-who-was-fleeced-to-the-tune-of-12-million-by-his-half-brother-79bea459?mod=rss_artsculture",
-   "date": "2026-11-06",
-   "blurb": "As Dane Cook sold out arenas at the peak of his fame, he had no clue that a family member was emptying his bank account.",
-   "image": "https://images.wsj.net/im-08599638",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Bohuslav Martinu’s Shimmering Symphonies",
-   "url": "https://www.wsj.com/arts-culture/music/bohuslav-martinus-shimmering-symphonies-2428530f?mod=rss_artsculture",
-   "date": "2026-11-05",
-   "blurb": "Jakub Hrůša’s superb set of recordings with the Bamberg Symphony of the 20th-century Czech composer’s work offers an ideal opportunity to revisit his ever-shifting musical world.",
-   "image": "https://opinion-images.wsj.net/im-08690168",
-   "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Coal’s Human Cost’ Review: Black Lung’s Persistence on PBS",
-   "url": "https://www.wsj.com/arts-culture/television/coals-human-cost-review-black-lungs-persistence-on-pbs-77b82af6?mod=rss_artsculture",
-   "date": "2026-11-05",
-   "blurb": "This ‘Frontline’ special investigates the continued toll of the debilitating disease, long a devastating hazard of mining.",
-   "image": "https://opinion-images.wsj.net/im-30979565",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘De Gaulle: Résistance’ Review: A Grand Portrait of the General",
-   "url": "https://www.wsj.com/arts-culture/television/de-gaulle-resistance-review-a-grand-portrait-of-the-general-274b6b48?mod=rss_artsculture",
-   "date": "2026-11-05",
-   "blurb": "The first installment of Antonin Baudry’s two-part, five-plus-hour saga follows Charles de Gaulle as France falls to Germany and he contends with leaders around the world.",
-   "image": "https://opinion-images.wsj.net/im-25707948",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Black Doves’ Season 2 Review: Netflix’s Fanciful Spy Series Returns",
-   "url": "https://www.wsj.com/arts-culture/television/black-doves-season-2-review-netflixs-fanciful-spy-series-returns-3d1a4bff?mod=rss_artsculture",
-   "date": "2026-11-05",
-   "blurb": "Keira Knightley and Ben Whishaw reprise their roles as covert mercenaries in Joe Barton’s highly entertaining—if not strictly believable—show.",
-   "image": "https://opinion-images.wsj.net/im-52899255",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "At This Fashion Photographer’s Dinner Parties, Madonna Gets on the Kitchen Table",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/mert-alas-fashion-photographer-seventy-one-gin-d6852ddb?mod=rss_artsculture",
-   "date": "2026-11-01",
-   "blurb": "When hosting A-listers and models at his London townhouse, Mert Alas has a recipe for memorable dinner parties: Caviar pasta, Edwardian crystal and gin “golden martinis.”",
-   "image": "https://images.wsj.net/im-53330042",
-   "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
    "title": "At This Fashion Photographer’s Dinner Parties, Madonna Gets on the Kitchen Table",
    "url": "https://www.wsj.com/arts-culture/food-cooking/mert-alas-fashion-photographer-seventy-one-gin-d6852ddb?mod=rss_style",
    "date": "2026-11-01",
@@ -299,6 +263,24 @@
   }
  ],
  "Goings On": [
+  {
+   "source": "Goings On",
+   "title": "The Labyrinthine Betrayals of “Minotaur”",
+   "url": "https://www.newyorker.com/magazine/2026/11/23/minotaur-movie-review",
+   "date": "2026-11-13",
+   "blurb": "In Andrey Zvyagintsev’s remake of a Claude Chabrol classic, current affairs become entangled with a crime of passion.",
+   "image": "https://media.newyorker.com/photos/6af4b42ab50ccd2fbf66ec11/master/pass/r50592.jpg",
+   "section": "Cinema"
+  },
+  {
+   "source": "Goings On",
+   "title": "How Sombr Went from TikTok to Madison Square Garden",
+   "url": "https://www.newyorker.com/culture/goings-on/how-sombr-went-from-tiktok-to-madison-square-garden",
+   "date": "2026-11-13",
+   "blurb": "Also: the legacy of Merce Cunningham, Lauren Ambrose in a new play by Nick Payne, early Vincent Price, and more.",
+   "image": "https://media.newyorker.com/photos/6af4e60f465cf422e1ea556e/master/pass/Sombr.png",
+   "section": "Goings On"
+  },
   {
    "source": "Goings On",
    "title": "“Bitter Christmas” Is Pedro Almodóvar’s Gift to Us",
@@ -328,29 +310,11 @@
   },
   {
    "source": "Goings On",
-   "title": "“Wicker” and What Straight Women Want",
-   "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
-   "date": "2026-11-07",
-   "blurb": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its…",
-   "image": "https://media.newyorker.com/photos/6aeb6ded0595de95bb163b2a/master/pass/Critic",
-   "section": "Critics"
-  },
-  {
-   "source": "Goings On",
    "title": "“Club Kid” Is a Disarming Cocktail of Grit and Fantasy",
    "url": "https://www.newyorker.com/culture/the-current-cinema/club-kid-is-a-disarming-cocktail-of-grit-and-fantasy",
    "date": "2026-11-06",
    "blurb": "In Jordan Firstman’s assured filmmaking début, he plays a gay New York party promoter who gets an improbable shot at fatherhood.",
    "image": "https://media.newyorker.com/photos/6aeba52b0a5453b6081627e6/master/pass/Chang-Club-Kid.jpg",
-   "section": "Cinema"
-  },
-  {
-   "source": "Goings On",
-   "title": "“Paper Tiger” Views Family as Deadweight",
-   "url": "https://www.newyorker.com/magazine/2026/11/16/paper-tiger-movie-review",
-   "date": "2026-11-06",
-   "blurb": "In James Gray’s new crime drama, starring Miles Teller, Scarlett Johansson, and Adam Driver, a Queens couple’s life is turned upside down by a scheme for easy money.",
-   "image": "https://media.newyorker.com/photos/6aeb62a47e2a6c54d6120c5d/master/pass/r50545_rd.jpg",
    "section": "Cinema"
   },
   {

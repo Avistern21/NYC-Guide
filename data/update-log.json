@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-13T10:05:56.243Z",
+ "ran": "2026-11-14T09:51:51.224Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -13,13 +13,10 @@
    "whitney-museum-of-american-art",
    "moma",
    "guggenheim",
-   "the-frick-collection",
-   "brooklyn-museum",
    "neue-galerie",
    "noguchi-museum",
    "new-museum",
    "the-studio-museum-in-harlem",
-   "international-center-of-photography",
    "david-zwirner",
    "gagosian",
    "hauser-wirth",
@@ -27,8 +24,6 @@
    "levy-gorvy-dayan",
    "p-wicked",
    "p-hamilton",
-   "p-the-lion-king",
-   "p-aladdin",
    "p-hadestown",
    "p-chicago",
    "p-harry-potter-and-the-cursed-child",
@@ -36,6 +31,26 @@
    "p-six"
   ],
   "failed": [
+   {
+    "id": "the-frick-collection",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "brooklyn-museum",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "international-center-of-photography",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "p-the-lion-king",
+    "reason": "no wiki title set"
+   },
+   {
+    "id": "p-aladdin",
+    "reason": "no wiki title set"
+   },
    {
     "id": "p-the-book-of-mormon",
     "reason": "no wiki title set"
