@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-15T21:00:16.835Z",
+ "ran": "2026-11-15T21:10:42.675Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -13,10 +13,11 @@
    "whitney-museum-of-american-art",
    "moma",
    "guggenheim",
+   "brooklyn-museum",
    "neue-galerie",
    "noguchi-museum",
-   "new-museum",
    "the-studio-museum-in-harlem",
+   "international-center-of-photography",
    "david-zwirner",
    "gagosian",
    "hauser-wirth",
@@ -36,11 +37,7 @@
     "reason": "image HTTP 429"
    },
    {
-    "id": "brooklyn-museum",
-    "reason": "image HTTP 429"
-   },
-   {
-    "id": "international-center-of-photography",
+    "id": "new-museum",
     "reason": "image HTTP 429"
    },
    {
