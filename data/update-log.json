@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-15T20:39:23.701Z",
+ "ran": "2026-11-15T20:47:23.919Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -13,6 +13,8 @@
    "whitney-museum-of-american-art",
    "moma",
    "guggenheim",
+   "the-frick-collection",
+   "brooklyn-museum",
    "neue-galerie",
    "noguchi-museum",
    "new-museum",
@@ -32,14 +34,6 @@
    "p-six"
   ],
   "failed": [
-   {
-    "id": "the-frick-collection",
-    "reason": "image HTTP 429"
-   },
-   {
-    "id": "brooklyn-museum",
-    "reason": "image HTTP 429"
-   },
    {
     "id": "p-the-lion-king",
     "reason": "no wiki title set"
