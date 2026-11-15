@@ -459,6 +459,18 @@ html[data-theme=advantage] .ct .cimg+.cb .ctag{display:none}
 html[data-theme=advantage] .ct .cimg{border-bottom-left-radius:22px!important}
 html[data-theme=advantage] .ct .cimg+.cb{padding-top:12px}
 #catbar,#catbar2{display:none!important}
+/* swipeable venue card + clickable titles */
+html[data-theme=advantage] .ct h3 .tl{color:inherit;text-decoration:none}
+html[data-theme=advantage] .ct h3 .tl:hover{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
+.ct .cimg a{display:block;height:100%}
+.vs{position:relative;min-width:0}
+.vst{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.vst::-webkit-scrollbar{display:none}
+.vst>.ct{flex:0 0 100%;scroll-snap-align:start;min-width:0}
+.vcount{position:absolute;z-index:3;top:14px;left:14px;background:rgba(18,18,18,.72);backdrop-filter:blur(6px);color:#fff;font:700 .72rem/1 var(--sans,Figtree,sans-serif);letter-spacing:.14em;padding:8px 12px;border-radius:999px!important;pointer-events:none}
+.vdots{display:flex;justify-content:center;gap:8px;margin-top:14px}
+.vdots button{width:8px;height:8px;padding:0;border:0;border-radius:50%!important;background:#4a4a4a}
+.vdots button[aria-current=true]{background:#f2f2f2;width:22px;border-radius:999px!important}
 </style></head><body>
 <header class="adv"><div class="top"><a class="logo" href="#home">The ADvantage</a><nav id="nav" aria-label="Sections"></nav></div><div id="themes" hidden></div><span id="eyebrow" hidden></span></header>
 <div id="disc"></div><div id="catbar" aria-label="Categories"></div>
@@ -543,16 +555,18 @@ function whatson(){
   let bi=0;
   const cbox=o=>{const u=safe(o.url),i=bi++%3,d=new Date(o.start+"T12:00:00");
     const when=o.bw?(o.status==="upcoming"?"Coming soon":o.status==="closing"?"Closing soon":"Now playing"):o.start<=TODAY?"On now":"Opens "+MON[d.getMonth()]+" "+d.getDate();
-    const im=MODE==="both"&&o.img&&!o.logo?'<div class="cimg"><img src="'+esc(o.img)+'" alt=""></div>':"";
-    return '<article class="ct c'+i+(MODE==="both"?" both":"")+'">'+im+'<div class="cb"><span class="ctag">'+(CATNAME[o.v.cat]||"")+' · '+when+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p><div class="cact">'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info →</a>':'')+(o.bw?bkBtn(o.v):addBtn(o))+'</div></div></article>'};
+    const im=MODE==="both"&&o.img&&!o.logo?'<div class="cimg">'+(u?'<a href="'+esc(u)+'" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">':'')+'<img src="'+esc(o.img)+'" alt="">'+(u?'</a>':'')+'</div>':"";const ttl=u?'<a class="tl" href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a>':esc(o.title);
+    return '<article class="ct c'+i+(MODE==="both"?" both":"")+'">'+im+'<div class="cb"><span class="ctag">'+(CATNAME[o.v.cat]||"")+' · '+when+'</span><h3>'+ttl+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p><div class="cact">'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info →</a>':'')+(o.bw?bkBtn(o.v):addBtn(o))+'</div></div></article>'};
   const box1=o=>{const u=safe(o.url);return '<article class="card">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<span class="tag">'+(CATNAME[o.v.cat]||"")+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p>'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info</a>':'')+'<div style="margin-top:6px">'+addBtn(o)+'</div></article>'};
   const box=o=>MODE?cbox(o):box1(o);
+  const grp=list=>{const m=new Map();list.forEach(o=>{const k=o.v.id;if(!m.has(k))m.set(k,[]);m.get(k).push(o)});return [...m.values()]};
+  const gbox=g=>g.length===1?box(g[0]):'<div class="vs"><span class="vcount" aria-hidden="true">1 / '+g.length+'</span><div class="vst">'+g.map(box).join("")+'</div><div class="vdots">'+g.map((_,i)=>'<button type="button" data-vdot="'+i+'" aria-label="Show '+(i+1)+' of '+g.length+'"'+(i?'':' aria-current="true"')+'></button>').join("")+'</div></div>';
   const row=o=>{const d=new Date(o.start+"T12:00:00");return '<div class="ev"><div class="dnum">'+(o.start<=TODAY?'Now':d.getDate()+'<small>'+MON[d.getMonth()]+'</small>')+'</div><div><strong><a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></strong><br><span class="lead">'+esc(o.v.name)+' · '+esc(o.label)+'</span></div>'+addBtn(o)+'</div>'};
-  const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["week","Next 7 days",LL.filter(o=>o.start>TODAY&&o.start<=wk)],["soon","Coming soon",LL.filter(o=>o.start>wk)]];
+  const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["soon","Coming soon",LL.filter(o=>o.start>TODAY)]];
   const tabs='<div class="stabs" role="tablist" aria-label="When">'+G.map(g=>'<button type="button" role="tab" data-wt="'+g[0]+'" aria-pressed="'+(wt===g[0])+'">'+g[1]+'<small>'+g[2].length+'</small></button>').join("")+'</div>';
   const cur=G.find(g=>g[0]===wt)||G[0];
   if(wf==="restaurants"){const lv=listView("restaurants","Restaurants","");const body=lv.slice(lv.indexOf('<section class="pbody">'));return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Recommendations beyond our own picks. Shuffle for more.</p>'+bar+'</div></section>'+body}
-  return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Recommendations beyond our own picks. Shuffle for more.</p>'+bar.replace('</div>','<button type="button" class="shufbtn" data-wshuf="1">Shuffle <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h4l10 10h4M3 17h4l3-3M14 10l3-3h4M18 4l3 3-3 3M18 14l3 3-3 3"/></svg></button></div>')+'</div></section><section class="pbody"><div class="in2">'+tabs+(cur[2].length?'<div class="grid">'+(wsd!==null?sshuf(cur[2],wsd):cur[2]).map(box).join("")+'</div>':'<div class="empty">Nothing here right now. Try another tab or category.</div>')+'</div></section>'}
+  return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Recommendations beyond our own picks. Shuffle for more.</p>'+bar.replace('</div>','<button type="button" class="shufbtn" data-wshuf="1">Shuffle <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h4l10 10h4M3 17h4l3-3M14 10l3-3h4M18 4l3 3-3 3M18 14l3 3-3 3"/></svg></button></div>')+'</div></section><section class="pbody"><div class="in2">'+tabs+(cur[2].length?'<div class="grid">'+grp(wsd!==null?sshuf(cur[2],wsd):cur[2]).map(gbox).join("")+'</div>':'<div class="empty">Nothing here right now. Try another tab or category.</div>')+'</div></section>'}
 
 function monthView(ev){
   const [y,m]=cm.split("-").map(Number),first=new Date(y,m-1,1),start=first.getDay(),dim=new Date(y,m,0).getDate();
@@ -691,6 +705,8 @@ function drawBanner(){
 document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("[data-bshuffle]")){bmix=null;drawBanner()}});
 const THEMES=[["midnight","Midnight","#ff3d81","#ff9a3d"],["gold","Gold","#e8b84a","#ffe08a"],["sunset","Sunset","#ff5e5b","#ffb347"],["violet","Violet","#7c5cff","#22d3ee"],["gallery","Gallery","#000","#777"]];
 function drawThemes(){const cur=document.documentElement.dataset.theme;document.getElementById("themes").innerHTML=THEMES.map(t=>'<button type="button" data-theme="'+t[0]+'" title="'+t[1]+'" aria-label="'+t[1]+' theme" aria-pressed="'+(t[0]===cur)+'" style="background:linear-gradient(135deg,'+t[2]+','+t[3]+')"></button>').join("")}
+document.addEventListener("scroll",e=>{const t=e.target;if(!t||!t.classList||!t.classList.contains("vst"))return;const i=Math.round(t.scrollLeft/Math.max(1,t.clientWidth)),w=t.parentElement;w.querySelectorAll("[data-vdot]").forEach((d,j)=>j===i?d.setAttribute("aria-current","true"):d.removeAttribute("aria-current"));const c=w.querySelector(".vcount");if(c)c.textContent=(i+1)+" / "+t.children.length},true);
+document.addEventListener("click",e=>{const d=e.target.closest&&e.target.closest("[data-vdot]");if(!d)return;const t=d.closest(".vs").querySelector(".vst");t.scrollTo({left:(+d.dataset.vdot)*t.clientWidth,behavior:"smooth"})});
 document.addEventListener("click",e=>{const t=e.target.closest&&e.target.closest("[data-wf],[data-wt],[data-cv],[data-cm],[data-af],[data-sf],[data-bf],[data-shuffle],[data-wshuf],[data-bk],[data-bd],[data-bdgo],[data-bdx],[data-bdclr]");if(!t)return;
   if(t.dataset.bd){bd=t.dataset.bd}else if(t.dataset.bdx){bd=null}
   else if(t.dataset.bdclr){const k=events.findIndex(x=>x.bk===t.dataset.bdclr);if(k>=0)events.splice(k,1);bd=null;save()}
