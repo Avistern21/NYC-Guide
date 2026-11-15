@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-15T20:47:23.919Z",
+ "ran": "2026-11-15T20:51:54.289Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -17,9 +17,7 @@
    "brooklyn-museum",
    "neue-galerie",
    "noguchi-museum",
-   "new-museum",
    "the-studio-museum-in-harlem",
-   "international-center-of-photography",
    "david-zwirner",
    "gagosian",
    "hauser-wirth",
@@ -34,6 +32,14 @@
    "p-six"
   ],
   "failed": [
+   {
+    "id": "new-museum",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "international-center-of-photography",
+    "reason": "image HTTP 429"
+   },
    {
     "id": "p-the-lion-king",
     "reason": "no wiki title set"
