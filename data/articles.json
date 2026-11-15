@@ -2,6 +2,24 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "7 Food Gifts That Bring Back Flavors of the Past",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/best-food-gifts-holidays-4294bd10?mod=rss_artsculture",
+   "date": "2026-11-15",
+   "blurb": "From childhood pizza to a treasured family recipe, these gifts promise a tasty trip down memory lane",
+   "image": "https://images.wsj.net/im-10343927",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Arts Calendar: Happenings for the Week of November 15",
+   "url": "https://www.wsj.com/arts-culture/fine-art/arts-calendar-happenings-for-the-week-of-november-15-airdigital-8af6f777?mod=rss_artsculture",
+   "date": "2026-11-15",
+   "blurb": "Nicolas Cage plays NFL icon John Madden in a new biopic, the Rock & Roll Hall of Fame opens a new expansion, ‘Grand Theft Auto VI’ lets players run rampant in a fictional Florida, and more.",
+   "image": "https://opinion-images.wsj.net/im-38175547",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
    "title": "Is ‘Fjord’ a Movie About Government Overreach?",
    "url": "https://www.wsj.com/arts-culture/film/fjord-movie-cristian-mungiu-083bf171?mod=rss_artsculture",
    "date": "2026-11-14",

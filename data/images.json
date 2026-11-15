@@ -42,7 +42,7 @@
   },
   "the-studio-museum-in-harlem": {
    "file": "img/venues/the-studio-museum-in-harlem.jpg",
-   "source": "https://upload.wikimedia.org/wikipedia/commons/2/21/StudioMuseumHarlem.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "source": "https://studiomuseum.imgix.net/images/Studio-Museum-in-Harlem-1200-600.jpg",
    "fetched": "2026-11-15"
   },
   "david-zwirner": {
@@ -133,7 +133,7 @@
   "international-center-of-photography": {
    "file": "img/venues/international-center-of-photography.jpg",
    "source": "https://upload.wikimedia.org/wikipedia/en/e/e1/International_Center_of_Photography_Logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "fetched": "2026-11-13"
+   "fetched": "2026-11-15"
   },
   "hauser-wirth": {
    "file": "img/venues/hauser-wirth.jpg",
