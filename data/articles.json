@@ -2,6 +2,51 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "Is ‘Fjord’ a Movie About Government Overreach?",
+   "url": "https://www.wsj.com/arts-culture/film/fjord-movie-cristian-mungiu-083bf171?mod=rss_artsculture",
+   "date": "2026-11-14",
+   "blurb": "Cristian Mungiu on how ‘Fjord,’ his award-winning film about a child custody battle, asks audiences to challenge their political prejudices.",
+   "image": "https://images.wsj.net/im-20698905",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘From the Louvre: Masterpieces of Islamic Art’ Review: A Collection’s Treasures Come Stateside",
+   "url": "https://www.wsj.com/arts-culture/fine-art/from-the-louvre-masterpieces-of-islamic-art-review-a-collections-treasures-come-stateside-fe357b93?mod=rss_artsculture",
+   "date": "2026-11-14",
+   "blurb": "Washington’s National Museum of Asian Art presents 26 remarkable Islamic works from the Paris museum, ranging from the seventh to 19th centuries and from Spain to India.",
+   "image": "https://opinion-images.wsj.net/im-18903544",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "My Quest to Find the Crispest Apple in America",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/crisp-apple-varieties-test-c12940ba?mod=rss_artsculture",
+   "date": "2026-11-14",
+   "blurb": "In my hunt for a more satisfying bite, I quizzed researchers, grocers and friends—and tried more than 50 varieties.",
+   "image": "https://images.wsj.net/im-39988669",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "My Quest to Find the Crispest Apple in America",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/crisp-apple-varieties-test-c12940ba?mod=rss_lifestyle",
+   "date": "2026-11-14",
+   "blurb": "In my hunt for a more satisfying bite, I quizzed researchers, grocers and friends—and tried more than 50 varieties.",
+   "image": "https://images.wsj.net/im-39988669",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "My Quest to Find the Crispest Apple in America",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/crisp-apple-varieties-test-c12940ba?mod=rss_style",
+   "date": "2026-11-14",
+   "blurb": "In my hunt for a more satisfying bite, I quizzed researchers, grocers and friends—and tried more than 50 varieties.",
+   "image": "https://images.wsj.net/im-39988669",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
    "title": "‘Network’: Sidney Lumet’s Vicious Comedy of Ratings-Chasing",
    "url": "https://www.wsj.com/arts-culture/film/network-sidney-lumets-vicious-comedy-of-ratings-chasing-cda357f5?mod=rss_artsculture",
    "date": "2026-11-13",
@@ -20,15 +65,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "Victor Miller Wrote ‘Friday the 13th.’ He Thought the Sequels Got It All Wrong.",
-   "url": "https://www.wsj.com/arts-culture/film/victor-miller-dead-friday-13th-94e919ab?mod=rss_artsculture",
-   "date": "2026-11-13",
-   "blurb": "Miller, who died at the age of 86, said he never saw Jason as a killer.",
-   "image": "https://images.wsj.net/im-00691315",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "‘Heartland’ Review: Jessica Chastain’s Country-Music Mystery",
    "url": "https://www.wsj.com/arts-culture/television/heartland-review-jessica-chastains-country-music-mystery-10b5e33f?mod=rss_artsculture",
    "date": "2026-11-13",
@@ -44,6 +80,15 @@
    "blurb": "Wary of major risks on the big day? A few small technique tweaks and smart add-ins can deliver a juicier, better-looking bird in less time, without the fuss.",
    "image": "https://images.wsj.net/im-19910946",
    "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Victor Miller Wrote ‘Friday the 13th.’ He Thought the Sequels Got It All Wrong.",
+   "url": "https://www.wsj.com/arts-culture/film/victor-miller-dead-friday-13th-94e919ab?mod=rss_artsculture",
+   "date": "2026-11-13",
+   "blurb": "Miller, who died at the age of 86, said he never saw Jason as a killer.",
+   "image": "https://images.wsj.net/im-00691315",
+   "section": "Film & TV"
   },
   {
    "source": "WSJ Review",
@@ -191,15 +236,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "James Gray’s Cinema of Grit and Grandeur",
-   "url": "https://www.wsj.com/arts-culture/film/james-gray-paper-tiger-cinema-of-grit-and-grandeur-6efd776a?mod=rss_artsculture",
-   "date": "2026-11-09",
-   "blurb": "The director of the new ‘Paper Tiger,’ a crime drama starring Miles Teller, Scarlett Johansson and Adam Driver, discusses his art and career as a true original in today’s American film industry.",
-   "image": "https://opinion-images.wsj.net/im-73156362",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "Arts Calendar: Happenings for the Week of November 8",
    "url": "https://www.wsj.com/arts-culture/fine-art/arts-calendar-happenings-for-the-week-of-november-8-airdigital-b18f3136?mod=rss_artsculture",
    "date": "2026-11-08",
@@ -251,18 +287,18 @@
    "blurb": "Plus, how gene editing is letting crops talk to farmers, Anthropic’s ambition to cure diseases, and saving America’s rarest predator from extinction.",
    "image": "https://images.wsj.net/im-54515447",
    "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "At This Fashion Photographer’s Dinner Parties, Madonna Gets on the Kitchen Table",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/mert-alas-fashion-photographer-seventy-one-gin-d6852ddb?mod=rss_style",
-   "date": "2026-11-01",
-   "blurb": "When hosting A-listers and models at his London townhouse, Mert Alas has a recipe for memorable dinner parties: Caviar pasta, Edwardian crystal and gin “golden martinis.”",
-   "image": "https://images.wsj.net/im-53330042",
-   "section": "Food & Cooking"
   }
  ],
  "Goings On": [
+  {
+   "source": "Goings On",
+   "title": "“Avedon” Shows the Scars, Just Not the Photographer’s Own",
+   "url": "https://www.newyorker.com/culture/critics-notebook/avedon-shows-the-scars-just-not-the-photographers-own",
+   "date": "2026-11-14",
+   "blurb": "Ron Howard’s new Netflix documentary is cagy about the dark underside of the legendary photographer’s life, which is perhaps fitting for an artist whose pictures were studies in utter control.",
+   "image": "https://media.newyorker.com/photos/6af78944c48aa048f34ff19c/master/pass/Fry---Avedon-Documentary_Richard-Avedon-working-on-his-In-the-American-West-series,-c.-1985-(Photo-by-Susan-Middleton).jpg",
+   "section": "Critics"
+  },
   {
    "source": "Goings On",
    "title": "The Labyrinthine Betrayals of “Minotaur”",

@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-14T09:51:51.224Z",
+ "ran": "2026-11-15T09:53:28.947Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -13,6 +13,7 @@
    "whitney-museum-of-american-art",
    "moma",
    "guggenheim",
+   "brooklyn-museum",
    "neue-galerie",
    "noguchi-museum",
    "new-museum",
@@ -33,10 +34,6 @@
   "failed": [
    {
     "id": "the-frick-collection",
-    "reason": "image HTTP 429"
-   },
-   {
-    "id": "brooklyn-museum",
     "reason": "image HTTP 429"
    },
    {
@@ -195,11 +192,5 @@
  "showImages": {
   "ok": 0,
   "failed": 0
- },
- "feedsFailed": [
-  {
-   "name": "WSJ Review",
-   "reason": "no articles found in feed"
-  }
- ]
+ }
 }
