@@ -458,6 +458,7 @@ html[data-theme=advantage] .ct .cimg+.cb h3,html[data-theme=advantage] .ct .cimg
 html[data-theme=advantage] .ct .cimg+.cb .ctag{display:none}
 html[data-theme=advantage] .ct .cimg{border-bottom-left-radius:22px!important}
 html[data-theme=advantage] .ct .cimg+.cb{padding-top:12px}
+#catbar,#catbar2{display:none!important}
 </style></head><body>
 <header class="adv"><div class="top"><a class="logo" href="#home">The ADvantage</a><nav id="nav" aria-label="Sections"></nav></div><div id="themes" hidden></div><span id="eyebrow" hidden></span></header>
 <div id="disc"></div><div id="catbar" aria-label="Categories"></div>
@@ -531,7 +532,7 @@ function dash(){return '<input class="sb" id="q" placeholder="Search shows and v
   (L.length?rail("Opening soon",L.filter(o=>o.start>TODAY))+rail("On view now",L.filter(o=>o.start<=TODAY))+rail("Dance and music",cat(["dance","music"]))+rail("Museums",cat(["museums"]))+rail("Galleries",cat(["galleries"])):'<div class="empty">No shows listed right now.</div>')}
 
 function whatson(){
-  const FT=[["all","All"],["broadway","Broadway"],["dance","Dance"],["music","Music"],["museums","Museums"],["galleries","Galleries"]];
+  const FT=[["all","All"],["broadway","Broadway"],["dance","Dance"],["music","Music"],["museums","Museums"],["galleries","Galleries"],["restaurants","Restaurants"]];
   const bar='<div class="fbar" role="group" aria-label="Filter">'+FT.map(t=>'<button type="button" data-wf="'+t[0]+'" aria-pressed="'+(wf===t[0])+'">'+t[1]+'</button>').join("")+'</div>';
   const bwItems=()=>picks.filter(p=>p.cat==="broadway").map(p=>{const id="p-"+slug(p.name),mm=(p.note||"").match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w* (\d{1,2})/),up=p.status==="upcoming";
     let st=TODAY;if(up){if(mm){const mi=MON.indexOf(mm[1]),yr=+TODAY.slice(0,4)+(mi<+TODAY.slice(5,7)-1?1:0);st=yr+"-"+String(mi+1).padStart(2,"0")+"-"+String(mm[2]).padStart(2,"0")}else st=addDays(TODAY,30)}
@@ -550,6 +551,7 @@ function whatson(){
   const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["week","Next 7 days",LL.filter(o=>o.start>TODAY&&o.start<=wk)],["soon","Coming soon",LL.filter(o=>o.start>wk)]];
   const tabs='<div class="stabs" role="tablist" aria-label="When">'+G.map(g=>'<button type="button" role="tab" data-wt="'+g[0]+'" aria-pressed="'+(wt===g[0])+'">'+g[1]+'<small>'+g[2].length+'</small></button>').join("")+'</div>';
   const cur=G.find(g=>g[0]===wt)||G[0];
+  if(wf==="restaurants"){const lv=listView("restaurants","Restaurants","");const body=lv.slice(lv.indexOf('<section class="pbody">'));return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Recommendations beyond our own picks. Shuffle for more.</p>'+bar+'</div></section>'+body}
   return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Recommendations beyond our own picks. Shuffle for more.</p>'+bar.replace('</div>','<button type="button" class="shufbtn" data-wshuf="1">Shuffle <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h4l10 10h4M3 17h4l3-3M14 10l3-3h4M18 4l3 3-3 3M18 14l3 3-3 3"/></svg></button></div>')+'</div></section><section class="pbody"><div class="in2">'+tabs+(cur[2].length?'<div class="grid">'+(wsd!==null?sshuf(cur[2],wsd):cur[2]).map(box).join("")+'</div>':'<div class="empty">Nothing here right now. Try another tab or category.</div>')+'</div></section>'}
 
 function monthView(ev){
