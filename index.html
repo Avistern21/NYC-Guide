@@ -562,7 +562,7 @@ function whatson(){
   const grp=list=>{const m=new Map();list.forEach(o=>{const k=o.v.id;if(!m.has(k))m.set(k,[]);m.get(k).push(o)});return [...m.values()]};
   const gbox=g=>g.length===1?box(g[0]):'<div class="vs"><span class="vcount" aria-hidden="true">1 / '+g.length+'</span><div class="vst">'+g.map(box).join("")+'</div><div class="vdots">'+g.map((_,i)=>'<button type="button" data-vdot="'+i+'" aria-label="Show '+(i+1)+' of '+g.length+'"'+(i?'':' aria-current="true"')+'></button>').join("")+'</div></div>';
   const row=o=>{const d=new Date(o.start+"T12:00:00");return '<div class="ev"><div class="dnum">'+(o.start<=TODAY?'Now':d.getDate()+'<small>'+MON[d.getMonth()]+'</small>')+'</div><div><strong><a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></strong><br><span class="lead">'+esc(o.v.name)+' · '+esc(o.label)+'</span></div>'+addBtn(o)+'</div>'};
-  const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["week","Next 7 days",LL.filter(o=>o.start>TODAY&&o.start<=wk)],["soon","Coming soon",LL.filter(o=>o.start>wk)]];
+  const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["soon","Coming soon",LL.filter(o=>o.start>TODAY)]];
   const tabs='<div class="stabs" role="tablist" aria-label="When">'+G.map(g=>'<button type="button" role="tab" data-wt="'+g[0]+'" aria-pressed="'+(wt===g[0])+'">'+g[1]+'<small>'+g[2].length+'</small></button>').join("")+'</div>';
   const cur=G.find(g=>g[0]===wt)||G[0];
   if(wf==="restaurants"){const lv=listView("restaurants","Restaurants","");const body=lv.slice(lv.indexOf('<section class="pbody">'));return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Recommendations beyond our own picks. Shuffle for more.</p>'+bar+'</div></section>'+body}
