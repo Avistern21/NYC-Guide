@@ -488,6 +488,8 @@ html[data-theme=advantage] .week .wh a{font:700 .95rem/1 var(--sans)!important;l
 @media(max-width:820px){html[data-theme=advantage] .week .wh a{font-size:.85rem!important;padding:11px 16px!important}}
 html[data-theme=advantage] .ct button,html[data-theme=advantage] .ct.c0 button,html[data-theme=advantage] .ct.c1 button,html[data-theme=advantage] .ct.c2 button,html[data-theme=advantage] .ct .cb button.pill,html[data-theme=advantage] .ct.c0 .cb button.pill,html[data-theme=advantage] .ct.c2 .cb button.pill,html[data-theme=advantage] .ct.c1 .cact button{font:700 .95rem/1 var(--sans)!important;letter-spacing:.02em!important;text-transform:none!important;padding:12px 20px!important}
 @media(max-width:820px){html[data-theme=advantage] .ct button,html[data-theme=advantage] .ct.c0 button,html[data-theme=advantage] .ct.c1 button,html[data-theme=advantage] .ct.c2 button,html[data-theme=advantage] .ct .cb button.pill,html[data-theme=advantage] .ct.c0 .cb button.pill,html[data-theme=advantage] .ct.c2 .cb button.pill,html[data-theme=advantage] .ct.c1 .cact button{font-size:.85rem!important;padding:11px 16px!important}}
+html[data-theme=advantage] .phead .fbar .shufbtn[aria-pressed=true]{background:#ff5a47!important;color:#fff!important;box-shadow:none}
+html[data-theme=advantage] .phead .fbar .shufbtn:active{background:#ff5a47!important;color:#fff!important}
 </style></head><body>
 <header class="adv"><div class="top"><a class="logo" href="#home">The ADvantage</a><nav id="nav" aria-label="Sections"></nav></div><div id="themes" hidden></div><span id="eyebrow" hidden></span></header>
 <div id="disc"></div><div id="catbar" aria-label="Categories"></div>
@@ -583,7 +585,7 @@ function whatson(){
   const tabs='<div class="stabs" role="tablist" aria-label="When">'+G.map(g=>'<button type="button" role="tab" data-wt="'+g[0]+'" aria-pressed="'+(wt===g[0])+'">'+g[1]+'<small>'+g[2].length+'</small></button>').join("")+'</div>';
   const cur=G.find(g=>g[0]===wt)||G[0];
   if(wf==="restaurants"){const lv=listView("restaurants","Restaurants","");const body=lv.slice(lv.indexOf('<section class="pbody">'));return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Our Picks + Add Your Favorites.<br>Shuffle for more discoveries.</p>'+bar+'</div></section>'+body}
-  return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Our Picks + Add Your Favorites.<br>Shuffle for more discoveries.</p>'+bar.replace('</div>','<button type="button" class="shufbtn" data-wshuf="1">Shuffle <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h4l10 10h4M3 17h4l3-3M14 10l3-3h4M18 4l3 3-3 3M18 14l3 3-3 3"/></svg></button></div>')+'</div></section><section class="pbody"><div class="in2">'+tabs+(cur[2].length?'<div class="grid">'+grp(wsd!==null?sshuf(cur[2],wsd):cur[2]).map(gbox).join("")+'</div>':'<div class="empty">Nothing here right now. Try another tab or category.</div>')+'</div></section>'}
+  return '<section class="phead"><div class="in2"><h2>What’s On</h2><p class="lead">Our Picks + Add Your Favorites.<br>Shuffle for more discoveries.</p>'+bar.replace('</div>','<button type="button" class="shufbtn" data-wshuf="1" aria-pressed="'+(wsd!==null)+'">Shuffle</button></div>')+'</div></section><section class="pbody"><div class="in2">'+tabs+(cur[2].length?'<div class="grid">'+grp(wsd!==null?sshuf(cur[2],wsd):cur[2]).map(gbox).join("")+'</div>':'<div class="empty">Nothing here right now. Try another tab or category.</div>')+'</div></section>'}
 
 function monthView(ev){
   const [y,m]=cm.split("-").map(Number),first=new Date(y,m-1,1),start=first.getDay(),dim=new Date(y,m,0).getDate();
@@ -630,7 +632,7 @@ function buildMix(){
 function discoverMix(){
   if(!mix)mix=buildMix();
   if(!mix.length)return"";
-  return '<div class="fbar"><button type="button" class="pill" data-shuffle="1">Shuffle picks <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h4l10 10h4M3 17h4l3-3M14 10l3-3h4M18 4l3 3-3 3M18 14l3 3-3 3"/></svg></button></div><div class="grid">'+mix.map(m=>{
+  return '<div class="fbar"><button type="button" class="pill" data-shuffle="1">Shuffle picks</button></div><div class="grid">'+mix.map(m=>{
     if(m.pick)return venueCard(m.pick,false).replace('<span class="tag">','<span class="tag">Broadway · ');
     const o=m.show,u=safe(o.url);
     return '<article class="card">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<span class="tag">'+CATNAME[m.c]+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p>'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info</a>':'')+'<div style="margin-top:6px">'+addBtn(o)+'</div></article>'}).join("")+'</div>'}
