@@ -471,6 +471,14 @@ html[data-theme=advantage] .ct h3 .tl:hover{text-decoration:underline;text-under
 .vdots{display:flex;justify-content:center;gap:8px;margin-top:14px}
 .vdots button{width:8px;height:8px;padding:0;border:0;border-radius:50%!important;background:#4a4a4a}
 .vdots button[aria-current=true]{background:#f2f2f2;width:22px;border-radius:999px!important}
+/* filters match top nav pills; page titles match banner title */
+html[data-theme=advantage] .phead .fbar button,html[data-theme=advantage] .pbody .fbar button,html[data-theme=advantage] .pbody>.in2>.fbar button,html[data-theme=advantage] .pbody .stabs button,html[data-theme=advantage] .phead .fbar .shufbtn,html[data-theme=advantage] .pbody .fbar button.pill{font:700 .95rem/1 var(--sans)!important;letter-spacing:.02em!important;text-transform:none!important;padding:12px 20px!important}
+html[data-theme=advantage] .pbody .stabs button{display:inline-flex;align-items:center;gap:8px}
+html[data-theme=advantage] .pbody .stabs small{font-size:.8rem;padding:3px 8px}
+html[data-theme=advantage] .phead .fbar .shufbtn svg{width:17px;height:17px}
+html[data-theme=advantage] .phead h2{font:400 clamp(1.9rem,3.6vw,3.2rem)/1.04 var(--disp)!important}
+@media(max-width:820px){html[data-theme=advantage] .phead h2{font-size:1.7rem!important}}
+@media(max-width:820px){html[data-theme=advantage] .phead .fbar button,html[data-theme=advantage] .pbody .fbar button,html[data-theme=advantage] .pbody>.in2>.fbar button,html[data-theme=advantage] .pbody .stabs button,html[data-theme=advantage] .phead .fbar .shufbtn,html[data-theme=advantage] .pbody .fbar button.pill{font-size:.85rem!important;padding:11px 16px!important}}
 </style></head><body>
 <header class="adv"><div class="top"><a class="logo" href="#home">The ADvantage</a><nav id="nav" aria-label="Sections"></nav></div><div id="themes" hidden></div><span id="eyebrow" hidden></span></header>
 <div id="disc"></div><div id="catbar" aria-label="Categories"></div>
