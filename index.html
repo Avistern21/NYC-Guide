@@ -594,7 +594,7 @@ function monthView(ev){
     h+='<div class="cell'+(dt.getMonth()!==m-1?" out":"")+(ds===TODAY?" today":"")+'"><b>'+dt.getDate()+'</b>'+es+'</div>'}
   return h+'</div>'+(ev.length?"":'<p class="lead" style="margin-top:12px">Nothing on the calendar yet. Use Add on any show in What’s On.</p>')}
 function calendar(){
-  const ev=events.slice().sort((a,b)=>a.date<b.date?-1:1);let h='<h2>Calendar</h2><p class="lead">Our own plans. Use Add on any show to put it here.</p>';
+  const ev=events.slice().sort((a,b)=>a.date<b.date?-1:1);let h='<h2>Calendar</h2><p class="lead">Click Add on any show to put it here.</p>';
   h+='<details class="add"><summary>Add an event</summary><form id="evf"><label>Date<input name="date" type="date" required></label><label>Type<select name="type"><option>Dance</option><option>Music</option><option>Broadway</option><option>Dinner</option><option>Museum</option></select></label><label class="wide">What<input name="title" required></label><label>Where<input name="where"></label><label>Tickets or booking link<input name="url" type="url" placeholder="https://"></label><div class="wide"><button class="pri" type="submit">Add to calendar</button></div></form></details>';
   h+='<div class="fbar" role="group" aria-label="Calendar view"><button type="button" data-cv="list" aria-pressed="'+(cv==="list")+'">List</button><button type="button" data-cv="month" aria-pressed="'+(cv==="month")+'">Calendar</button></div>';
   if(cv==="month")return h+monthView(ev);
