@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-16T00:58:42.721Z",
+ "ran": "2026-11-16T01:21:02.664Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -14,7 +14,6 @@
    "moma",
    "guggenheim",
    "the-frick-collection",
-   "brooklyn-museum",
    "neue-galerie",
    "noguchi-museum",
    "new-museum",
@@ -22,7 +21,6 @@
    "international-center-of-photography",
    "david-zwirner",
    "gagosian",
-   "hauser-wirth",
    "gladstone-gallery",
    "levy-gorvy-dayan",
    "p-wicked",
@@ -34,6 +32,14 @@
    "p-six"
   ],
   "failed": [
+   {
+    "id": "brooklyn-museum",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "hauser-wirth",
+    "reason": "wikipedia HTTP 429"
+   },
    {
     "id": "p-the-lion-king",
     "reason": "no wiki title set"
