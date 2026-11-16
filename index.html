@@ -479,6 +479,9 @@ html[data-theme=advantage] .phead .fbar .shufbtn svg{width:17px;height:17px}
 html[data-theme=advantage] .phead h2{font:400 clamp(1.9rem,3.6vw,3.2rem)/1.04 var(--disp)!important}
 @media(max-width:820px){html[data-theme=advantage] .phead h2{font-size:1.7rem!important}}
 @media(max-width:820px){html[data-theme=advantage] .phead .fbar button,html[data-theme=advantage] .pbody .fbar button,html[data-theme=advantage] .pbody>.in2>.fbar button,html[data-theme=advantage] .pbody .stabs button,html[data-theme=advantage] .phead .fbar .shufbtn,html[data-theme=advantage] .pbody .fbar button.pill{font-size:.85rem!important;padding:11px 16px!important}}
+/* Added = mint green */
+html[data-theme=advantage] .ct button[disabled],html[data-theme=advantage] .ct button.pill[disabled],html[data-theme=advantage] .ct.c0 .cb button.pill[disabled],html[data-theme=advantage] .ct.c2 .cb button.pill[disabled],html[data-theme=advantage] .ct.c1 .cact button[disabled]{background:#4ea57d!important;color:#fff!important;opacity:1;cursor:default}
+html[data-theme=advantage] .ct button[disabled]:hover{background:#4ea57d!important;color:#fff!important}
 </style></head><body>
 <header class="adv"><div class="top"><a class="logo" href="#home">The ADvantage</a><nav id="nav" aria-label="Sections"></nav></div><div id="themes" hidden></div><span id="eyebrow" hidden></span></header>
 <div id="disc"></div><div id="catbar" aria-label="Categories"></div>
@@ -499,7 +502,7 @@ const md=s=>MON[+s.slice(5,7)-1]+" "+(+s.slice(8,10));
 const range=(a,b)=>a===b?md(a):(a.slice(0,7)===b.slice(0,7)?md(a)+"–"+(+b.slice(8,10)):md(a)+"–"+md(b));
 let venues=[],shows=[],auto={},imgs={venues:{},shows:{}},picks=[],log=null,L=[];
 let mine=[],events=[],saved=[],arts={},af="all",sf="all",bf="all",wt="now",bd=null,mix=null,bmix=null;
-let wf="all",cv="list",cm=TODAY.slice(0,7);
+const VSI={};let wf="all",cv="list",cm=TODAY.slice(0,7);
 try{const s=JSON.parse(localStorage.getItem("culture-guide-v2")||"{}");mine=s.mine||[];events=s.events||[];saved=s.saved||[]}catch{}
 const save=()=>{try{localStorage.setItem("culture-guide-v2",JSON.stringify({mine,events,saved}))}catch{}};
 const j=async(p,d)=>{try{const r=await fetch(p+"?v="+TODAY);if(!r.ok)throw 0;return await r.json()}catch{return d}};
@@ -568,7 +571,7 @@ function whatson(){
   const box1=o=>{const u=safe(o.url);return '<article class="card">'+tile(o.v.name,o.img,o.start<=TODAY?"On now":"Opens "+md(o.start))+'<span class="tag">'+(CATNAME[o.v.cat]||"")+'</span><h3>'+esc(o.title)+'</h3><p>'+esc(o.v.name)+' · '+esc(o.label)+'</p>'+(u?'<a class="go" href="'+esc(u)+'" target="_blank" rel="noopener">More info</a>':'')+'<div style="margin-top:6px">'+addBtn(o)+'</div></article>'};
   const box=o=>MODE?cbox(o):box1(o);
   const grp=list=>{const m=new Map();list.forEach(o=>{const k=o.v.id;if(!m.has(k))m.set(k,[]);m.get(k).push(o)});return [...m.values()]};
-  const gbox=g=>g.length===1?box(g[0]):'<div class="vs"><span class="vcount" aria-hidden="true">1 / '+g.length+'</span><div class="vst">'+g.map(box).join("")+'</div><div class="vdots">'+g.map((_,i)=>'<button type="button" data-vdot="'+i+'" aria-label="Show '+(i+1)+' of '+g.length+'"'+(i?'':' aria-current="true"')+'></button>').join("")+'</div></div>';
+  const gbox=g=>g.length===1?box(g[0]):'<div class="vs" data-v="'+esc(g[0].v.id)+'"><span class="vcount" aria-hidden="true">1 / '+g.length+'</span><div class="vst">'+g.map(box).join("")+'</div><div class="vdots">'+g.map((_,i)=>'<button type="button" data-vdot="'+i+'" aria-label="Show '+(i+1)+' of '+g.length+'"'+(i?'':' aria-current="true"')+'></button>').join("")+'</div></div>';
   const row=o=>{const d=new Date(o.start+"T12:00:00");return '<div class="ev"><div class="dnum">'+(o.start<=TODAY?'Now':d.getDate()+'<small>'+MON[d.getMonth()]+'</small>')+'</div><div><strong><a href="'+esc(o.url)+'" target="_blank" rel="noopener">'+esc(o.title)+'</a></strong><br><span class="lead">'+esc(o.v.name)+' · '+esc(o.label)+'</span></div>'+addBtn(o)+'</div>'};
   const G=[["now","On now",LL.filter(o=>o.start<=TODAY)],["soon","Coming soon",LL.filter(o=>o.start>TODAY)]];
   const tabs='<div class="stabs" role="tablist" aria-label="When">'+G.map(g=>'<button type="button" role="tab" data-wt="'+g[0]+'" aria-pressed="'+(wt===g[0])+'">'+g[1]+'<small>'+g[2].length+'</small></button>').join("")+'</div>';
@@ -690,7 +693,7 @@ function render(){
   const v=document.getElementById("view"),c=CATS.find(x=>x[0]===k)||[];v.dataset.k=k;
   let hv=k==="home"?homeView().replace(/<section class="hero">[\s\S]*?<\/section>/,""):k==="now"?whatson():k==="calendar"?calendar():listView(k,c[1],c[2]);
   if(["calendar","reads","discover"].includes(k)){const m=hv.match(/^<h2>(.*?)<\/h2><p class="lead">(.*?)<\/p>([\s\S]*)$/);if(m)hv='<section class="phead"><div class="in2"><h2>'+m[1]+'</h2><p class="lead">'+m[2]+'</p></div></section><section class="pbody"><div class="in2">'+m[3]+'</div></section>'}
-  v.innerHTML=hv;
+  const _sy=scrollY;v.innerHTML=hv;document.querySelectorAll(".vs[data-v]").forEach(w=>{const i=VSI[w.dataset.v]||0;if(!i)return;const t=w.querySelector(".vst");t.style.scrollBehavior="auto";t.scrollLeft=i*t.clientWidth;w.querySelectorAll("[data-vdot]").forEach((d,j)=>j===i?d.setAttribute("aria-current","true"):d.removeAttribute("aria-current"));const c=w.querySelector(".vcount");if(c)c.textContent=(i+1)+" / "+t.children.length});if(window._keepY){scrollTo(0,_sy);window._keepY=false}
 }
 document.addEventListener("input",e=>{if(e.target.id!=="q")return;const q=e.target.value.toLowerCase();document.querySelectorAll(".dc").forEach(c=>{c.style.display=c.dataset.q.includes(q)?"":"none"})});
 document.addEventListener("change",e=>{if(e.target.id==="rd"){rsv.date=e.target.value;render()}else if(e.target.id==="rs"){rsv.seats=e.target.value;render()}});
@@ -699,7 +702,7 @@ document.addEventListener("submit",e=>{e.preventDefault();const f=e.target,d=new
   else if(f.id==="evf")events.push({id:"e"+Date.now(),date:d.get("date"),type:d.get("type"),title:d.get("title"),where:d.get("where"),url:d.get("url")});
   save();render()});
 document.addEventListener("click",e=>{const t=e.target;
-  if(t.dataset.add){const o=L.find(x=>x.id===t.dataset.add);if(o){events.push({id:"e"+Date.now(),date:o.cd,type:LAB[o.v.cat]==="Concert"?"Music":o.v.cat==="dance"?"Dance":"Museum",title:o.title+" ("+o.label+")",where:o.v.name,url:o.url});save();render()}}
+  if(t.dataset.add){window._keepY=true;const o=L.find(x=>x.id===t.dataset.add);if(o){events.push({id:"e"+Date.now(),date:o.cd,type:LAB[o.v.cat]==="Concert"?"Music":o.v.cat==="dance"?"Dance":"Museum",title:o.title+" ("+o.label+")",where:o.v.name,url:o.url});save();render()}}
   if(t.dataset.del){mine=mine.filter(i=>i.id!==t.dataset.del);save();render()}
   if(t.dataset.evdel){events=events.filter(i=>i.id!==t.dataset.evdel);save();render()}});
 
@@ -713,7 +716,7 @@ function drawBanner(){
 document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("[data-bshuffle]")){bmix=null;drawBanner()}});
 const THEMES=[["midnight","Midnight","#ff3d81","#ff9a3d"],["gold","Gold","#e8b84a","#ffe08a"],["sunset","Sunset","#ff5e5b","#ffb347"],["violet","Violet","#7c5cff","#22d3ee"],["gallery","Gallery","#000","#777"]];
 function drawThemes(){const cur=document.documentElement.dataset.theme;document.getElementById("themes").innerHTML=THEMES.map(t=>'<button type="button" data-theme="'+t[0]+'" title="'+t[1]+'" aria-label="'+t[1]+' theme" aria-pressed="'+(t[0]===cur)+'" style="background:linear-gradient(135deg,'+t[2]+','+t[3]+')"></button>').join("")}
-document.addEventListener("scroll",e=>{const t=e.target;if(!t||!t.classList||!t.classList.contains("vst"))return;const i=Math.round(t.scrollLeft/Math.max(1,t.clientWidth)),w=t.parentElement;w.querySelectorAll("[data-vdot]").forEach((d,j)=>j===i?d.setAttribute("aria-current","true"):d.removeAttribute("aria-current"));const c=w.querySelector(".vcount");if(c)c.textContent=(i+1)+" / "+t.children.length},true);
+document.addEventListener("scroll",e=>{const t=e.target;if(!t||!t.classList||!t.classList.contains("vst"))return;const i=Math.round(t.scrollLeft/Math.max(1,t.clientWidth)),w=t.parentElement;w.querySelectorAll("[data-vdot]").forEach((d,j)=>j===i?d.setAttribute("aria-current","true"):d.removeAttribute("aria-current"));const c=w.querySelector(".vcount");if(c)c.textContent=(i+1)+" / "+t.children.length;if(w.dataset.v)VSI[w.dataset.v]=i},true);
 document.addEventListener("click",e=>{const d=e.target.closest&&e.target.closest("[data-vdot]");if(!d)return;const t=d.closest(".vs").querySelector(".vst");t.scrollTo({left:(+d.dataset.vdot)*t.clientWidth,behavior:"smooth"})});
 document.addEventListener("click",e=>{const t=e.target.closest&&e.target.closest("[data-wf],[data-wt],[data-cv],[data-cm],[data-af],[data-sf],[data-bf],[data-shuffle],[data-wshuf],[data-bk],[data-bd],[data-bdgo],[data-bdx],[data-bdclr]");if(!t)return;
   if(t.dataset.bd){bd=t.dataset.bd}else if(t.dataset.bdx){bd=null}
