@@ -1,24 +1,19 @@
 {
- "ran": "2026-11-16T16:57:33.954Z",
+ "ran": "2026-11-17T10:14:31.612Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
    "alvin-ailey-american-dance-theater",
    "new-york-city-ballet",
-   "dance-theatre-of-harlem",
    "bam",
    "carnegie-hall",
    "new-york-philharmonic",
-   "the-metropolitan-museum-of-art",
    "whitney-museum-of-american-art",
-   "moma",
    "guggenheim",
-   "the-frick-collection",
-   "brooklyn-museum",
    "neue-galerie",
    "noguchi-museum",
+   "new-museum",
    "the-studio-museum-in-harlem",
-   "international-center-of-photography",
    "david-zwirner",
    "gagosian",
    "gladstone-gallery",
@@ -33,7 +28,27 @@
   ],
   "failed": [
    {
-    "id": "new-museum",
+    "id": "dance-theatre-of-harlem",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "the-metropolitan-museum-of-art",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "moma",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "the-frick-collection",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "brooklyn-museum",
+    "reason": "image HTTP 429"
+   },
+   {
+    "id": "international-center-of-photography",
     "reason": "image HTTP 429"
    },
    {
