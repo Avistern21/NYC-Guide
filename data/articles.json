@@ -2,11 +2,65 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
-   "title": "Robert Pattinson Wins the Race to Be the Next James Bond",
-   "url": "https://www.wsj.com/arts-culture/film/james-bond-robert-pattinson-5f3d7734?mod=rss_artsculture",
-   "date": "2026-11-16",
-   "blurb": "His casting ends the protracted search to find the leader of the 007 franchise under its new Amazon ownership",
-   "image": "https://images.wsj.net/im-91880025",
+   "title": "A Georgia O’Keeffe Painting Found Buried Behind Fur Coats Sells for $4.9 Million",
+   "url": "https://www.wsj.com/arts-culture/fine-art/georgia-okeeffe-painting-found-buried-behind-fur-coats-sells-christies-22e33d3c?mod=rss_artsculture",
+   "date": "2026-11-18",
+   "blurb": "Christie’s auctioned the mountain landscape that had been lost for decades Tuesday night.",
+   "image": "https://images.wsj.net/im-95464593",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "At the Nordic Soundscapes Festival, a Quicksilver Final Symphony",
+   "url": "https://www.wsj.com/arts-culture/music/at-the-nordic-soundscapes-festival-a-quicksilver-final-symphony-8f05b2cd?mod=rss_artsculture",
+   "date": "2026-11-17",
+   "blurb": "The Danish composer Carl Nielsen’s last symphony, conducted by Osmo Vänskä, proved a highlight of the Minnesota Orchestra’s merry celebration of music from northern climes.",
+   "image": "https://opinion-images.wsj.net/im-66155398",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Pirouette’ by 2hollis Review: Electro-Pop Pushed to Extremes",
+   "url": "https://www.wsj.com/arts-culture/music/pirouette-by-2hollis-review-electro-pop-pushed-to-extremes-80d2c154?mod=rss_artsculture",
+   "date": "2026-11-17",
+   "blurb": "The 22-year-old singer-producer releases an album of both emotional and musical maximalism, full of jagged noise and jittery synths.",
+   "image": "https://opinion-images.wsj.net/im-36427104",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Gentle Monster’ Review: Léa Seydoux’s Dilemma on Netflix",
+   "url": "https://www.wsj.com/arts-culture/television/gentle-monster-review-lea-seydouxs-dilemma-on-netflix-3ba2b0e4?mod=rss_artsculture",
+   "date": "2026-11-17",
+   "blurb": "The French actress gives a devastating performance as a woman married to a man arrested for repellent crimes in a slow-burning drama from director Marie Kreutzer.",
+   "image": "https://opinion-images.wsj.net/im-94205955",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "The Dramatic, Down-to-the-Wire Fight Over a $180 Million Van Gogh",
+   "url": "https://www.wsj.com/arts-culture/fine-art/van-gogh-sothebys-blossoming-chestnut-trees-sale-f22d7dde?mod=rss_artsculture",
+   "date": "2026-11-17",
+   "blurb": "“Blossoming Chestnut Trees,” to be auctioned by Sotheby’s, is set to break the record for a Van Gogh. But a German family claimed it was wrongfully sold during the Nazi era.",
+   "image": "https://images.wsj.net/im-77276939",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Andrew Scott Channeled His Grief Into His Most Devastating Role Yet",
+   "url": "https://www.wsj.com/arts-culture/film/andrew-scott-elsinore-2fe28170?mod=rss_artsculture",
+   "date": "2026-11-17",
+   "blurb": "His part in “Elsinore” forced him to contend with death.",
+   "image": "https://images.wsj.net/im-94195893",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Why People Are Paying $4.99 for a Version of ‘The Odyssey’ Shot in West Virginia",
+   "url": "https://www.wsj.com/arts-culture/film/odyssey-mockbuster-asylum-christopher-nolan-matt-damon-cc89bc18?mod=rss_artsculture",
+   "date": "2026-11-17",
+   "blurb": "The Asylum has spent decades drafting off Hollywood hits. Its latest trick? Beating Christopher Nolan’s “The Odyssey” to home video.",
+   "image": "https://images.wsj.net/im-70818237",
    "section": "Film & TV"
   },
   {
@@ -17,6 +71,15 @@
    "blurb": "They were trailed by Ella Langley, Miranda Lambert and Olivia Rodrigo.",
    "image": "https://images.wsj.net/im-86416209",
    "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Robert Pattinson Wins the Race to Be the Next James Bond",
+   "url": "https://www.wsj.com/arts-culture/film/james-bond-robert-pattinson-5f3d7734?mod=rss_artsculture",
+   "date": "2026-11-16",
+   "blurb": "His casting ends the protracted search to find the leader of the 007 franchise under its new Amazon ownership",
+   "image": "https://images.wsj.net/im-91880025",
+   "section": "Film & TV"
   },
   {
    "source": "WSJ Review",
@@ -92,15 +155,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Network’: Sidney Lumet’s Vicious Comedy of Ratings-Chasing",
-   "url": "https://www.wsj.com/arts-culture/film/network-sidney-lumets-vicious-comedy-of-ratings-chasing-cda357f5?mod=rss_artsculture",
-   "date": "2026-11-13",
-   "blurb": "Released 50 years ago this month, the classic satire remains a perceptive study of both populist bellowing and the media’s exploitative instincts.",
-   "image": "https://opinion-images.wsj.net/im-34559418",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "11 Books We Read This Week",
    "url": "https://www.wsj.com/arts-culture/books/11-books-we-read-this-week-3e566184?mod=rss_artsculture",
    "date": "2026-11-13",
@@ -128,24 +182,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "Victor Miller Wrote ‘Friday the 13th.’ He Thought the Sequels Got It All Wrong.",
-   "url": "https://www.wsj.com/arts-culture/film/victor-miller-dead-friday-13th-94e919ab?mod=rss_artsculture",
-   "date": "2026-11-13",
-   "blurb": "Miller, who died at the age of 86, said he never saw Jason as a killer.",
-   "image": "https://images.wsj.net/im-00691315",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "In ‘Ebenezer,’ Johnny Depp Seeks Redemption in the Guise of Scrooge",
-   "url": "https://www.wsj.com/arts-culture/film/johnny-depp-ebenezer-pirates-comeback-a4e5cb5a?mod=rss_artsculture",
-   "date": "2026-11-13",
-   "blurb": "The holiday movie marks the actor’s first major studio picture since his legal battles with ex-wife and actress Amber Heard.",
-   "image": "https://images.wsj.net/im-59298844",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "‘Cunk on Cinema’ Review: A Shtick Wears Thin on Netflix",
    "url": "https://www.wsj.com/arts-culture/television/cunk-on-cinema-review-a-shtick-wears-thin-on-netflix-98dcbc3a?mod=rss_artsculture",
    "date": "2026-11-12",
@@ -169,24 +205,6 @@
    "date": "2026-11-12",
    "blurb": "On the CBS legal drama “Cupertino,” actor Rob McClure portrays a hyper-realistic AI model who wants to sue his creators for removing his guardrails.",
    "image": "https://images.wsj.net/im-45077141",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Ebenezer’ Review: Johnny Depp Steps Into Scrooge’s Slippers",
-   "url": "https://www.wsj.com/arts-culture/film/ebenezer-review-johnny-depp-steps-into-scrooges-slippers-983b0417?mod=rss_artsculture",
-   "date": "2026-11-12",
-   "blurb": "The actor stars in director Ti West’s horror-tinged retread of ‘A Christmas Carol.’",
-   "image": "https://opinion-images.wsj.net/im-21063845",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Paper Tiger’ Review: James Gray’s Crime Drama of Tragic Depth",
-   "url": "https://www.wsj.com/arts-culture/film/paper-tiger-review-james-grays-crime-drama-of-tragic-depth-390caf72?mod=rss_artsculture",
-   "date": "2026-11-12",
-   "blurb": "Miles Teller, Scarlett Johansson and Adam Driver star in a gripping, beautifully crafted movie about two brothers who become entangled with the Russian mob.",
-   "image": "https://opinion-images.wsj.net/im-02307891",
    "section": "Film & TV"
   },
   {
@@ -269,42 +287,6 @@
    "blurb": "As economic angst motivated many Americans at the polls, voters in two cities approved measures to ban the polarizing delicacy.",
    "image": "https://images.wsj.net/im-74717851",
    "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Arts Calendar: Happenings for the Week of November 8",
-   "url": "https://www.wsj.com/arts-culture/fine-art/arts-calendar-happenings-for-the-week-of-november-8-airdigital-b18f3136?mod=rss_artsculture",
-   "date": "2026-11-08",
-   "blurb": "Johnny Depp plays “Ebenezer” in a new version of Dickens’s “A Christmas Carol”; the controversial, critically acclaimed “Downstate” opens on Broadway; U2 drops its first album of new music in nearly a decade; and more.",
-   "image": "https://opinion-images.wsj.net/im-33412216",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Noguchi to Asawa: Designing Postwar America’ Review: A Style Born of Sorrow",
-   "url": "https://www.wsj.com/arts-culture/fine-art/noguchi-to-asawa-designing-postwar-america-review-a-style-born-of-sorrow-a9319d58?mod=rss_artsculture",
-   "date": "2026-11-07",
-   "blurb": "The Barnes Foundation highlights six Japanese-American designers—five of whom spent time in internment camps during World War II—who defined the midcentury look of the U.S.",
-   "image": "https://opinion-images.wsj.net/im-49889984",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "The ‘Ring’ Cycle at 150: Richard Wagner’s Manifold Musical Epic",
-   "url": "https://www.wsj.com/arts-culture/music/the-ring-cycle-at-150-richard-wagners-manifold-musical-epic-cb2bea12?mod=rss_artsculture",
-   "date": "2026-11-06",
-   "blurb": "The composer’s magnum opus, a fantasy saga that comprises four linked operas, is a work of both staggering, singular vision and extraordinary diversity.",
-   "image": "https://opinion-images.wsj.net/im-92672877",
-   "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Louvre Director Christophe Leribault on the Museum’s Many Crises",
-   "url": "https://www.wsj.com/arts-culture/fine-art/louvre-director-christophe-leribault-on-the-museums-many-crises-5aaa2a5a?mod=rss_artsculture",
-   "date": "2026-11-06",
-   "blurb": "The museum chief discusses the challenges of leading the Louvre as France is roiled by protests and the institution faces a sorely needed renovation—including a rethinking of how it presents the Mona Lisa.",
-   "image": "https://opinion-images.wsj.net/im-42731980",
-   "section": "Art Review"
   }
  ],
  "Goings On": [
@@ -351,24 +333,6 @@
    "date": "2026-11-12",
    "blurb": "Bringing the French general to the big screen has historically been a fraught enterprise. Antonin Baudry says that his two-part epic succeeded because it “managed to crack the character.”",
    "image": "https://media.newyorker.com/photos/6af219c42ae5437a4afabf7a/master/pass/Collins-Charles-de-Gaulle.jpg",
-   "section": "Cinema"
-  },
-  {
-   "source": "Goings On",
-   "title": "“Club Kid” and the New Fatherhood",
-   "url": "https://www.newyorker.com/podcast/critics-at-large/club-kid-and-the-new-fatherhood",
-   "date": "2026-11-12",
-   "blurb": "The archetype of the father onscreen has come a long way from the patriarchs of the postwar era. The new film “Club Kid” joins a wave of recent works that interrogate what we want from dads today—in art and in life.",
-   "image": "https://media.newyorker.com/photos/650b59e2f49b447c4924fa7b/master/pass/CAL-WEB.png",
-   "section": "Critics"
-  },
-  {
-   "source": "Goings On",
-   "title": "“Club Kid” Is a Disarming Cocktail of Grit and Fantasy",
-   "url": "https://www.newyorker.com/culture/the-current-cinema/club-kid-is-a-disarming-cocktail-of-grit-and-fantasy",
-   "date": "2026-11-06",
-   "blurb": "In Jordan Firstman’s assured filmmaking début, he plays a gay New York party promoter who gets an improbable shot at fatherhood.",
-   "image": "https://media.newyorker.com/photos/6aeba52b0a5453b6081627e6/master/pass/Chang-Club-Kid.jpg",
    "section": "Cinema"
   },
   {
