@@ -2,6 +2,42 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "‘The Altruists’ Review: The FTX Scandal, Now on Netflix",
+   "url": "https://www.wsj.com/arts-culture/television/the-altruists-review-the-ftx-scandal-now-on-netflix-5803d28d?mod=rss_artsculture",
+   "date": "2026-11-19",
+   "blurb": "Anthony Boyle and Julia Garner star as Sam Bankman-Fried and Caroline Ellison in an eight-part drama about the cryptocurrency fraudsters.",
+   "image": "https://opinion-images.wsj.net/im-28527443",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Van Gogh Painting Sells for $190.4 Million, Most Ever for the Artist",
+   "url": "https://www.wsj.com/arts-culture/fine-art/van-gogh-blossoming-chesnut-trees-sale-price-sothebys-8eb3aa93?mod=rss_artsculture",
+   "date": "2026-11-18",
+   "blurb": "“Blossoming Chestnut Trees” becomes the fourth most expensive painting ever sold at auction, a day after Sotheby’s settled a claim made by heirs of a Jewish publisher who alleged the artwork was sold under Nazi-era…",
+   "image": "https://images.wsj.net/im-67255032",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Elsinore’ Review: Andrew Scott’s Shakespearean Struggle",
+   "url": "https://www.wsj.com/arts-culture/film/elsinore-review-andrew-scotts-shakespearean-struggle-689baf99?mod=rss_artsculture",
+   "date": "2026-11-18",
+   "blurb": "The actor plays ‘Chariots of Fire’ star Ian Charleson, who in 1989 stepped into the role of Hamlet even as he was ill with AIDS, in director Simon Stone’s biopic.",
+   "image": "https://opinion-images.wsj.net/im-46659609",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Jenufa’ Review: A Powerfully Grim Opera at the Met",
+   "url": "https://www.wsj.com/arts-culture/theater/jenufa-review-a-powerfully-grim-opera-at-the-met-9ae7d922?mod=rss_artsculture",
+   "date": "2026-11-18",
+   "blurb": "Leoš Janáček’s work about a mother who loses her child under horrific circumstances gets an astute production starring Asmik Grigorian; plus, at Carnegie Hall, Gustavo Dudamel conducted a sumptuous if theatrically…",
+   "image": "https://opinion-images.wsj.net/im-84447695",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
    "title": "A Georgia O’Keeffe Painting Found Buried Behind Fur Coats Sells for $4.9 Million",
    "url": "https://www.wsj.com/arts-culture/fine-art/georgia-okeeffe-painting-found-buried-behind-fur-coats-sells-christies-22e33d3c?mod=rss_artsculture",
    "date": "2026-11-18",
@@ -175,6 +211,15 @@
    "source": "WSJ Review",
    "title": "4 Surprising Hacks for Cooking a Better Turkey",
    "url": "https://www.wsj.com/arts-culture/food-cooking/best-turkey-tips-thanksgiving-451839b7?mod=rss_artsculture",
+   "date": "2026-11-13",
+   "blurb": "Wary of major risks on the big day? A few small technique tweaks and smart add-ins can deliver a juicier, better-looking bird in less time, without the fuss.",
+   "image": "https://images.wsj.net/im-19910946",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "4 Surprising Hacks for Cooking a Better Turkey",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/best-turkey-tips-thanksgiving-451839b7?mod=rss_lifestyle",
    "date": "2026-11-13",
    "blurb": "Wary of major risks on the big day? A few small technique tweaks and smart add-ins can deliver a juicier, better-looking bird in less time, without the fuss.",
    "image": "https://images.wsj.net/im-19910946",
