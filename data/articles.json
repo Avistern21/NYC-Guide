@@ -2,38 +2,38 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "‘Arthur Jafa: I Am Tony’ Review: Images in Conversation at the New Museum",
+   "url": "https://www.wsj.com/arts-culture/fine-art/arthur-jafa-i-am-tony-review-images-in-conversation-at-the-new-museum-airdigital-75f3610e?mod=rss_artsculture",
+   "date": "2026-11-20",
+   "blurb": "In his largest museum survey ever, the cinematographer and artist juxtaposes often unrelated pictures to shape new narratives.",
+   "image": "https://opinion-images.wsj.net/im-42641498",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "8 Gifts for Home Cooks That Can Last Many Lifetimes",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/best-cookware-gifts-dutch-oven-cast-iron-54838326?mod=rss_artsculture",
+   "date": "2026-11-20",
+   "blurb": "A beautifully made cast-iron skillet, a hand-cranked pasta machine and more built-to-last kitchen supplies for making meals and memories.",
+   "image": "https://images.wsj.net/im-35594221",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Scoring for the Beatles",
+   "url": "https://www.wsj.com/arts-culture/music/george-martin-review-scoring-for-the-beatles-80618b89?mod=rss_artsculture",
+   "date": "2026-11-20",
+   "blurb": "‘George Martin: The Scores’ reveals how the producer propelled the Beatles and pop music to unimagined heights.",
+   "image": "https://opinion-images.wsj.net/im-34346334",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
    "title": "‘Liz Diller & Ric Scofidio: Architect Provocateurs’ Review: A Couple’s Urban Visions",
    "url": "https://www.wsj.com/arts-culture/television/liz-diller-ric-scofidio-architect-provocateurs-review-a-couples-urban-visions-5b0bcbe9?mod=rss_artsculture",
    "date": "2026-11-19",
    "blurb": "This ‘American Masters’ special on PBS highlights the work of the married architects, who have shaped New York and other cities through such projects as the High Line and the Juilliard School.",
    "image": "https://opinion-images.wsj.net/im-68741189",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Josephine’ Review: Channing Tatum in a Deeply Felt Drama",
-   "url": "https://www.wsj.com/arts-culture/film/josephine-review-channing-tatum-in-a-deeply-felt-drama-2ad11b3f?mod=rss_artsculture",
-   "date": "2026-11-19",
-   "blurb": "The actor plays the father to a young girl who witnesses a heinous crime in this poignant, probing film.",
-   "image": "https://opinion-images.wsj.net/im-62693264",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Extremely Rare Hilma af Klint Sells for $12.7 Million, About 16 Times Its High Estimate",
-   "url": "https://www.wsj.com/arts-culture/fine-art/hilma-af-klint-sale-682283b5?mod=rss_artsculture",
-   "date": "2026-11-19",
-   "blurb": "It’s been three decades since a painting by the world’s first abstract artist was auctioned. Most of her work is locked away in a foundation.",
-   "image": "https://images.wsj.net/im-07044922",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘The Hunger Games: Sunrise on the Reaping’ Review: A Dystopian Prequel-Sequel",
-   "url": "https://www.wsj.com/arts-culture/film/the-hunger-games-sunrise-on-the-reaping-review-a-dystopian-prequel-sequel-ab173358?mod=rss_artsculture",
-   "date": "2026-11-19",
-   "blurb": "Taking place before the events of the original film but after 2023’s ‘Ballad of Songbirds & Snakes,’ the new movie dutifully follows the franchise’s fan-pleasing formula.",
-   "image": "https://opinion-images.wsj.net/im-48509962",
    "section": "Film & TV"
   },
   {
@@ -56,6 +56,15 @@
   },
   {
    "source": "WSJ Review",
+   "title": "Extremely Rare Hilma af Klint Sells for $12.7 Million, About 16 Times Its High Estimate",
+   "url": "https://www.wsj.com/arts-culture/fine-art/hilma-af-klint-sale-682283b5?mod=rss_artsculture",
+   "date": "2026-11-19",
+   "blurb": "It’s been three decades since a painting by the world’s first abstract artist was auctioned. Most of her work is locked away in a foundation.",
+   "image": "https://images.wsj.net/im-07044922",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
    "title": "Holiday Gift Books: Art",
    "url": "https://www.wsj.com/arts-culture/fine-art/holiday-gift-books-art-98029fd2?mod=rss_artsculture",
    "date": "2026-11-19",
@@ -71,6 +80,24 @@
    "blurb": "Three cookbooks offer recipes that range from the simple to the sumptuous.",
    "image": "https://opinion-images.wsj.net/im-77600048",
    "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Josephine’ Review: Channing Tatum in a Deeply Felt Drama",
+   "url": "https://www.wsj.com/arts-culture/film/josephine-review-channing-tatum-in-a-deeply-felt-drama-2ad11b3f?mod=rss_artsculture",
+   "date": "2026-11-19",
+   "blurb": "The actor plays the father to a young girl who witnesses a heinous crime in this poignant, probing film.",
+   "image": "https://opinion-images.wsj.net/im-62693264",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘The Hunger Games: Sunrise on the Reaping’ Review: A Dystopian Prequel-Sequel",
+   "url": "https://www.wsj.com/arts-culture/film/the-hunger-games-sunrise-on-the-reaping-review-a-dystopian-prequel-sequel-ab173358?mod=rss_artsculture",
+   "date": "2026-11-19",
+   "blurb": "Taking place before the events of the original film but after 2023’s ‘Ballad of Songbirds & Snakes,’ the new movie dutifully follows the franchise’s fan-pleasing formula.",
+   "image": "https://opinion-images.wsj.net/im-48509962",
+   "section": "Film & TV"
   },
   {
    "source": "WSJ Review",
@@ -173,33 +200,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "Robert Pattinson Wins the Race to Be the Next James Bond",
-   "url": "https://www.wsj.com/arts-culture/film/james-bond-robert-pattinson-5f3d7734?mod=rss_artsculture",
-   "date": "2026-11-16",
-   "blurb": "His casting ends the protracted search to find the leader of the 007 franchise under its new Amazon ownership",
-   "image": "https://images.wsj.net/im-91880025",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Director Ron Howard’s ‘Best Ritual’ Is a Walk With His Wife",
-   "url": "https://www.wsj.com/arts-culture/film/ron-howard-richard-avedon-movies-7d382328?mod=rss_artsculture",
-   "date": "2026-11-16",
-   "blurb": "The director still has his first editing system from high school.",
-   "image": "https://images.wsj.net/im-80172824",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Arts Calendar: Happenings for the Week of November 15",
-   "url": "https://www.wsj.com/arts-culture/fine-art/arts-calendar-happenings-for-the-week-of-november-15-airdigital-8af6f777?mod=rss_artsculture",
-   "date": "2026-11-15",
-   "blurb": "Nicolas Cage plays NFL icon John Madden in a new biopic, the Rock & Roll Hall of Fame opens a new expansion, ‘Grand Theft Auto VI’ lets players run rampant in a fictional Florida, and more.",
-   "image": "https://opinion-images.wsj.net/im-38175547",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
    "title": "7 Food Gifts That Bring Back Flavors of the Past",
    "url": "https://www.wsj.com/arts-culture/food-cooking/best-food-gifts-holidays-4294bd10?mod=rss_artsculture",
    "date": "2026-11-15",
@@ -254,24 +254,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Cunk on Cinema’ Review: A Shtick Wears Thin on Netflix",
-   "url": "https://www.wsj.com/arts-culture/television/cunk-on-cinema-review-a-shtick-wears-thin-on-netflix-98dcbc3a?mod=rss_artsculture",
-   "date": "2026-11-12",
-   "blurb": "Diane Morgan’s Philomena Cunk turns her daffy attention to the movies in a short-form series that struggles to sustain its comedy.",
-   "image": "https://opinion-images.wsj.net/im-21134328",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘He Said, She Said: Till Death Do Us Part’ Review: A Miserable Divorce on Paramount+",
-   "url": "https://www.wsj.com/arts-culture/television/he-said-she-said-till-death-do-us-part-review-a-miserable-split-on-paramount-e2070418?mod=rss_artsculture",
-   "date": "2026-11-12",
-   "blurb": "Rachel Grady and Heidi Ewing direct this rancorous but absorbing documentary about a divorce between lawyers that turned appallingly ugly.",
-   "image": "https://opinion-images.wsj.net/im-29805098",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "Jelly Roll Morton’s ‘New Orleans Joys: The Earliest Recordings, 1923-26’: A Jazz Giant Emerges",
    "url": "https://www.wsj.com/arts-culture/music/jelly-roll-mortons-new-orleans-joys-the-earliest-recordings-1923-26-a-jazz-giant-emerges-04eea979?mod=rss_artsculture",
    "date": "2026-11-11",
@@ -301,6 +283,33 @@
  "Goings On": [
   {
    "source": "Goings On",
+   "title": "The Look-at-Me Spectacle of Actors Playing Actors in “Elsinore” and “I Play Rocky”",
+   "url": "https://www.newyorker.com/culture/the-current-cinema/the-look-at-me-spectacle-of-actors-playing-actors-in-elsinore-and-i-play-rocky",
+   "date": "2026-11-20",
+   "blurb": "The lead performances outshine the cliché-ridden filmmaking in two new biographical dramas about actors defying the odds.",
+   "image": "https://media.newyorker.com/photos/6afb7c9130a633b1179c6ee5/master/pass/Chang-Elsinore.jpg",
+   "section": "Theatre"
+  },
+  {
+   "source": "Goings On",
+   "title": "“All of a Sudden” Exalts the Power of Talk",
+   "url": "https://www.newyorker.com/magazine/2026/11/30/all-of-a-sudden-movie-review",
+   "date": "2026-11-20",
+   "blurb": "Ryûsuke Hamaguchi’s new film explores emotional connections at the end of life.",
+   "image": "https://media.newyorker.com/photos/6afdb62bb87bacf93a7f6827/master/pass/r50643.jpg",
+   "section": "Cinema"
+  },
+  {
+   "source": "Goings On",
+   "title": "Dinner and “The Dead”",
+   "url": "https://www.newyorker.com/culture/goings-on/dinner-and-the-dead",
+   "date": "2026-11-20",
+   "blurb": "Also: Doja Cat’s reincarnation, a tap-dance party, the evolution of Yoshitomo Nara, and more.",
+   "image": "https://media.newyorker.com/photos/6afb765ee36f525ffa6d0551/master/pass/Karen%20Killeen,%20U%CC%81na%20Clancy,%20and%20Mary%20Beth%20Peil%20%20in%20Irish%20Rep",
+   "section": "Goings On"
+  },
+  {
+   "source": "Goings On",
    "title": "Why the Courtroom Keeps Us Watching",
    "url": "https://www.newyorker.com/podcast/critics-at-large/why-the-courtroom-keeps-us-watching",
    "date": "2026-11-19",
@@ -310,47 +319,11 @@
   },
   {
    "source": "Goings On",
-   "title": "“Avedon” Shows the Scars, Just Not the Photographer’s Own",
-   "url": "https://www.newyorker.com/culture/critics-notebook/avedon-shows-the-scars-just-not-the-photographers-own",
-   "date": "2026-11-14",
-   "blurb": "Ron Howard’s new Netflix documentary is cagy about the dark underside of the legendary photographer’s life, which is perhaps fitting for an artist whose pictures were studies in utter control.",
-   "image": "https://media.newyorker.com/photos/6af78944c48aa048f34ff19c/master/pass/Fry---Avedon-Documentary_Richard-Avedon-working-on-his-In-the-American-West-series,-c.-1985-(Photo-by-Susan-Middleton).jpg",
-   "section": "Critics"
-  },
-  {
-   "source": "Goings On",
    "title": "The Labyrinthine Betrayals of “Minotaur”",
    "url": "https://www.newyorker.com/magazine/2026/11/23/minotaur-movie-review",
    "date": "2026-11-13",
    "blurb": "In Andrey Zvyagintsev’s remake of a Claude Chabrol classic, current affairs become entangled with a crime of passion.",
    "image": "https://media.newyorker.com/photos/6af4b42ab50ccd2fbf66ec11/master/pass/r50592.jpg",
-   "section": "Cinema"
-  },
-  {
-   "source": "Goings On",
-   "title": "How Sombr Went from TikTok to Madison Square Garden",
-   "url": "https://www.newyorker.com/culture/goings-on/how-sombr-went-from-tiktok-to-madison-square-garden",
-   "date": "2026-11-13",
-   "blurb": "Also: the legacy of Merce Cunningham, Lauren Ambrose in a new play by Nick Payne, early Vincent Price, and more.",
-   "image": "https://media.newyorker.com/photos/6af4e60f465cf422e1ea556e/master/pass/Sombr.png",
-   "section": "Goings On"
-  },
-  {
-   "source": "Goings On",
-   "title": "“Bitter Christmas” Is Pedro Almodóvar’s Gift to Us",
-   "url": "https://www.newyorker.com/culture/the-current-cinema/bitter-christmas-is-pedro-almodovars-gift-to-us",
-   "date": "2026-11-12",
-   "blurb": "In the dazzling meta-drama, two filmmakers—one the brainchild of the other—ponder what friends owe one another and what artists owe themselves.",
-   "image": "https://media.newyorker.com/photos/6af48618943095fda9b55559/master/pass/Chang-Bitter-Christmas.jpg",
-   "section": "Cinema"
-  },
-  {
-   "source": "Goings On",
-   "title": "How an Unlikely Charles de Gaulle Bio-Pic Conquered France",
-   "url": "https://www.newyorker.com/culture/the-current-cinema/how-an-unlikely-charles-de-gaulle-bio-pic-conquered-france",
-   "date": "2026-11-12",
-   "blurb": "Bringing the French general to the big screen has historically been a fraught enterprise. Antonin Baudry says that his two-part epic succeeded because it “managed to crack the character.”",
-   "image": "https://media.newyorker.com/photos/6af219c42ae5437a4afabf7a/master/pass/Collins-Charles-de-Gaulle.jpg",
    "section": "Cinema"
   },
   {
