@@ -2,6 +2,15 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "‘Paris Couture’ Review: Seams and High Style in Minneapolis",
+   "url": "https://www.wsj.com/arts-culture/fine-art/paris-couture-review-seams-and-high-style-in-minneapolis-683bcced?mod=rss_artsculture",
+   "date": "2026-11-21",
+   "blurb": "The Minneapolis Institute of Art features more than 80 couture masterpieces in an exhibition that traces the emergence of the elite industry and its shifting fashions.",
+   "image": "https://opinion-images.wsj.net/im-35826133",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
    "title": "‘Arthur Jafa: I Am Tony’ Review: Images in Conversation at the New Museum",
    "url": "https://www.wsj.com/arts-culture/fine-art/arthur-jafa-i-am-tony-review-images-in-conversation-at-the-new-museum-airdigital-75f3610e?mod=rss_artsculture",
    "date": "2026-11-20",
@@ -11,21 +20,21 @@
   },
   {
    "source": "WSJ Review",
-   "title": "8 Gifts for Home Cooks That Can Last Many Lifetimes",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/best-cookware-gifts-dutch-oven-cast-iron-54838326?mod=rss_artsculture",
-   "date": "2026-11-20",
-   "blurb": "A beautifully made cast-iron skillet, a hand-cranked pasta machine and more built-to-last kitchen supplies for making meals and memories.",
-   "image": "https://images.wsj.net/im-35594221",
-   "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
    "title": "Scoring for the Beatles",
    "url": "https://www.wsj.com/arts-culture/music/george-martin-review-scoring-for-the-beatles-80618b89?mod=rss_artsculture",
    "date": "2026-11-20",
    "blurb": "‘George Martin: The Scores’ reveals how the producer propelled the Beatles and pop music to unimagined heights.",
    "image": "https://opinion-images.wsj.net/im-34346334",
    "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "8 Gifts for Home Cooks That Can Last Many Lifetimes",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/best-cookware-gifts-dutch-oven-cast-iron-54838326?mod=rss_artsculture",
+   "date": "2026-11-20",
+   "blurb": "A beautifully made cast-iron skillet, a hand-cranked pasta machine and more built-to-last kitchen supplies for making meals and memories.",
+   "image": "https://images.wsj.net/im-35594221",
+   "section": "Food & Cooking"
   },
   {
    "source": "WSJ Review",
@@ -269,18 +278,18 @@
    "blurb": "What do Sting, Nicole Scherzinger, ’N Sync and the Spice Girls have in common? Rob Johnson, the pop music fan who’s helped bring some of their more obscure tracks online.",
    "image": "https://images.wsj.net/im-38633350",
    "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "The Elite Squad Out to Win Gold for Team USA at the World Cup of Pastry",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/the-elite-squad-out-to-win-gold-for-team-usa-at-the-world-cup-of-pastry-55aac173?mod=rss_artsculture",
-   "date": "2026-11-11",
-   "blurb": "As amateur bakers start planning their Thanksgiving pies, four chefs are training to become world champions. Meet the team—and get their tips for baking like a pro.",
-   "image": "https://images.wsj.net/im-53442724",
-   "section": "Food & Cooking"
   }
  ],
  "Goings On": [
+  {
+   "source": "Goings On",
+   "title": "Raye’s Theatrical Pop Nostalgia",
+   "url": "https://www.newyorker.com/culture/critics-notebook/rayes-theatrical-pop-nostalgia",
+   "date": "2026-11-21",
+   "blurb": "The singer’s latest album, “This Music May Contain Hope,” which just earned her the most Grammy nominations of any artist this year, deepens the impression that she is a musician trapped in her idea of what it means…",
+   "image": "https://media.newyorker.com/photos/6b00bd694b5583ee5865ea56/master/pass/St.Felix---Raye_h_8.03989382.jpg",
+   "section": "Critics"
+  },
   {
    "source": "Goings On",
    "title": "The Look-at-Me Spectacle of Actors Playing Actors in “Elsinore” and “I Play Rocky”",
@@ -351,15 +360,6 @@
    "date": "2026-10-22",
    "blurb": "The spy series, which follows a lowly team of pariahs in MI5, mirrors our present moment.",
    "image": "https://media.newyorker.com/photos/6ad65f5562b96eff8fdee55c/master/pass/Kang-Slow-Horses.jpg",
-   "section": "What We’re Watching"
-  },
-  {
-   "source": "Goings On",
-   "title": "Footballese, the Most American Vernacular",
-   "url": "https://www.newyorker.com/culture/on-television/footballese-the-most-american-vernacular",
-   "date": "2026-10-09",
-   "blurb": "In N.F.L. commentary, expertise is celebrated, even craved, by the masses.",
-   "image": "https://media.newyorker.com/photos/6ac8006ee958b85393793f09/master/pass/Final_GIF_NewYorker_ani.gif",
    "section": "What We’re Watching"
   }
  ]
