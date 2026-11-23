@@ -2,6 +2,42 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "How Much Do You Know About Wine? Take Our Test",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/wine-quiz-test-wine-knowledge-52087dd5?mod=rss_artsculture",
+   "date": "2026-11-22",
+   "blurb": "The Wall Street Journal has taught you a lot about wine over the years. Let’s see how much you’ve picked up.",
+   "image": "https://images.wsj.net/im-00067357",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "His Recipes Made Him a Star. Now He’s Opening His First Restaurant.",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/andy-baraghani-kitchen-ditto-30863260?mod=rss_artsculture",
+   "date": "2026-11-22",
+   "blurb": "Andy Baraghani, an award-winning cookbook author, on his favorite dinner-party hack, how he zhuzhes up cottage cheese and why he’s keeping dishes at his new restaurant affordable.",
+   "image": "https://images.wsj.net/im-21353800",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Arts Calendar: Happenings for the Week of November 22",
+   "url": "https://www.wsj.com/arts-culture/television/arts-calendar-happenings-for-the-week-of-november-22-airdigital-72dcf981?mod=rss_artsculture",
+   "date": "2026-11-22",
+   "blurb": "The stars assemble for a Focker proposal, Amy Poehler hopes to unearth comedy magic with the archaeology sitcom ‘Dig,’ a massive museum opens in Brussels, and more.",
+   "image": "https://opinion-images.wsj.net/im-78021542",
+   "section": "Arts Calendar"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "How Much Do You Know About Wine? Take Our Test",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/wine-quiz-test-wine-knowledge-52087dd5?mod=rss_lifestyle",
+   "date": "2026-11-22",
+   "blurb": "The Wall Street Journal has taught you a lot about wine over the years. Let’s see how much you’ve picked up.",
+   "image": "https://images.wsj.net/im-00067357",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
    "title": "‘Paris Couture’ Review: Seams and High Style in Minneapolis",
    "url": "https://www.wsj.com/arts-culture/fine-art/paris-couture-review-seams-and-high-style-in-minneapolis-683bcced?mod=rss_artsculture",
    "date": "2026-11-21",
@@ -228,15 +264,6 @@
   {
    "source": "WSJ Review",
    "title": "My Quest to Find the Crispest Apple in America",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/crisp-apple-varieties-test-c12940ba?mod=rss_lifestyle",
-   "date": "2026-11-14",
-   "blurb": "In my hunt for a more satisfying bite, I quizzed researchers, grocers and friends—and tried more than 50 varieties.",
-   "image": "https://images.wsj.net/im-39988669",
-   "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "My Quest to Find the Crispest Apple in America",
    "url": "https://www.wsj.com/arts-culture/food-cooking/crisp-apple-varieties-test-c12940ba?mod=rss_style",
    "date": "2026-11-14",
    "blurb": "In my hunt for a more satisfying bite, I quizzed researchers, grocers and friends—and tried more than 50 varieties.",
@@ -325,15 +352,6 @@
    "blurb": "The new series “Cupertino” rolls anxieties about tech overreach into a legal procedural. Why does the courtroom continue to captivate us—onscreen and off?",
    "image": "https://media.newyorker.com/photos/650b59e2f49b447c4924fa7b/master/pass/CAL-WEB.png",
    "section": "Critics"
-  },
-  {
-   "source": "Goings On",
-   "title": "The Labyrinthine Betrayals of “Minotaur”",
-   "url": "https://www.newyorker.com/magazine/2026/11/23/minotaur-movie-review",
-   "date": "2026-11-13",
-   "blurb": "In Andrey Zvyagintsev’s remake of a Claude Chabrol classic, current affairs become entangled with a crime of passion.",
-   "image": "https://media.newyorker.com/photos/6af4b42ab50ccd2fbf66ec11/master/pass/r50592.jpg",
-   "section": "Cinema"
   },
   {
    "source": "Goings On",
