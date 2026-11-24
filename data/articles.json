@@ -2,6 +2,51 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "‘Madama Butterfly’ and ‘Nixon in China’ Review: Washington National Opera’s Triumphant Transition",
+   "url": "https://www.wsj.com/arts-culture/theater/madama-butterfly-and-nixon-in-china-review-washington-national-operas-triumphant-transition-b0698711?mod=rss_artsculture",
+   "date": "2026-11-23",
+   "blurb": "The opera company, no longer at the Kennedy Center, presented impressive productions of two works this month at DAR Constitution Hall.",
+   "image": "https://opinion-images.wsj.net/im-75661756",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Brancusi: The Artist and His Studio’ Review: At MoMA, a Sculptor in His Element",
+   "url": "https://www.wsj.com/arts-culture/fine-art/brancusi-the-artist-and-his-studio-review-at-moma-a-sculptor-in-his-element-4da9f714?mod=rss_artsculture",
+   "date": "2026-11-23",
+   "blurb": "The museum showcases rare loans from Paris’s Centre Pompidou and a re-creation of Brancusi’s studio to stage a revelatory examination of his singular creative world.",
+   "image": "https://opinion-images.wsj.net/im-30358931",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘A Whole System Of’ and ‘Zo’ Review: Matthew Shipp and William Parker’s Unbreakable Bond",
+   "url": "https://www.wsj.com/arts-culture/music/a-whole-system-of-and-zo-review-matthew-shipp-and-william-parkers-unbreakable-bond-d5b0e183?mod=rss_artsculture",
+   "date": "2026-11-23",
+   "blurb": "A new album and a reissue of a 1993 record from the piano-bass duo highlight an intuitive musical connection that has only deepened over the decades.",
+   "image": "https://opinion-images.wsj.net/im-71234128",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Focker In-Law’ Review: Ariana Grande Gets In On the Dysfunction",
+   "url": "https://www.wsj.com/arts-culture/film/focker-in-law-review-ariana-grande-gets-in-on-the-dysfunction-045bffb6?mod=rss_artsculture",
+   "date": "2026-11-23",
+   "blurb": "The pop singer, starring alongside Ben Stiller and Robert De Niro, plays the new girlfriend of the Focker family’s golden boy in this revival of the comedy series.",
+   "image": "https://opinion-images.wsj.net/im-81762164",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Arts Calendar: Happenings for the Week of November 22",
+   "url": "https://www.wsj.com/arts-culture/television/arts-calendar-happenings-for-the-week-of-november-22-airdigital-72dcf981?mod=rss_artsculture",
+   "date": "2026-11-22",
+   "blurb": "The stars assemble for a Focker proposal, Amy Poehler hopes to unearth comedy magic with the archaeology sitcom ‘Dig,’ a massive museum opens in Brussels, and more.",
+   "image": "https://opinion-images.wsj.net/im-78021542",
+   "section": "Arts Calendar"
+  },
+  {
+   "source": "WSJ Review",
    "title": "How Much Do You Know About Wine? Take Our Test",
    "url": "https://www.wsj.com/arts-culture/food-cooking/wine-quiz-test-wine-knowledge-52087dd5?mod=rss_artsculture",
    "date": "2026-11-22",
@@ -17,15 +62,6 @@
    "blurb": "Andy Baraghani, an award-winning cookbook author, on his favorite dinner-party hack, how he zhuzhes up cottage cheese and why he’s keeping dishes at his new restaurant affordable.",
    "image": "https://images.wsj.net/im-21353800",
    "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Arts Calendar: Happenings for the Week of November 22",
-   "url": "https://www.wsj.com/arts-culture/television/arts-calendar-happenings-for-the-week-of-november-22-airdigital-72dcf981?mod=rss_artsculture",
-   "date": "2026-11-22",
-   "blurb": "The stars assemble for a Focker proposal, Amy Poehler hopes to unearth comedy magic with the archaeology sitcom ‘Dig,’ a massive museum opens in Brussels, and more.",
-   "image": "https://opinion-images.wsj.net/im-78021542",
-   "section": "Arts Calendar"
   },
   {
    "source": "WSJ Review",
@@ -104,7 +140,7 @@
    "title": "Extremely Rare Hilma af Klint Sells for $12.7 Million, About 16 Times Its High Estimate",
    "url": "https://www.wsj.com/arts-culture/fine-art/hilma-af-klint-sale-682283b5?mod=rss_artsculture",
    "date": "2026-11-19",
-   "blurb": "It’s been three decades since a painting by the world’s first abstract artist was auctioned. Most of her work is locked away in a foundation.",
+   "blurb": "It’s been three decades since an abstract painting by the world’s first abstract artist was auctioned. Most of her work is locked away in a foundation.",
    "image": "https://images.wsj.net/im-07044922",
    "section": "Art Review"
   },
@@ -254,24 +290,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "My Quest to Find the Crispest Apple in America",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/crisp-apple-varieties-test-c12940ba?mod=rss_artsculture",
-   "date": "2026-11-14",
-   "blurb": "In my hunt for a more satisfying bite, I quizzed researchers, grocers and friends—and tried more than 50 varieties.",
-   "image": "https://images.wsj.net/im-39988669",
-   "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "My Quest to Find the Crispest Apple in America",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/crisp-apple-varieties-test-c12940ba?mod=rss_style",
-   "date": "2026-11-14",
-   "blurb": "In my hunt for a more satisfying bite, I quizzed researchers, grocers and friends—and tried more than 50 varieties.",
-   "image": "https://images.wsj.net/im-39988669",
-   "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
    "title": "‘Heartland’ Review: Jessica Chastain’s Country-Music Mystery",
    "url": "https://www.wsj.com/arts-culture/television/heartland-review-jessica-chastains-country-music-mystery-10b5e33f?mod=rss_artsculture",
    "date": "2026-11-13",
@@ -281,29 +299,11 @@
   },
   {
    "source": "WSJ Review",
-   "title": "4 Surprising Hacks for Cooking a Better Turkey",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/best-turkey-tips-thanksgiving-451839b7?mod=rss_artsculture",
-   "date": "2026-11-13",
-   "blurb": "Wary of major risks on the big day? A few small technique tweaks and smart add-ins can deliver a juicier, better-looking bird in less time, without the fuss.",
-   "image": "https://images.wsj.net/im-19910946",
-   "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
    "title": "Jelly Roll Morton’s ‘New Orleans Joys: The Earliest Recordings, 1923-26’: A Jazz Giant Emerges",
    "url": "https://www.wsj.com/arts-culture/music/jelly-roll-mortons-new-orleans-joys-the-earliest-recordings-1923-26-a-jazz-giant-emerges-04eea979?mod=rss_artsculture",
    "date": "2026-11-11",
    "blurb": "The first years of the pianist and bandleader’s recording career, historically overlooked, sound strikingly fresh on a new set.",
    "image": "https://opinion-images.wsj.net/im-58531760",
-   "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "The Fan Who Rescues Lost Songs From Extinction, One Very Polite Email at a Time",
-   "url": "https://www.wsj.com/arts-culture/music/the-british-executive-who-saves-forgotten-songs-from-extinction-20c92d4b?mod=rss_artsculture",
-   "date": "2026-11-11",
-   "blurb": "What do Sting, Nicole Scherzinger, ’N Sync and the Spice Girls have in common? Rob Johnson, the pop music fan who’s helped bring some of their more obscure tracks online.",
-   "image": "https://images.wsj.net/im-38633350",
    "section": "Music Review"
   }
  ],
