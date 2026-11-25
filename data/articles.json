@@ -2,21 +2,57 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "‘Blade Runner 2099’ Review: Replicating a Sci-Fi World on Prime",
+   "url": "https://www.wsj.com/arts-culture/television/blade-runner-2099-review-replicating-a-sci-fi-world-on-prime-bdb50fa5?mod=rss_artsculture",
+   "date": "2026-11-24",
+   "blurb": "Michelle Yeoh and Hunter Schafer star in a satisfying series set 80 years after the original film, when humanoids have usurped humans.",
+   "image": "https://opinion-images.wsj.net/im-95961564",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Brancusi: The Artist and His Studio’ Review: At MoMA, a Sculptor in His Element",
+   "url": "https://www.wsj.com/arts-culture/fine-art/brancusi-the-artist-and-his-studio-review-at-moma-a-sculptor-in-his-element-4da9f714?mod=rss_artsculture",
+   "date": "2026-11-24",
+   "blurb": "The museum showcases rare loans from Paris’s Centre Pompidou and a re-creation of Brancusi’s studio to stage a revelatory examination of his singular creative world.",
+   "image": "https://opinion-images.wsj.net/im-30358931",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "What to Watch This Thanksgiving",
+   "url": "https://www.wsj.com/arts-culture/television/what-to-watch-this-thanksgiving-4b858dd2?mod=rss_artsculture",
+   "date": "2026-11-24",
+   "blurb": "A menu of fitting holiday entertainment, for before or after the feast.",
+   "image": "https://opinion-images.wsj.net/im-33562218",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Thanatos’ by Atlas Sound Review: An Album Full of Atmosphere",
+   "url": "https://www.wsj.com/arts-culture/music/thanatos-by-atlas-sound-review-an-album-full-of-atmosphere-f9ccb29a?mod=rss_artsculture",
+   "date": "2026-11-24",
+   "blurb": "Deerhunter frontman Bradford Cox returns with his solo project’s fourth LP, an often claustrophobic work of striking sonic textures.",
+   "image": "https://opinion-images.wsj.net/im-95845049",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "It’s a Long and Winding Road to the 2028 Beatles Biopics for Obsessives",
+   "url": "https://www.wsj.com/arts-culture/film/beatles-biopic-2028-57a2b3f3?mod=rss_artsculture",
+   "date": "2026-11-24",
+   "blurb": "The Sam Mendes-directed movies aren’t out for well over a year, but that hasn’t stopped fans from scrutinizing everything from the actors’s wigs to their heights.",
+   "image": "https://images.wsj.net/im-13220105",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
    "title": "‘Madama Butterfly’ and ‘Nixon in China’ Review: Washington National Opera’s Triumphant Transition",
    "url": "https://www.wsj.com/arts-culture/theater/madama-butterfly-and-nixon-in-china-review-washington-national-operas-triumphant-transition-b0698711?mod=rss_artsculture",
    "date": "2026-11-23",
    "blurb": "The opera company, no longer at the Kennedy Center, presented impressive productions of two works this month at DAR Constitution Hall.",
    "image": "https://opinion-images.wsj.net/im-75661756",
    "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Brancusi: The Artist and His Studio’ Review: At MoMA, a Sculptor in His Element",
-   "url": "https://www.wsj.com/arts-culture/fine-art/brancusi-the-artist-and-his-studio-review-at-moma-a-sculptor-in-his-element-4da9f714?mod=rss_artsculture",
-   "date": "2026-11-23",
-   "blurb": "The museum showcases rare loans from Paris’s Centre Pompidou and a re-creation of Brancusi’s studio to stage a revelatory examination of his singular creative world.",
-   "image": "https://opinion-images.wsj.net/im-30358931",
-   "section": "Art Review"
   },
   {
    "source": "WSJ Review",
@@ -83,21 +119,21 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Arthur Jafa: I Am Tony’ Review: Images in Conversation at the New Museum",
-   "url": "https://www.wsj.com/arts-culture/fine-art/arthur-jafa-i-am-tony-review-images-in-conversation-at-the-new-museum-airdigital-75f3610e?mod=rss_artsculture",
-   "date": "2026-11-20",
-   "blurb": "In his largest museum survey ever, the cinematographer and artist juxtaposes often unrelated pictures to shape new narratives.",
-   "image": "https://opinion-images.wsj.net/im-42641498",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
    "title": "Scoring for the Beatles",
    "url": "https://www.wsj.com/arts-culture/music/george-martin-review-scoring-for-the-beatles-80618b89?mod=rss_artsculture",
    "date": "2026-11-20",
    "blurb": "‘George Martin: The Scores’ reveals how the producer propelled the Beatles and pop music to unimagined heights.",
    "image": "https://opinion-images.wsj.net/im-34346334",
    "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Arthur Jafa: I Am Tony’ Review: Images in Conversation at the New Museum",
+   "url": "https://www.wsj.com/arts-culture/fine-art/arthur-jafa-i-am-tony-review-images-in-conversation-at-the-new-museum-airdigital-75f3610e?mod=rss_artsculture",
+   "date": "2026-11-20",
+   "blurb": "In his largest museum survey ever, the cinematographer and artist juxtaposes often unrelated pictures to shape new narratives.",
+   "image": "https://opinion-images.wsj.net/im-42641498",
+   "section": "Art Review"
   },
   {
    "source": "WSJ Review",
@@ -191,15 +227,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "A Georgia O’Keeffe Painting Found Buried Behind Fur Coats Sells for $4.9 Million",
-   "url": "https://www.wsj.com/arts-culture/fine-art/georgia-okeeffe-painting-found-buried-behind-fur-coats-sells-christies-22e33d3c?mod=rss_artsculture",
-   "date": "2026-11-18",
-   "blurb": "Christie’s auctioned the mountain landscape that had been lost for decades Tuesday night.",
-   "image": "https://images.wsj.net/im-95464593",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
    "title": "‘Jenufa’ Review: A Powerfully Grim Opera at the Met",
    "url": "https://www.wsj.com/arts-culture/theater/jenufa-review-a-powerfully-grim-opera-at-the-met-9ae7d922?mod=rss_artsculture",
    "date": "2026-11-18",
@@ -245,15 +272,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "The Dramatic, Down-to-the-Wire Fight Over a $180 Million Van Gogh",
-   "url": "https://www.wsj.com/arts-culture/fine-art/van-gogh-sothebys-blossoming-chestnut-trees-sale-f22d7dde?mod=rss_artsculture",
-   "date": "2026-11-17",
-   "blurb": "“Blossoming Chestnut Trees,” to be auctioned by Sotheby’s, is set to break the record for a Van Gogh. But a German family claimed it was wrongfully sold during the Nazi era.",
-   "image": "https://images.wsj.net/im-77276939",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
    "title": "Andrew Scott Channeled His Grief Into His Most Devastating Role Yet",
    "url": "https://www.wsj.com/arts-culture/film/andrew-scott-elsinore-2fe28170?mod=rss_artsculture",
    "date": "2026-11-17",
@@ -287,15 +305,6 @@
    "blurb": "From childhood pizza to a treasured family recipe, these gifts promise a tasty trip down memory lane.",
    "image": "https://images.wsj.net/im-10343927",
    "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Heartland’ Review: Jessica Chastain’s Country-Music Mystery",
-   "url": "https://www.wsj.com/arts-culture/television/heartland-review-jessica-chastains-country-music-mystery-10b5e33f?mod=rss_artsculture",
-   "date": "2026-11-13",
-   "blurb": "The actress leads this Netflix film about a former superstar who comes back to Nashville to try to find her missing niece.",
-   "image": "https://opinion-images.wsj.net/im-59556620",
-   "section": "Film & TV"
   },
   {
    "source": "WSJ Review",
@@ -343,15 +352,6 @@
    "blurb": "Also: Doja Cat’s reincarnation, a tap-dance party, the evolution of Yoshitomo Nara, and more.",
    "image": "https://media.newyorker.com/photos/6afb765ee36f525ffa6d0551/master/pass/Karen%20Killeen,%20U%CC%81na%20Clancy,%20and%20Mary%20Beth%20Peil%20%20in%20Irish%20Rep",
    "section": "Goings On"
-  },
-  {
-   "source": "Goings On",
-   "title": "Why the Courtroom Keeps Us Watching",
-   "url": "https://www.newyorker.com/podcast/critics-at-large/why-the-courtroom-keeps-us-watching",
-   "date": "2026-11-19",
-   "blurb": "The new series “Cupertino” rolls anxieties about tech overreach into a legal procedural. Why does the courtroom continue to captivate us—onscreen and off?",
-   "image": "https://media.newyorker.com/photos/650b59e2f49b447c4924fa7b/master/pass/CAL-WEB.png",
-   "section": "Critics"
   },
   {
    "source": "Goings On",
