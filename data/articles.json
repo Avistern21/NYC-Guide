@@ -2,29 +2,47 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
-   "title": "‘Blade Runner 2099’ Review: Replicating a Sci-Fi World on Prime",
-   "url": "https://www.wsj.com/arts-culture/television/blade-runner-2099-review-replicating-a-sci-fi-world-on-prime-bdb50fa5?mod=rss_artsculture",
-   "date": "2026-11-24",
-   "blurb": "Michelle Yeoh and Hunter Schafer star in a satisfying series set 80 years after the original film, when humanoids have usurped humans.",
-   "image": "https://opinion-images.wsj.net/im-95961564",
+   "title": "‘The Holy Boy’ Review: Small-Town Italian Horror",
+   "url": "https://www.wsj.com/arts-culture/television/the-holy-boy-review-small-town-italian-horror-f6f528da?mod=rss_artsculture",
+   "date": "2026-11-25",
+   "blurb": "A miserable man arrives in a village that is home to a boy who seemingly relieves people of their suffering in Paolo Strippoli’s unsettling feature on Shudder.",
+   "image": "https://opinion-images.wsj.net/im-47679807",
    "section": "Film & TV"
   },
   {
    "source": "WSJ Review",
-   "title": "‘Brancusi: The Artist and His Studio’ Review: At MoMA, a Sculptor in His Element",
-   "url": "https://www.wsj.com/arts-culture/fine-art/brancusi-the-artist-and-his-studio-review-at-moma-a-sculptor-in-his-element-4da9f714?mod=rss_artsculture",
-   "date": "2026-11-24",
-   "blurb": "The museum showcases rare loans from Paris’s Centre Pompidou and a re-creation of Brancusi’s studio to stage a revelatory examination of his singular creative world.",
-   "image": "https://opinion-images.wsj.net/im-30358931",
-   "section": "Art Review"
+   "title": "‘All of a Sudden’ Review: Ryusuke Hamaguchi’s Humane Drama",
+   "url": "https://www.wsj.com/arts-culture/film/all-of-a-sudden-review-ryusuke-hamaguchis-humane-drama-02b46d80?mod=rss_artsculture",
+   "date": "2026-11-25",
+   "blurb": "The Japanese director’s expansive, moving new film focuses on the friendship between a woman who runs a nursing home and a stage director.",
+   "image": "https://opinion-images.wsj.net/im-66657308",
+   "section": "Film & TV"
   },
   {
    "source": "WSJ Review",
-   "title": "What to Watch This Thanksgiving",
-   "url": "https://www.wsj.com/arts-culture/television/what-to-watch-this-thanksgiving-4b858dd2?mod=rss_artsculture",
-   "date": "2026-11-24",
-   "blurb": "A menu of fitting holiday entertainment, for before or after the feast.",
-   "image": "https://opinion-images.wsj.net/im-33562218",
+   "title": "‘The Further Mis-Adventures of Cliff Booth’ Review: A Wandering Tarantino Tale",
+   "url": "https://www.wsj.com/arts-culture/film/the-further-mis-adventures-of-cliff-booth-review-a-wandering-tarantino-tale-15da0132?mod=rss_artsculture",
+   "date": "2026-11-25",
+   "blurb": "The filmmaker’s digressive screenplay of this ‘Once Upon a Time . . . in Hollywood’ follow-up, starring Brad Pitt, is discordantly directed by David Fincher.",
+   "image": "https://opinion-images.wsj.net/im-10222192",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Hexed’ Review: A Disney Movie in Need of Magic",
+   "url": "https://www.wsj.com/arts-culture/film/hexed-review-a-disney-movie-in-need-of-magic-9a3f6a15?mod=rss_artsculture",
+   "date": "2026-11-25",
+   "blurb": "The animation studio’s new teen-witch story, featuring the voices of Hailee Steinfeld, Rashida Jones and Jodie Foster, is a hash of familiar ideas.",
+   "image": "https://opinion-images.wsj.net/im-35332126",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "Football and WWII Collide in a New Movie by the ‘Friday Night Lights’ Team",
+   "url": "https://www.wsj.com/arts-culture/film/friday-night-lights-the-mosquito-bowl-buzz-bissinger-56a518c9?mod=rss_artsculture",
+   "date": "2026-11-25",
+   "blurb": "Second cousins Peter Berg and Buzz Bissinger have come together again for “The Mosquito Bowl.”",
+   "image": "https://images.wsj.net/im-28890396",
    "section": "Film & TV"
   },
   {
@@ -38,7 +56,34 @@
   },
   {
    "source": "WSJ Review",
-   "title": "It’s a Long and Winding Road to the 2028 Beatles Biopics for Obsessives",
+   "title": "‘Blade Runner 2099’ Review: Replicating a Sci-Fi World on Prime",
+   "url": "https://www.wsj.com/arts-culture/television/blade-runner-2099-review-replicating-a-sci-fi-world-on-prime-bdb50fa5?mod=rss_artsculture",
+   "date": "2026-11-24",
+   "blurb": "Michelle Yeoh and Hunter Schafer star in a satisfying series set 80 years after the original film, when humanoids have usurped humans.",
+   "image": "https://opinion-images.wsj.net/im-95961564",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "What to Watch This Thanksgiving",
+   "url": "https://www.wsj.com/arts-culture/television/what-to-watch-this-thanksgiving-4b858dd2?mod=rss_artsculture",
+   "date": "2026-11-24",
+   "blurb": "A menu of fitting holiday entertainment, for before or after the feast.",
+   "image": "https://opinion-images.wsj.net/im-33562218",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Brancusi: The Artist and His Studio’ Review: At MoMA, a Sculptor in His Element",
+   "url": "https://www.wsj.com/arts-culture/fine-art/brancusi-the-artist-and-his-studio-review-at-moma-a-sculptor-in-his-element-4da9f714?mod=rss_artsculture",
+   "date": "2026-11-24",
+   "blurb": "The museum showcases rare loans from Paris’s Centre Pompidou and a re-creation of Brancusi’s studio to stage a revelatory examination of his singular creative world.",
+   "image": "https://opinion-images.wsj.net/im-30358931",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "The Long Wait for the Beatles Biopics Is Giving Fans Plenty to Obsess Over",
    "url": "https://www.wsj.com/arts-culture/film/beatles-biopic-2028-57a2b3f3?mod=rss_artsculture",
    "date": "2026-11-24",
    "blurb": "The Sam Mendes-directed movies aren’t out for well over a year, but that hasn’t stopped fans from scrutinizing everything from the actors’s wigs to their heights.",
@@ -47,20 +92,20 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Madama Butterfly’ and ‘Nixon in China’ Review: Washington National Opera’s Triumphant Transition",
-   "url": "https://www.wsj.com/arts-culture/theater/madama-butterfly-and-nixon-in-china-review-washington-national-operas-triumphant-transition-b0698711?mod=rss_artsculture",
-   "date": "2026-11-23",
-   "blurb": "The opera company, no longer at the Kennedy Center, presented impressive productions of two works this month at DAR Constitution Hall.",
-   "image": "https://opinion-images.wsj.net/im-75661756",
-   "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
    "title": "‘A Whole System Of’ and ‘Zo’ Review: Matthew Shipp and William Parker’s Unbreakable Bond",
    "url": "https://www.wsj.com/arts-culture/music/a-whole-system-of-and-zo-review-matthew-shipp-and-william-parkers-unbreakable-bond-d5b0e183?mod=rss_artsculture",
    "date": "2026-11-23",
    "blurb": "A new album and a reissue of a 1993 record from the piano-bass duo highlight an intuitive musical connection that has only deepened over the decades.",
    "image": "https://opinion-images.wsj.net/im-71234128",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Madama Butterfly’ and ‘Nixon in China’ Review: Washington National Opera’s Triumphant Transition",
+   "url": "https://www.wsj.com/arts-culture/theater/madama-butterfly-and-nixon-in-china-review-washington-national-operas-triumphant-transition-b0698711?mod=rss_artsculture",
+   "date": "2026-11-23",
+   "blurb": "The opera company, no longer at the Kennedy Center, presented impressive productions of two works this month at DAR Constitution Hall.",
+   "image": "https://opinion-images.wsj.net/im-75661756",
    "section": "Music Review"
   },
   {
@@ -164,15 +209,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘The Altruists’ Review: The FTX Scandal, Now on Netflix",
-   "url": "https://www.wsj.com/arts-culture/television/the-altruists-review-the-ftx-scandal-now-on-netflix-5803d28d?mod=rss_artsculture",
-   "date": "2026-11-19",
-   "blurb": "Anthony Boyle and Julia Garner star as Sam Bankman-Fried and Caroline Ellison in an eight-part drama about the cryptocurrency fraudsters.",
-   "image": "https://opinion-images.wsj.net/im-28527443",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "Extremely Rare Hilma af Klint Sells for $12.7 Million, About 16 Times Its High Estimate",
    "url": "https://www.wsj.com/arts-culture/fine-art/hilma-af-klint-sale-682283b5?mod=rss_artsculture",
    "date": "2026-11-19",
@@ -218,30 +254,12 @@
   },
   {
    "source": "WSJ Review",
-   "title": "Van Gogh Painting Sells for $190.4 Million, Most Ever for the Artist",
-   "url": "https://www.wsj.com/arts-culture/fine-art/van-gogh-blossoming-chesnut-trees-sale-price-sothebys-8eb3aa93?mod=rss_artsculture",
-   "date": "2026-11-18",
-   "blurb": "“Blossoming Chestnut Trees” becomes the fourth most expensive painting ever sold at auction, a day after Sotheby’s settled a claim made by heirs of a Jewish publisher who alleged the artwork was sold under Nazi-era…",
-   "image": "https://images.wsj.net/im-67255032",
-   "section": "Art Review"
-  },
-  {
-   "source": "WSJ Review",
    "title": "‘Jenufa’ Review: A Powerfully Grim Opera at the Met",
    "url": "https://www.wsj.com/arts-culture/theater/jenufa-review-a-powerfully-grim-opera-at-the-met-9ae7d922?mod=rss_artsculture",
    "date": "2026-11-18",
    "blurb": "Leoš Janáček’s work about a mother who loses her child under horrific circumstances gets an astute production starring Asmik Grigorian; plus, at Carnegie Hall, Gustavo Dudamel conducted a sumptuous if theatrically…",
    "image": "https://opinion-images.wsj.net/im-84447695",
    "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Elsinore’ Review: Andrew Scott’s Shakespearean Struggle",
-   "url": "https://www.wsj.com/arts-culture/film/elsinore-review-andrew-scotts-shakespearean-struggle-689baf99?mod=rss_artsculture",
-   "date": "2026-11-18",
-   "blurb": "The actor plays ‘Chariots of Fire’ star Ian Charleson, who in 1989 stepped into the role of Hamlet even as he was ill with AIDS, in director Simon Stone’s biopic.",
-   "image": "https://opinion-images.wsj.net/im-46659609",
-   "section": "Film & TV"
   },
   {
    "source": "WSJ Review",
@@ -263,57 +281,12 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Gentle Monster’ Review: Léa Seydoux’s Dilemma on Netflix",
-   "url": "https://www.wsj.com/arts-culture/television/gentle-monster-review-lea-seydouxs-dilemma-on-netflix-3ba2b0e4?mod=rss_artsculture",
-   "date": "2026-11-17",
-   "blurb": "The French actress gives a devastating performance as a woman married to a man arrested for repellent crimes in a slow-burning drama from director Marie Kreutzer.",
-   "image": "https://opinion-images.wsj.net/im-94205955",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Andrew Scott Channeled His Grief Into His Most Devastating Role Yet",
-   "url": "https://www.wsj.com/arts-culture/film/andrew-scott-elsinore-2fe28170?mod=rss_artsculture",
-   "date": "2026-11-17",
-   "blurb": "His part in “Elsinore” forced him to contend with death.",
-   "image": "https://images.wsj.net/im-94195893",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Why People Are Paying $4.99 for a Version of ‘The Odyssey’ Shot in West Virginia",
-   "url": "https://www.wsj.com/arts-culture/film/odyssey-mockbuster-asylum-christopher-nolan-matt-damon-cc89bc18?mod=rss_artsculture",
-   "date": "2026-11-17",
-   "blurb": "The Asylum has spent decades drafting off Hollywood hits. Its latest trick? Beating Christopher Nolan’s “The Odyssey” to home video.",
-   "image": "https://images.wsj.net/im-70818237",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Grammy Nominations 2027: Raye Leads With 11, Followed by Rosalía With 9",
-   "url": "https://www.wsj.com/arts-culture/music/grammy-nominations-2027-raye-rosalia-taylor-swift-d31b1324?mod=rss_artsculture",
-   "date": "2026-11-16",
-   "blurb": "They were trailed by Ella Langley, Miranda Lambert and Olivia Rodrigo.",
-   "image": "https://images.wsj.net/im-86416209",
-   "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
    "title": "7 Food Gifts That Bring Back Flavors of the Past",
    "url": "https://www.wsj.com/arts-culture/food-cooking/best-food-gifts-holidays-4294bd10?mod=rss_artsculture",
    "date": "2026-11-15",
    "blurb": "From childhood pizza to a treasured family recipe, these gifts promise a tasty trip down memory lane.",
    "image": "https://images.wsj.net/im-10343927",
    "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "Jelly Roll Morton’s ‘New Orleans Joys: The Earliest Recordings, 1923-26’: A Jazz Giant Emerges",
-   "url": "https://www.wsj.com/arts-culture/music/jelly-roll-mortons-new-orleans-joys-the-earliest-recordings-1923-26-a-jazz-giant-emerges-04eea979?mod=rss_artsculture",
-   "date": "2026-11-11",
-   "blurb": "The first years of the pianist and bandleader’s recording career, historically overlooked, sound strikingly fresh on a new set.",
-   "image": "https://opinion-images.wsj.net/im-58531760",
-   "section": "Music Review"
   }
  ],
  "Goings On": [
@@ -343,15 +316,6 @@
    "blurb": "Ryûsuke Hamaguchi’s new film explores emotional connections at the end of life.",
    "image": "https://media.newyorker.com/photos/6afdb62bb87bacf93a7f6827/master/pass/r50643.jpg",
    "section": "Cinema"
-  },
-  {
-   "source": "Goings On",
-   "title": "Dinner and “The Dead”",
-   "url": "https://www.newyorker.com/culture/goings-on/dinner-and-the-dead",
-   "date": "2026-11-20",
-   "blurb": "Also: Doja Cat’s reincarnation, a tap-dance party, the evolution of Yoshitomo Nara, and more.",
-   "image": "https://media.newyorker.com/photos/6afb765ee36f525ffa6d0551/master/pass/Karen%20Killeen,%20U%CC%81na%20Clancy,%20and%20Mary%20Beth%20Peil%20%20in%20Irish%20Rep",
-   "section": "Goings On"
   },
   {
    "source": "Goings On",
