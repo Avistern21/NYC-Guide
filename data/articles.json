@@ -2,6 +2,42 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "‘Hard Art’ Review: Between Identity and Invention at MoMA PS1",
+   "url": "https://www.wsj.com/arts-culture/fine-art/hard-art-review-between-identity-and-invention-at-moma-ps1-airdigital-350c91f9?mod=rss_artsculture",
+   "date": "2026-11-27",
+   "blurb": "An exhibition looks at abstract art made by black Americans, highlighting the ways they engaged with the history of non-objectivity while forging their own path.",
+   "image": "https://opinion-images.wsj.net/im-84292975",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘The Hunchback, Soul of Paris’ Review: A Netflix Twist on Victor Hugo",
+   "url": "https://www.wsj.com/arts-culture/television/the-hunchback-soul-of-paris-review-a-netflix-twist-on-victor-hugo-a3c3fafd?mod=rss_artsculture",
+   "date": "2026-11-27",
+   "blurb": "A French film starring Vincent Cassel loosely adapts the classic novel, moving it from the 15th century to the continuing political ferment of the 19th.",
+   "image": "https://opinion-images.wsj.net/im-33898393",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "What Makes a Perfect Apple? Readers Respond",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/what-makes-a-perfect-apple-readers-respond-f761c569?mod=rss_artsculture",
+   "date": "2026-11-26",
+   "blurb": "Our reporter went on a quest to find the crispest apple. Readers have opinions.",
+   "image": "https://images.wsj.net/im-38867033",
+   "section": "Food & Cooking"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘Roger Miller: Wit, Wisdom, and Wonder’ Review: A Man’s Country Cool",
+   "url": "https://www.wsj.com/arts-culture/music/roger-miller-wit-wisdom-and-wonder-review-a-mans-country-cool-7c3dfd66?mod=rss_artsculture",
+   "date": "2026-11-26",
+   "blurb": "An exhibition at Nashville’s Country Music Hall of Fame and Museum presents the story of the singer-songwriter whose career crossed into pop and even Broadway.",
+   "image": "https://opinion-images.wsj.net/im-46082801",
+   "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
    "title": "‘The Holy Boy’ Review: Small-Town Italian Horror",
    "url": "https://www.wsj.com/arts-culture/television/the-holy-boy-review-small-town-italian-horror-f6f528da?mod=rss_artsculture",
    "date": "2026-11-25",
@@ -241,15 +277,6 @@
    "date": "2026-11-19",
    "blurb": "The actor plays the father to a young girl who witnesses a heinous crime in this poignant, probing film.",
    "image": "https://opinion-images.wsj.net/im-62693264",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘The Hunger Games: Sunrise on the Reaping’ Review: A Dystopian Prequel-Sequel",
-   "url": "https://www.wsj.com/arts-culture/film/the-hunger-games-sunrise-on-the-reaping-review-a-dystopian-prequel-sequel-ab173358?mod=rss_artsculture",
-   "date": "2026-11-19",
-   "blurb": "Taking place before the events of the original film but after 2023’s ‘Ballad of Songbirds & Snakes,’ the new movie dutifully follows the franchise’s fan-pleasing formula.",
-   "image": "https://opinion-images.wsj.net/im-48509962",
    "section": "Film & TV"
   },
   {
