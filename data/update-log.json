@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-27T10:15:51.469Z",
+ "ran": "2026-11-28T09:57:55.223Z",
  "venueImages": {
   "ok": [
    "the-joyce-theater",
@@ -14,14 +14,13 @@
    "moma",
    "guggenheim",
    "the-frick-collection",
-   "brooklyn-museum",
    "neue-galerie",
    "noguchi-museum",
    "new-museum",
    "the-studio-museum-in-harlem",
+   "international-center-of-photography",
    "david-zwirner",
    "gagosian",
-   "hauser-wirth",
    "gladstone-gallery",
    "levy-gorvy-dayan",
    "p-wicked",
@@ -29,12 +28,17 @@
    "p-hadestown",
    "p-chicago",
    "p-harry-potter-and-the-cursed-child",
-   "p-mj-the-musical"
+   "p-mj-the-musical",
+   "p-six"
   ],
   "failed": [
    {
-    "id": "international-center-of-photography",
+    "id": "brooklyn-museum",
     "reason": "image HTTP 429"
+   },
+   {
+    "id": "hauser-wirth",
+    "reason": "wikipedia HTTP 429"
    },
    {
     "id": "p-the-lion-king",
@@ -106,10 +110,6 @@
    },
    {
     "id": "p-billy-crystal-860",
-    "reason": "no wiki title set"
-   },
-   {
-    "id": "p-six",
     "reason": "no wiki title set"
    },
    {
@@ -196,10 +196,6 @@
  "feedsFailed": [
   {
    "name": "WSJ Review",
-   "reason": "no articles found in feed"
-  },
-  {
-   "name": "Goings On",
    "reason": "no articles found in feed"
   }
  ]

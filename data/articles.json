@@ -2,6 +2,42 @@
  "WSJ Review": [
   {
    "source": "WSJ Review",
+   "title": "15 Books We Read This Week",
+   "url": "https://www.wsj.com/arts-culture/books/15-books-we-read-this-week-27aae8e8?mod=rss_artsculture",
+   "date": "2026-11-27",
+   "blurb": "The telephone revolution, Charlemagne and the making of Europe, an actor of character and more.",
+   "image": "https://opinion-images.wsj.net/im-38204043",
+   "section": "Arts Calendar"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "The Best Movies of 2026: Hollywood Bounces Back",
+   "url": "https://www.wsj.com/arts-culture/film/the-best-movies-of-2026-hollywood-bounces-back-ad503cb9?mod=rss_artsculture",
+   "date": "2026-11-27",
+   "blurb": "This year was one of commercial and creative rebounds for the film industry, with soaring epics like ‘The Odyssey’ and such smaller-scale character studies as ‘Wild Horse Nine.’",
+   "image": "https://opinion-images.wsj.net/im-12229452",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "The 13 New Movies and Shows to See This Holiday Season",
+   "url": "https://www.wsj.com/arts-culture/film/what-to-watch-in-december-2026-7a05d07f?mod=rss_artsculture",
+   "date": "2026-11-27",
+   "blurb": "Big blockbusters, emotional indies and a highly anticipated “Harry Potter” remake to watch when you’ve run out of things to talk about with family.",
+   "image": "https://images.wsj.net/im-59559317",
+   "section": "Film & TV"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "‘The Cut Melon’: Jean-Siméon Chardin’s Luscious Still Life",
+   "url": "https://www.wsj.com/arts-culture/fine-art/the-cut-melon-jean-simeon-chardins-luscious-still-life-25d7de61?mod=rss_artsculture",
+   "date": "2026-11-27",
+   "blurb": "The 18th-century French painter raised the status of a formerly lowly genre through such works as this depiction of a fruit, the composition a harmonious celebration of everyday pleasures.",
+   "image": "https://opinion-images.wsj.net/im-69031373",
+   "section": "Art Review"
+  },
+  {
+   "source": "WSJ Review",
    "title": "‘Hard Art’ Review: Between Identity and Invention at MoMA PS1",
    "url": "https://www.wsj.com/arts-culture/fine-art/hard-art-review-between-identity-and-invention-at-moma-ps1-airdigital-350c91f9?mod=rss_artsculture",
    "date": "2026-11-27",
@@ -20,21 +56,21 @@
   },
   {
    "source": "WSJ Review",
-   "title": "What Makes a Perfect Apple? Readers Respond",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/what-makes-a-perfect-apple-readers-respond-f761c569?mod=rss_artsculture",
-   "date": "2026-11-26",
-   "blurb": "Our reporter went on a quest to find the crispest apple. Readers have opinions.",
-   "image": "https://images.wsj.net/im-38867033",
-   "section": "Food & Cooking"
-  },
-  {
-   "source": "WSJ Review",
    "title": "‘Roger Miller: Wit, Wisdom, and Wonder’ Review: A Man’s Country Cool",
    "url": "https://www.wsj.com/arts-culture/music/roger-miller-wit-wisdom-and-wonder-review-a-mans-country-cool-7c3dfd66?mod=rss_artsculture",
    "date": "2026-11-26",
    "blurb": "An exhibition at Nashville’s Country Music Hall of Fame and Museum presents the story of the singer-songwriter whose career crossed into pop and even Broadway.",
    "image": "https://opinion-images.wsj.net/im-46082801",
    "section": "Music Review"
+  },
+  {
+   "source": "WSJ Review",
+   "title": "What Makes a Perfect Apple? Readers Respond",
+   "url": "https://www.wsj.com/arts-culture/food-cooking/what-makes-a-perfect-apple-readers-respond-f761c569?mod=rss_artsculture",
+   "date": "2026-11-26",
+   "blurb": "Our reporter went on a quest to find the crispest apple. Readers have opinions.",
+   "image": "https://images.wsj.net/im-38867033",
+   "section": "Food & Cooking"
   },
   {
    "source": "WSJ Review",
@@ -146,15 +182,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Focker In-Law’ Review: Ariana Grande Gets In On the Dysfunction",
-   "url": "https://www.wsj.com/arts-culture/film/focker-in-law-review-ariana-grande-gets-in-on-the-dysfunction-045bffb6?mod=rss_artsculture",
-   "date": "2026-11-23",
-   "blurb": "The pop singer, starring alongside Ben Stiller and Robert De Niro, plays the new girlfriend of the Focker family’s golden boy in this revival of the comedy series.",
-   "image": "https://opinion-images.wsj.net/im-81762164",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "Arts Calendar: Happenings for the Week of November 22",
    "url": "https://www.wsj.com/arts-culture/television/arts-calendar-happenings-for-the-week-of-november-22-airdigital-72dcf981?mod=rss_artsculture",
    "date": "2026-11-22",
@@ -236,15 +263,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Dig’ Review: Amy Poehler’s Archaeology Comedy",
-   "url": "https://www.wsj.com/arts-culture/television/dig-review-amy-poehlers-archaeology-comedy-9c1c0931?mod=rss_artsculture",
-   "date": "2026-11-19",
-   "blurb": "The “Parks and Recreation” star reunites with creator Michael Schur for a Peacock sitcom set amid dirt, dust and ancient relics in Greece.",
-   "image": "https://opinion-images.wsj.net/im-66922220",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "Extremely Rare Hilma af Klint Sells for $12.7 Million, About 16 Times Its High Estimate",
    "url": "https://www.wsj.com/arts-culture/fine-art/hilma-af-klint-sale-682283b5?mod=rss_artsculture",
    "date": "2026-11-19",
@@ -272,15 +290,6 @@
   },
   {
    "source": "WSJ Review",
-   "title": "‘Josephine’ Review: Channing Tatum in a Deeply Felt Drama",
-   "url": "https://www.wsj.com/arts-culture/film/josephine-review-channing-tatum-in-a-deeply-felt-drama-2ad11b3f?mod=rss_artsculture",
-   "date": "2026-11-19",
-   "blurb": "The actor plays the father to a young girl who witnesses a heinous crime in this poignant, probing film.",
-   "image": "https://opinion-images.wsj.net/im-62693264",
-   "section": "Film & TV"
-  },
-  {
-   "source": "WSJ Review",
    "title": "‘Jenufa’ Review: A Powerfully Grim Opera at the Met",
    "url": "https://www.wsj.com/arts-culture/theater/jenufa-review-a-powerfully-grim-opera-at-the-met-9ae7d922?mod=rss_artsculture",
    "date": "2026-11-18",
@@ -296,35 +305,26 @@
    "blurb": "The Danish composer Carl Nielsen’s last symphony, conducted by Osmo Vänskä, proved a highlight of the Minnesota Orchestra’s merry celebration of music from northern climes.",
    "image": "https://opinion-images.wsj.net/im-66155398",
    "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "‘Pirouette’ by 2hollis Review: Electro-Pop Pushed to Extremes",
-   "url": "https://www.wsj.com/arts-culture/music/pirouette-by-2hollis-review-electro-pop-pushed-to-extremes-80d2c154?mod=rss_artsculture",
-   "date": "2026-11-17",
-   "blurb": "The 22-year-old singer-producer releases an album of both emotional and musical maximalism, full of jagged noise and jittery synths.",
-   "image": "https://opinion-images.wsj.net/im-36427104",
-   "section": "Music Review"
-  },
-  {
-   "source": "WSJ Review",
-   "title": "7 Food Gifts That Bring Back Flavors of the Past",
-   "url": "https://www.wsj.com/arts-culture/food-cooking/best-food-gifts-holidays-4294bd10?mod=rss_artsculture",
-   "date": "2026-11-15",
-   "blurb": "From childhood pizza to a treasured family recipe, these gifts promise a tasty trip down memory lane.",
-   "image": "https://images.wsj.net/im-10343927",
-   "section": "Food & Cooking"
   }
  ],
  "Goings On": [
   {
    "source": "Goings On",
-   "title": "Raye’s Theatrical Pop Nostalgia",
-   "url": "https://www.newyorker.com/culture/critics-notebook/rayes-theatrical-pop-nostalgia",
-   "date": "2026-11-21",
-   "blurb": "The singer’s latest album, “This Music May Contain Hope,” which just earned her the most Grammy nominations of any artist this year, deepens the impression that she is a musician trapped in her idea of what it means…",
-   "image": "https://media.newyorker.com/photos/6b00bd694b5583ee5865ea56/master/pass/St.Felix---Raye_h_8.03989382.jpg",
-   "section": "Critics"
+   "title": "A Shadow History of Independent Cinema",
+   "url": "https://www.newyorker.com/culture/the-front-row/a-shadow-history-of-independent-cinema",
+   "date": "2026-11-27",
+   "blurb": "Why some of America’s best movies have gone all but unseen.",
+   "image": "https://media.newyorker.com/photos/6b05f50085828e16649ba2bf/master/pass/Voidfilmsfinal3.jpg",
+   "section": "Cinema"
+  },
+  {
+   "source": "Goings On",
+   "title": "Celebrating the Holidays in N.Y.C.",
+   "url": "https://www.newyorker.com/culture/goings-on/celebrating-the-holidays-in-nyc",
+   "date": "2026-11-27",
+   "blurb": "Nutcrackers, carols, “Hallelujah”s, and more.",
+   "image": "https://media.newyorker.com/photos/6afe7af5ddc9979bf03e4952/master/pass/Peter%20new%20yorkerfinal.jpg",
+   "section": "Goings On"
   },
   {
    "source": "Goings On",
@@ -360,15 +360,6 @@
    "date": "2026-10-30",
    "blurb": "The gripping British show starring Alan Cumming is fuelled by panic over the erosion of progressive political and cultural gains.",
    "image": "https://media.newyorker.com/photos/6ae266e3741767b5446fa27e/master/pass/Kang-Tip-Toe.jpg",
-   "section": "What We’re Watching"
-  },
-  {
-   "source": "Goings On",
-   "title": "“Slow Horses,” Apple TV’s Best Show, Retains Its Pungent Relevance",
-   "url": "https://www.newyorker.com/culture/on-television/slow-horses-apple-tvs-best-show-retains-its-pungent-relevance",
-   "date": "2026-10-22",
-   "blurb": "The spy series, which follows a lowly team of pariahs in MI5, mirrors our present moment.",
-   "image": "https://media.newyorker.com/photos/6ad65f5562b96eff8fdee55c/master/pass/Kang-Slow-Horses.jpg",
    "section": "What We’re Watching"
   }
  ]
